@@ -3,22 +3,16 @@ node_modules/
 jspm_packages/
 web_modules/
 
-# Production / build outputs
-dist/
-build/
-out/
-
 # Environment files
 .env
 .env.local
-.env.*.local
 .env.development.local
 .env.test.local
 .env.production.local
 .env.backup
 *.env
 
-# Logs and reports
+# Logs
 logs
 *.log
 npm-debug.log*
@@ -26,6 +20,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+
+# Diagnostic reports
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
@@ -34,33 +30,25 @@ pids
 *.seed
 *.pid.lock
 
-# Tooling caches
-.cache/
-.parcel-cache/
-.next/
-.vite/
+# Directory for instrumented PLs written by nyc
 .nyc_output
-.pytest_cache/
-.ipynb_checkpoints/
 
-# IDE / editor files
+# Cypress science
+cypress/videos/
+cypress/screenshots/
+
+# dist & build outputs
+dist/
+build/
+out/
+
+# IDE / Editor configurations
 .vscode/
 .idea/
-*.swp
-*.swo
-*.sw?
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*~
+*.sw?
 .DS_Store
 Thumbs.db
-
-# Test / generated artifacts
-cypress/videos/
-cypress/screenshots/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
