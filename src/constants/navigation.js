@@ -1,24 +1,24 @@
 import {
   Activity,
-  BarChart3,
+  Award,
   BrainCircuit,
-  Handshake,
   LayoutDashboard,
   LogOut,
   Settings,
+  TrendingUp,
   Users,
 } from 'lucide-react'
 
 export const sidebarNavigation = [
-  { label: 'Dashboard', path: '/dashboard', icon: LayoutDashboard },
-  { label: 'Customers', path: '/customers', icon: Users },
-  { label: 'Deals', path: '/deals', icon: Handshake },
-  { label: 'Activities', path: '/activities', icon: Activity },
-  { label: 'Analytics', path: '/analytics', icon: BarChart3 },
-  { label: 'AI Recommendations', path: '/recommendations', icon: BrainCircuit },
-  { label: 'Settings', path: '/settings', icon: Settings },
+  { label: 'Performance',      path: '/performance',      icon: LayoutDashboard },
+  { label: 'Pipeline',         path: '/pipeline',         icon: TrendingUp },
+  { label: 'Win/Loss',         path: '/win-loss',         icon: Award },
+  { label: 'Behaviour',        path: '/behaviour',        icon: Activity },
+  { label: 'Team',             path: '/team',             icon: Users },
+  { label: 'Recommendations',  path: '/recommendations',  icon: BrainCircuit },
 ]
 
 export const sidebarActions = [
-  { label: 'Logout', path: '/login', icon: LogOut },
+  { label: 'Settings', path: '/settings', icon: Settings },
+  { label: 'Logout',   path: '/login',    icon: LogOut },
 ]

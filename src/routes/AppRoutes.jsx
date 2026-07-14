@@ -1,18 +1,18 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
-import AuthLayout from '@/layouts/AuthLayout'
 import DashboardLayout from '@/layouts/DashboardLayout'
 import MainLayout from '@/layouts/MainLayout'
-import Activities from '@/pages/activities/Activities'
-import Analytics from '@/pages/analytics/Analytics'
-import Login from '@/pages/auth/Login'
-import Register from '@/pages/auth/Register'
-import Customers from '@/pages/customers/Customers'
-import Dashboard from '@/pages/dashboard/Dashboard'
-import Deals from '@/pages/deals/Deals'
 import Home from '@/pages/Home'
 import NotFound from '@/pages/NotFound'
-import Recommendations from '@/pages/recommendations/Recommendations'
-import Settings from '@/pages/settings/Settings'
+import Login from '@/pages/Login'
+import Signup from '@/pages/Signup'
+import Performance from '@/pages/Performance'
+import Pipeline from '@/pages/Pipeline'
+import WinLoss from '@/pages/WinLoss'
+import Behaviour from '@/pages/Behaviour'
+import Team from '@/pages/Team'
+import Recommendations from '@/pages/Recommendations'
+import Settings from '@/pages/Settings'
+import AuthGuard from '@/components/layout/AuthGuard'
 
 function AppRoutes() {
   return (
@@ -21,23 +21,27 @@ function AppRoutes() {
         <Route path="/" element={<Home />} />
       </Route>
 
-      <Route element={<AuthLayout />}>
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-      </Route>
+      <Route path="/login"    element={<Login />} />
+      <Route path="/signup"   element={<Signup />} />
+      <Route path="/register" element={<Navigate to="/signup" replace />} />
 
-      <Route element={<DashboardLayout />}>
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/customers" element={<Customers />} />
-        <Route path="/deals" element={<Deals />} />
-        <Route path="/activities" element={<Activities />} />
-        <Route path="/analytics" element={<Analytics />} />
-        <Route path="/recommendations" element={<Recommendations />} />
-        <Route path="/settings" element={<Settings />} />
+      {/* Protected dashboard routes */}
+      <Route element={<AuthGuard />}>
+        <Route element={<DashboardLayout />}>
+          <Route path="/performance"     element={<Performance />} />
+          <Route path="/pipeline"        element={<Pipeline />} />
+          <Route path="/win-loss"        element={<WinLoss />} />
+          <Route path="/behaviour"       element={<Behaviour />} />
+          <Route path="/team"            element={<Team />} />
+          <Route path="/recommendations" element={<Recommendations />} />
+          <Route path="/settings"        element={<Settings />} />
+          {/* Legacy redirect */}
+          <Route path="/dashboard"       element={<Navigate to="/performance" replace />} />
+        </Route>
       </Route>
 
       <Route path="/404" element={<NotFound />} />
-      <Route path="*" element={<Navigate to="/404" replace />} />
+      <Route path="*"    element={<Navigate to="/404" replace />} />
     </Routes>
   )
 }
