@@ -1,66 +1,36 @@
-# Dependency directories
-node_modules/
-jspm_packages/
-web_modules/
+# Virtual Environment (machine-specific)
+venv/
+.venv/
+env/
+ENV/
 
-# Production / build outputs
-dist/
-build/
-out/
-
-# Environment files
+# Environment variables & secrets
 .env
 .env.local
 .env.*.local
-.env.development.local
-.env.test.local
-.env.production.local
-.env.backup
-*.env
+*.key
+*.pem
 
-# Logs and reports
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Tooling caches
-.cache/
-.parcel-cache/
-.next/
-.vite/
-.nyc_output
-.pytest_cache/
-.ipynb_checkpoints/
-
-# IDE / editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.sw?
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*~
-.DS_Store
-Thumbs.db
-
-# Test / generated artifacts
-cypress/videos/
-cypress/screenshots/
+# Python bytecode & cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System / OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Output files & local logs
+output/*.csv
+output/*.pdf
+output/*.png
+*.log
