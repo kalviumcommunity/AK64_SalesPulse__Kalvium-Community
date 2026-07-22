@@ -1,0 +1,26 @@
+﻿==================================================
+  SalesPulse Data Pipeline
+==================================================
+
+[1/3] Ingesting raw data...
+  ΓåÆ Reading data from: data/raw/sample.csv
+  ΓåÆ Loaded 20 rows and 7 columns.
+
+[2/3] Processing data...
+  ΓåÆ Duplicates removed: 0
+  ΓåÆ Filled 1 missing value(s) in 'deal_value' with median (9500.00)
+  ΓåÆ Filled 1 missing value(s) in 'email_response_time_hrs' with median (4.50)
+  ΓåÆ Filled 1 missing value(s) in 'crm_updates' with median (5.00)
+  ΓåÆ Added derived column: 'deal_tier'
+  ΓåÆ Rows after processing: 20
+
+[3/3] Saving results...
+
+Γ£ô Data successfully processed
+Γ£ô Rows processed: 20
+Γ£ô Columns in output: ['deal_id', 'sales_rep', 'stage', 'deal_value', 'email_response_time_hrs', 'crm_updates', 'closed', 'deal_tier']
+Γ£ô Output saved to output/processed.csv
+
+==================================================
+  Pipeline complete.
+==================================================
