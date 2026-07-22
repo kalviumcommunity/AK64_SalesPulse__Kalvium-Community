@@ -1,21 +1,6 @@
-deal_id,sales_rep,stage,deal_value,email_response_time_hrs,crm_updates,closed
-1,Alice,Closed Won,15000,2.5,8,1
-2,Bob,Negotiation,8000,12.0,3,0
-3,Alice,Proposal,5000,1.5,5,0
-4,Carol,Closed Lost,20000,48.0,1,0
-5,Bob,Closed Won,11000,3.0,7,1
-6,Carol,Prospecting,3000,6.0,4,0
-7,Alice,Closed Won,17000,1.0,10,1
-8,Bob,Negotiation,9000,15.0,2,0
-9,Carol,Proposal,6500,4.5,6,0
-10,Alice,Closed Won,21000,2.0,9,1
-11,Bob,Closed Lost,4000,72.0,1,0
-12,Carol,Closed Won,13000,3.5,8,1
-13,Alice,Prospecting,2500,,4,0
-14,Bob,Proposal,7000,5.0,,0
-15,Carol,Negotiation,18000,8.0,6,0
-16,Alice,Closed Won,15000,2.5,8,1
-17,Bob,Closed Lost,5500,60.0,1,0
-18,Carol,Closed Won,12000,4.0,7,1
-19,Alice,Negotiation,9500,10.0,5,0
-20,Bob,Prospecting,,3.0,4,0
+customer_id,customer_name,transaction_amount,transaction_date
+1,Alice Smith,150.50,2025-01-15
+2,Bob Johnson,200.00,2025-01-20
+3,Carol White,75.25,2025-02-01
+4,David Lee,320.00,2025-02-10
+5,Eva Martinez,99.99,2025-02-15
