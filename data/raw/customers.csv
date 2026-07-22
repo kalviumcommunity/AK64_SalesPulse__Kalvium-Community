@@ -1,0 +1,6 @@
+customer_id,name,email,signup_date
+1,Alice,alice@example.com,2025-01-15
+2,Bob,bob@example.com,2025-02-20
+3,Carol,carol@example.com,2025-03-10
+4,David,david@example.com,2025-04-05
+5,Eva,eva@example.com,2025-05-18
