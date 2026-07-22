@@ -21,7 +21,7 @@ This document translates the PRD into a build-ready functional spec: every page,
    e. Runs recommendation engine → coaching tips
    f. Writes results back to PostgreSQL (AI Results tables)
 6. Node.js backend serves processed analytics + AI results via REST API
-7. React frontend renders role-specific dashboards (Rep / Manager / VP / Admin)
+7. Streamlit frontend renders role-specific dashboards (Rep / Manager / VP / Admin)
 8. User acts on insights (updates a deal, follows up faster, etc.) → cycle repeats
 ```
 

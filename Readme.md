@@ -41,6 +41,18 @@ Follow these steps to replicate the project environment on your local machine:
    pip install -r requirements.txt
    ```
 
+5. **Run the Streamlit Frontend Application**
+   - **With Virtual Environment Activated:**
+     ```bash
+     streamlit run app.py
+     # OR
+     python -m streamlit run app.py
+     ```
+   - **Direct Execution:**
+     ```bash
+     .\venv\Scripts\python.exe -m streamlit run app.py
+     ```
+
 ## Project Structure
 
 ```

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "streamlit": ".\\venv\\Scripts\\python.exe -m streamlit run app.py",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"
