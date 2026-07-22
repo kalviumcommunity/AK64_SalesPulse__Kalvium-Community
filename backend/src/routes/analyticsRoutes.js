@@ -1,9 +1,0 @@
-import express from 'express';
-import * as analyticsController from '../controllers/analyticsController.js';
-
-const router = express.Router();
-
-router.get('/summary', analyticsController.getSummary);
-router.get('/performance', analyticsController.getPerformance);
-
-export default router;
