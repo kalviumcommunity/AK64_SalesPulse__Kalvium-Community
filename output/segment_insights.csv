@@ -1,0 +1,4 @@
+segment,customer_count,churn_rate,total_revenue,revenue_contribution,action
+Enterprise,50,0.0%,"$7,337,772",70.3%,HEALTHY & CRITICAL: Low churn (1%) generating majority revenue (70%+). Maintain dedicated VIP service.
+SMB,400,12.2%,"$1,602,752",15.4%,HIGH PRIORITY: Churn above 10%. Investigate onboarding friction and product pain points.
+Startups,550,8.0%,"$1,493,181",14.3%,MODERATE RISK: Monitor startup engagement. Implement automated product adoption workflows.
