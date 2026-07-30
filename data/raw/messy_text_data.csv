@@ -1,0 +1,11 @@
+customer_name,product_category,customer_segment,location_city
+ John Smith , Electronics ,b2b,São Paulo
+JOHN SMITH,electronics,b 2 b,Montréal
+john smith,ELECTRONICS,business-to-business, New York 
+ Alice Brown , Home & Kitchen ,sme,NEW YORK
+ALICE BROWN,home_kitchen!,small medium enterprise,new york
+São Paulo_John,HOME KITCHEN,s m b,san_francisco!
+Montréal_Marie!, Clothing ,enterprise,London#
+Carol White#,clothing#,ent,Tokyo@
+  David Lee  ,CLOTHING,corp,São Paulo
+david lee, Electronics ,b2b, Paris 

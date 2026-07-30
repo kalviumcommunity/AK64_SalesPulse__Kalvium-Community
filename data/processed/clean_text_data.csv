@@ -1,0 +1,11 @@
+customer_name,product_category,customer_segment,location_city
+john smith,electronics,B2B,são paulo
+john smith,electronics,B2B,montréal
+john smith,electronics,B2B,new york
+alice brown,home & kitchen,SMB,new york
+alice brown,home_kitchen!,SMB,new york
+são paulo_john,home kitchen,SMB,san_francisco!
+montréal_marie!,clothing,Enterprise,london#
+carol white#,clothing#,Enterprise,tokyo@
+david lee,clothing,Enterprise,são paulo
+david lee,electronics,B2B,paris
