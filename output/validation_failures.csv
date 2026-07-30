@@ -1,0 +1,12 @@
+customer_id,email,phone,age,price,start_date,end_date,birth_date,valid_age,valid_price,valid_date,valid_customer_id,valid_email,valid_email_format,valid_phone,valid_date_order,passes_all_checks
+CUST_1003,user_3@example.com,9876543203,-10,464.62,2026-01-04,2026-01-11,1970-04-01,False,True,True,True,True,True,True,True,False
+,user_5@example.com,9876543205,40,459.18,2026-01-06,2026-01-13,1970-05-31,True,True,True,False,True,True,True,True,False
+CUST_1007,user_7@example.com,9876543207,180,235.74,2026-01-08,2026-01-15,1970-07-30,False,True,True,True,True,True,True,True,False
+CUST_1012,user_12@example.com,9876543212,55,303.82,2026-01-13,2026-01-20,2050-06-15,True,True,False,True,True,True,True,True,False
+CUST_1015,user_15@example.com,9876543215,22,-150.0,2026-01-16,2026-01-23,1971-03-27,True,False,True,True,True,True,True,True,False
+CUST_1018,,9876543218,43,366.43,2026-01-19,2026-01-26,1971-06-25,True,True,True,True,False,False,True,True,False
+CUST_1022,user_22@example.com,9876543222,21,-45.5,2026-01-23,2026-01-30,1971-10-23,True,False,True,True,True,True,True,True,False
+CUST_1025,invalid_email_string.com,9876543225,31,116.83,2026-01-26,2026-02-02,1972-01-21,True,True,True,True,True,False,True,True,False
+CUST_1030,user_30@example.com,12345,61,86.88,2026-01-31,2026-02-07,1972-06-19,True,True,True,True,True,True,False,True,False
+CUST_1040,user_40@example.com,9876543240,58,70.64,2026-05-10,2026-05-01,1973-04-15,True,True,True,True,True,True,True,False,False
+CUST_1045,user_45@example.com,9876543245,28,175.69,2026-06-20,2026-06-15,1973-09-12,True,True,True,True,True,True,True,False,False
