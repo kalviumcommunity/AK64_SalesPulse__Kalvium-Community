@@ -1,0 +1,4 @@
+column,method,action,threshold_lower,threshold_upper,affected_rows,business_reasoning,date
+revenue,Z-Score (|Z| > 3.0),flag,,41574.53,4,Flagged extreme revenue spikes (> $45k) for separate high-value client audit.,2026-07-30 14:38:15.972845
+revenue,IQR (1.5x Multiplier),cap,-185.47,554.09,16,Capped extreme revenue values at IQR bounds to prevent skewing linear regression models.,2026-07-30 14:38:15.976206
+age,Domain Rule Boundary (18-100),cap,18.0,100.0,3,Capped negative and 150+ age data-entry errors to realistic adult customer age range.,2026-07-30 14:38:15.976206
