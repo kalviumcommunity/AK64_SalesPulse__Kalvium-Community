@@ -1,0 +1,12 @@
+{
+  "join_type": "left",
+  "left_table": "customers",
+  "right_table": "orders",
+  "join_key": "customer_id",
+  "left_rows": 1000,
+  "right_rows": 5000,
+  "result_rows": 4400,
+  "unmatched_left": 150,
+  "unmatched_right": 750,
+  "reasoning": "Selected explicit LEFT JOIN to preserve all master customer accounts (1,000 rows). Customers with 0 purchases remain in the dataset with NaN order attributes for complete lead funnel analysis. Orphaned orders (50 records) missing customer IDs were isolated to output/unmatched_orders.csv for ERP database investigation."
+}
