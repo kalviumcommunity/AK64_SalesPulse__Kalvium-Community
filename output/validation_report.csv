@@ -1,0 +1,9 @@
+rule_name,category,condition,total_tested,pass_count,fail_count,pass_rate_pct
+valid_age,Range Check,0 <= age <= 150,100,98,2,98.0
+valid_price,Range Check,price >= 0,100,98,2,98.0
+valid_date,Range Check,1920-01-01 <= birth_date <= current_time,100,99,1,99.0
+valid_customer_id,Null Constraint,customer_id is NOT NULL,100,99,1,99.0
+valid_email,Null Constraint,email is NOT NULL,100,99,1,99.0
+valid_email_format,Format Pattern,email contains '@',100,98,2,98.0
+valid_phone,Format Pattern,phone is 10 digits,100,99,1,99.0
+valid_date_order,Business Rule,end_date >= start_date,100,98,2,98.0
