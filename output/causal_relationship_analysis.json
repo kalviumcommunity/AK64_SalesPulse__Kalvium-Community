@@ -1,0 +1,12 @@
+{
+  "support_tickets <-> churn": {
+    "correlation_r": 0.485,
+    "possible_causal_directions": [
+      "Direction 1 (Direct Causal): support_tickets -> churn (Customers get frustrated by support process and leave)",
+      "Direction 2 (Reverse Causal): churn -> support_tickets (Customers about to leave open tickets to request refunds)",
+      "Direction 3 (Confounding Variable): customer_pain -> BOTH (Product defects cause both high tickets AND churn)"
+    ],
+    "data_driven_insight": "Likely Direction 3: Underlying customer friction/product bugs act as a confounding variable. Support tickets are a SYMPTOM of friction, not the root cause of churn.",
+    "actionable_business_decision": "Do NOT attempt to reduce churn by limiting support ticket access. Instead, resolve root-cause product friction and train support teams to proactively resolve ticket issues."
+  }
+}
