@@ -13,7 +13,12 @@ Author: SalesPulse Analytics Team
 """
 
 import os
+import sys
+import io
 import pandas as pd
+
+# Force UTF-8 output on Windows
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 
 # ---------------------------------------------------------------------------
@@ -104,8 +109,10 @@ def process_data(df):
         else:
             return "Large"
 
-    df["deal_tier"] = df["deal_value"].apply(assign_tier)
-    print(f"  → Added derived column: 'deal_tier'")
+    val_col = "deal_value" if "deal_value" in df.columns else ("transaction_amount" if "transaction_amount" in df.columns else None)
+    if val_col:
+        df["deal_tier"] = df[val_col].apply(assign_tier)
+        print(f"  → Added derived column: 'deal_tier' based on '{val_col}'")
 
     print(f"  → Rows after processing: {len(df)}")
     return df

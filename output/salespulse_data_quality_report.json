@@ -1,0 +1,164 @@
+{
+  "pipeline": "SalesPulse Real Data Pipeline",
+  "run_timestamp": "2026-08-03T13:22:57.390371",
+  "source_directory": "C:\\Users\\msham\\Desktop\\SalesPulse\\AK64_SalesPulse__Kalvium-Community\\data\\raw_new",
+  "tables": {
+    "users": {
+      "source": "users.csv",
+      "raw_rows": 14,
+      "issues": {
+        "whitespace_in_name": 1,
+        "allcaps_names_normalised": 2,
+        "email_invalid_or_missing": 3,
+        "missing_role_filled": 1
+      },
+      "clean_rows": 14
+    },
+    "customers": {
+      "source": "customers.csv",
+      "raw_rows": 458,
+      "issues": {
+        "exact_duplicates_removed": 8,
+        "duplicate_customer_ids": [
+          "C0009",
+          "C0047",
+          "C0072",
+          "C0214",
+          "C0226",
+          "C0399",
+          "C0413",
+          "C0435"
+        ],
+        "company_name_whitespace_fixed": 0,
+        "email_status_breakdown": {
+          "valid": 385,
+          "malformed": 24,
+          "missing": 22,
+          "placeholder": 19
+        },
+        "missing_contact_person": 13,
+        "missing_phone_number": 38
+      },
+      "clean_rows": 450
+    },
+    "deals": {
+      "source": "deals.csv",
+      "raw_rows": 920,
+      "issues": {
+        "deal_value_missing_raw": 51,
+        "deal_value_missing_after_parse": 51,
+        "deal_value_fixed_currency_strings": 0,
+        "missing_current_stage": 44,
+        "stage_distribution": {
+          "Prospecting": 191,
+          "Closed Lost": 161,
+          "Closed Won": 159,
+          "Proposal Sent": 153,
+          "Qualified": 114,
+          "Negotiation": 98
+        },
+        "missing_status": 109,
+        "status_distribution": {
+          "open": 306,
+          "lost": 217,
+          "won": 184,
+          "closed": 104
+        },
+        "missing_created_date": 525,
+        "missing_closed_date": 793,
+        "date_logic_errors": 6
+      },
+      "clean_rows": 920
+    },
+    "activities": {
+      "source": "activities.csv",
+      "raw_rows": 1835,
+      "issues": {
+        "activity_type_distribution": {
+          "call": 396,
+          "follow_up": 370,
+          "email": 362,
+          "meeting": 349,
+          "note": 187,
+          "unknown": 171
+        },
+        "missing_activity_date": 1250,
+        "missing_notes": 174,
+        "orphaned_activities": 0,
+        "orphaned_deal_ids": []
+      },
+      "clean_rows": 1835
+    },
+    "emails": {
+      "source": "emails.csv",
+      "raw_rows": 965,
+      "issues": {
+        "sender_email_status": {
+          "valid": 844,
+          "malformed": 53,
+          "missing": 39,
+          "placeholder": 29
+        },
+        "receiver_email_status": {
+          "valid": 824,
+          "missing": 56,
+          "malformed": 52,
+          "placeholder": 33
+        },
+        "missing_subject": 69,
+        "missing_sent_timestamp": 527,
+        "orphaned_emails": 0,
+        "orphaned_deal_ids": [],
+        "email_sentiment_distribution": {
+          "positive": 403,
+          "negative": 344,
+          "neutral": 203,
+          "unknown": 15
+        }
+      },
+      "clean_rows": 965
+    },
+    "master": {
+      "source": "master_salespulse",
+      "issues": {
+        "deals_without_matching_customer": 0,
+        "deals_without_matching_salesperson": 0
+      },
+      "master_rows": 920,
+      "master_columns": [
+        "deal_id",
+        "customer_id",
+        "salesperson_id",
+        "deal_value",
+        "current_stage",
+        "status",
+        "created_date",
+        "closed_date",
+        "date_logic_error",
+        "deal_duration_days",
+        "customer_company",
+        "customer_contact",
+        "customer_email",
+        "customer_phone",
+        "customer_email_status",
+        "salesperson_name",
+        "salesperson_email",
+        "salesperson_role",
+        "salesperson_email_status",
+        "activity_count",
+        "last_activity_date",
+        "act_call",
+        "act_email",
+        "act_follow_up",
+        "act_meeting",
+        "act_note",
+        "act_unknown",
+        "email_count",
+        "last_email_date",
+        "positive_emails",
+        "negative_emails",
+        "engagement_score"
+      ]
+    }
+  }
+}

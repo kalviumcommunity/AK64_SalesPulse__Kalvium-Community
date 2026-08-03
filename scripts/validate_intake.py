@@ -19,10 +19,15 @@ Author: SalesPulse Analytics Team
 """
 
 import os
+import sys
+import io
 import json
 import chardet
 import pandas as pd
 from datetime import datetime
+
+# Force UTF-8 output on Windows
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 
 # ---------------------------------------------------------------------------

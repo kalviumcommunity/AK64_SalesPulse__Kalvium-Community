@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-22T17:49:15.412957",
+  "timestamp": "2026-08-03T13:27:10.560460",
   "filepath": "data/raw/sample.csv",
   "validations": {
     "file_exists": "PASS - File exists and has content",
@@ -10,7 +10,7 @@
   "statistics": {
     "rows": 5,
     "columns": 4,
-    "file_size_mb": 0.000209,
-    "bytes": 219
+    "file_size_mb": 0.000215,
+    "bytes": 225
   }
 }

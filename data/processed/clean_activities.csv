@@ -1,0 +1,1836 @@
+activity_id,deal_id,activity_type,activity_date,notes,orphaned_deal
+A00001,D0357,follow_up,2026-01-27,"Really appreciate the detailed proposal, excited to move forward.",False
+A00002,D0163,email,2025-05-12,"Not happy with the delay, please escalate.",False
+A00003,D0779,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00004,D0539,note,2026-02-05,"Really appreciate the detailed proposal, excited to move forward.",False
+A00005,D0039,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00006,D0716,unknown,,we may have to look at other vendors if this isn't resolved.,False
+A00007,D0449,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00008,D0197,call,,Following up on our last conversation regarding pricing.,False
+A00009,D0006,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00010,D0699,follow_up,2025-08-12,"Not happy with the delay, please escalate.",False
+A00011,D0573,email,2026-07-17,"This is taking longer than expected, we need an update ASAP.",False
+A00012,D0583,call,,please find attached the requested documents.,False
+A00013,D0053,follow_up,,Following up on our last conversation regarding pricing.,False
+A00014,D0849,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00015,D0295,call,,We may have to look at other vendors if this isn't resolved.,False
+A00016,D0409,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00017,D0270,call,,"This is taking longer than expected, we need an update ASAP.",False
+A00018,D0784,call,,Can we schedule a call sometime next week?,False
+A00019,D0900,call,,,False
+A00020,D0427,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A00021,D0741,call,2026-03-24,We may have to look at other vendors if this isn't resolved.,False
+A00022,D0490,meeting,2026-01-06,,False
+A00023,D0801,email,2026-06-10,,False
+A00024,D0785,note,2025-12-30,"This is taking longer than expected, we need an update ASAP.",False
+A00025,D0121,follow_up,,can we schedule a call sometime next week?,False
+A00026,D0060,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00027,D0726,follow_up,,,False
+A00028,D0130,unknown,,Can we schedule a call sometime next week?,False
+A00029,D0251,meeting,2026-02-07,"Not happy with the delay, please escalate.",False
+A00030,D0079,meeting,2026-10-03,"Not happy with the delay, please escalate.",False
+A00031,D0595,email,,Can we schedule a call sometime next week?,False
+A00032,D0670,email,,Can we schedule a call sometime next week?,False
+A00033,D0056,meeting,,"Not happy with the delay, please escalate.",False
+A00034,D0141,follow_up,,following up on our last conversation regarding pricing.,False
+A00035,D0807,email,,Following up on our last conversation regarding pricing.,False
+A00036,D0465,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00037,D0308,call,,"This is taking longer than expected, we need an update ASAP.",False
+A00038,D0394,unknown,,Following up on our last conversation regarding pricing.,False
+A00039,D0546,call,,We may have to look at other vendors if this isn't resolved.,False
+A00040,D0624,meeting,,Following up on our last conversation regarding pricing.,False
+A00041,D0850,follow_up,2026-07-13,"Thanks so much for the quick turnaround, this looks great!",False
+A00042,D0739,meeting,,"Not happy with the delay, please escalate.",False
+A00043,D0788,follow_up,2025-12-28,"Not happy with the delay, please escalate.",False
+A00044,D0136,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00045,D0303,meeting,,Please find attached the requested documents.,False
+A00046,D0802,follow_up,,Please find attached the requested documents.,False
+A00047,D0271,email,2026-10-05,,False
+A00048,D0368,unknown,,Following up on our last conversation regarding pricing.,False
+A00049,D0082,meeting,,Can we schedule a call sometime next week?,False
+A00050,D0265,meeting,2026-05-10,"Great call today, looking forward to next steps.",False
+A00051,D0893,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00052,D0519,unknown,,,False
+A00053,D0732,meeting,,,False
+A00054,D0241,meeting,,,False
+A00055,D0209,meeting,2026-03-11,"Really appreciate the detailed proposal, excited to move forward.",False
+A00056,D0147,call,,Can we schedule a call sometime next week?,False
+A00057,D0384,unknown,,,False
+A00058,D0154,follow_up,,Following up on our last conversation regarding pricing.,False
+A00059,D0800,follow_up,,Following up on our last conversation regarding pricing.,False
+A00060,D0673,email,2026-06-01,"Really appreciate the detailed proposal, excited to move forward.",False
+A00061,D0579,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A00062,D0900,follow_up,,"Not happy with the delay, please escalate.",False
+A00063,D0325,meeting,,Please find attached the requested documents.,False
+A00064,D0819,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00065,D0661,note,,We may have to look at other vendors if this isn't resolved.,False
+A00066,D0670,unknown,2025-12-08,"This is taking longer than expected, we need an update ASAP.",False
+A00067,D0129,follow_up,2026-03-24,"Great call today, looking forward to next steps.",False
+A00068,D0350,meeting,2026-07-18,"This is taking longer than expected, we need an update ASAP.",False
+A00069,D0507,email,2026-03-09,"thanks so much for the quick turnaround, this looks great!",False
+A00070,D0784,follow_up,2026-05-17,,False
+A00071,D0442,call,2026-02-03,"Great call today, looking forward to next steps.",False
+A00072,D0398,note,2026-04-26,We may have to look at other vendors if this isn't resolved.,False
+A00073,D0345,meeting,,,False
+A00074,D0757,meeting,2025-12-01,"Not happy with the delay, please escalate.",False
+A00075,D0776,unknown,,We may have to look at other vendors if this isn't resolved.,False
+A00076,D0608,follow_up,2026-04-25,"This is taking longer than expected, we need an update ASAP.",False
+A00077,D0740,follow_up,,Following up on our last conversation regarding pricing.,False
+A00078,D0578,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A00079,D0331,note,,"Great call today, looking forward to next steps.",False
+A00080,D0386,email,,Can we schedule a call sometime next week?,False
+A00081,D0122,meeting,2026-02-24,Following up on our last conversation regarding pricing.,False
+A00082,D0266,follow_up,,please find attached the requested documents.,False
+A00083,D0859,follow_up,2026-04-03,"Thanks so much for the quick turnaround, this looks great!",False
+A00084,D0819,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00085,D0585,note,,"Great call today, looking forward to next steps.",False
+A00086,D0113,call,2026-04-06,"Not happy with the delay, please escalate.",False
+A00087,D0286,call,,Following up on our last conversation regarding pricing.,False
+A00088,D0520,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00089,D0040,note,,can we schedule a call sometime next week?,False
+A00090,D0858,call,,following up on our last conversation regarding pricing.,False
+A00091,D0226,email,,"Not happy with the delay, please escalate.",False
+A00092,D0290,email,2026-11-02,We may have to look at other vendors if this isn't resolved.,False
+A00093,D0004,note,,We may have to look at other vendors if this isn't resolved.,False
+A00094,D0040,note,,"This is taking longer than expected, we need an update ASAP.",False
+A00095,D0358,unknown,,Please find attached the requested documents.,False
+A00096,D0685,unknown,2025-11-15,Can we schedule a call sometime next week?,False
+A00097,D0225,call,,"This is taking longer than expected, we need an update ASAP.",False
+A00098,D0679,note,2026-06-13,Can we schedule a call sometime next week?,False
+A00099,D0408,email,2026-07-25,"Not happy with the delay, please escalate.",False
+A00100,D0030,meeting,,"This is taking longer than expected, we need an update asap.",False
+A00101,D0268,meeting,2025-11-21,"This is taking longer than expected, we need an update ASAP.",False
+A00102,D0275,unknown,,"Thanks so much for the quick turnaround, this looks great!",False
+A00103,D0587,email,2026-11-03,can we schedule a call sometime next week?,False
+A00104,D0740,call,,Can we schedule a call sometime next week?,False
+A00105,D0567,call,,Following up on our last conversation regarding pricing.,False
+A00106,D0161,follow_up,2026-12-02,Please find attached the requested documents.,False
+A00107,D0340,note,,,False
+A00108,D0540,call,2026-02-10,"thanks so much for the quick turnaround, this looks great!",False
+A00109,D0236,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00110,D0411,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00111,D0721,note,,We may have to look at other vendors if this isn't resolved.,False
+A00112,D0754,follow_up,2026-07-02,Please find attached the requested documents.,False
+A00113,D0762,call,2026-06-01,Following up on our last conversation regarding pricing.,False
+A00114,D0591,unknown,2026-01-31,"Really appreciate the detailed proposal, excited to move forward.",False
+A00115,D0286,unknown,,,False
+A00116,D0509,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00117,D0026,note,2025-11-29,Can we schedule a call sometime next week?,False
+A00118,D0319,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00119,D0502,follow_up,2025-03-11,"This is taking longer than expected, we need an update ASAP.",False
+A00120,D0741,follow_up,2026-07-07,"Not happy with the delay, please escalate.",False
+A00121,D0346,email,,"This is taking longer than expected, we need an update ASAP.",False
+A00122,D0215,follow_up,,"Not happy with the delay, please escalate.",False
+A00123,D0330,unknown,,We may have to look at other vendors if this isn't resolved.,False
+A00124,D0084,call,2026-05-01,,False
+A00125,D0533,call,2025-11-23,"Really appreciate the detailed proposal, excited to move forward.",False
+A00126,D0175,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A00127,D0446,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00128,D0578,email,,Following up on our last conversation regarding pricing.,False
+A00129,D0381,follow_up,2026-03-13,"Not happy with the delay, please escalate.",False
+A00130,D0765,email,2025-11-13,"Thanks so much for the quick turnaround, this looks great!",False
+A00131,D0482,call,,Please find attached the requested documents.,False
+A00132,D0097,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00133,D0069,meeting,,Can we schedule a call sometime next week?,False
+A00134,D0282,meeting,2026-05-25,Please find attached the requested documents.,False
+A00135,D0261,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00136,D0222,meeting,,"really appreciate the detailed proposal, excited to move forward.",False
+A00137,D0661,note,,Please find attached the requested documents.,False
+A00138,D0631,unknown,,,False
+A00139,D0823,follow_up,2026-05-02,"Not happy with the delay, please escalate.",False
+A00140,D0332,call,2025-12-06,"This is taking longer than expected, we need an update ASAP.",False
+A00141,D0513,call,2026-05-04,"This is taking longer than expected, we need an update ASAP.",False
+A00142,D0364,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00143,D0220,email,,"Great call today, looking forward to next steps.",False
+A00144,D0502,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00145,D0887,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00146,D0196,note,,Following up on our last conversation regarding pricing.,False
+A00147,D0006,follow_up,2025-07-11,Can we schedule a call sometime next week?,False
+A00148,D0014,follow_up,,"Not happy with the delay, please escalate.",False
+A00149,D0722,meeting,2026-11-03,"Thanks so much for the quick turnaround, this looks great!",False
+A00150,D0623,unknown,2026-06-26,,False
+A00151,D0030,follow_up,2025-10-11,"Great call today, looking forward to next steps.",False
+A00152,D0430,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00153,D0285,email,2026-06-05,Can we schedule a call sometime next week?,False
+A00154,D0325,email,,Can we schedule a call sometime next week?,False
+A00155,D0413,note,,"really appreciate the detailed proposal, excited to move forward.",False
+A00156,D0152,meeting,2026-07-19,"Thanks so much for the quick turnaround, this looks great!",False
+A00157,D0518,note,2026-02-01,Please find attached the requested documents.,False
+A00158,D0350,unknown,,"Not happy with the delay, please escalate.",False
+A00159,D0187,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00160,D0223,meeting,2025-09-12,Please find attached the requested documents.,False
+A00161,D0886,email,,Please find attached the requested documents.,False
+A00162,D0183,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00163,D0484,email,,Please find attached the requested documents.,False
+A00164,D0502,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00165,D0852,email,,"this is taking longer than expected, we need an update asap.",False
+A00166,D0720,note,,Following up on our last conversation regarding pricing.,False
+A00167,D0565,meeting,,Please find attached the requested documents.,False
+A00168,D0119,follow_up,2026-03-03,"not happy with the delay, please escalate.",False
+A00169,D0382,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00170,D0368,call,2026-01-19,Can we schedule a call sometime next week?,False
+A00171,D0192,meeting,2026-04-20,,False
+A00172,D0829,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A00173,D0250,meeting,,Can we schedule a call sometime next week?,False
+A00174,D0042,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00175,D0592,note,2026-06-05,we may have to look at other vendors if this isn't resolved.,False
+A00176,D0612,follow_up,,"great call today, looking forward to next steps.",False
+A00177,D0056,call,,Can we schedule a call sometime next week?,False
+A00178,D0001,email,,Please find attached the requested documents.,False
+A00179,D0879,email,,"Great call today, looking forward to next steps.",False
+A00180,D0384,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00181,D0716,email,2026-07-30,"Not happy with the delay, please escalate.",False
+A00182,D0099,note,,"This is taking longer than expected, we need an update ASAP.",False
+A00183,D0840,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00184,D0601,call,,"Great call today, looking forward to next steps.",False
+A00185,D0349,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A00186,D0142,unknown,,Please find attached the requested documents.,False
+A00187,D0670,email,,Please find attached the requested documents.,False
+A00188,D0036,meeting,2026-07-03,"great call today, looking forward to next steps.",False
+A00189,D0855,call,,Can we schedule a call sometime next week?,False
+A00190,D0884,note,2026-05-03,"Great call today, looking forward to next steps.",False
+A00191,D0394,unknown,,,False
+A00192,D0436,meeting,,"Not happy with the delay, please escalate.",False
+A00193,D0730,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00194,D0545,note,2026-07-04,"Great call today, looking forward to next steps.",False
+A00195,D0725,follow_up,,"Not happy with the delay, please escalate.",False
+A00196,D0041,call,2025-11-20,Can we schedule a call sometime next week?,False
+A00197,D0379,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A00198,D0366,note,,,False
+A00199,D0115,meeting,,,False
+A00200,D0097,email,2026-07-26,"This is taking longer than expected, we need an update ASAP.",False
+A00201,D0470,follow_up,,"Not happy with the delay, please escalate.",False
+A00202,D0040,email,2026-01-03,"This is taking longer than expected, we need an update ASAP.",False
+A00203,D0346,meeting,2026-11-07,"Great call today, looking forward to next steps.",False
+A00204,D0669,call,2026-07-15,"Really appreciate the detailed proposal, excited to move forward.",False
+A00205,D0311,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00206,D0779,note,,,False
+A00207,D0409,email,,,False
+A00208,D0425,email,2026-01-18,Can we schedule a call sometime next week?,False
+A00209,D0727,meeting,,Please find attached the requested documents.,False
+A00210,D0472,follow_up,,Can we schedule a call sometime next week?,False
+A00211,D0572,call,,Can we schedule a call sometime next week?,False
+A00212,D0875,unknown,2026-01-03,,False
+A00213,D0873,follow_up,2026-03-20,,False
+A00214,D0766,follow_up,,Can we schedule a call sometime next week?,False
+A00215,D0160,follow_up,,Can we schedule a call sometime next week?,False
+A00216,D0784,call,,We may have to look at other vendors if this isn't resolved.,False
+A00217,D0385,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00218,D0114,follow_up,2026-03-03,"This is taking longer than expected, we need an update ASAP.",False
+A00219,D0223,note,,Can we schedule a call sometime next week?,False
+A00220,D0681,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00221,D0775,unknown,2025-11-12,"Great call today, looking forward to next steps.",False
+A00222,D0296,call,,"Not happy with the delay, please escalate.",False
+A00223,D0101,note,2025-11-16,"This is taking longer than expected, we need an update ASAP.",False
+A00224,D0634,email,,We may have to look at other vendors if this isn't resolved.,False
+A00225,D0750,note,,following up on our last conversation regarding pricing.,False
+A00226,D0701,call,2026-03-04,"This is taking longer than expected, we need an update ASAP.",False
+A00227,D0871,email,2025-12-12,"Great call today, looking forward to next steps.",False
+A00228,D0205,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A00229,D0251,follow_up,2026-11-02,"Great call today, looking forward to next steps.",False
+A00230,D0114,follow_up,2026-05-04,Following up on our last conversation regarding pricing.,False
+A00231,D0008,call,2026-06-22,We may have to look at other vendors if this isn't resolved.,False
+A00232,D0073,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00233,D0547,call,,Please find attached the requested documents.,False
+A00234,D0743,call,,"Not happy with the delay, please escalate.",False
+A00235,D0150,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00236,D0673,meeting,2026-08-03,,False
+A00237,D0658,call,2026-03-27,Following up on our last conversation regarding pricing.,False
+A00238,D0706,unknown,2026-06-12,Please find attached the requested documents.,False
+A00239,D0780,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00240,D0372,meeting,,Please find attached the requested documents.,False
+A00241,D0302,email,,"Great call today, looking forward to next steps.",False
+A00242,D0264,email,,Following up on our last conversation regarding pricing.,False
+A00243,D0013,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00244,D0175,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00245,D0887,unknown,,"not happy with the delay, please escalate.",False
+A00246,D0015,call,,Following up on our last conversation regarding pricing.,False
+A00247,D0797,call,,"Not happy with the delay, please escalate.",False
+A00248,D0013,follow_up,,Can we schedule a call sometime next week?,False
+A00249,D0102,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00250,D0551,call,,"Not happy with the delay, please escalate.",False
+A00251,D0263,email,2025-01-12,Following up on our last conversation regarding pricing.,False
+A00252,D0042,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00253,D0066,email,,Following up on our last conversation regarding pricing.,False
+A00254,D0596,unknown,,"Thanks so much for the quick turnaround, this looks great!",False
+A00255,D0202,unknown,2025-10-12,"not happy with the delay, please escalate.",False
+A00256,D0221,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00257,D0115,unknown,2026-05-04,"Not happy with the delay, please escalate.",False
+A00258,D0417,follow_up,,Can we schedule a call sometime next week?,False
+A00259,D0661,meeting,,Following up on our last conversation regarding pricing.,False
+A00260,D0516,meeting,,"Great call today, looking forward to next steps.",False
+A00261,D0522,unknown,2026-09-06,"Really appreciate the detailed proposal, excited to move forward.",False
+A00262,D0097,unknown,,"great call today, looking forward to next steps.",False
+A00263,D0238,email,,Can we schedule a call sometime next week?,False
+A00264,D0702,meeting,,"Great call today, looking forward to next steps.",False
+A00265,D0406,email,,"Great call today, looking forward to next steps.",False
+A00266,D0486,follow_up,,Following up on our last conversation regarding pricing.,False
+A00267,D0877,meeting,,Can we schedule a call sometime next week?,False
+A00268,D0323,unknown,,,False
+A00269,D0414,call,,"Great call today, looking forward to next steps.",False
+A00270,D0020,email,,,False
+A00271,D0438,note,,Following up on our last conversation regarding pricing.,False
+A00272,D0451,meeting,,"Great call today, looking forward to next steps.",False
+A00273,D0739,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A00274,D0499,email,,,False
+A00275,D0351,meeting,2026-03-04,please find attached the requested documents.,False
+A00276,D0768,call,2026-02-23,"Great call today, looking forward to next steps.",False
+A00277,D0588,email,2025-12-29,Following up on our last conversation regarding pricing.,False
+A00278,D0677,meeting,,"thanks so much for the quick turnaround, this looks great!",False
+A00279,D0892,meeting,,"Not happy with the delay, please escalate.",False
+A00280,D0329,unknown,,can we schedule a call sometime next week?,False
+A00281,D0266,meeting,2026-03-07,"great call today, looking forward to next steps.",False
+A00282,D0406,unknown,,"Thanks so much for the quick turnaround, this looks great!",False
+A00283,D0017,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A00284,D0552,unknown,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00285,D0572,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00286,D0666,email,2026-07-16,Please find attached the requested documents.,False
+A00287,D0757,email,2026-12-03,"Great call today, looking forward to next steps.",False
+A00288,D0541,note,2026-03-27,Please find attached the requested documents.,False
+A00289,D0020,call,2026-06-03,"Great call today, looking forward to next steps.",False
+A00290,D0691,meeting,,Can we schedule a call sometime next week?,False
+A00291,D0591,email,,Following up on our last conversation regarding pricing.,False
+A00292,D0547,follow_up,2026-08-07,"Great call today, looking forward to next steps.",False
+A00293,D0336,meeting,2026-05-04,Following up on our last conversation regarding pricing.,False
+A00294,D0278,email,,Can we schedule a call sometime next week?,False
+A00295,D0451,call,2026-04-03,"Thanks so much for the quick turnaround, this looks great!",False
+A00296,D0758,email,2026-07-03,"Not happy with the delay, please escalate.",False
+A00297,D0390,follow_up,,"Great call today, looking forward to next steps.",False
+A00298,D0529,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00299,D0367,meeting,2026-07-04,"Really appreciate the detailed proposal, excited to move forward.",False
+A00300,D0262,follow_up,2025-12-10,"Thanks so much for the quick turnaround, this looks great!",False
+A00301,D0410,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00302,D0308,email,,,False
+A00303,D0282,meeting,,,False
+A00304,D0532,email,2026-06-14,"Thanks so much for the quick turnaround, this looks great!",False
+A00305,D0888,meeting,2026-05-20,"Great call today, looking forward to next steps.",False
+A00306,D0532,email,2025-04-11,Can we schedule a call sometime next week?,False
+A00307,D0167,call,,"This is taking longer than expected, we need an update ASAP.",False
+A00308,D0272,follow_up,,Can we schedule a call sometime next week?,False
+A00309,D0753,email,,We may have to look at other vendors if this isn't resolved.,False
+A00310,D0538,email,,,False
+A00311,D0068,call,2026-06-05,"This is taking longer than expected, we need an update ASAP.",False
+A00312,D0138,follow_up,2026-04-05,Please find attached the requested documents.,False
+A00313,D0264,email,,Can we schedule a call sometime next week?,False
+A00314,D0099,unknown,,following up on our last conversation regarding pricing.,False
+A00315,D0825,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00316,D0630,call,,"Great call today, looking forward to next steps.",False
+A00317,D0728,unknown,,We may have to look at other vendors if this isn't resolved.,False
+A00318,D0779,email,,"Great call today, looking forward to next steps.",False
+A00319,D0036,note,,"Great call today, looking forward to next steps.",False
+A00320,D0856,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00321,D0353,email,,"This is taking longer than expected, we need an update ASAP.",False
+A00322,D0637,meeting,,Please find attached the requested documents.,False
+A00323,D0346,meeting,,Please find attached the requested documents.,False
+A00324,D0791,follow_up,2026-10-05,Can we schedule a call sometime next week?,False
+A00325,D0801,meeting,,we may have to look at other vendors if this isn't resolved.,False
+A00326,D0469,call,,"Great call today, looking forward to next steps.",False
+A00327,D0447,follow_up,,we may have to look at other vendors if this isn't resolved.,False
+A00328,D0675,follow_up,,"thanks so much for the quick turnaround, this looks great!",False
+A00329,D0539,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A00330,D0372,follow_up,,"Great call today, looking forward to next steps.",False
+A00331,D0170,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A00332,D0879,email,2026-02-09,Please find attached the requested documents.,False
+A00333,D0432,unknown,2026-08-02,Please find attached the requested documents.,False
+A00334,D0570,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00335,D0148,unknown,,"This is taking longer than expected, we need an update ASAP.",False
+A00336,D0401,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00337,D0144,note,,"Great call today, looking forward to next steps.",False
+A00338,D0283,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00339,D0791,follow_up,2026-08-01,Please find attached the requested documents.,False
+A00340,D0625,unknown,,,False
+A00341,D0859,meeting,2026-02-04,"This is taking longer than expected, we need an update ASAP.",False
+A00342,D0709,unknown,,we may have to look at other vendors if this isn't resolved.,False
+A00343,D0618,follow_up,,"Not happy with the delay, please escalate.",False
+A00344,D0432,call,,Please find attached the requested documents.,False
+A00345,D0337,note,,Can we schedule a call sometime next week?,False
+A00346,D0826,unknown,2026-07-12,Following up on our last conversation regarding pricing.,False
+A00347,D0107,unknown,,"This is taking longer than expected, we need an update ASAP.",False
+A00348,D0684,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00349,D0101,follow_up,,Can we schedule a call sometime next week?,False
+A00350,D0619,note,,Can we schedule a call sometime next week?,False
+A00351,D0472,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A00352,D0797,note,,,False
+A00353,D0337,call,2026-04-30,"Thanks so much for the quick turnaround, this looks great!",False
+A00354,D0260,meeting,,Can we schedule a call sometime next week?,False
+A00355,D0457,call,,"Great call today, looking forward to next steps.",False
+A00356,D0561,meeting,,"Great call today, looking forward to next steps.",False
+A00357,D0342,meeting,,Can we schedule a call sometime next week?,False
+A00358,D0740,call,,"Not happy with the delay, please escalate.",False
+A00359,D0208,meeting,2025-11-27,Can we schedule a call sometime next week?,False
+A00360,D0371,email,,"thanks so much for the quick turnaround, this looks great!",False
+A00361,D0519,follow_up,,we may have to look at other vendors if this isn't resolved.,False
+A00362,D0078,email,,"This is taking longer than expected, we need an update ASAP.",False
+A00363,D0349,follow_up,2025-05-11,"this is taking longer than expected, we need an update asap.",False
+A00364,D0835,meeting,,Can we schedule a call sometime next week?,False
+A00365,D0042,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00366,D0225,email,2026-05-24,following up on our last conversation regarding pricing.,False
+A00367,D0022,follow_up,2026-04-20,"This is taking longer than expected, we need an update ASAP.",False
+A00368,D0197,note,,"This is taking longer than expected, we need an update ASAP.",False
+A00369,D0397,meeting,,Please find attached the requested documents.,False
+A00370,D0241,meeting,,"Great call today, looking forward to next steps.",False
+A00371,D0720,email,,"Great call today, looking forward to next steps.",False
+A00372,D0520,unknown,2026-02-05,Following up on our last conversation regarding pricing.,False
+A00373,D0661,follow_up,,"Not happy with the delay, please escalate.",False
+A00374,D0472,follow_up,,"This is taking longer than expected, we need an update asap.",False
+A00375,D0023,follow_up,2026-01-06,Can we schedule a call sometime next week?,False
+A00376,D0066,meeting,,Please find attached the requested documents.,False
+A00377,D0746,call,2025-12-01,"This is taking longer than expected, we need an update ASAP.",False
+A00378,D0406,email,,We may have to look at other vendors if this isn't resolved.,False
+A00379,D0239,follow_up,,"this is taking longer than expected, we need an update asap.",False
+A00380,D0698,follow_up,2026-04-02,"Thanks so much for the quick turnaround, this looks great!",False
+A00381,D0123,call,,"This is taking longer than expected, we need an update ASAP.",False
+A00382,D0255,follow_up,2026-07-03,"Great call today, looking forward to next steps.",False
+A00383,D0747,call,2026-07-07,"This is taking longer than expected, we need an update ASAP.",False
+A00384,D0397,note,2026-04-26,"Great call today, looking forward to next steps.",False
+A00385,D0319,meeting,2026-06-03,Please find attached the requested documents.,False
+A00386,D0412,email,,,False
+A00387,D0264,call,,We may have to look at other vendors if this isn't resolved.,False
+A00388,D0173,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00389,D0029,follow_up,,"great call today, looking forward to next steps.",False
+A00390,D0187,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00391,D0615,meeting,2026-04-29,"Great call today, looking forward to next steps.",False
+A00392,D0456,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00393,D0299,call,2026-05-07,,False
+A00394,D0198,follow_up,,Can we schedule a call sometime next week?,False
+A00395,D0562,note,2026-03-05,We may have to look at other vendors if this isn't resolved.,False
+A00396,D0145,email,2025-11-01,,False
+A00397,D0061,unknown,,,False
+A00398,D0671,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00399,D0659,email,2025-07-11,"Not happy with the delay, please escalate.",False
+A00400,D0642,note,2026-06-04,"Really appreciate the detailed proposal, excited to move forward.",False
+A00401,D0330,follow_up,2026-06-18,Please find attached the requested documents.,False
+A00402,D0295,call,,Following up on our last conversation regarding pricing.,False
+A00403,D0602,follow_up,,,False
+A00404,D0311,note,,"Thanks so much for the quick turnaround, this looks great!",False
+A00405,D0445,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A00406,D0220,call,2026-06-04,,False
+A00407,D0209,unknown,,"Thanks so much for the quick turnaround, this looks great!",False
+A00408,D0706,call,2026-01-04,Following up on our last conversation regarding pricing.,False
+A00409,D0339,email,,Can we schedule a call sometime next week?,False
+A00410,D0160,email,,Please find attached the requested documents.,False
+A00411,D0585,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00412,D0424,note,,,False
+A00413,D0710,note,,"not happy with the delay, please escalate.",False
+A00414,D0073,call,2026-02-26,"really appreciate the detailed proposal, excited to move forward.",False
+A00415,D0758,meeting,2026-07-15,Please find attached the requested documents.,False
+A00416,D0584,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00417,D0089,follow_up,,,False
+A00418,D0491,call,,"this is taking longer than expected, we need an update asap.",False
+A00419,D0826,call,,Can we schedule a call sometime next week?,False
+A00420,D0612,call,,Following up on our last conversation regarding pricing.,False
+A00421,D0045,follow_up,,"Great call today, looking forward to next steps.",False
+A00422,D0180,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00423,D0518,call,2025-05-12,Can we schedule a call sometime next week?,False
+A00424,D0893,unknown,,Following up on our last conversation regarding pricing.,False
+A00425,D0165,email,,,False
+A00426,D0531,follow_up,,"Great call today, looking forward to next steps.",False
+A00427,D0040,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00428,D0834,note,2026-09-07,,False
+A00429,D0559,call,,"Not happy with the delay, please escalate.",False
+A00430,D0290,follow_up,,"Not happy with the delay, please escalate.",False
+A00431,D0652,unknown,,"Not happy with the delay, please escalate.",False
+A00432,D0148,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00433,D0377,call,,"Great call today, looking forward to next steps.",False
+A00434,D0860,follow_up,2025-11-03,"Great call today, looking forward to next steps.",False
+A00435,D0416,note,2026-05-30,"Not happy with the delay, please escalate.",False
+A00436,D0373,meeting,2025-12-12,"Great call today, looking forward to next steps.",False
+A00437,D0223,email,,Can we schedule a call sometime next week?,False
+A00438,D0783,note,,Following up on our last conversation regarding pricing.,False
+A00439,D0556,unknown,,"This is taking longer than expected, we need an update asap.",False
+A00440,D0565,email,,"this is taking longer than expected, we need an update asap.",False
+A00441,D0711,email,2025-07-11,Please find attached the requested documents.,False
+A00442,D0788,email,,following up on our last conversation regarding pricing.,False
+A00443,D0252,email,2026-07-27,Can we schedule a call sometime next week?,False
+A00444,D0544,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00445,D0891,call,2026-01-06,Can we schedule a call sometime next week?,False
+A00446,D0762,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00447,D0598,unknown,,Please find attached the requested documents.,False
+A00448,D0164,email,,We may have to look at other vendors if this isn't resolved.,False
+A00449,D0576,follow_up,,Following up on our last conversation regarding pricing.,False
+A00450,D0151,unknown,,"Great call today, looking forward to next steps.",False
+A00451,D0489,email,,Can we schedule a call sometime next week?,False
+A00452,D0187,unknown,2026-06-09,Can we schedule a call sometime next week?,False
+A00453,D0185,meeting,,"Great call today, looking forward to next steps.",False
+A00454,D0154,call,2026-10-01,Can we schedule a call sometime next week?,False
+A00455,D0806,call,2025-11-14,"Thanks so much for the quick turnaround, this looks great!",False
+A00456,D0174,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00457,D0025,unknown,2025-09-12,"Thanks so much for the quick turnaround, this looks great!",False
+A00458,D0270,unknown,,"Thanks so much for the quick turnaround, this looks great!",False
+A00459,D0673,unknown,,We may have to look at other vendors if this isn't resolved.,False
+A00460,D0640,call,,Please find attached the requested documents.,False
+A00461,D0390,note,,Please find attached the requested documents.,False
+A00462,D0823,follow_up,2026-07-12,"This is taking longer than expected, we need an update ASAP.",False
+A00463,D0355,meeting,2025-12-04,Please find attached the requested documents.,False
+A00464,D0688,call,,,False
+A00465,D0132,call,2026-11-01,Can we schedule a call sometime next week?,False
+A00466,D0243,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00467,D0633,call,2025-11-21,Can we schedule a call sometime next week?,False
+A00468,D0125,call,,"really appreciate the detailed proposal, excited to move forward.",False
+A00469,D0094,call,2026-08-07,,False
+A00470,D0329,follow_up,,"Not happy with the delay, please escalate.",False
+A00471,D0295,follow_up,,,False
+A00472,D0181,email,,Following up on our last conversation regarding pricing.,False
+A00473,D0078,email,,following up on our last conversation regarding pricing.,False
+A00474,D0607,meeting,,Please find attached the requested documents.,False
+A00475,D0354,email,,,False
+A00476,D0065,unknown,,"This is taking longer than expected, we need an update asap.",False
+A00477,D0734,unknown,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00478,D0371,follow_up,2026-02-07,Please find attached the requested documents.,False
+A00479,D0367,unknown,,"Not happy with the delay, please escalate.",False
+A00480,D0195,email,2026-03-03,Can we schedule a call sometime next week?,False
+A00481,D0333,note,2025-12-14,"not happy with the delay, please escalate.",False
+A00482,D0395,note,,Can we schedule a call sometime next week?,False
+A00483,D0153,note,2026-07-05,"great call today, looking forward to next steps.",False
+A00484,D0223,call,,"not happy with the delay, please escalate.",False
+A00485,D0023,unknown,,We may have to look at other vendors if this isn't resolved.,False
+A00486,D0622,unknown,,,False
+A00487,D0109,call,2025-12-02,please find attached the requested documents.,False
+A00488,D0507,email,2026-02-02,Please find attached the requested documents.,False
+A00489,D0319,follow_up,2026-03-02,"Great call today, looking forward to next steps.",False
+A00490,D0383,email,2026-07-30,"Really appreciate the detailed proposal, excited to move forward.",False
+A00491,D0253,email,,Can we schedule a call sometime next week?,False
+A00492,D0488,meeting,,Can we schedule a call sometime next week?,False
+A00493,D0330,follow_up,,Following up on our last conversation regarding pricing.,False
+A00494,D0577,unknown,,We may have to look at other vendors if this isn't resolved.,False
+A00495,D0152,follow_up,,"Not happy with the delay, please escalate.",False
+A00496,D0746,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00497,D0283,email,,"Not happy with the delay, please escalate.",False
+A00498,D0336,meeting,2026-03-22,we may have to look at other vendors if this isn't resolved.,False
+A00499,D0328,unknown,,We may have to look at other vendors if this isn't resolved.,False
+A00500,D0193,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00501,D0819,follow_up,2026-02-08,"This is taking longer than expected, we need an update ASAP.",False
+A00502,D0306,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A00503,D0432,call,2025-08-11,"Not happy with the delay, please escalate.",False
+A00504,D0609,unknown,2025-08-12,Please find attached the requested documents.,False
+A00505,D0622,unknown,,,False
+A00506,D0054,meeting,,"Great call today, looking forward to next steps.",False
+A00507,D0564,call,,"this is taking longer than expected, we need an update asap.",False
+A00508,D0779,call,,,False
+A00509,D0735,email,,"great call today, looking forward to next steps.",False
+A00510,D0731,email,,Can we schedule a call sometime next week?,False
+A00511,D0769,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00512,D0406,email,,Following up on our last conversation regarding pricing.,False
+A00513,D0890,meeting,2026-08-03,We may have to look at other vendors if this isn't resolved.,False
+A00514,D0715,email,2026-10-06,Following up on our last conversation regarding pricing.,False
+A00515,D0892,email,,"This is taking longer than expected, we need an update ASAP.",False
+A00516,D0020,follow_up,2026-07-17,"Thanks so much for the quick turnaround, this looks great!",False
+A00517,D0564,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00518,D0008,meeting,,Can we schedule a call sometime next week?,False
+A00519,D0407,email,,Please find attached the requested documents.,False
+A00520,D0398,email,,Please find attached the requested documents.,False
+A00521,D0267,note,,"Not happy with the delay, please escalate.",False
+A00522,D0668,follow_up,,"great call today, looking forward to next steps.",False
+A00523,D0110,email,,Please find attached the requested documents.,False
+A00524,D0185,follow_up,,"Not happy with the delay, please escalate.",False
+A00525,D0581,meeting,2026-10-04,Please find attached the requested documents.,False
+A00526,D0882,meeting,2025-12-15,Can we schedule a call sometime next week?,False
+A00527,D0772,email,2025-12-26,We may have to look at other vendors if this isn't resolved.,False
+A00528,D0684,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00529,D0635,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00530,D0582,email,,Following up on our last conversation regarding pricing.,False
+A00531,D0760,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00532,D0036,call,,"Not happy with the delay, please escalate.",False
+A00533,D0820,email,,"not happy with the delay, please escalate.",False
+A00534,D0743,email,,,False
+A00535,D0577,unknown,,"Great call today, looking forward to next steps.",False
+A00536,D0387,call,,"This is taking longer than expected, we need an update ASAP.",False
+A00537,D0014,follow_up,2026-05-02,Please find attached the requested documents.,False
+A00538,D0208,meeting,,Please find attached the requested documents.,False
+A00539,D0707,unknown,2026-12-06,"This is taking longer than expected, we need an update ASAP.",False
+A00540,D0811,email,2026-03-03,Please find attached the requested documents.,False
+A00541,D0468,unknown,,Can we schedule a call sometime next week?,False
+A00542,D0329,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00543,D0786,meeting,2026-01-08,We may have to look at other vendors if this isn't resolved.,False
+A00544,D0089,follow_up,,Can we schedule a call sometime next week?,False
+A00545,D0462,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00546,D0641,email,,"Great call today, looking forward to next steps.",False
+A00547,D0836,email,2026-07-18,"Really appreciate the detailed proposal, excited to move forward.",False
+A00548,D0514,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00549,D0564,email,,"not happy with the delay, please escalate.",False
+A00550,D0817,meeting,2025-12-01,We may have to look at other vendors if this isn't resolved.,False
+A00551,D0591,meeting,2026-10-06,Following up on our last conversation regarding pricing.,False
+A00552,D0855,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00553,D0712,meeting,2025-12-21,Please find attached the requested documents.,False
+A00554,D0099,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00555,D0848,call,,"Not happy with the delay, please escalate.",False
+A00556,D0367,note,,Please find attached the requested documents.,False
+A00557,D0312,note,2025-12-10,"Thanks so much for the quick turnaround, this looks great!",False
+A00558,D0512,meeting,,"Not happy with the delay, please escalate.",False
+A00559,D0552,call,,Can we schedule a call sometime next week?,False
+A00560,D0028,note,,,False
+A00561,D0259,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00562,D0248,follow_up,,Can we schedule a call sometime next week?,False
+A00563,D0876,unknown,2026-04-04,"Really appreciate the detailed proposal, excited to move forward.",False
+A00564,D0884,call,2026-01-27,"Really appreciate the detailed proposal, excited to move forward.",False
+A00565,D0714,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00566,D0530,unknown,2025-11-18,,False
+A00567,D0616,meeting,,"really appreciate the detailed proposal, excited to move forward.",False
+A00568,D0006,note,,"This is taking longer than expected, we need an update asap.",False
+A00569,D0349,follow_up,,"Not happy with the delay, please escalate.",False
+A00570,D0119,call,2026-03-04,"Thanks so much for the quick turnaround, this looks great!",False
+A00571,D0716,note,,We may have to look at other vendors if this isn't resolved.,False
+A00572,D0557,call,,Please find attached the requested documents.,False
+A00573,D0069,call,,"Not happy with the delay, please escalate.",False
+A00574,D0897,email,2026-03-05,"Really appreciate the detailed proposal, excited to move forward.",False
+A00575,D0457,follow_up,,"Not happy with the delay, please escalate.",False
+A00576,D0190,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00577,D0137,note,,,False
+A00578,D0538,meeting,,Please find attached the requested documents.,False
+A00579,D0250,unknown,2026-11-06,"Not happy with the delay, please escalate.",False
+A00580,D0177,note,,"really appreciate the detailed proposal, excited to move forward.",False
+A00581,D0523,email,,"Not happy with the delay, please escalate.",False
+A00582,D0580,email,2026-03-15,Can we schedule a call sometime next week?,False
+A00583,D0417,call,,,False
+A00584,D0688,meeting,,Following up on our last conversation regarding pricing.,False
+A00585,D0630,follow_up,2025-03-12,Following up on our last conversation regarding pricing.,False
+A00586,D0792,call,2026-04-03,,False
+A00587,D0539,email,,Can we schedule a call sometime next week?,False
+A00588,D0666,meeting,,Can we schedule a call sometime next week?,False
+A00589,D0482,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A00590,D0677,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00591,D0546,follow_up,2025-05-11,Please find attached the requested documents.,False
+A00592,D0896,meeting,2026-03-06,Can we schedule a call sometime next week?,False
+A00593,D0246,follow_up,,Following up on our last conversation regarding pricing.,False
+A00594,D0422,meeting,2025-11-01,Following up on our last conversation regarding pricing.,False
+A00595,D0143,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00596,D0474,follow_up,2025-06-12,Please find attached the requested documents.,False
+A00597,D0809,meeting,2026-07-23,Can we schedule a call sometime next week?,False
+A00598,D0278,follow_up,,,False
+A00599,D0128,note,2026-03-26,"Thanks so much for the quick turnaround, this looks great!",False
+A00600,D0261,unknown,,Please find attached the requested documents.,False
+A00601,D0273,call,2026-01-31,"Really appreciate the detailed proposal, excited to move forward.",False
+A00602,D0123,email,,,False
+A00603,D0111,follow_up,2026-09-03,"Really appreciate the detailed proposal, excited to move forward.",False
+A00604,D0210,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00605,D0640,meeting,,Following up on our last conversation regarding pricing.,False
+A00606,D0770,meeting,,following up on our last conversation regarding pricing.,False
+A00607,D0325,email,2026-01-26,,False
+A00608,D0165,call,,Please find attached the requested documents.,False
+A00609,D0253,note,2025-11-22,"Great call today, looking forward to next steps.",False
+A00610,D0287,call,,Please find attached the requested documents.,False
+A00611,D0870,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00612,D0455,unknown,2025-11-13,"This is taking longer than expected, we need an update asap.",False
+A00613,D0211,unknown,,Can we schedule a call sometime next week?,False
+A00614,D0631,note,,Following up on our last conversation regarding pricing.,False
+A00615,D0616,note,2026-03-15,Following up on our last conversation regarding pricing.,False
+A00616,D0281,email,,"This is taking longer than expected, we need an update ASAP.",False
+A00617,D0025,follow_up,2026-07-07,,False
+A00618,D0586,meeting,,"Not happy with the delay, please escalate.",False
+A00619,D0435,call,,Following up on our last conversation regarding pricing.,False
+A00620,D0267,unknown,,We may have to look at other vendors if this isn't resolved.,False
+A00621,D0867,call,,,False
+A00622,D0163,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00623,D0262,unknown,2025-08-12,"This is taking longer than expected, we need an update ASAP.",False
+A00624,D0235,note,,,False
+A00625,D0054,follow_up,,Please find attached the requested documents.,False
+A00626,D0715,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00627,D0837,email,2026-01-01,We may have to look at other vendors if this isn't resolved.,False
+A00628,D0157,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00629,D0279,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A00630,D0172,call,2026-10-06,Following up on our last conversation regarding pricing.,False
+A00631,D0588,meeting,2026-06-11,"Great call today, looking forward to next steps.",False
+A00632,D0166,follow_up,,"this is taking longer than expected, we need an update asap.",False
+A00633,D0542,unknown,2025-11-01,We may have to look at other vendors if this isn't resolved.,False
+A00634,D0538,unknown,,Can we schedule a call sometime next week?,False
+A00635,D0858,note,,"this is taking longer than expected, we need an update asap.",False
+A00636,D0130,call,,Can we schedule a call sometime next week?,False
+A00637,D0423,note,,"Thanks so much for the quick turnaround, this looks great!",False
+A00638,D0017,email,,"Not happy with the delay, please escalate.",False
+A00639,D0768,email,,,False
+A00640,D0233,unknown,2026-01-11,"Not happy with the delay, please escalate.",False
+A00641,D0210,unknown,2026-07-05,Following up on our last conversation regarding pricing.,False
+A00642,D0104,meeting,,"Not happy with the delay, please escalate.",False
+A00643,D0894,note,,Please find attached the requested documents.,False
+A00644,D0489,call,2026-05-10,"Really appreciate the detailed proposal, excited to move forward.",False
+A00645,D0519,email,,"really appreciate the detailed proposal, excited to move forward.",False
+A00646,D0277,call,,Following up on our last conversation regarding pricing.,False
+A00647,D0460,note,,"Not happy with the delay, please escalate.",False
+A00648,D0377,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00649,D0444,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A00650,D0069,email,2026-04-09,Can we schedule a call sometime next week?,False
+A00651,D0740,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00652,D0226,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00653,D0583,email,,"This is taking longer than expected, we need an update ASAP.",False
+A00654,D0216,call,2026-02-05,"Thanks so much for the quick turnaround, this looks great!",False
+A00655,D0068,email,,"not happy with the delay, please escalate.",False
+A00656,D0832,meeting,,"Not happy with the delay, please escalate.",False
+A00657,D0572,follow_up,,Can we schedule a call sometime next week?,False
+A00658,D0856,follow_up,,,False
+A00659,D0495,meeting,,Please find attached the requested documents.,False
+A00660,D0415,call,,please find attached the requested documents.,False
+A00661,D0229,email,2026-12-03,"Not happy with the delay, please escalate.",False
+A00662,D0715,follow_up,2025-11-25,"This is taking longer than expected, we need an update ASAP.",False
+A00663,D0084,email,2026-05-29,"Really appreciate the detailed proposal, excited to move forward.",False
+A00664,D0059,note,2026-05-14,"Great call today, looking forward to next steps.",False
+A00665,D0342,meeting,2026-05-02,"Not happy with the delay, please escalate.",False
+A00666,D0406,follow_up,2026-06-17,Following up on our last conversation regarding pricing.,False
+A00667,D0169,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00668,D0085,call,2026-04-26,"Not happy with the delay, please escalate.",False
+A00669,D0813,email,,"not happy with the delay, please escalate.",False
+A00670,D0864,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00671,D0339,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00672,D0842,email,2026-03-15,"not happy with the delay, please escalate.",False
+A00673,D0631,follow_up,,please find attached the requested documents.,False
+A00674,D0873,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00675,D0291,call,,"Great call today, looking forward to next steps.",False
+A00676,D0368,follow_up,2026-02-13,"This is taking longer than expected, we need an update ASAP.",False
+A00677,D0868,meeting,,Following up on our last conversation regarding pricing.,False
+A00678,D0038,call,,"really appreciate the detailed proposal, excited to move forward.",False
+A00679,D0130,email,,Can we schedule a call sometime next week?,False
+A00680,D0736,unknown,,We may have to look at other vendors if this isn't resolved.,False
+A00681,D0727,email,,can we schedule a call sometime next week?,False
+A00682,D0068,call,,Please find attached the requested documents.,False
+A00683,D0475,note,,"not happy with the delay, please escalate.",False
+A00684,D0725,note,,"Great call today, looking forward to next steps.",False
+A00685,D0257,note,,"Great call today, looking forward to next steps.",False
+A00686,D0526,follow_up,,Following up on our last conversation regarding pricing.,False
+A00687,D0790,call,,Can we schedule a call sometime next week?,False
+A00688,D0791,follow_up,2025-06-12,Can we schedule a call sometime next week?,False
+A00689,D0762,follow_up,2026-07-09,We may have to look at other vendors if this isn't resolved.,False
+A00690,D0627,email,,"Not happy with the delay, please escalate.",False
+A00691,D0298,follow_up,2026-03-04,,False
+A00692,D0604,call,2026-04-19,"Not happy with the delay, please escalate.",False
+A00693,D0237,meeting,,"Not happy with the delay, please escalate.",False
+A00694,D0873,call,,,False
+A00695,D0235,call,2025-11-19,Following up on our last conversation regarding pricing.,False
+A00696,D0078,meeting,,"This is taking longer than expected, we need an update asap.",False
+A00697,D0751,meeting,2026-07-05,"Not happy with the delay, please escalate.",False
+A00698,D0678,follow_up,,Following up on our last conversation regarding pricing.,False
+A00699,D0744,meeting,2026-07-04,,False
+A00700,D0663,email,,"really appreciate the detailed proposal, excited to move forward.",False
+A00701,D0265,email,,"this is taking longer than expected, we need an update asap.",False
+A00702,D0747,email,,Please find attached the requested documents.,False
+A00703,D0655,call,,"Great call today, looking forward to next steps.",False
+A00704,D0004,email,,Please find attached the requested documents.,False
+A00705,D0463,meeting,,"Not happy with the delay, please escalate.",False
+A00706,D0630,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00707,D0194,follow_up,2026-10-03,"Really appreciate the detailed proposal, excited to move forward.",False
+A00708,D0351,email,,Following up on our last conversation regarding pricing.,False
+A00709,D0647,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00710,D0827,follow_up,2025-12-02,following up on our last conversation regarding pricing.,False
+A00711,D0496,follow_up,,Following up on our last conversation regarding pricing.,False
+A00712,D0800,unknown,2026-02-05,"This is taking longer than expected, we need an update ASAP.",False
+A00713,D0043,call,,Can we schedule a call sometime next week?,False
+A00714,D0382,meeting,,,False
+A00715,D0864,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00716,D0567,follow_up,,,False
+A00717,D0856,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00718,D0057,meeting,2026-09-02,Please find attached the requested documents.,False
+A00719,D0288,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00720,D0757,meeting,,Please find attached the requested documents.,False
+A00721,D0891,email,,,False
+A00722,D0271,meeting,,"Great call today, looking forward to next steps.",False
+A00723,D0081,email,,Please find attached the requested documents.,False
+A00724,D0555,call,,We may have to look at other vendors if this isn't resolved.,False
+A00725,D0305,call,,Please find attached the requested documents.,False
+A00726,D0674,meeting,,"Great call today, looking forward to next steps.",False
+A00727,D0603,call,2026-03-22,"Thanks so much for the quick turnaround, this looks great!",False
+A00728,D0555,call,,We may have to look at other vendors if this isn't resolved.,False
+A00729,D0343,email,,,False
+A00730,D0224,email,,,False
+A00731,D0536,meeting,,,False
+A00732,D0217,follow_up,2025-02-12,We may have to look at other vendors if this isn't resolved.,False
+A00733,D0605,note,,Please find attached the requested documents.,False
+A00734,D0128,note,,"Not happy with the delay, please escalate.",False
+A00735,D0605,email,2026-04-01,"Great call today, looking forward to next steps.",False
+A00736,D0688,email,,Following up on our last conversation regarding pricing.,False
+A00737,D0749,call,,Following up on our last conversation regarding pricing.,False
+A00738,D0003,email,,"this is taking longer than expected, we need an update asap.",False
+A00739,D0148,email,2026-11-05,Can we schedule a call sometime next week?,False
+A00740,D0676,follow_up,2026-02-19,Following up on our last conversation regarding pricing.,False
+A00741,D0399,meeting,,"Not happy with the delay, please escalate.",False
+A00742,D0051,meeting,,"not happy with the delay, please escalate.",False
+A00743,D0854,call,,Please find attached the requested documents.,False
+A00744,D0295,email,2026-08-05,"This is taking longer than expected, we need an update ASAP.",False
+A00745,D0781,follow_up,,"Not happy with the delay, please escalate.",False
+A00746,D0461,email,,"Not happy with the delay, please escalate.",False
+A00747,D0492,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00748,D0394,email,,We may have to look at other vendors if this isn't resolved.,False
+A00749,D0275,meeting,2026-12-05,Please find attached the requested documents.,False
+A00750,D0318,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00751,D0830,email,,We may have to look at other vendors if this isn't resolved.,False
+A00752,D0542,call,,Can we schedule a call sometime next week?,False
+A00753,D0430,follow_up,2026-07-07,following up on our last conversation regarding pricing.,False
+A00754,D0739,note,,Following up on our last conversation regarding pricing.,False
+A00755,D0617,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A00756,D0251,meeting,,Can we schedule a call sometime next week?,False
+A00757,D0546,meeting,2026-05-07,,False
+A00758,D0579,email,,Following up on our last conversation regarding pricing.,False
+A00759,D0757,call,,"Not happy with the delay, please escalate.",False
+A00760,D0220,email,,Please find attached the requested documents.,False
+A00761,D0124,meeting,2026-01-30,Following up on our last conversation regarding pricing.,False
+A00762,D0627,call,,We may have to look at other vendors if this isn't resolved.,False
+A00763,D0247,call,,we may have to look at other vendors if this isn't resolved.,False
+A00764,D0747,call,2026-05-01,Following up on our last conversation regarding pricing.,False
+A00765,D0103,call,,Please find attached the requested documents.,False
+A00766,D0366,unknown,2025-06-11,"Thanks so much for the quick turnaround, this looks great!",False
+A00767,D0586,call,,"Great call today, looking forward to next steps.",False
+A00768,D0047,email,,following up on our last conversation regarding pricing.,False
+A00769,D0678,unknown,,"thanks so much for the quick turnaround, this looks great!",False
+A00770,D0210,meeting,,,False
+A00771,D0163,unknown,2025-03-11,Can we schedule a call sometime next week?,False
+A00772,D0864,note,2026-04-02,Following up on our last conversation regarding pricing.,False
+A00773,D0446,email,2026-10-03,Please find attached the requested documents.,False
+A00774,D0621,follow_up,,Can we schedule a call sometime next week?,False
+A00775,D0609,follow_up,,"Not happy with the delay, please escalate.",False
+A00776,D0814,unknown,,Following up on our last conversation regarding pricing.,False
+A00777,D0856,call,,"This is taking longer than expected, we need an update ASAP.",False
+A00778,D0094,follow_up,2025-05-11,"Thanks so much for the quick turnaround, this looks great!",False
+A00779,D0878,call,2026-05-05,"Great call today, looking forward to next steps.",False
+A00780,D0897,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00781,D0621,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00782,D0266,meeting,,"Great call today, looking forward to next steps.",False
+A00783,D0859,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00784,D0074,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00785,D0169,meeting,,,False
+A00786,D0028,call,2026-08-06,"Really appreciate the detailed proposal, excited to move forward.",False
+A00787,D0828,follow_up,,,False
+A00788,D0803,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00789,D0321,note,,Please find attached the requested documents.,False
+A00790,D0088,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A00791,D0787,call,,,False
+A00792,D0389,unknown,,,False
+A00793,D0051,call,2026-06-03,"This is taking longer than expected, we need an update ASAP.",False
+A00794,D0371,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A00795,D0423,email,,Following up on our last conversation regarding pricing.,False
+A00796,D0051,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00797,D0041,unknown,,Following up on our last conversation regarding pricing.,False
+A00798,D0629,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00799,D0877,follow_up,,,False
+A00800,D0126,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00801,D0757,call,,"Great call today, looking forward to next steps.",False
+A00802,D0661,email,2026-01-13,,False
+A00803,D0275,email,,"Great call today, looking forward to next steps.",False
+A00804,D0303,email,,,False
+A00805,D0860,note,2025-11-12,Can we schedule a call sometime next week?,False
+A00806,D0442,email,,,False
+A00807,D0400,meeting,2025-12-30,"Great call today, looking forward to next steps.",False
+A00808,D0776,meeting,,"Great call today, looking forward to next steps.",False
+A00809,D0692,meeting,2026-06-02,please find attached the requested documents.,False
+A00810,D0747,call,2025-11-09,"This is taking longer than expected, we need an update ASAP.",False
+A00811,D0884,meeting,,,False
+A00812,D0232,call,,We may have to look at other vendors if this isn't resolved.,False
+A00813,D0283,meeting,,"Not happy with the delay, please escalate.",False
+A00814,D0690,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A00815,D0210,email,,Following up on our last conversation regarding pricing.,False
+A00816,D0323,call,2026-10-07,,False
+A00817,D0729,follow_up,2026-02-11,"Really appreciate the detailed proposal, excited to move forward.",False
+A00818,D0204,email,,"Not happy with the delay, please escalate.",False
+A00819,D0331,email,,"This is taking longer than expected, we need an update ASAP.",False
+A00820,D0086,follow_up,2026-04-21,,False
+A00821,D0513,note,,"Thanks so much for the quick turnaround, this looks great!",False
+A00822,D0841,call,2026-08-07,"Really appreciate the detailed proposal, excited to move forward.",False
+A00823,D0563,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00824,D0484,unknown,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00825,D0004,follow_up,2025-12-18,Can we schedule a call sometime next week?,False
+A00826,D0185,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00827,D0655,follow_up,,Please find attached the requested documents.,False
+A00828,D0489,meeting,,"Great call today, looking forward to next steps.",False
+A00829,D0175,email,,we may have to look at other vendors if this isn't resolved.,False
+A00830,D0282,meeting,,,False
+A00831,D0764,meeting,,,False
+A00832,D0376,call,,Following up on our last conversation regarding pricing.,False
+A00833,D0446,call,2026-08-04,"Really appreciate the detailed proposal, excited to move forward.",False
+A00834,D0867,call,2026-11-05,"Thanks so much for the quick turnaround, this looks great!",False
+A00835,D0400,note,,"Thanks so much for the quick turnaround, this looks great!",False
+A00836,D0075,meeting,2025-04-12,"Really appreciate the detailed proposal, excited to move forward.",False
+A00837,D0261,meeting,2026-06-06,We may have to look at other vendors if this isn't resolved.,False
+A00838,D0112,unknown,2026-04-04,"This is taking longer than expected, we need an update ASAP.",False
+A00839,D0147,follow_up,,Please find attached the requested documents.,False
+A00840,D0119,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00841,D0799,email,,"Not happy with the delay, please escalate.",False
+A00842,D0755,follow_up,2025-02-11,Following up on our last conversation regarding pricing.,False
+A00843,D0742,call,,Can we schedule a call sometime next week?,False
+A00844,D0621,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00845,D0187,call,2026-05-05,Please find attached the requested documents.,False
+A00846,D0775,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A00847,D0385,meeting,,"Not happy with the delay, please escalate.",False
+A00848,D0149,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A00849,D0151,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A00850,D0584,follow_up,,"Great call today, looking forward to next steps.",False
+A00851,D0860,email,,"This is taking longer than expected, we need an update ASAP.",False
+A00852,D0057,note,,We may have to look at other vendors if this isn't resolved.,False
+A00853,D0121,unknown,2026-04-03,"not happy with the delay, please escalate.",False
+A00854,D0576,email,,Can we schedule a call sometime next week?,False
+A00855,D0371,email,,"Great call today, looking forward to next steps.",False
+A00856,D0018,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00857,D0146,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00858,D0151,note,,We may have to look at other vendors if this isn't resolved.,False
+A00859,D0273,call,2026-02-04,"This is taking longer than expected, we need an update ASAP.",False
+A00860,D0850,email,,,False
+A00861,D0851,email,,Can we schedule a call sometime next week?,False
+A00862,D0769,call,2025-08-12,Please find attached the requested documents.,False
+A00863,D0602,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A00864,D0169,unknown,2026-03-06,"Thanks so much for the quick turnaround, this looks great!",False
+A00865,D0615,note,2026-03-17,"Really appreciate the detailed proposal, excited to move forward.",False
+A00866,D0782,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00867,D0343,call,,,False
+A00868,D0664,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00869,D0465,note,,Following up on our last conversation regarding pricing.,False
+A00870,D0658,note,2025-09-12,Can we schedule a call sometime next week?,False
+A00871,D0018,unknown,,,False
+A00872,D0460,email,2026-02-26,"Great call today, looking forward to next steps.",False
+A00873,D0569,call,2026-07-09,"Not happy with the delay, please escalate.",False
+A00874,D0165,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00875,D0407,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00876,D0465,email,,Can we schedule a call sometime next week?,False
+A00877,D0208,meeting,2026-01-07,"Really appreciate the detailed proposal, excited to move forward.",False
+A00878,D0476,call,2026-05-05,"Really appreciate the detailed proposal, excited to move forward.",False
+A00879,D0389,call,2026-02-14,Following up on our last conversation regarding pricing.,False
+A00880,D0326,email,,Can we schedule a call sometime next week?,False
+A00881,D0459,call,,Please find attached the requested documents.,False
+A00882,D0744,email,,"thanks so much for the quick turnaround, this looks great!",False
+A00883,D0523,call,2026-10-07,"This is taking longer than expected, we need an update ASAP.",False
+A00884,D0243,unknown,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00885,D0146,unknown,2025-12-17,we may have to look at other vendors if this isn't resolved.,False
+A00886,D0015,email,2026-02-27,We may have to look at other vendors if this isn't resolved.,False
+A00887,D0199,meeting,2026-06-28,"Great call today, looking forward to next steps.",False
+A00888,D0850,unknown,,"Not happy with the delay, please escalate.",False
+A00889,D0847,email,,Following up on our last conversation regarding pricing.,False
+A00890,D0182,follow_up,,"This is taking longer than expected, we need an update asap.",False
+A00891,D0769,unknown,2026-08-01,"Not happy with the delay, please escalate.",False
+A00892,D0737,note,,,False
+A00893,D0882,unknown,2025-12-25,We may have to look at other vendors if this isn't resolved.,False
+A00894,D0812,call,,,False
+A00895,D0861,email,,,False
+A00896,D0403,meeting,,Can we schedule a call sometime next week?,False
+A00897,D0108,meeting,2026-06-03,"Really appreciate the detailed proposal, excited to move forward.",False
+A00898,D0179,call,,Can we schedule a call sometime next week?,False
+A00899,D0774,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A00900,D0441,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A00901,D0130,call,,Following up on our last conversation regarding pricing.,False
+A00902,D0737,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A00903,D0306,follow_up,,,False
+A00904,D0087,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00905,D0037,unknown,2026-07-05,Following up on our last conversation regarding pricing.,False
+A00906,D0400,unknown,2026-06-02,"Thanks so much for the quick turnaround, this looks great!",False
+A00907,D0390,call,2026-05-02,"Not happy with the delay, please escalate.",False
+A00908,D0394,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A00909,D0158,email,,Following up on our last conversation regarding pricing.,False
+A00910,D0810,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00911,D0641,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00912,D0774,note,,Can we schedule a call sometime next week?,False
+A00913,D0032,call,,"Great call today, looking forward to next steps.",False
+A00914,D0384,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00915,D0144,meeting,,please find attached the requested documents.,False
+A00916,D0137,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A00917,D0200,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00918,D0082,meeting,,"not happy with the delay, please escalate.",False
+A00919,D0399,email,2026-10-02,"This is taking longer than expected, we need an update ASAP.",False
+A00920,D0712,email,,can we schedule a call sometime next week?,False
+A00921,D0517,call,2026-07-04,Can we schedule a call sometime next week?,False
+A00922,D0502,follow_up,2026-06-28,We may have to look at other vendors if this isn't resolved.,False
+A00923,D0775,unknown,,Please find attached the requested documents.,False
+A00924,D0644,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00925,D0493,follow_up,2025-05-12,Following up on our last conversation regarding pricing.,False
+A00926,D0596,email,2026-03-05,"Really appreciate the detailed proposal, excited to move forward.",False
+A00927,D0315,call,2026-03-07,"Really appreciate the detailed proposal, excited to move forward.",False
+A00928,D0110,email,,Following up on our last conversation regarding pricing.,False
+A00929,D0867,follow_up,2026-03-22,,False
+A00930,D0636,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00931,D0090,call,,"Not happy with the delay, please escalate.",False
+A00932,D0125,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00933,D0776,unknown,,can we schedule a call sometime next week?,False
+A00934,D0540,follow_up,,"this is taking longer than expected, we need an update asap.",False
+A00935,D0339,follow_up,2026-04-12,"This is taking longer than expected, we need an update asap.",False
+A00936,D0792,follow_up,2026-06-13,We may have to look at other vendors if this isn't resolved.,False
+A00937,D0172,email,,We may have to look at other vendors if this isn't resolved.,False
+A00938,D0686,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A00939,D0325,follow_up,,"Great call today, looking forward to next steps.",False
+A00940,D0122,call,2025-12-03,Can we schedule a call sometime next week?,False
+A00941,D0007,call,,Please find attached the requested documents.,False
+A00942,D0663,email,,following up on our last conversation regarding pricing.,False
+A00943,D0484,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00944,D0493,call,2026-05-11,We may have to look at other vendors if this isn't resolved.,False
+A00945,D0291,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00946,D0635,unknown,2026-03-04,"This is taking longer than expected, we need an update ASAP.",False
+A00947,D0452,meeting,,"thanks so much for the quick turnaround, this looks great!",False
+A00948,D0757,email,,,False
+A00949,D0224,email,2026-03-07,,False
+A00950,D0205,follow_up,,,False
+A00951,D0757,call,,Following up on our last conversation regarding pricing.,False
+A00952,D0209,follow_up,,we may have to look at other vendors if this isn't resolved.,False
+A00953,D0532,call,,"Great call today, looking forward to next steps.",False
+A00954,D0329,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00955,D0389,email,2026-09-06,,False
+A00956,D0837,unknown,,Following up on our last conversation regarding pricing.,False
+A00957,D0563,email,,"not happy with the delay, please escalate.",False
+A00958,D0221,email,,"Great call today, looking forward to next steps.",False
+A00959,D0334,email,,Following up on our last conversation regarding pricing.,False
+A00960,D0104,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00961,D0564,email,,Can we schedule a call sometime next week?,False
+A00962,D0251,follow_up,,Following up on our last conversation regarding pricing.,False
+A00963,D0274,note,2025-11-28,"Not happy with the delay, please escalate.",False
+A00964,D0297,email,,Can we schedule a call sometime next week?,False
+A00965,D0831,unknown,,"Great call today, looking forward to next steps.",False
+A00966,D0869,follow_up,,"Great call today, looking forward to next steps.",False
+A00967,D0340,email,,"Not happy with the delay, please escalate.",False
+A00968,D0737,call,,"Great call today, looking forward to next steps.",False
+A00969,D0532,email,2026-12-03,"really appreciate the detailed proposal, excited to move forward.",False
+A00970,D0747,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00971,D0568,unknown,2026-01-03,We may have to look at other vendors if this isn't resolved.,False
+A00972,D0449,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A00973,D0548,note,2026-10-01,Following up on our last conversation regarding pricing.,False
+A00974,D0242,note,,,False
+A00975,D0856,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00976,D0592,email,,,False
+A00977,D0204,unknown,,Following up on our last conversation regarding pricing.,False
+A00978,D0006,follow_up,2025-12-10,"Really appreciate the detailed proposal, excited to move forward.",False
+A00979,D0096,follow_up,2025-06-11,"This is taking longer than expected, we need an update asap.",False
+A00980,D0156,call,2025-09-12,"Not happy with the delay, please escalate.",False
+A00981,D0143,call,,"really appreciate the detailed proposal, excited to move forward.",False
+A00982,D0133,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00983,D0678,follow_up,,Following up on our last conversation regarding pricing.,False
+A00984,D0220,call,2026-11-05,"This is taking longer than expected, we need an update ASAP.",False
+A00985,D0014,email,,we may have to look at other vendors if this isn't resolved.,False
+A00986,D0289,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A00987,D0641,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A00988,D0138,email,2025-11-27,"Great call today, looking forward to next steps.",False
+A00989,D0199,meeting,,,False
+A00990,D0760,call,2026-09-02,can we schedule a call sometime next week?,False
+A00991,D0509,call,,"not happy with the delay, please escalate.",False
+A00992,D0435,meeting,,Can we schedule a call sometime next week?,False
+A00993,D0134,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00994,D0027,email,2026-07-03,"this is taking longer than expected, we need an update asap.",False
+A00995,D0491,email,,"thanks so much for the quick turnaround, this looks great!",False
+A00996,D0454,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00997,D0881,meeting,,Can we schedule a call sometime next week?,False
+A00998,D0163,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A00999,D0631,meeting,2026-02-15,"Not happy with the delay, please escalate.",False
+A01000,D0463,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01001,D0798,meeting,2025-11-09,"Great call today, looking forward to next steps.",False
+A01002,D0862,call,,"Not happy with the delay, please escalate.",False
+A01003,D0569,call,,,False
+A01004,D0755,note,2026-02-03,"Not happy with the delay, please escalate.",False
+A01005,D0093,unknown,,"Thanks so much for the quick turnaround, this looks great!",False
+A01006,D0832,meeting,2026-05-02,"Thanks so much for the quick turnaround, this looks great!",False
+A01007,D0351,call,2025-08-12,We may have to look at other vendors if this isn't resolved.,False
+A01008,D0253,call,,,False
+A01009,D0892,meeting,,Please find attached the requested documents.,False
+A01010,D0411,email,2025-03-11,"Thanks so much for the quick turnaround, this looks great!",False
+A01011,D0358,follow_up,,"Not happy with the delay, please escalate.",False
+A01012,D0260,unknown,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01013,D0688,email,,"Not happy with the delay, please escalate.",False
+A01014,D0520,note,,,False
+A01015,D0247,email,2026-07-05,"Thanks so much for the quick turnaround, this looks great!",False
+A01016,D0413,note,,,False
+A01017,D0070,call,,"Not happy with the delay, please escalate.",False
+A01018,D0259,call,,Please find attached the requested documents.,False
+A01019,D0566,call,,Please find attached the requested documents.,False
+A01020,D0684,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A01021,D0039,follow_up,,"Not happy with the delay, please escalate.",False
+A01022,D0621,follow_up,2026-06-03,"really appreciate the detailed proposal, excited to move forward.",False
+A01023,D0702,call,2026-06-23,We may have to look at other vendors if this isn't resolved.,False
+A01024,D0392,call,2025-12-08,Please find attached the requested documents.,False
+A01025,D0585,meeting,2026-03-06,Can we schedule a call sometime next week?,False
+A01026,D0706,follow_up,,Please find attached the requested documents.,False
+A01027,D0626,unknown,2026-11-07,please find attached the requested documents.,False
+A01028,D0677,email,,"Not happy with the delay, please escalate.",False
+A01029,D0554,email,2026-06-18,"Thanks so much for the quick turnaround, this looks great!",False
+A01030,D0676,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01031,D0559,call,,We may have to look at other vendors if this isn't resolved.,False
+A01032,D0799,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01033,D0023,follow_up,,Please find attached the requested documents.,False
+A01034,D0835,call,2026-05-13,Please find attached the requested documents.,False
+A01035,D0777,call,,We may have to look at other vendors if this isn't resolved.,False
+A01036,D0585,unknown,,"Not happy with the delay, please escalate.",False
+A01037,D0064,call,2026-10-01,"This is taking longer than expected, we need an update ASAP.",False
+A01038,D0096,email,2026-05-10,"Really appreciate the detailed proposal, excited to move forward.",False
+A01039,D0783,call,,"Not happy with the delay, please escalate.",False
+A01040,D0811,email,2026-04-08,We may have to look at other vendors if this isn't resolved.,False
+A01041,D0744,note,2026-04-09,"Thanks so much for the quick turnaround, this looks great!",False
+A01042,D0235,call,,"this is taking longer than expected, we need an update asap.",False
+A01043,D0507,follow_up,,"Not happy with the delay, please escalate.",False
+A01044,D0708,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A01045,D0472,follow_up,2026-05-20,,False
+A01046,D0620,note,,"This is taking longer than expected, we need an update ASAP.",False
+A01047,D0272,follow_up,,"Not happy with the delay, please escalate.",False
+A01048,D0455,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01049,D0365,follow_up,2026-05-05,Please find attached the requested documents.,False
+A01050,D0515,follow_up,,Please find attached the requested documents.,False
+A01051,D0514,email,2026-01-02,"Great call today, looking forward to next steps.",False
+A01052,D0155,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01053,D0065,call,2026-09-07,"Really appreciate the detailed proposal, excited to move forward.",False
+A01054,D0743,email,,"Great call today, looking forward to next steps.",False
+A01055,D0732,note,,"Not happy with the delay, please escalate.",False
+A01056,D0350,email,,Please find attached the requested documents.,False
+A01057,D0411,meeting,,"Great call today, looking forward to next steps.",False
+A01058,D0769,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01059,D0666,call,,Please find attached the requested documents.,False
+A01060,D0412,call,2026-07-11,"Really appreciate the detailed proposal, excited to move forward.",False
+A01061,D0265,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A01062,D0747,call,2026-01-08,we may have to look at other vendors if this isn't resolved.,False
+A01063,D0454,meeting,2025-10-11,Following up on our last conversation regarding pricing.,False
+A01064,D0404,note,,"This is taking longer than expected, we need an update ASAP.",False
+A01065,D0825,email,,"This is taking longer than expected, we need an update ASAP.",False
+A01066,D0320,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01067,D0322,call,,"Great call today, looking forward to next steps.",False
+A01068,D0060,unknown,2025-08-11,,False
+A01069,D0117,call,2025-12-18,"Thanks so much for the quick turnaround, this looks great!",False
+A01070,D0771,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A01071,D0727,email,,Please find attached the requested documents.,False
+A01072,D0389,unknown,,"Thanks so much for the quick turnaround, this looks great!",False
+A01073,D0309,email,,please find attached the requested documents.,False
+A01074,D0386,note,,We may have to look at other vendors if this isn't resolved.,False
+A01075,D0421,call,2025-12-24,please find attached the requested documents.,False
+A01076,D0319,meeting,,"Not happy with the delay, please escalate.",False
+A01077,D0539,call,,Can we schedule a call sometime next week?,False
+A01078,D0519,follow_up,,"Great call today, looking forward to next steps.",False
+A01079,D0265,note,,"Great call today, looking forward to next steps.",False
+A01080,D0297,call,,,False
+A01081,D0712,note,,"really appreciate the detailed proposal, excited to move forward.",False
+A01082,D0781,unknown,2026-06-04,"Not happy with the delay, please escalate.",False
+A01083,D0324,follow_up,,"thanks so much for the quick turnaround, this looks great!",False
+A01084,D0727,call,,Please find attached the requested documents.,False
+A01085,D0398,call,,We may have to look at other vendors if this isn't resolved.,False
+A01086,D0529,note,2025-11-26,we may have to look at other vendors if this isn't resolved.,False
+A01087,D0178,follow_up,,"Not happy with the delay, please escalate.",False
+A01088,D0822,meeting,2025-12-09,Please find attached the requested documents.,False
+A01089,D0436,call,2025-01-11,"Great call today, looking forward to next steps.",False
+A01090,D0235,unknown,2026-05-31,Can we schedule a call sometime next week?,False
+A01091,D0888,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A01092,D0173,meeting,,"Great call today, looking forward to next steps.",False
+A01093,D0571,email,,Can we schedule a call sometime next week?,False
+A01094,D0275,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01095,D0293,unknown,,,False
+A01096,D0144,email,2026-05-18,Please find attached the requested documents.,False
+A01097,D0755,unknown,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01098,D0408,email,,,False
+A01099,D0889,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01100,D0013,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01101,D0253,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A01102,D0236,meeting,,"Great call today, looking forward to next steps.",False
+A01103,D0339,email,2026-04-07,"Thanks so much for the quick turnaround, this looks great!",False
+A01104,D0807,call,2026-06-22,"Not happy with the delay, please escalate.",False
+A01105,D0069,note,2026-08-06,Please find attached the requested documents.,False
+A01106,D0369,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A01107,D0371,call,,Following up on our last conversation regarding pricing.,False
+A01108,D0110,call,,Following up on our last conversation regarding pricing.,False
+A01109,D0550,unknown,,Please find attached the requested documents.,False
+A01110,D0824,follow_up,2025-12-05,We may have to look at other vendors if this isn't resolved.,False
+A01111,D0590,follow_up,,Can we schedule a call sometime next week?,False
+A01112,D0858,unknown,2025-11-28,"Great call today, looking forward to next steps.",False
+A01113,D0830,call,,We may have to look at other vendors if this isn't resolved.,False
+A01114,D0259,email,,We may have to look at other vendors if this isn't resolved.,False
+A01115,D0167,follow_up,,"really appreciate the detailed proposal, excited to move forward.",False
+A01116,D0662,follow_up,2025-11-06,"Great call today, looking forward to next steps.",False
+A01117,D0177,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A01118,D0125,call,,"Great call today, looking forward to next steps.",False
+A01119,D0017,call,2026-06-15,"Not happy with the delay, please escalate.",False
+A01120,D0031,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A01121,D0733,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01122,D0393,call,,We may have to look at other vendors if this isn't resolved.,False
+A01123,D0250,call,,"Not happy with the delay, please escalate.",False
+A01124,D0785,follow_up,,Can we schedule a call sometime next week?,False
+A01125,D0603,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A01126,D0018,unknown,2026-01-05,"Great call today, looking forward to next steps.",False
+A01127,D0286,meeting,,,False
+A01128,D0021,call,2026-04-16,,False
+A01129,D0663,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01130,D0539,email,,"Not happy with the delay, please escalate.",False
+A01131,D0629,follow_up,,"Not happy with the delay, please escalate.",False
+A01132,D0377,follow_up,2026-07-02,"This is taking longer than expected, we need an update ASAP.",False
+A01133,D0145,note,,"this is taking longer than expected, we need an update asap.",False
+A01134,D0804,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01135,D0651,follow_up,,,False
+A01136,D0032,meeting,2026-04-28,"Great call today, looking forward to next steps.",False
+A01137,D0584,unknown,2025-09-11,following up on our last conversation regarding pricing.,False
+A01138,D0136,note,,"Not happy with the delay, please escalate.",False
+A01139,D0592,follow_up,,"This is taking longer than expected, we need an update asap.",False
+A01140,D0567,call,,Can we schedule a call sometime next week?,False
+A01141,D0803,unknown,,Can we schedule a call sometime next week?,False
+A01142,D0499,unknown,,"Great call today, looking forward to next steps.",False
+A01143,D0190,call,,"Great call today, looking forward to next steps.",False
+A01144,D0607,note,2026-01-29,please find attached the requested documents.,False
+A01145,D0489,meeting,,"Not happy with the delay, please escalate.",False
+A01146,D0621,meeting,,Please find attached the requested documents.,False
+A01147,D0567,meeting,,,False
+A01148,D0446,follow_up,,"great call today, looking forward to next steps.",False
+A01149,D0509,call,2026-09-06,"Thanks so much for the quick turnaround, this looks great!",False
+A01150,D0722,meeting,2026-03-04,"not happy with the delay, please escalate.",False
+A01151,D0286,unknown,,"Great call today, looking forward to next steps.",False
+A01152,D0590,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01153,D0837,follow_up,,"Not happy with the delay, please escalate.",False
+A01154,D0430,call,,,False
+A01155,D0806,meeting,,"really appreciate the detailed proposal, excited to move forward.",False
+A01156,D0002,follow_up,2026-02-22,"Really appreciate the detailed proposal, excited to move forward.",False
+A01157,D0323,email,,Can we schedule a call sometime next week?,False
+A01158,D0813,unknown,,,False
+A01159,D0073,note,2026-01-07,"Thanks so much for the quick turnaround, this looks great!",False
+A01160,D0718,call,,Please find attached the requested documents.,False
+A01161,D0301,email,2025-05-12,We may have to look at other vendors if this isn't resolved.,False
+A01162,D0587,email,2026-05-17,can we schedule a call sometime next week?,False
+A01163,D0484,call,,We may have to look at other vendors if this isn't resolved.,False
+A01164,D0208,meeting,,Following up on our last conversation regarding pricing.,False
+A01165,D0073,call,2026-01-01,"Great call today, looking forward to next steps.",False
+A01166,D0626,note,2026-04-02,"Really appreciate the detailed proposal, excited to move forward.",False
+A01167,D0496,meeting,,Following up on our last conversation regarding pricing.,False
+A01168,D0431,follow_up,,Please find attached the requested documents.,False
+A01169,D0764,note,,We may have to look at other vendors if this isn't resolved.,False
+A01170,D0258,meeting,,Following up on our last conversation regarding pricing.,False
+A01171,D0326,email,,"This is taking longer than expected, we need an update ASAP.",False
+A01172,D0339,meeting,,"Not happy with the delay, please escalate.",False
+A01173,D0403,meeting,,Can we schedule a call sometime next week?,False
+A01174,D0164,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01175,D0785,meeting,2026-04-16,Please find attached the requested documents.,False
+A01176,D0615,call,2026-12-02,"Really appreciate the detailed proposal, excited to move forward.",False
+A01177,D0520,note,2026-06-05,"Great call today, looking forward to next steps.",False
+A01178,D0456,note,,,False
+A01179,D0735,follow_up,2026-12-03,Can we schedule a call sometime next week?,False
+A01180,D0716,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01181,D0322,follow_up,2026-11-02,"thanks so much for the quick turnaround, this looks great!",False
+A01182,D0832,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01183,D0188,meeting,,Please find attached the requested documents.,False
+A01184,D0348,call,,"Not happy with the delay, please escalate.",False
+A01185,D0196,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01186,D0605,meeting,2025-02-12,"Really appreciate the detailed proposal, excited to move forward.",False
+A01187,D0295,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A01188,D0122,call,2026-05-07,"Thanks so much for the quick turnaround, this looks great!",False
+A01189,D0519,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01190,D0629,call,,"Great call today, looking forward to next steps.",False
+A01191,D0779,email,,can we schedule a call sometime next week?,False
+A01192,D0073,call,,"Not happy with the delay, please escalate.",False
+A01193,D0660,call,2025-11-25,We may have to look at other vendors if this isn't resolved.,False
+A01194,D0735,unknown,2025-03-11,Following up on our last conversation regarding pricing.,False
+A01195,D0712,email,,Following up on our last conversation regarding pricing.,False
+A01196,D0595,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A01197,D0777,email,2026-09-06,following up on our last conversation regarding pricing.,False
+A01198,D0012,call,2026-03-27,Can we schedule a call sometime next week?,False
+A01199,D0189,meeting,,,False
+A01200,D0192,follow_up,2026-08-06,Following up on our last conversation regarding pricing.,False
+A01201,D0877,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A01202,D0539,note,2026-07-01,Can we schedule a call sometime next week?,False
+A01203,D0554,follow_up,,Please find attached the requested documents.,False
+A01204,D0120,call,2025-11-16,Following up on our last conversation regarding pricing.,False
+A01205,D0007,meeting,,"Not happy with the delay, please escalate.",False
+A01206,D0577,follow_up,,"Not happy with the delay, please escalate.",False
+A01207,D0191,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01208,D0237,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01209,D0379,meeting,2026-02-07,Please find attached the requested documents.,False
+A01210,D0026,follow_up,2026-07-31,"Really appreciate the detailed proposal, excited to move forward.",False
+A01211,D0166,email,,"thanks so much for the quick turnaround, this looks great!",False
+A01212,D0173,call,,"Great call today, looking forward to next steps.",False
+A01213,D0538,call,2026-04-29,"Thanks so much for the quick turnaround, this looks great!",False
+A01214,D0445,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01215,D0564,follow_up,,Can we schedule a call sometime next week?,False
+A01216,D0482,email,,,False
+A01217,D0052,meeting,2025-12-26,We may have to look at other vendors if this isn't resolved.,False
+A01218,D0879,email,,"This is taking longer than expected, we need an update ASAP.",False
+A01219,D0596,unknown,,Please find attached the requested documents.,False
+A01220,D0888,call,,"great call today, looking forward to next steps.",False
+A01221,D0167,call,,We may have to look at other vendors if this isn't resolved.,False
+A01222,D0131,email,2026-01-03,"Thanks so much for the quick turnaround, this looks great!",False
+A01223,D0499,meeting,,,False
+A01224,D0369,follow_up,2026-09-02,"Thanks so much for the quick turnaround, this looks great!",False
+A01225,D0753,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A01226,D0153,email,,"Not happy with the delay, please escalate.",False
+A01227,D0131,call,2026-06-01,"Thanks so much for the quick turnaround, this looks great!",False
+A01228,D0516,call,2026-03-07,"This is taking longer than expected, we need an update ASAP.",False
+A01229,D0699,call,,Following up on our last conversation regarding pricing.,False
+A01230,D0471,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01231,D0787,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01232,D0703,call,2026-02-03,"Thanks so much for the quick turnaround, this looks great!",False
+A01233,D0768,follow_up,,Please find attached the requested documents.,False
+A01234,D0555,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A01235,D0084,email,2026-03-13,,False
+A01236,D0416,follow_up,2025-11-22,"This is taking longer than expected, we need an update ASAP.",False
+A01237,D0675,call,2026-07-08,"Great call today, looking forward to next steps.",False
+A01238,D0404,meeting,,Please find attached the requested documents.,False
+A01239,D0308,call,2026-03-23,"This is taking longer than expected, we need an update ASAP.",False
+A01240,D0620,email,,"This is taking longer than expected, we need an update ASAP.",False
+A01241,D0620,note,,"Great call today, looking forward to next steps.",False
+A01242,D0445,call,2025-04-12,Please find attached the requested documents.,False
+A01243,D0141,meeting,,Can we schedule a call sometime next week?,False
+A01244,D0696,follow_up,2026-04-06,We may have to look at other vendors if this isn't resolved.,False
+A01245,D0609,follow_up,,"this is taking longer than expected, we need an update asap.",False
+A01246,D0319,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01247,D0347,email,,"Not happy with the delay, please escalate.",False
+A01248,D0375,call,,Following up on our last conversation regarding pricing.,False
+A01249,D0835,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01250,D0869,follow_up,2025-06-11,Can we schedule a call sometime next week?,False
+A01251,D0885,unknown,2026-06-17,Please find attached the requested documents.,False
+A01252,D0412,follow_up,,Can we schedule a call sometime next week?,False
+A01253,D0246,note,2026-04-10,Please find attached the requested documents.,False
+A01254,D0609,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A01255,D0081,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01256,D0587,meeting,,Please find attached the requested documents.,False
+A01257,D0190,note,,Can we schedule a call sometime next week?,False
+A01258,D0865,unknown,,"Thanks so much for the quick turnaround, this looks great!",False
+A01259,D0140,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01260,D0834,meeting,,Please find attached the requested documents.,False
+A01261,D0254,email,2026-02-03,Please find attached the requested documents.,False
+A01262,D0219,call,2026-01-01,Following up on our last conversation regarding pricing.,False
+A01263,D0107,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01264,D0365,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01265,D0095,follow_up,,Following up on our last conversation regarding pricing.,False
+A01266,D0287,email,,"Not happy with the delay, please escalate.",False
+A01267,D0667,unknown,,"not happy with the delay, please escalate.",False
+A01268,D0891,call,2026-05-28,Can we schedule a call sometime next week?,False
+A01269,D0228,unknown,,"This is taking longer than expected, we need an update ASAP.",False
+A01270,D0193,email,2026-07-07,Please find attached the requested documents.,False
+A01271,D0048,meeting,2026-05-26,We may have to look at other vendors if this isn't resolved.,False
+A01272,D0377,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A01273,D0877,email,,please find attached the requested documents.,False
+A01274,D0868,email,2026-11-01,Please find attached the requested documents.,False
+A01275,D0811,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01276,D0089,unknown,,following up on our last conversation regarding pricing.,False
+A01277,D0355,meeting,,"this is taking longer than expected, we need an update asap.",False
+A01278,D0616,email,2026-05-18,Following up on our last conversation regarding pricing.,False
+A01279,D0631,meeting,,following up on our last conversation regarding pricing.,False
+A01280,D0710,unknown,,Following up on our last conversation regarding pricing.,False
+A01281,D0179,call,2026-06-02,Following up on our last conversation regarding pricing.,False
+A01282,D0233,note,,Can we schedule a call sometime next week?,False
+A01283,D0094,call,2026-05-25,"Thanks so much for the quick turnaround, this looks great!",False
+A01284,D0510,call,2026-09-06,,False
+A01285,D0504,call,2026-01-04,Can we schedule a call sometime next week?,False
+A01286,D0567,email,,We may have to look at other vendors if this isn't resolved.,False
+A01287,D0092,unknown,2026-07-13,Please find attached the requested documents.,False
+A01288,D0413,unknown,2026-01-18,please find attached the requested documents.,False
+A01289,D0222,email,,We may have to look at other vendors if this isn't resolved.,False
+A01290,D0623,meeting,,Can we schedule a call sometime next week?,False
+A01291,D0759,follow_up,,"Great call today, looking forward to next steps.",False
+A01292,D0059,note,,Can we schedule a call sometime next week?,False
+A01293,D0399,email,2026-05-30,Following up on our last conversation regarding pricing.,False
+A01294,D0545,call,2026-01-10,please find attached the requested documents.,False
+A01295,D0498,meeting,,Please find attached the requested documents.,False
+A01296,D0332,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01297,D0411,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01298,D0485,meeting,,,False
+A01299,D0327,meeting,2026-07-07,"Really appreciate the detailed proposal, excited to move forward.",False
+A01300,D0738,meeting,,Can we schedule a call sometime next week?,False
+A01301,D0584,call,2026-05-06,Following up on our last conversation regarding pricing.,False
+A01302,D0509,meeting,,"Not happy with the delay, please escalate.",False
+A01303,D0019,meeting,2026-01-08,"Thanks so much for the quick turnaround, this looks great!",False
+A01304,D0509,call,,"Great call today, looking forward to next steps.",False
+A01305,D0586,email,2026-01-20,"This is taking longer than expected, we need an update ASAP.",False
+A01306,D0465,note,,,False
+A01307,D0437,unknown,2025-11-11,"Really appreciate the detailed proposal, excited to move forward.",False
+A01308,D0190,email,2026-01-14,"Thanks so much for the quick turnaround, this looks great!",False
+A01309,D0591,follow_up,2026-01-13,We may have to look at other vendors if this isn't resolved.,False
+A01310,D0653,email,,Please find attached the requested documents.,False
+A01311,D0646,note,,"Thanks so much for the quick turnaround, this looks great!",False
+A01312,D0805,follow_up,,,False
+A01313,D0124,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A01314,D0388,meeting,,"Not happy with the delay, please escalate.",False
+A01315,D0008,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01316,D0314,meeting,2026-06-17,"Not happy with the delay, please escalate.",False
+A01317,D0608,unknown,,"This is taking longer than expected, we need an update ASAP.",False
+A01318,D0356,note,2026-02-03,,False
+A01319,D0417,email,2025-05-11,"not happy with the delay, please escalate.",False
+A01320,D0396,meeting,,"Great call today, looking forward to next steps.",False
+A01321,D0113,follow_up,2025-10-11,"This is taking longer than expected, we need an update ASAP.",False
+A01322,D0712,meeting,2026-06-02,"Great call today, looking forward to next steps.",False
+A01323,D0542,email,,"This is taking longer than expected, we need an update ASAP.",False
+A01324,D0874,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A01325,D0627,note,,"This is taking longer than expected, we need an update ASAP.",False
+A01326,D0339,meeting,,Following up on our last conversation regarding pricing.,False
+A01327,D0075,meeting,2025-11-22,Following up on our last conversation regarding pricing.,False
+A01328,D0723,meeting,2026-07-04,Please find attached the requested documents.,False
+A01329,D0899,note,,we may have to look at other vendors if this isn't resolved.,False
+A01330,D0608,meeting,,"Not happy with the delay, please escalate.",False
+A01331,D0590,follow_up,,Please find attached the requested documents.,False
+A01332,D0009,follow_up,2026-10-01,"great call today, looking forward to next steps.",False
+A01333,D0045,unknown,,can we schedule a call sometime next week?,False
+A01334,D0804,note,2026-01-10,"Great call today, looking forward to next steps.",False
+A01335,D0251,call,,Please find attached the requested documents.,False
+A01336,D0391,call,,Following up on our last conversation regarding pricing.,False
+A01337,D0145,meeting,,Following up on our last conversation regarding pricing.,False
+A01338,D0880,note,,"this is taking longer than expected, we need an update asap.",False
+A01339,D0644,unknown,,,False
+A01340,D0588,follow_up,2026-03-01,Please find attached the requested documents.,False
+A01341,D0194,meeting,2026-04-28,,False
+A01342,D0556,follow_up,,Please find attached the requested documents.,False
+A01343,D0418,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01344,D0469,meeting,2026-03-01,,False
+A01345,D0238,unknown,2026-01-26,We may have to look at other vendors if this isn't resolved.,False
+A01346,D0674,note,,"Thanks so much for the quick turnaround, this looks great!",False
+A01347,D0667,meeting,2026-01-01,Please find attached the requested documents.,False
+A01348,D0052,email,,"Not happy with the delay, please escalate.",False
+A01349,D0477,meeting,,Please find attached the requested documents.,False
+A01350,D0159,email,,"thanks so much for the quick turnaround, this looks great!",False
+A01351,D0625,meeting,,"Great call today, looking forward to next steps.",False
+A01352,D0894,email,,We may have to look at other vendors if this isn't resolved.,False
+A01353,D0240,call,,Can we schedule a call sometime next week?,False
+A01354,D0221,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01355,D0480,unknown,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01356,D0468,meeting,2026-03-01,"Not happy with the delay, please escalate.",False
+A01357,D0490,follow_up,,,False
+A01358,D0285,meeting,,"Great call today, looking forward to next steps.",False
+A01359,D0570,meeting,2025-01-12,Following up on our last conversation regarding pricing.,False
+A01360,D0812,email,,,False
+A01361,D0819,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01362,D0168,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01363,D0424,meeting,,"Not happy with the delay, please escalate.",False
+A01364,D0852,unknown,2026-05-06,Can we schedule a call sometime next week?,False
+A01365,D0638,follow_up,,Please find attached the requested documents.,False
+A01366,D0555,email,2026-02-25,"Great call today, looking forward to next steps.",False
+A01367,D0152,meeting,,"great call today, looking forward to next steps.",False
+A01368,D0822,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A01369,D0730,meeting,,Following up on our last conversation regarding pricing.,False
+A01370,D0463,follow_up,2026-07-02,,False
+A01371,D0049,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A01372,D0705,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A01373,D0076,unknown,2026-02-11,Please find attached the requested documents.,False
+A01374,D0231,follow_up,,Please find attached the requested documents.,False
+A01375,D0326,call,,"great call today, looking forward to next steps.",False
+A01376,D0398,meeting,,,False
+A01377,D0878,meeting,2026-09-02,"this is taking longer than expected, we need an update asap.",False
+A01378,D0702,meeting,2026-01-19,Following up on our last conversation regarding pricing.,False
+A01379,D0002,follow_up,2025-11-12,Please find attached the requested documents.,False
+A01380,D0854,call,,"Not happy with the delay, please escalate.",False
+A01381,D0339,call,,"Great call today, looking forward to next steps.",False
+A01382,D0700,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01383,D0195,unknown,,"Great call today, looking forward to next steps.",False
+A01384,D0215,email,,Can we schedule a call sometime next week?,False
+A01385,D0464,unknown,,"Great call today, looking forward to next steps.",False
+A01386,D0018,note,2026-06-03,Can we schedule a call sometime next week?,False
+A01387,D0620,email,,Can we schedule a call sometime next week?,False
+A01388,D0155,follow_up,,Can we schedule a call sometime next week?,False
+A01389,D0788,note,2026-12-02,Can we schedule a call sometime next week?,False
+A01390,D0596,note,2026-09-04,"Not happy with the delay, please escalate.",False
+A01391,D0662,note,,Please find attached the requested documents.,False
+A01392,D0044,note,,,False
+A01393,D0685,follow_up,,Following up on our last conversation regarding pricing.,False
+A01394,D0552,call,,We may have to look at other vendors if this isn't resolved.,False
+A01395,D0877,email,,"really appreciate the detailed proposal, excited to move forward.",False
+A01396,D0849,email,,Please find attached the requested documents.,False
+A01397,D0116,meeting,2026-07-30,We may have to look at other vendors if this isn't resolved.,False
+A01398,D0412,meeting,2026-04-04,"Really appreciate the detailed proposal, excited to move forward.",False
+A01399,D0551,call,,"Great call today, looking forward to next steps.",False
+A01400,D0044,note,,"Not happy with the delay, please escalate.",False
+A01401,D0251,meeting,2026-05-20,"This is taking longer than expected, we need an update ASAP.",False
+A01402,D0767,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A01403,D0675,email,2025-03-12,"This is taking longer than expected, we need an update ASAP.",False
+A01404,D0198,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01405,D0260,follow_up,2026-07-06,Please find attached the requested documents.,False
+A01406,D0661,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01407,D0158,note,,Please find attached the requested documents.,False
+A01408,D0668,email,,,False
+A01409,D0225,note,,,False
+A01410,D0357,email,,can we schedule a call sometime next week?,False
+A01411,D0894,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A01412,D0251,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A01413,D0166,note,,"Great call today, looking forward to next steps.",False
+A01414,D0627,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01415,D0843,unknown,,following up on our last conversation regarding pricing.,False
+A01416,D0520,email,,"This is taking longer than expected, we need an update ASAP.",False
+A01417,D0209,email,2026-01-25,"Really appreciate the detailed proposal, excited to move forward.",False
+A01418,D0484,follow_up,2026-07-24,"Great call today, looking forward to next steps.",False
+A01419,D0445,follow_up,2026-09-05,"Thanks so much for the quick turnaround, this looks great!",False
+A01420,D0680,follow_up,2026-02-03,Following up on our last conversation regarding pricing.,False
+A01421,D0690,follow_up,,Can we schedule a call sometime next week?,False
+A01422,D0615,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A01423,D0505,note,,"This is taking longer than expected, we need an update ASAP.",False
+A01424,D0846,follow_up,,we may have to look at other vendors if this isn't resolved.,False
+A01425,D0273,email,,"Great call today, looking forward to next steps.",False
+A01426,D0420,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01427,D0594,follow_up,,Please find attached the requested documents.,False
+A01428,D0753,call,2026-02-01,"This is taking longer than expected, we need an update ASAP.",False
+A01429,D0842,note,2026-03-06,,False
+A01430,D0332,unknown,,We may have to look at other vendors if this isn't resolved.,False
+A01431,D0167,meeting,,Please find attached the requested documents.,False
+A01432,D0010,unknown,,"Thanks so much for the quick turnaround, this looks great!",False
+A01433,D0147,follow_up,,Please find attached the requested documents.,False
+A01434,D0634,note,,"Thanks so much for the quick turnaround, this looks great!",False
+A01435,D0315,unknown,,,False
+A01436,D0522,email,,please find attached the requested documents.,False
+A01437,D0296,unknown,,Following up on our last conversation regarding pricing.,False
+A01438,D0828,follow_up,2026-04-15,Please find attached the requested documents.,False
+A01439,D0272,meeting,,"Great call today, looking forward to next steps.",False
+A01440,D0404,call,2026-02-02,"Really appreciate the detailed proposal, excited to move forward.",False
+A01441,D0168,note,2025-12-02,"Thanks so much for the quick turnaround, this looks great!",False
+A01442,D0617,call,,we may have to look at other vendors if this isn't resolved.,False
+A01443,D0259,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A01444,D0569,email,2025-11-12,Can we schedule a call sometime next week?,False
+A01445,D0554,follow_up,,"Not happy with the delay, please escalate.",False
+A01446,D0109,follow_up,,"thanks so much for the quick turnaround, this looks great!",False
+A01447,D0808,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A01448,D0738,note,2025-12-19,"Really appreciate the detailed proposal, excited to move forward.",False
+A01449,D0611,meeting,2026-04-03,,False
+A01450,D0268,follow_up,2025-12-16,We may have to look at other vendors if this isn't resolved.,False
+A01451,D0302,note,,We may have to look at other vendors if this isn't resolved.,False
+A01452,D0020,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01453,D0032,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01454,D0049,email,,Please find attached the requested documents.,False
+A01455,D0616,follow_up,2025-11-28,"Not happy with the delay, please escalate.",False
+A01456,D0433,follow_up,2026-06-26,can we schedule a call sometime next week?,False
+A01457,D0387,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01458,D0612,note,2025-07-11,Can we schedule a call sometime next week?,False
+A01459,D0189,email,,Can we schedule a call sometime next week?,False
+A01460,D0664,meeting,,Please find attached the requested documents.,False
+A01461,D0399,meeting,,Can we schedule a call sometime next week?,False
+A01462,D0335,email,,,False
+A01463,D0851,call,,Can we schedule a call sometime next week?,False
+A01464,D0171,follow_up,,Following up on our last conversation regarding pricing.,False
+A01465,D0094,call,2025-12-05,Following up on our last conversation regarding pricing.,False
+A01466,D0649,unknown,2026-05-10,Please find attached the requested documents.,False
+A01467,D0253,follow_up,,Can we schedule a call sometime next week?,False
+A01468,D0599,meeting,,"Great call today, looking forward to next steps.",False
+A01469,D0416,call,,,False
+A01470,D0069,call,,,False
+A01471,D0316,follow_up,2026-01-31,"Not happy with the delay, please escalate.",False
+A01472,D0784,meeting,,"Great call today, looking forward to next steps.",False
+A01473,D0750,meeting,2025-11-30,"Really appreciate the detailed proposal, excited to move forward.",False
+A01474,D0826,follow_up,,Please find attached the requested documents.,False
+A01475,D0038,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A01476,D0543,email,2026-10-07,Following up on our last conversation regarding pricing.,False
+A01477,D0616,email,,We may have to look at other vendors if this isn't resolved.,False
+A01478,D0180,follow_up,,"Great call today, looking forward to next steps.",False
+A01479,D0010,meeting,2026-04-22,,False
+A01480,D0186,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01481,D0336,email,,"thanks so much for the quick turnaround, this looks great!",False
+A01482,D0110,meeting,2026-05-26,Following up on our last conversation regarding pricing.,False
+A01483,D0509,call,2026-05-11,"This is taking longer than expected, we need an update ASAP.",False
+A01484,D0408,follow_up,,Following up on our last conversation regarding pricing.,False
+A01485,D0602,follow_up,2026-05-17,"This is taking longer than expected, we need an update ASAP.",False
+A01486,D0054,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A01487,D0546,follow_up,2026-06-13,Following up on our last conversation regarding pricing.,False
+A01488,D0240,meeting,,We may have to look at other vendors if this isn't resolved.,False
+A01489,D0298,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A01490,D0796,follow_up,,"Not happy with the delay, please escalate.",False
+A01491,D0575,meeting,2026-04-11,Can we schedule a call sometime next week?,False
+A01492,D0773,follow_up,,,False
+A01493,D0147,call,,"Not happy with the delay, please escalate.",False
+A01494,D0603,call,,We may have to look at other vendors if this isn't resolved.,False
+A01495,D0881,unknown,2025-12-18,"Thanks so much for the quick turnaround, this looks great!",False
+A01496,D0542,meeting,,Can we schedule a call sometime next week?,False
+A01497,D0814,email,,We may have to look at other vendors if this isn't resolved.,False
+A01498,D0108,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A01499,D0771,note,2026-03-01,"Really appreciate the detailed proposal, excited to move forward.",False
+A01500,D0504,follow_up,,Can we schedule a call sometime next week?,False
+A01501,D0024,follow_up,,"Great call today, looking forward to next steps.",False
+A01502,D0591,call,,We may have to look at other vendors if this isn't resolved.,False
+A01503,D0600,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01504,D0763,follow_up,,,False
+A01505,D0857,meeting,2026-07-12,"Thanks so much for the quick turnaround, this looks great!",False
+A01506,D0590,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01507,D0129,follow_up,,"Great call today, looking forward to next steps.",False
+A01508,D0125,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01509,D0548,call,,,False
+A01510,D0139,meeting,2025-11-12,Following up on our last conversation regarding pricing.,False
+A01511,D0714,follow_up,2026-07-17,"this is taking longer than expected, we need an update asap.",False
+A01512,D0223,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A01513,D0248,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A01514,D0895,note,,,False
+A01515,D0343,note,,"Not happy with the delay, please escalate.",False
+A01516,D0809,call,,Following up on our last conversation regarding pricing.,False
+A01517,D0044,email,,"Not happy with the delay, please escalate.",False
+A01518,D0876,email,2026-02-03,"This is taking longer than expected, we need an update ASAP.",False
+A01519,D0256,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A01520,D0837,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01521,D0332,email,,,False
+A01522,D0383,call,,We may have to look at other vendors if this isn't resolved.,False
+A01523,D0220,call,2025-12-16,"This is taking longer than expected, we need an update ASAP.",False
+A01524,D0878,follow_up,,Please find attached the requested documents.,False
+A01525,D0542,follow_up,,Following up on our last conversation regarding pricing.,False
+A01526,D0589,call,2026-04-15,Please find attached the requested documents.,False
+A01527,D0676,follow_up,,"great call today, looking forward to next steps.",False
+A01528,D0879,meeting,,"Not happy with the delay, please escalate.",False
+A01529,D0773,meeting,,Can we schedule a call sometime next week?,False
+A01530,D0140,unknown,,Following up on our last conversation regarding pricing.,False
+A01531,D0826,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01532,D0841,meeting,,Following up on our last conversation regarding pricing.,False
+A01533,D0516,follow_up,,"Not happy with the delay, please escalate.",False
+A01534,D0668,meeting,,Following up on our last conversation regarding pricing.,False
+A01535,D0487,unknown,,Please find attached the requested documents.,False
+A01536,D0620,call,2026-02-07,can we schedule a call sometime next week?,False
+A01537,D0895,note,,we may have to look at other vendors if this isn't resolved.,False
+A01538,D0271,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01539,D0891,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01540,D0473,email,,,False
+A01541,D0707,unknown,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01542,D0381,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01543,D0317,call,,"Great call today, looking forward to next steps.",False
+A01544,D0477,call,,"not happy with the delay, please escalate.",False
+A01545,D0262,follow_up,2026-02-03,"Great call today, looking forward to next steps.",False
+A01546,D0863,meeting,2025-05-12,Please find attached the requested documents.,False
+A01547,D0711,email,2026-04-03,"Really appreciate the detailed proposal, excited to move forward.",False
+A01548,D0037,email,,"This is taking longer than expected, we need an update asap.",False
+A01549,D0052,unknown,,We may have to look at other vendors if this isn't resolved.,False
+A01550,D0174,call,2026-10-07,"Thanks so much for the quick turnaround, this looks great!",False
+A01551,D0812,email,2025-12-03,"Great call today, looking forward to next steps.",False
+A01552,D0420,follow_up,2026-01-07,Can we schedule a call sometime next week?,False
+A01553,D0031,call,,"Great call today, looking forward to next steps.",False
+A01554,D0013,call,,"Not happy with the delay, please escalate.",False
+A01555,D0036,unknown,2025-08-12,"Really appreciate the detailed proposal, excited to move forward.",False
+A01556,D0580,call,2026-01-15,"Really appreciate the detailed proposal, excited to move forward.",False
+A01557,D0191,call,,Please find attached the requested documents.,False
+A01558,D0793,meeting,,"not happy with the delay, please escalate.",False
+A01559,D0828,call,2026-08-06,"Not happy with the delay, please escalate.",False
+A01560,D0056,email,,Please find attached the requested documents.,False
+A01561,D0135,email,,"This is taking longer than expected, we need an update asap.",False
+A01562,D0220,follow_up,,"Great call today, looking forward to next steps.",False
+A01563,D0681,call,,"Not happy with the delay, please escalate.",False
+A01564,D0185,note,,"Great call today, looking forward to next steps.",False
+A01565,D0324,call,2026-04-03,"Not happy with the delay, please escalate.",False
+A01566,D0618,meeting,,"Great call today, looking forward to next steps.",False
+A01567,D0709,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01568,D0109,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A01569,D0175,note,2026-05-07,Please find attached the requested documents.,False
+A01570,D0675,note,,"This is taking longer than expected, we need an update ASAP.",False
+A01571,D0527,note,2025-11-11,"This is taking longer than expected, we need an update ASAP.",False
+A01572,D0513,follow_up,2025-11-28,Please find attached the requested documents.,False
+A01573,D0449,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01574,D0635,follow_up,2026-03-23,Please find attached the requested documents.,False
+A01575,D0755,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A01576,D0131,email,2026-02-04,Please find attached the requested documents.,False
+A01577,D0277,unknown,,we may have to look at other vendors if this isn't resolved.,False
+A01578,D0541,note,2026-04-20,"great call today, looking forward to next steps.",False
+A01579,D0173,call,,"Not happy with the delay, please escalate.",False
+A01580,D0888,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A01581,D0003,call,,We may have to look at other vendors if this isn't resolved.,False
+A01582,D0299,note,,,False
+A01583,D0534,follow_up,,"really appreciate the detailed proposal, excited to move forward.",False
+A01584,D0818,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01585,D0643,email,,"Not happy with the delay, please escalate.",False
+A01586,D0852,follow_up,,"Not happy with the delay, please escalate.",False
+A01587,D0398,call,,Please find attached the requested documents.,False
+A01588,D0085,follow_up,,,False
+A01589,D0612,follow_up,,Following up on our last conversation regarding pricing.,False
+A01590,D0741,email,2025-06-12,,False
+A01591,D0095,follow_up,,Please find attached the requested documents.,False
+A01592,D0588,meeting,,Following up on our last conversation regarding pricing.,False
+A01593,D0681,call,,Following up on our last conversation regarding pricing.,False
+A01594,D0423,note,,Can we schedule a call sometime next week?,False
+A01595,D0612,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A01596,D0055,call,,"Great call today, looking forward to next steps.",False
+A01597,D0017,email,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01598,D0142,email,,Please find attached the requested documents.,False
+A01599,D0675,note,,,False
+A01600,D0269,meeting,2025-11-11,Following up on our last conversation regarding pricing.,False
+A01601,D0198,note,2026-07-05,,False
+A01602,D0302,call,,We may have to look at other vendors if this isn't resolved.,False
+A01603,D0340,call,2026-04-22,"Really appreciate the detailed proposal, excited to move forward.",False
+A01604,D0336,meeting,,,False
+A01605,D0476,follow_up,2026-04-02,,False
+A01606,D0088,email,,,False
+A01607,D0741,email,,,False
+A01608,D0031,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A01609,D0770,meeting,,,False
+A01610,D0897,meeting,,"Not happy with the delay, please escalate.",False
+A01611,D0650,meeting,2026-02-05,"Really appreciate the detailed proposal, excited to move forward.",False
+A01612,D0008,meeting,,Please find attached the requested documents.,False
+A01613,D0241,meeting,2026-04-22,"Really appreciate the detailed proposal, excited to move forward.",False
+A01614,D0174,email,,"Great call today, looking forward to next steps.",False
+A01615,D0188,note,,We may have to look at other vendors if this isn't resolved.,False
+A01616,D0829,note,2026-01-20,"Great call today, looking forward to next steps.",False
+A01617,D0079,follow_up,2025-12-30,We may have to look at other vendors if this isn't resolved.,False
+A01618,D0277,follow_up,2026-07-22,"Really appreciate the detailed proposal, excited to move forward.",False
+A01619,D0655,email,2026-04-07,"This is taking longer than expected, we need an update ASAP.",False
+A01620,D0523,meeting,2026-05-28,Please find attached the requested documents.,False
+A01621,D0321,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A01622,D0757,note,2026-02-03,"Great call today, looking forward to next steps.",False
+A01623,D0444,meeting,,"Great call today, looking forward to next steps.",False
+A01624,D0177,call,,,False
+A01625,D0127,call,,"Not happy with the delay, please escalate.",False
+A01626,D0083,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A01627,D0315,email,,Please find attached the requested documents.,False
+A01628,D0826,email,,We may have to look at other vendors if this isn't resolved.,False
+A01629,D0550,call,2026-02-17,,False
+A01630,D0868,call,2025-05-12,"Great call today, looking forward to next steps.",False
+A01631,D0380,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01632,D0884,call,2026-06-18,"Thanks so much for the quick turnaround, this looks great!",False
+A01633,D0541,note,,Following up on our last conversation regarding pricing.,False
+A01634,D0748,follow_up,,following up on our last conversation regarding pricing.,False
+A01635,D0207,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A01636,D0034,call,2025-11-08,"Really appreciate the detailed proposal, excited to move forward.",False
+A01637,D0509,call,2026-01-12,We may have to look at other vendors if this isn't resolved.,False
+A01638,D0108,note,,Can we schedule a call sometime next week?,False
+A01639,D0770,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01640,D0652,unknown,,Can we schedule a call sometime next week?,False
+A01641,D0079,email,,Following up on our last conversation regarding pricing.,False
+A01642,D0123,call,,We may have to look at other vendors if this isn't resolved.,False
+A01643,D0455,follow_up,2026-05-04,"Great call today, looking forward to next steps.",False
+A01644,D0058,email,2026-02-21,"Really appreciate the detailed proposal, excited to move forward.",False
+A01645,D0525,call,2026-06-10,"great call today, looking forward to next steps.",False
+A01646,D0611,follow_up,2026-02-24,Please find attached the requested documents.,False
+A01647,D0549,email,2026-10-01,"Thanks so much for the quick turnaround, this looks great!",False
+A01648,D0885,call,,"Great call today, looking forward to next steps.",False
+A01649,D0690,follow_up,,"Not happy with the delay, please escalate.",False
+A01650,D0016,email,,Following up on our last conversation regarding pricing.,False
+A01651,D0898,note,,,False
+A01652,D0394,follow_up,2025-11-13,We may have to look at other vendors if this isn't resolved.,False
+A01653,D0408,unknown,,"Not happy with the delay, please escalate.",False
+A01654,D0448,follow_up,,Can we schedule a call sometime next week?,False
+A01655,D0146,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01656,D0398,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A01657,D0833,follow_up,2026-01-06,Please find attached the requested documents.,False
+A01658,D0712,call,,"Great call today, looking forward to next steps.",False
+A01659,D0516,call,,Please find attached the requested documents.,False
+A01660,D0616,call,,Following up on our last conversation regarding pricing.,False
+A01661,D0073,note,,We may have to look at other vendors if this isn't resolved.,False
+A01662,D0414,email,,Can we schedule a call sometime next week?,False
+A01663,D0096,call,,Please find attached the requested documents.,False
+A01664,D0788,email,,"This is taking longer than expected, we need an update ASAP.",False
+A01665,D0484,email,,"really appreciate the detailed proposal, excited to move forward.",False
+A01666,D0460,unknown,2026-02-06,"Great call today, looking forward to next steps.",False
+A01667,D0577,unknown,,Can we schedule a call sometime next week?,False
+A01668,D0655,call,,"not happy with the delay, please escalate.",False
+A01669,D0020,email,,"This is taking longer than expected, we need an update ASAP.",False
+A01670,D0379,meeting,2025-11-17,"not happy with the delay, please escalate.",False
+A01671,D0453,call,,Following up on our last conversation regarding pricing.,False
+A01672,D0126,meeting,,"Not happy with the delay, please escalate.",False
+A01673,D0236,unknown,,Following up on our last conversation regarding pricing.,False
+A01674,D0234,follow_up,,"Great call today, looking forward to next steps.",False
+A01675,D0075,meeting,,"Not happy with the delay, please escalate.",False
+A01676,D0166,follow_up,,"This is taking longer than expected, we need an update ASAP.",False
+A01677,D0152,unknown,,Please find attached the requested documents.,False
+A01678,D0439,meeting,2026-01-18,"This is taking longer than expected, we need an update ASAP.",False
+A01679,D0070,email,,We may have to look at other vendors if this isn't resolved.,False
+A01680,D0428,email,2026-10-02,Following up on our last conversation regarding pricing.,False
+A01681,D0517,unknown,2026-02-21,"Thanks so much for the quick turnaround, this looks great!",False
+A01682,D0536,note,,"Great call today, looking forward to next steps.",False
+A01683,D0380,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01684,D0619,email,,"This is taking longer than expected, we need an update ASAP.",False
+A01685,D0336,follow_up,2026-06-20,Please find attached the requested documents.,False
+A01686,D0699,meeting,,"Not happy with the delay, please escalate.",False
+A01687,D0512,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A01688,D0884,call,,please find attached the requested documents.,False
+A01689,D0216,note,2026-05-06,"Not happy with the delay, please escalate.",False
+A01690,D0724,email,2025-12-11,"not happy with the delay, please escalate.",False
+A01691,D0856,unknown,2026-01-17,"This is taking longer than expected, we need an update ASAP.",False
+A01692,D0110,note,,"Great call today, looking forward to next steps.",False
+A01693,D0117,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A01694,D0384,email,2026-05-07,"Thanks so much for the quick turnaround, this looks great!",False
+A01695,D0184,email,,"Great call today, looking forward to next steps.",False
+A01696,D0583,follow_up,,please find attached the requested documents.,False
+A01697,D0508,call,,,False
+A01698,D0476,call,2026-12-02,"This is taking longer than expected, we need an update ASAP.",False
+A01699,D0798,call,,"Thanks so much for the quick turnaround, this looks great!",False
+A01700,D0190,note,2026-12-06,Please find attached the requested documents.,False
+A01701,D0230,call,2026-06-28,"Great call today, looking forward to next steps.",False
+A01702,D0444,email,,We may have to look at other vendors if this isn't resolved.,False
+A01703,D0760,note,,Please find attached the requested documents.,False
+A01704,D0631,follow_up,,can we schedule a call sometime next week?,False
+A01705,D0756,follow_up,2026-05-12,"Great call today, looking forward to next steps.",False
+A01706,D0554,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01707,D0668,call,,"This is taking longer than expected, we need an update asap.",False
+A01708,D0736,note,,"Great call today, looking forward to next steps.",False
+A01709,D0660,meeting,,"Not happy with the delay, please escalate.",False
+A01710,D0601,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A01711,D0309,call,2025-11-26,Can we schedule a call sometime next week?,False
+A01712,D0023,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01713,D0579,email,,"Great call today, looking forward to next steps.",False
+A01714,D0796,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A01715,D0036,follow_up,,Can we schedule a call sometime next week?,False
+A01716,D0178,call,2026-03-06,Can we schedule a call sometime next week?,False
+A01717,D0384,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01718,D0346,meeting,,Following up on our last conversation regarding pricing.,False
+A01719,D0833,follow_up,,Following up on our last conversation regarding pricing.,False
+A01720,D0252,email,,Following up on our last conversation regarding pricing.,False
+A01721,D0437,email,,We may have to look at other vendors if this isn't resolved.,False
+A01722,D0759,follow_up,,"really appreciate the detailed proposal, excited to move forward.",False
+A01723,D0276,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A01724,D0613,note,,"Great call today, looking forward to next steps.",False
+A01725,D0249,unknown,,"Not happy with the delay, please escalate.",False
+A01726,D0285,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01727,D0888,meeting,,Following up on our last conversation regarding pricing.,False
+A01728,D0816,call,,"This is taking longer than expected, we need an update ASAP.",False
+A01729,D0103,unknown,2026-01-17,"Great call today, looking forward to next steps.",False
+A01730,D0281,unknown,,"This is taking longer than expected, we need an update ASAP.",False
+A01731,D0146,call,2026-03-19,"Really appreciate the detailed proposal, excited to move forward.",False
+A01732,D0028,call,,We may have to look at other vendors if this isn't resolved.,False
+A01733,D0141,meeting,,,False
+A01734,D0708,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01735,D0738,email,,Please find attached the requested documents.,False
+A01736,D0530,unknown,,"Not happy with the delay, please escalate.",False
+A01737,D0620,email,,,False
+A01738,D0559,email,,Can we schedule a call sometime next week?,False
+A01739,D0113,follow_up,2026-07-04,Please find attached the requested documents.,False
+A01740,D0043,note,2025-11-07,Following up on our last conversation regarding pricing.,False
+A01741,D0776,email,,"This is taking longer than expected, we need an update ASAP.",False
+A01742,D0633,call,2026-03-02,We may have to look at other vendors if this isn't resolved.,False
+A01743,D0282,call,,We may have to look at other vendors if this isn't resolved.,False
+A01744,D0540,follow_up,,"Great call today, looking forward to next steps.",False
+A01745,D0448,unknown,,"Thanks so much for the quick turnaround, this looks great!",False
+A01746,D0494,email,2025-09-12,Can we schedule a call sometime next week?,False
+A01747,D0799,meeting,,"this is taking longer than expected, we need an update asap.",False
+A01748,D0188,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01749,D0815,note,,"not happy with the delay, please escalate.",False
+A01750,D0604,meeting,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01751,D0167,email,,Please find attached the requested documents.,False
+A01752,D0012,call,2026-04-12,"this is taking longer than expected, we need an update asap.",False
+A01753,D0041,email,,Please find attached the requested documents.,False
+A01754,D0848,call,,,False
+A01755,D0857,meeting,,,False
+A01756,D0779,call,,Can we schedule a call sometime next week?,False
+A01757,D0182,email,2026-06-18,"Really appreciate the detailed proposal, excited to move forward.",False
+A01758,D0392,call,2026-05-27,"Thanks so much for the quick turnaround, this looks great!",False
+A01759,D0498,call,,"this is taking longer than expected, we need an update asap.",False
+A01760,D0429,call,2026-03-15,"Great call today, looking forward to next steps.",False
+A01761,D0539,meeting,,Can we schedule a call sometime next week?,False
+A01762,D0278,note,2026-05-22,"Great call today, looking forward to next steps.",False
+A01763,D0211,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01764,D0266,meeting,2025-11-10,please find attached the requested documents.,False
+A01765,D0102,note,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01766,D0183,unknown,2026-04-13,We may have to look at other vendors if this isn't resolved.,False
+A01767,D0133,call,,Please find attached the requested documents.,False
+A01768,D0047,meeting,2026-12-01,"Not happy with the delay, please escalate.",False
+A01769,D0524,follow_up,,"Not happy with the delay, please escalate.",False
+A01770,D0177,meeting,2026-03-04,"Great call today, looking forward to next steps.",False
+A01771,D0316,meeting,,"not happy with the delay, please escalate.",False
+A01772,D0439,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A01773,D0780,call,,We may have to look at other vendors if this isn't resolved.,False
+A01774,D0863,email,,"Thanks so much for the quick turnaround, this looks great!",False
+A01775,D0203,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01776,D0004,follow_up,,Can we schedule a call sometime next week?,False
+A01777,D0760,meeting,2026-04-01,Please find attached the requested documents.,False
+A01778,D0618,call,,,False
+A01779,D0689,note,,"Not happy with the delay, please escalate.",False
+A01780,D0755,call,2026-07-10,We may have to look at other vendors if this isn't resolved.,False
+A01781,D0283,email,2026-02-25,"This is taking longer than expected, we need an update asap.",False
+A01782,D0864,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A01783,D0898,note,2025-12-05,We may have to look at other vendors if this isn't resolved.,False
+A01784,D0801,call,,"Really appreciate the detailed proposal, excited to move forward.",False
+A01785,D0765,follow_up,,"Great call today, looking forward to next steps.",False
+A01786,D0171,follow_up,2025-03-12,,False
+A01787,D0466,follow_up,,Following up on our last conversation regarding pricing.,False
+A01788,D0439,call,,Following up on our last conversation regarding pricing.,False
+A01789,D0436,follow_up,2025-01-12,"Thanks so much for the quick turnaround, this looks great!",False
+A01790,D0682,email,,"This is taking longer than expected, we need an update ASAP.",False
+A01791,D0124,follow_up,,"Great call today, looking forward to next steps.",False
+A01792,D0487,follow_up,,"Thanks so much for the quick turnaround, this looks great!",False
+A01793,D0663,follow_up,,We may have to look at other vendors if this isn't resolved.,False
+A01794,D0828,call,2025-08-12,"This is taking longer than expected, we need an update ASAP.",False
+A01795,D0174,follow_up,,,False
+A01796,D0865,meeting,,"Thanks so much for the quick turnaround, this looks great!",False
+A01797,D0585,email,2025-03-11,"Not happy with the delay, please escalate.",False
+A01798,D0575,note,2025-02-12,We may have to look at other vendors if this isn't resolved.,False
+A01799,D0454,call,,"Great call today, looking forward to next steps.",False
+A01800,D0412,email,,"not happy with the delay, please escalate.",False
+A01191,D0779,email,,can we schedule a call sometime next week?,False
+A00364,D0835,meeting,,Can we schedule a call sometime next week?,False
+A01571,D0527,note,2025-11-11,"This is taking longer than expected, we need an update ASAP.",False
+A01715,D0036,follow_up,,Can we schedule a call sometime next week?,False
+A01043,D0507,follow_up,,"Not happy with the delay, please escalate.",False
+A01719,D0833,follow_up,,Following up on our last conversation regarding pricing.,False
+A01261,D0254,email,2026-02-03,Please find attached the requested documents.,False
+A00165,D0852,email,,"this is taking longer than expected, we need an update asap.",False
+A01379,D0002,follow_up,2025-11-12,Please find attached the requested documents.,False
+A01161,D0301,email,2025-05-12,We may have to look at other vendors if this isn't resolved.,False
+A01672,D0126,meeting,,"Not happy with the delay, please escalate.",False
+A01099,D0889,follow_up,,"Really appreciate the detailed proposal, excited to move forward.",False
+A00328,D0675,follow_up,,"thanks so much for the quick turnaround, this looks great!",False
+A01005,D0093,unknown,,"Thanks so much for the quick turnaround, this looks great!",False
+A00246,D0015,call,,Following up on our last conversation regarding pricing.,False
+A01151,D0286,unknown,,"Great call today, looking forward to next steps.",False
+A00316,D0630,call,,"Great call today, looking forward to next steps.",False
+A00858,D0151,note,,We may have to look at other vendors if this isn't resolved.,False
+A01439,D0272,meeting,,"Great call today, looking forward to next steps.",False
+A00662,D0715,follow_up,2025-11-25,"This is taking longer than expected, we need an update ASAP.",False
+A01161,D0301,email,2025-05-12,We may have to look at other vendors if this isn't resolved.,False
+A01576,D0131,email,2026-02-04,Please find attached the requested documents.,False
+A00418,D0491,call,,"this is taking longer than expected, we need an update asap.",False
+A01583,D0534,follow_up,,"really appreciate the detailed proposal, excited to move forward.",False
+A01648,D0885,call,,"Great call today, looking forward to next steps.",False
+A00478,D0371,follow_up,2026-02-07,Please find attached the requested documents.,False
+A00950,D0205,follow_up,,,False
+A00186,D0142,unknown,,Please find attached the requested documents.,False
+A00938,D0686,meeting,,"This is taking longer than expected, we need an update ASAP.",False
+A01511,D0714,follow_up,2026-07-17,"this is taking longer than expected, we need an update asap.",False
+A00013,D0053,follow_up,,Following up on our last conversation regarding pricing.,False
+A01094,D0275,call,,"This is taking longer than expected, we need an update ASAP.",False
+A00867,D0343,call,,,False
+A01685,D0336,follow_up,2026-06-20,Please find attached the requested documents.,False
+A01701,D0230,call,2026-06-28,"Great call today, looking forward to next steps.",False

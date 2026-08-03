@@ -1,0 +1,451 @@
+customer_id,company_name,contact_person,email,phone_number,email_status
+C0001,Kelly-Santiago,Melinda Jones,melinda.jones@hotmail.com,(783)227-6483,valid
+C0002,Underwood Llc,Austin Gentry,austin.gentry@hotmail.com,001-653-876-7242x388,valid
+C0003,"Ross, Robinson And Bright",,ann.williams@gmail.com,(626)291-6697,valid
+C0004,"Le, Maldonado And Herrera",Martin Rodriguez,martin.rodriguez@yahoo.com,(570)448-2814,valid
+C0005,Farmer-Ryan,Kerry Smith,kerry.smith@yahoo.com,401.454.3039x1171,valid
+C0006,"Alvarez, Pierce And Baker",Jenny Lewis,jenny.lewis@hotmail.com,001-534-565-7871x33150,valid
+C0007,Jones Ltd,Austin Johnson,,,missing
+C0008,Davis Group,Jason Shields,jason.shields@gmail.com,,valid
+C0009,Baxter Inc,Scott Pierce,scott.pierce@gmail.com,+1-880-213-2677x3602,valid
+C0010,Baker-Bowers,Jay Bernard,jay.bernard@hotmail.com,+1-972-434-3098x05009,valid
+C0011,Yu Inc,Andrea Jones,andrea.jones@gmail.com,(719)639-9091x6998,valid
+C0012,Santiago Llc,James Powers,james.powers@yahoo.com,651.407.9911x838,valid
+C0013,Ibarra-Suarez,Christopher Bass,christopher.bass@hotmail.com,698-608-4124x1182,valid
+C0014,"Clark, Cooper And Watts",Kathy King,kathy.king@gmail.com,,valid
+C0015,"Smith, Jones And Ware",Kimberly Davenport,kimberly.davenport@hotmail.com,+1-526-520-4505,valid
+C0016,"Garcia, Deleon And Henson",Marc Moore,marc.moore@gmail.com,(426)302-5634,valid
+C0017,Brennan-Garrison,Robert Stevens,robert.stevens@yahoo.com,730.836.5414,valid
+C0018,"Zavala, Herrera And Crosby",Wesley White,wesley.white@yahoo.com,3198655698,valid
+C0019,"Lee, Williams And Graham",Renee Mcdaniel,renee.mcdaniel@hotmail.com,001-735-861-5951x4846,valid
+C0020,"Phillips, Martinez And Fisher",Megan Orr,megan.orr@hotmail.com,001-746-980-4436,valid
+C0021,Ramos-Lewis,Steven Flynn,steven.flynn@gmail.com,+1-514-989-5134x33200,valid
+C0022,"Atkinson, Jones And Perry",Cheyenne Horton,cheyenne.horton@yahoo.com,(332)901-6328x7083,valid
+C0023,Solis Ltd,Kristin Stewart,kristin.stewart@yahoo.com,+1-986-587-2774x348,valid
+C0024,Gonzales-Reeves,George Orozco,george.orozco@gmail.com,(723)962-3166,valid
+C0025,Brown-Wall,Randy Shah,randy.shah@gmail.com,001-596-670-5466x88937,valid
+C0026,Tucker-Price,Rebecca Ramsey,,929.480.6990x162,missing
+C0027,Green Llc,Gabriel Juarez,gabriel.juarez@yahoo.com,264-517-0805x310,valid
+C0028,Combs Plc,Cameron Caldwell,cameron.caldwell@hotmail.com,674.352.9912,valid
+C0029,"Johnson, Collins And Byrd",Jennifer Espinoza,jennifer.espinoza@gmail.com,001-831-749-1905,valid
+C0030,Hunter Llc,Jason Henry,jason.henry@yahoo.com,(672)762-8498x776,valid
+C0031,Rivas Inc,Jerry Christensen,jerry.christensen@hotmail.com,+1-665-607-5273x545,valid
+C0032,"Smith, Vaughan And Miller",Katherine Chang,katherine.chang@hotmail.com,777.801.4363x4957,valid
+C0033,"Pierce, Bell And Chavez",David Griffith,david.griffith@yahoo.com,682-333-7498,valid
+C0034,Phillips Llc,Adrian Ferguson,adrian.ferguson@yahoo.com,,valid
+C0035,Alexander-Lopez,Todd Woods,todd.woods@gmail.com,(871)590-2294x1318,valid
+C0036,"James, Kerr And Evans",Jessica Carroll,jessica.carroll@gmail.com,+1-213-834-1232x812,valid
+C0037,Norris-Harrison,Dwayne Campbell,dwayne.campbell@yahoo.com,434-693-6183,valid
+C0038,Jones And Sons,Linda Holloway,linda.holloway@yahoo.com,217.846.4887x719,valid
+C0039,"Morris, Wright And Davis",Sara Johnston,sara.johnston@gmail.com,001-949-702-7874x29671,valid
+C0040,Cook-Santiago,Erin Steele,erin.steele@yahoo.com,+1-968-807-1545x16808,valid
+C0041,Lopez Llc,Kathleen Ramos,kathleen.ramos@gmail.com,548.424.7710,valid
+C0042,Pierce-Tran,Willie Durham,willie.durham@yahoo.com,527-948-4677,valid
+C0043,"Thomas, Lee And Greene",Breanna Jones,breanna.jones@yahoo.com,,valid
+C0044,Cantu-Kane,Mrs. Janet Chase,mrs.janet.chase@yahoo.com,7573662702,valid
+C0045,Garcia-Lozano,Charles Pitts,charles.pitts@gmail.com,874-759-6158,valid
+C0046,"Higgins, Malone And Brennan",Barry Welch,barry.welch@yahoo.com,216.711.7240,valid
+C0047,Carter Llc,David Jenkins,david.jenkins@hotmail.com,(422)519-6937,valid
+C0048,Little-Stevens,Stephanie Marshall,stephanie.marshall@yahoo.com,+1-982-317-5946x47436,valid
+C0049,James Llc,,,+1-664-409-0974x39533,missing
+C0050,"Davis, Burton And Williams",Amanda Diaz,amanda.diaz@gmail.com,645-462-3285,valid
+C0051,Sloan-Raymond,Elizabeth Harrell,elizabeth.harrell@gmail.com,312.936.8516x048,valid
+C0052,Chambers-Chambers,Samantha Bentley,samantha.bentley@COMPANY.COM,337-909-8593,placeholder
+C0053,"Turner, Ortiz And Taylor",Elizabeth Vasquez,elizabeth.vasquez@gmail.com,482.867.5869,valid
+C0054,"Garcia, Burns And Russell",Amanda Wood,amanda.wood@yahoo.com,,valid
+C0055,"Lewis, Fowler And Maddox",Gavin Zhang,gavin.zhang@hotmail.com,218.639.3352,valid
+C0056,Huerta Plc,Christopher Guerrero,christopher.guerrero@COMPANY.COM,6202539502,placeholder
+C0057,Harmon Plc,Arthur West,arthur.west@yahoo.com,891.878.3908x47007,valid
+C0058,"Rodriguez, Joseph And Wallace",,erica.hernandez@gmail.com,899-385-6984x789,valid
+C0059,"Wilson, Pena And Rich",Sharon Jordan,sharon.jordan@gmail.com,(357)366-1565x45271,valid
+C0060,Reynolds Ltd,Robin Hawkins,robin.hawkins@COMPANY.COM,001-688-651-6560,placeholder
+C0061,Garcia-Romero,John Boone,john.boone@COMPANY.COM,(285)614-9368x998,placeholder
+C0062,White Ltd,Tammy Bell,tammy.bell@gmail.com,(896)812-0183,valid
+C0063,Peterson-Wood,Paula Bradley,paula.bradleygmail.com,802-929-0147,malformed
+C0064,"Ramos, Nelson And Fischer",Jeffrey Campbell,jeffrey.campbell@hotmail.com,001-278-540-3690,valid
+C0065,Dougherty-Saunders,Donna Wilson,donna.wilson@yahoo.com,001-862-226-8388x5160,valid
+C0066,Morse-Atkins,Laura Mckinney,laura.mckinney@yahoo.com,816-805-2975x1613,valid
+C0067,"Miller, Harrell And Reese",Richard Jones,richard.jones@hotmail.com,488-635-5231,valid
+C0068,Thompson And Sons,Mary Thompson,mary.thompson@hotmail.com,,valid
+C0069,Vargas-Bell,Joel Johnson,joel.johnson@yahoo.com,511-799-8679x8079,valid
+C0070,"Alvarez, Hernandez And Brown",Steven Cooper,steven.cooper@hotmail.com,482-703-7788,valid
+C0071,Hardin-Hughes,Meghan Williams,meghan.williams@hotmail.com,+1-451-751-8644x9251,valid
+C0072,Ponce-Hale,Kurt Hurley,kurt.hurley@yahoo.com,+1-265-728-1685,valid
+C0073,White-Lewis,Katelyn Perez,katelyn.perez@gmail.com,,valid
+C0074,Martin Ltd,Rhonda Martin,rhonda.martin@yahoo.com,5656379473,valid
+C0075,Mckee-Lee,,laura.alexander@yahoo.com,001-368-386-2392x40758,valid
+C0076,Miller-Martin,Jose Guerra,jose.guerra@gmail.com,575.806.0685,valid
+C0077,Brooks Inc,Brett Espinoza,brett.espinoza@yahoo.com,(220)347-2779,valid
+C0078,Scott And Sons,Monica Rose,monica.rose@gmail.com,001-243-541-0369x71179,valid
+C0079,"Thomas, Patterson And Mendez",Jason Beck,jason.beck@gmail.com,651.288.8880x67065,valid
+C0080,Kramer-Cooper,Lori Ingram,lori.ingram@hotmail.com,001-252-605-8527x72217,valid
+C0081,Williams And Sons,Emily Collins,emily.collins@yahoo.com,+1-674-303-4505,valid
+C0082,Kim-Ross,Tyler Morgan,tyler.morgan@gmail.com,775.384.1616x9284,valid
+C0083,Murphy Llc,Lance Simmons,lance.simmons@hotmail.com,,valid
+C0084,Allison Ltd,Amanda Jones,amanda.jones@hotmail.com,(456)790-9275x571,valid
+C0085,Edwards-Ramirez,Allison Lopez,allison.lopez@hotmail.com,(381)944-7394x7312,valid
+C0086,Roach Group,Rita Ponce Dvm,rita.ponce.dvm@hotmail.com,(518)484-4225x831,valid
+C0087,Tyler Inc,Kenneth Mcdonald,kenneth.mcdonald@hotmail.com,(891)314-6786,valid
+C0088,Compton Ltd,John Holmes,john.holmesgmail.com,(489)622-6801,malformed
+C0089,Martin Ltd,Travis Stone,travis.stone@yahoo.com,343-484-2498,valid
+C0090,"David, Moore And Hopkins",Lisa Kirby,lisa.kirby@hotmail.com,,valid
+C0091,"Gardner, May And Turner",Robert Sullivan,robert.sullivangmail.com,710.727.6773x592,malformed
+C0092,"Travis, Reed And Ross",Kayla Rodriguez,kayla.rodriguez@gmail.com,514.473.2104x696,valid
+C0093,Peck-Griffith,Christopher Ferrell,christopher.ferrellgmail.com,774.270.1687x339,malformed
+C0094,Campbell Plc,Martha Ruiz,martha.ruiz@hotmail.com,8162245650,valid
+C0095,"Hoffman, Cox And Roberts",Jerry Pierce,jerry.piercegmail.com,+1-891-221-6558x523,malformed
+C0096,Williams Ltd,John Bryant,john.bryant@hotmail.com,925.695.2694x95888,valid
+C0097,Cabrera-Richardson,Veronica Silva,veronica.silva@hotmail.com,001-809-474-9930x972,valid
+C0098,"Allen, Armstrong And Graves",Jeremy Barnes,jeremy.barnesgmail.com,(836)789-7028x38578,malformed
+C0099,Stevens Plc,Hector Ingram,hector.ingram@hotmail.com,,valid
+C0100,Castro-Michael,Donna Berry,donna.berry@hotmail.com,(565)624-0415x7473,valid
+C0101,"Horton, Taylor And Gilbert",Dana Santiago,dana.santiago@hotmail.com,230.416.5712,valid
+C0102,Delgado-Gilmore,Matthew Avila,matthew.avila@yahoo.com,440-619-3802x62067,valid
+C0103,Smith Plc,Tanya Rogers,tanya.rogers@yahoo.com,+1-688-472-8743x1527,valid
+C0104,Doyle Llc,Nicole Thompson,nicole.thompson@hotmail.com,(668)851-6122x7530,valid
+C0105,Griffin Llc,Elizabeth Sharp,elizabeth.sharp@gmail.com,653-701-7426x841,valid
+C0106,"Walker, Bernard And Mendoza",William Brooks,,001-387-383-3918x785,missing
+C0107,Poole Plc,Joshua Martin,joshua.martin@hotmail.com,,valid
+C0108,"Brown, Ford And Roman",Jennifer Velasquez,jennifer.velasquez@hotmail.com,391.906.5180,valid
+C0109,Mitchell And Sons,Pamela Good,pamela.goodgmail.com,+1-865-467-6618x2512,malformed
+C0110,"Irwin, Davenport And Avila",Julie Ball,julie.ball@yahoo.com,+1-363-237-5243,valid
+C0111,"Barnes, Miranda And Stephenson",Daniel Garcia,,5792030673,missing
+C0112,Gordon Llc,Thomas Johnston,thomas.johnston@hotmail.com,+1-453-842-8364x408,valid
+C0113,"Simpson, Compton And David",Rachel Flores,rachel.flores@yahoo.com,(824)862-8733x42708,valid
+C0114,"Moreno, Price And Scott",Bob Cole,bob.cole@COMPANY.COM,(518)930-4699x013,placeholder
+C0115,Booth Llc,Terry Lewis,terry.lewis@gmail.com,001-717-639-3638x5467,valid
+C0116,Ward-Andrade,Robert Bowen,robert.bowen@COMPANY.COM,001-853-655-6093x20489,placeholder
+C0117,Gonzalez And Sons,,roy.porter@hotmail.com,+1-254-277-7252x28728,valid
+C0118,Landry Ltd,Aaron Taylor,aaron.taylor@COMPANY.COM,+1-931-220-3875x0997,placeholder
+C0119,Patel Group,Joseph Hill,joseph.hill@yahoo.com,5866211823,valid
+C0120,Adams-Sanders,Jared Cunningham,jared.cunningham@hotmail.com,941.201.6668,valid
+C0121,"Smith, Jackson And Porter",Richard Knight,richard.knightgmail.com,380-633-9740,malformed
+C0122,"Elliott, Johnson And Mcfarland",Tyrone Matthews,tyrone.matthews@COMPANY.COM,001-761-242-9396x85621,placeholder
+C0123,Kim Inc,Randy Friedman,randy.friedman@yahoo.com,001-350-647-7358x66296,valid
+C0124,Marquez Inc,James Bowers,james.bowers@gmail.com,001-365-451-1047x5412,valid
+C0125,Cole-Peters,Alexander Gomez,alexander.gomez@gmail.com,+1-495-860-4661x839,valid
+C0126,Taylor Llc,Charles Jackson,,,missing
+C0127,Torres Group,Manuel Brock,manuel.brock@yahoo.com,856.792.4593x752,valid
+C0128,Navarro-Chen,Rachael Nguyen,rachael.nguyen@yahoo.com,(651)393-9828x0737,valid
+C0129,Chambers-Taylor,David Moore,david.moore@yahoo.com,(317)397-9688x6805,valid
+C0130,Sandoval Llc,Lonnie Hart,,+1-565-961-0143x8889,missing
+C0131,Myers-Barton,Kathryn Cooper,kathryn.cooper@gmail.com,914.761.1254x5738,valid
+C0132,Davis-Bowen,Austin Williams,austin.williams@hotmail.com,405-712-3828,valid
+C0133,"Simmons, Murray And Salinas",Charlotte Sandoval,charlotte.sandoval@yahoo.com,5936796603,valid
+C0134,"Stokes, Brown And Garcia",Chelsea Nguyen,chelsea.nguyen@yahoo.com,347-785-9696,valid
+C0135,Bruce-Williamson,Michele Evans,michele.evansgmail.com,+1-891-825-1341x252,malformed
+C0136,"Taylor, Reyes And Lopez",Melissa Brewer,melissa.brewer@gmail.com,+1-227-742-2579,valid
+C0137,Washington And Sons,Tracey Wagner,tracey.wagner@yahoo.com,(676)477-2190x34043,valid
+C0138,Cunningham-Barton,Jorge Armstrong Iii,jorge.armstrong.iii@hotmail.com,(680)778-3613x407,valid
+C0139,Gonzales Inc,Cynthia Cochran,cynthia.cochran@hotmail.com,001-659-462-9233x095,valid
+C0140,Werner-Carter,Tiffany Robertson,tiffany.robertson@hotmail.com,726-504-2232,valid
+C0141,"Long, Thomas And Chen",Jaime Jones,jaime.jones@gmail.com,(884)557-7590x1751,valid
+C0142,Summers-Simpson,Drew Kelley,drew.kelley@gmail.com,001-475-900-1701,valid
+C0143,Smith-Rubio,Michael Anderson,michael.anderson@COMPANY.COM,+1-542-841-5415x2064,placeholder
+C0144,"Davis, Davis And Lewis",Kevin Stone,kevin.stone@yahoo.com,8053162713,valid
+C0145,"Shaffer, Garcia And Richardson",James Li,james.li@gmail.com,+1-921-589-0927x5326,valid
+C0146,Mosley And Sons,Leah Cruz,leah.cruz@yahoo.com,523-841-3899x94043,valid
+C0147,Lucas-Bowers,Cynthia Cruz,cynthia.cruz@gmail.com,491.980.5526x9658,valid
+C0148,Smith Inc,Daniel Livingston,daniel.livingston@yahoo.com,348.566.6188x92414,valid
+C0149,Herrera Group,Pamela Santos,pamela.santos@hotmail.com,946-230-3161,valid
+C0150,Wade-Barrett,Adam Taylor,adam.taylor@gmail.com,(675)388-4252,valid
+C0151,Rogers Group,Austin Joseph,austin.joseph@hotmail.com,+1-317-378-5079x2524,valid
+C0152,Yang Inc,Scott Sanchez,scott.sanchez@yahoo.com,(662)320-8635x365,valid
+C0153,"Watson, Shaw And Winters",Robert Jarvis,robert.jarvis@yahoo.com,774-545-1870,valid
+C0154,Elliott-Torres,Julie Vargas,julie.vargas@yahoo.com,001-838-632-0603x85050,valid
+C0155,Harris And Sons,Tyrone Kaufman,tyrone.kaufman@gmail.com,001-441-803-8657x191,valid
+C0156,Vargas Inc,Victor Young,victor.young@yahoo.com,465-957-4313x29121,valid
+C0157,Edwards-Martinez,Randy Hayes,randy.hayes@yahoo.com,711-824-9035x213,valid
+C0158,"Williams, Evans And Wilkins",Tristan Bond,tristan.bond@hotmail.com,001-883-717-1210x0323,valid
+C0159,"Mccoy, Newman And Aguilar",Robert Johnson,robert.johnson@gmail.com,472.815.1070,valid
+C0160,"Foster, Johnson And Vega",Daniel Lopez,daniel.lopez@yahoo.com,220.399.9347x687,valid
+C0161,Reyes-Barnes,Rebecca Wright,,+1-706-857-8759,missing
+C0162,White-Flores,Steven Osborne,steven.osborne@gmail.com,,valid
+C0163,Thompson Plc,Oscar Howard,oscar.howard@hotmail.com,6594929378,valid
+C0164,Johnson-Brown,Alicia Woods,,793-325-2500x29218,missing
+C0165,Bush-Bates,Gabrielle Morris,gabrielle.morris@gmail.com,001-667-452-8953x9264,valid
+C0166,Daniel Ltd,,jenna.gamble@hotmail.com,4297593917,valid
+C0167,"Miller, Reed And Flores",Tracey Underwood,tracey.underwood@hotmail.com,+1-857-904-3315x4100,valid
+C0168,"Barnes, Jackson And Gutierrez",Heather Bennett,heather.bennett@yahoo.com,001-632-371-0405,valid
+C0169,Peterson Group,Benjamin Mcmahon,benjamin.mcmahon@gmail.com,599-870-6296x20153,valid
+C0170,"Spencer, Frost And Fernandez",Elizabeth Davis,elizabeth.davis@yahoo.com,001-687-920-5061,valid
+C0171,Davis And Sons,Edgar Miller,edgar.millergmail.com,446-777-4186,malformed
+C0172,Wood-Griffin,John Perez,john.perez@yahoo.com,001-502-211-5869,valid
+C0173,Cardenas-Barnes,Sharon Wells,sharon.wells@gmail.com,441.460.8989x9217,valid
+C0174,Stokes And Sons,Blake Vega,blake.vega@gmail.com,+1-929-245-1168x6854,valid
+C0175,"Dean, Mills And Barnes",Charles Matthews,charles.matthews@gmail.com,991-948-5646,valid
+C0176,Jackson Group,Lee Steele,lee.steele@gmail.com,(353)507-4505x4447,valid
+C0177,Turner Ltd,Roger Adams,roger.adams@yahoo.com,+1-313-673-6785x082,valid
+C0178,"Hunter, Taylor And York",Alyssa Lee,alyssa.lee@gmail.com,9308705345,valid
+C0179,"Leblanc, Maldonado And Allen",Jeremy Horne Md,jeremy.horne.md@hotmail.com,(552)541-4060x293,valid
+C0180,"Clark, Pearson And Palmer",Tracy Fleming,tracy.fleming@yahoo.com,(829)803-4944,valid
+C0181,Stevens-Robinson,Joseph Hanson,joseph.hanson@hotmail.com,308-958-9944,valid
+C0182,Rogers Llc,Shannon Green,shannon.green@hotmail.com,+1-643-628-3096x5207,valid
+C0183,Sullivan-Doyle,Wendy Cabrera,wendy.cabrera@yahoo.com,001-438-675-8428x2417,valid
+C0184,"Stokes, Hines And White",Gabriela Davis,gabriela.davis@yahoo.com,346.955.4947,valid
+C0185,Delacruz Plc,Lisa Kennedy,lisa.kennedy@gmail.com,416.784.6022x35697,valid
+C0186,"White, Miller And Cook",Mrs. Amy Hayes,mrs.amy.hayes@gmail.com,001-229-227-1296x66676,valid
+C0187,"Gonzalez, Watson And Smith",Roy Lee,roy.lee@hotmail.com,6334542168,valid
+C0188,Colon Llc,Joy Meyer,joy.meyer@hotmail.com,262-457-5326x03323,valid
+C0189,Richardson Ltd,Jaime Bowman,jaime.bowman@hotmail.com,+1-609-901-0016x761,valid
+C0190,"Hernandez, Neal And Mccoy",Matthew Bates,matthew.bates@yahoo.com,+1-592-561-8914x117,valid
+C0191,Decker-Dudley,Jason Martin,jason.martin@hotmail.com,337.353.0011x9721,valid
+C0192,Newman-Bryant,Deborah Williams,deborah.williamsgmail.com,(204)455-6110,malformed
+C0193,"Holland, Murphy And Kline",Debra Quinn,,(352)416-6746x762,missing
+C0194,"Barber, Jarvis And Richard",Thomas Webb,thomas.webb@hotmail.com,+1-272-396-5902x77167,valid
+C0195,Pena-Smith,Kelly Manning,kelly.manning@hotmail.com,001-935-788-9163,valid
+C0196,"Rhodes, Cruz And Combs",Victoria Brown,victoria.browngmail.com,,malformed
+C0197,Montoya-Miller,Kenneth Miller,kenneth.miller@yahoo.com,,valid
+C0198,"Hart, Pena And Bryant",Roger Velasquez,roger.velasquez@yahoo.com,789-397-5711x30554,valid
+C0199,Prince Group,Mitchell Griffith,mitchell.griffith@gmail.com,,valid
+C0200,Ellis-Lawrence,Tracey Smith,tracey.smith@hotmail.com,4863978292,valid
+C0201,Sandoval-Obrien,Stanley Barnes,stanley.barnes@hotmail.com,001-634-765-4722x698,valid
+C0202,"Doyle, Spencer And Robinson",Miguel Parks,miguel.parks@hotmail.com,,valid
+C0203,Stokes-Mills,Charles Santiago,charles.santiago@gmail.com,324-542-0438x057,valid
+C0204,"Holland, Price And Dixon",Melissa Schwartz,,5669658004,missing
+C0205,Pruitt Ltd,Holly Chapman,holly.chapman@hotmail.com,+1-233-847-2122x816,valid
+C0206,Hawkins-Anderson,Dawn Rivera,dawn.rivera@hotmail.com,(702)359-0947,valid
+C0207,"Stewart, Robinson And White",Jonathan Perry,jonathan.perry@hotmail.com,(215)333-5554x3987,valid
+C0208,"Reed, Allen And May",Dana Williams,,261-664-8408x58877,missing
+C0209,"Lee, Palmer And Vaughan",Tyler Medina,tyler.medina@gmail.com,+1-713-236-1386x1207,valid
+C0210,Jones And Sons,Kristin Andrews,kristin.andrews@gmail.com,366-276-6506x180,valid
+C0211,"Charles, Howard And Shaw",Michael Obrien,michael.obrien@yahoo.com,001-676-760-7283x26842,valid
+C0212,Spencer Plc,Andrew Armstrong,andrew.armstrong@yahoo.com,+1-481-443-5368,valid
+C0213,Walker Llc,Christopher Marsh,christopher.marsh@gmail.com,001-487-581-4141x39755,valid
+C0214,Mitchell Inc,Emily Hayes,emily.hayes@hotmail.com,+1-849-629-9556x20533,valid
+C0215,Taylor-Quinn,Julie Howard,julie.howard@yahoo.com,281.229.1428x3411,valid
+C0216,"Riley, Hammond And Lewis",Dean Shannon,dean.shannongmail.com,+1-972-356-3942,malformed
+C0217,Cox-Smith,Victor Holden,victor.holden@hotmail.com,,valid
+C0218,Robinson Group,Dennis Young,dennis.young@hotmail.com,385.667.7005,valid
+C0219,"Baker, Stephens And Thompson",Holly Valdez,,,missing
+C0220,"Smith, Macias And Gonzales",Jose Campbell,jose.campbell@gmail.com,(925)991-3651,valid
+C0221,Clark-Martin,Alison Williams,alison.williams@hotmail.com,001-622-480-9202,valid
+C0222,"Mullen, Greene And Elliott",Nathan Stanley,nathan.stanley@yahoo.com,437-497-7236,valid
+C0223,"Keller, Baker And Ramsey",Jesse Garza,jesse.garzagmail.com,866.421.0388,malformed
+C0224,"Davis, Alvarez And Mendez",Richard Gordon,richard.gordon@gmail.com,,valid
+C0225,"Moreno, Perez And Lang",Jane Chapman,jane.chapman@hotmail.com,001-591-262-4731x49864,valid
+C0226,"Manning, Smith And Mills",Jaime Harris,jaime.harris@yahoo.com,,valid
+C0227,Arnold-Grant,Justin Webb,justin.webb@yahoo.com,001-556-821-3721,valid
+C0228,Owen-Mendez,Amy Price,amy.pricegmail.com,+1-201-827-9611x4351,malformed
+C0229,Mendez-Meyer,Linda Bautista,linda.bautista@gmail.com,+1-477-203-8430x9883,valid
+C0230,Allen-Smith,Zachary Chan,zachary.chan@yahoo.com,+1-766-693-8011x84895,valid
+C0231,Obrien And Sons,Jared Smith,jared.smith@gmail.com,(981)881-8451x84894,valid
+C0232,"Webb, Sanchez And Morgan",Melanie Mosley,melanie.mosley@gmail.com,614.516.3356x5880,valid
+C0233,Davis-Nunez,Angela Velazquez,angela.velazquez@yahoo.com,553-594-2373x33433,valid
+C0234,"Kelly, Maxwell And Wilson",Tyler Vasquez,tyler.vasquez@gmail.com,001-880-575-9579x47284,valid
+C0235,"Anderson, Fox And Henderson",Amanda Reed,amanda.reed@hotmail.com,001-727-618-7500x36915,valid
+C0236,Dunn And Sons,Tyler Cooper,tyler.cooper@gmail.com,563.365.5647x2929,valid
+C0237,"Nelson, Young And Reynolds",Charles Haley,charles.haley@gmail.com,202.867.2885x7448,valid
+C0238,Vaughn Inc,David Combs,david.combs@gmail.com,,valid
+C0239,"Johnston, Banks And Thompson",Heather Nunez,heather.nunez@yahoo.com,001-371-369-4722x56996,valid
+C0240,Cooper Llc,Eddie Adams,eddie.adams@hotmail.com,(647)359-8762x2023,valid
+C0241,Jackson Inc,Timothy Kennedy,timothy.kennedy@gmail.com,8686114921,valid
+C0242,Wright Llc,Cameron Rose,cameron.rose@gmail.com,9054577848,valid
+C0243,"Ryan, Garza And Bryant",Sherry Graham,sherry.graham@hotmail.com,+1-484-657-8317x4564,valid
+C0244,Smith And Sons,John Smith,john.smith@yahoo.com,001-874-806-4930x85368,valid
+C0245,Martin Ltd,Sandra Walker,sandra.walker@gmail.com,(338)994-4846x31224,valid
+C0246,"Chavez, Graves And Vasquez",Christian Booker,christian.booker@gmail.com,(414)242-7031,valid
+C0247,Robinson-Fisher,Kathleen Watson,kathleen.watson@hotmail.com,9514204618,valid
+C0248,Huang Llc,Sandra Martinez,sandra.martinez@hotmail.com,567.930.3718,valid
+C0249,Maldonado-Collins,Mark Williams,mark.williams@hotmail.com,414.674.3503x13650,valid
+C0250,"Wilson, Mccormick And Smith",Richard Alvarez,richard.alvarez@hotmail.com,(251)232-7195,valid
+C0251,Newman-Miles,Beth Hall,beth.hall@hotmail.com,+1-657-930-6524x0778,valid
+C0252,Knight Plc,Nicholas Hill,nicholas.hill@hotmail.com,+1-721-982-7448,valid
+C0253,Parsons Plc,Cody Smith,cody.smith@COMPANY.COM,(693)751-8638x782,placeholder
+C0254,Davidson-Rodriguez,,andrea.conley@gmail.com,(803)917-3109,valid
+C0255,"Hanson, Garza And Williams",Mitchell Smith,mitchell.smith@gmail.com,+1-271-370-5865x0948,valid
+C0256,Miller-Lewis,Ashley Hall,ashley.hall@yahoo.com,338.739.2886,valid
+C0257,"Ellis, Ortega And Andrade",Christopher Morales,christopher.morales@yahoo.com,+1-528-597-5585x56659,valid
+C0258,Cannon-Howe,Tyrone West,tyrone.west@yahoo.com,6045908240,valid
+C0259,Foley Inc,Terri Short,terri.short@hotmail.com,589.592.1075x22459,valid
+C0260,Shepherd-Davis,Thomas Navarro,thomas.navarro@hotmail.com,772-879-1940x96105,valid
+C0261,Conrad-Martinez,Nicole Atkinson,nicole.atkinson@gmail.com,+1-460-248-0589x2583,valid
+C0262,"Dennis, Long And Griffin",Kathy Walker,kathy.walker@yahoo.com,(822)451-7908x6416,valid
+C0263,Castillo And Sons,Matthew Gonzalez Dds,matthew.gonzalez.dds@hotmail.com,533.714.6591x16655,valid
+C0264,Wheeler-Johnson,William Jensen,william.jensengmail.com,,malformed
+C0265,Smith-Benson,Jerry Johnson,jerry.johnson@gmail.com,,valid
+C0266,Brown And Sons,Lisa Brown,lisa.brown@hotmail.com,5168451046,valid
+C0267,"Bray, Garcia And Stewart",Kim Lopez,kim.lopez@hotmail.com,780.703.8457x620,valid
+C0268,Garrett-Young,Kathryn Cain,kathryn.cain@hotmail.com,560-884-3256x216,valid
+C0269,Berry Group,Susan Murphy,susan.murphy@COMPANY.COM,+1-423-829-8324,placeholder
+C0270,Douglas Plc,Emily Grant,emily.grant@hotmail.com,925-620-5664,valid
+C0271,Maxwell Inc,Alexander Odom,alexander.odomgmail.com,+1-949-499-3933x051,malformed
+C0272,"Mathis, Harrison And Banks",James Wells,james.wells@gmail.com,530.360.4633,valid
+C0273,Ho Group,Katherine Nguyen,katherine.nguyen@yahoo.com,,valid
+C0274,Bryant-Rich,Danielle Medina,danielle.medina@hotmail.com,6866803476,valid
+C0275,Jackson-Phillips,Melissa Mckee,melissa.mckee@yahoo.com,,valid
+C0276,Garza-Marquez,Jesse Wright,jesse.wright@hotmail.com,+1-821-811-7518x6892,valid
+C0277,Tate Llc,Mary Hernandez,mary.hernandez@gmail.com,(406)544-7421,valid
+C0278,Dean Llc,Jonathan Jimenez,jonathan.jimenez@gmail.com,+1-273-539-7767x199,valid
+C0279,"Ramirez, Fuller And Wilkins",Cody Brown,cody.brown@yahoo.com,3208994510,valid
+C0280,Martin Llc,Melissa Larson,melissa.larson@hotmail.com,(879)350-1455,valid
+C0281,Bridges-Brown,Bryan Villarreal,bryan.villarreal@yahoo.com,868.733.9019x81794,valid
+C0282,Fox-Carney,Carl Hart,carl.hart@hotmail.com,001-577-829-3430x1071,valid
+C0283,Williams-Bailey,Christy Davidson,christy.davidson@hotmail.com,241-444-8850x1556,valid
+C0284,Rivera Llc,Karen Wells,karen.wells@gmail.com,+1-727-227-8576x0849,valid
+C0285,Ray Llc,Stacy Gomez,stacy.gomez@gmail.com,605-768-2996x291,valid
+C0286,"Johnson, Gutierrez And Crawford",Jesse Sampson,jesse.sampson@gmail.com,542.715.0317x80782,valid
+C0287,Oconnor-Mills,Briana Wiggins,briana.wiggins@hotmail.com,,valid
+C0288,Meyer Ltd,Alison Blake,alison.blake@hotmail.com,353.634.4857,valid
+C0289,Moore Inc,Marcus Palmer,marcus.palmer@gmail.com,+1-458-354-2493,valid
+C0290,Austin-Morgan,Carlos Ruiz,carlos.ruiz@hotmail.com,9167016629,valid
+C0291,Cook-Gonzalez,Rhonda Miller,rhonda.miller@yahoo.com,001-521-571-7477,valid
+C0292,Callahan Plc,Jack White,jack.white@hotmail.com,457-370-1715x77245,valid
+C0293,Roth-Robles,Matthew Sparks,matthew.sparks@hotmail.com,769.563.9382x761,valid
+C0294,"Garza, Mueller And Graham",Kimberly Young,kimberly.young@hotmail.com,+1-819-371-9975x81724,valid
+C0295,"Rodriguez, Cervantes And Wise",Johnny Keller,johnny.keller@gmail.com,829.902.2784,valid
+C0296,Harris Llc,Robert Frazier,robert.frazier@COMPANY.COM,(251)790-9862x40580,placeholder
+C0297,Callahan Inc,Michael Long,,866-466-8327x23865,missing
+C0298,Bright-Santiago,Benjamin Smith,,001-876-921-2679x6927,missing
+C0299,Kelly-Lopez,Laura Bradford,laura.bradford@gmail.com,001-384-968-9500x975,valid
+C0300,"Miller, Cross And Fox",Nicole Ramirez,nicole.ramirez@hotmail.com,689-213-7189,valid
+C0301,Nichols-Smith,Taylor Berry,taylor.berry@yahoo.com,(254)642-0949x40792,valid
+C0302,"Weber, Mitchell And Miller",Sarah Ramirez,sarah.ramirez@gmail.com,+1-444-640-1929x275,valid
+C0303,"Young, White And Rose",William Coffey,william.coffey@hotmail.com,,valid
+C0304,"Baker, Weiss And Williams",John Alvarez,john.alvarez@hotmail.com,666.974.2860,valid
+C0305,Gregory-Nixon,Amanda Hardin,amanda.hardin@hotmail.com,(569)545-4414x967,valid
+C0306,"Rogers, Vaughn And White",Megan Decker,megan.decker@COMPANY.COM,6615817534,placeholder
+C0307,Johnson Inc,Kristopher Shannon,kristopher.shannon@gmail.com,+1-611-919-2692x124,valid
+C0308,"Mayer, Fowler And Livingston",Jeffery Berger,jeffery.berger@yahoo.com,921-340-6650x442,valid
+C0309,Krause-Gonzalez,Matthew Rodriguez,matthew.rodriguez@hotmail.com,001-263-991-7410x11947,valid
+C0310,Delgado Inc,Mary Adams,mary.adams@hotmail.com,969-308-7766x18306,valid
+C0311,"Nichols, Frey And Cook",Anthony Shea,anthony.sheagmail.com,,malformed
+C0312,"Price, Rodriguez And Barker",Dr. Jeffrey Lopez,dr.jeffrey.lopez@gmail.com,909.937.6184,valid
+C0313,Johnson Inc,Nathan Sullivan,nathan.sullivan@gmail.com,+1-287-582-9310x2707,valid
+C0314,"Banks, Smith And Chen",Samantha Davis,samantha.davis@hotmail.com,,valid
+C0315,Rogers-Huff,Jennifer Martinez,jennifer.martinez@hotmail.com,001-382-353-0925,valid
+C0316,Thomas-Perry,Kristen Gonzales,kristen.gonzales@hotmail.com,2212962071,valid
+C0317,Howe Ltd,Stacie Butler,stacie.butler@yahoo.com,001-423-924-8763x290,valid
+C0318,"Clements, Burton And Patton",Aaron Young,aaron.young@gmail.com,919.958.8373x40312,valid
+C0319,Moore Inc,Jackson Clark,jackson.clark@yahoo.com,597-901-0822x07811,valid
+C0320,"Riley, Barnes And Burgess",Crystal Rodriguez,crystal.rodriguez@gmail.com,936-236-3179,valid
+C0321,Thomas-Reilly,,james.taylor@hotmail.com,654.435.2090,valid
+C0322,York Group,Philip Robinson,philip.robinsongmail.com,992-992-9831x6873,malformed
+C0323,Smith-Patterson,Danielle Hamilton,danielle.hamilton@gmail.com,001-229-806-0078,valid
+C0324,"Foster, Pacheco And Horton",Jon Miller,jon.miller@gmail.com,001-963-225-4310x742,valid
+C0325,Ford-Taylor,Cathy Savage,cathy.savage@hotmail.com,,valid
+C0326,"Gilmore, Fitzgerald And Brown",Megan Barron,megan.barron@gmail.com,(757)590-5528x1832,valid
+C0327,"Wilson, Mendoza And Crosby",Tina Clark,tina.clark@hotmail.com,001-335-954-8640x15577,valid
+C0328,"Patel, Bryan And Lam",Jacob Nunez,jacob.nunez@hotmail.com,337-411-6241,valid
+C0329,Rodriguez-Hernandez,Dan Crane,dan.crane@gmail.com,568-727-5670x4310,valid
+C0330,Lane-Rios,Katelyn Wade,katelyn.wade@hotmail.com,+1-577-949-2424,valid
+C0331,Arellano-Carrillo,Harry Bryant,harry.bryant@gmail.com,+1-428-942-2223x105,valid
+C0332,Wood-Harris,Mary Spence,mary.spence@gmail.com,(778)428-4106x727,valid
+C0333,Cordova Plc,Erin Thornton,erin.thornton@yahoo.com,292-897-5170x2814,valid
+C0334,"Randall, Griffin And Davis",Martin Silva,martin.silva@gmail.com,001-243-701-8718x63759,valid
+C0335,Hernandez-Nash,Jake Mitchell,jake.mitchell@yahoo.com,378-413-7674x2662,valid
+C0336,Turner Plc,Mrs. Toni Avila,mrs.toni.avila@gmail.com,5644628792,valid
+C0337,Roberts-Henry,Elizabeth Richards,elizabeth.richardsgmail.com,487.930.0244x7146,malformed
+C0338,"Newman, Johnson And Hubbard",Wesley George Md,wesley.george.md@yahoo.com,001-664-471-5890,valid
+C0339,"Brown, Flores And Johns",Christopher Nelson,christopher.nelson@yahoo.com,+1-750-744-8183x2192,valid
+C0340,"Marsh, Nelson And Wolfe",Joseph Bell,joseph.bell@gmail.com,3285457652,valid
+C0341,Gordon And Sons,Kristin Norris,kristin.norris@hotmail.com,+1-981-767-1120,valid
+C0342,Vazquez-Taylor,William Mills,william.mills@yahoo.com,(440)513-2234,valid
+C0343,Zavala Group,Rachel Jones,rachel.jones@yahoo.com,001-660-231-0890x71401,valid
+C0344,Patton Plc,Steven Lopez,steven.lopez@yahoo.com,5123495528,valid
+C0345,Weiss Inc,Michelle Brandt,michelle.brandt@gmail.com,001-880-813-8759x27125,valid
+C0346,Palmer Group,William Martinez,william.martinez@gmail.com,627.954.8015x71647,valid
+C0347,Spencer Llc,Mrs. Shannon Jacobson,mrs.shannon.jacobson@yahoo.com,+1-352-407-1678x11266,valid
+C0348,Cox And Sons,Kurt Ewing,kurt.ewing@gmail.com,967.849.9465,valid
+C0349,Dixon-Hernandez,Bryan Burns,bryan.burns@gmail.com,+1-620-310-1702x6952,valid
+C0350,Guerrero Plc,Rebecca Harris,rebecca.harris@hotmail.com,978.748.5880x0616,valid
+C0351,Ramos-Johnson,,matthew.chan@hotmail.com,(976)924-6719,valid
+C0352,Hart-Moore,Dennis Garza,dennis.garza@yahoo.com,+1-254-750-0902x559,valid
+C0353,Davis-Reed,Gregory Stanley,gregory.stanley@gmail.com,249.711.4152,valid
+C0354,Murray Group,Stephanie Adams,stephanie.adams@hotmail.com,790.956.9659x1713,valid
+C0355,"Cain, Contreras And Jackson",Wayne Harris,wayne.harris@hotmail.com,583-344-0496,valid
+C0356,"Richard, Davis And Rogers",Robert Alvarez,robert.alvarez@gmail.com,(914)484-6853x664,valid
+C0357,Burton Plc,Laura Lewis,laura.lewis@COMPANY.COM,001-574-489-6908x3572,placeholder
+C0358,"Jennings, Evans And Graham",Ronald Brown,ronald.brown@gmail.com,(644)924-9363x12303,valid
+C0359,Castro-Graham,Amanda Moore,amanda.moore@COMPANY.COM,(204)348-2070,placeholder
+C0360,Guzman-Camacho,Jennifer Cox,jennifer.cox@hotmail.com,662-931-9818,valid
+C0361,Young Inc,Emily Collier,emily.collier@hotmail.com,(236)932-1234x7649,valid
+C0362,"Brooks, Fry And Stewart",Michael Richmond,michael.richmond@gmail.com,(675)740-9003x486,valid
+C0363,"Martinez, Camacho And Mathews",Theodore Long,theodore.long@yahoo.com,913-843-2756x0417,valid
+C0364,Love-Mcdowell,Samantha Hale,samantha.hale@hotmail.com,,valid
+C0365,"Taylor, Morales And Fuller",Bradley Moore,bradley.moore@COMPANY.COM,329.865.7724x29543,placeholder
+C0366,White-Walter,Stacey Walker,stacey.walker@gmail.com,+1-893-817-3420,valid
+C0367,"Green, Davis And Richardson",Autumn Higgins,autumn.higgins@yahoo.com,001-577-613-3344x76263,valid
+C0368,"Byrd, Barnes And Ortiz",Dylan Green,dylan.green@hotmail.com,835.897.1072x563,valid
+C0369,"Harper, Jones And Hawkins",Timothy Ruiz,timothy.ruiz@yahoo.com,+1-290-404-8964x652,valid
+C0370,Jackson-Vasquez,John Davis,,001-886-624-1502x745,missing
+C0371,Austin-Juarez,Erik Stafford,,472-987-0320x32074,missing
+C0372,Wilson-Woodard,Jeremy Zhang Md,jeremy.zhang.md@yahoo.com,512.215.1342x2849,valid
+C0373,"Wang, White And Knapp",Jonathan Davis,,904-616-5915x20177,missing
+C0374,"Barrett, Rivera And Williams",Jody Meza,jody.meza@hotmail.com,,valid
+C0375,Scott-Allen,Jennifer Smith,jennifer.smith@gmail.com,(666)442-1476,valid
+C0376,Wade-Collier,Katherine Mcclure,katherine.mcclure@yahoo.com,,valid
+C0377,Rhodes-Holland,Tara Rose,tara.rose@hotmail.com,,valid
+C0378,"Jones, Williams And Rodriguez",Brandon Guerrero,brandon.guerrero@hotmail.com,254-391-8017x226,valid
+C0379,Mcdowell-Evans,Jordan Santiago,jordan.santiago@hotmail.com,252-832-1941x680,valid
+C0380,Smith Ltd,Michael Melton,michael.melton@hotmail.com,+1-574-399-5641x220,valid
+C0381,Horton And Sons,Christine Wong,christine.wong@hotmail.com,868.231.4727,valid
+C0382,Martin And Sons,,jill.washington@gmail.com,893.934.9605x016,valid
+C0383,"Lane, Simon And Duarte",James Palmer,james.palmer@hotmail.com,+1-873-908-0695x814,valid
+C0384,Simpson Ltd,Michael Smith,michael.smith@COMPANY.COM,637-857-3839x5972,placeholder
+C0385,Whitaker-Nunez,Rebecca Marsh,rebecca.marshgmail.com,(493)941-7223,malformed
+C0386,Leon Group,Daniel Williams,daniel.williams@gmail.com,,valid
+C0387,"Walker, Scott And Peterson",Anthony Rich,anthony.rich@yahoo.com,(389)210-7711,valid
+C0388,"Garcia, Soto And Pitts",Brooke Carter,brooke.carter@yahoo.com,001-987-712-5521x37603,valid
+C0389,Wagner-Miller,Paul Ward,paul.ward@hotmail.com,928.763.2666,valid
+C0390,Ramos Inc,Kelly Jones,kelly.jones@yahoo.com,,valid
+C0391,Smith-Ramirez,Tami Graves,tami.graves@yahoo.com,+1-738-899-7563x4108,valid
+C0392,"Higgins, Hobbs And Meyer",Cindy Hunt,cindy.hunt@yahoo.com,752.600.8943x46810,valid
+C0393,"Romero, Martinez And Sherman",Joan Armstrong,joan.armstrong@gmail.com,453.899.8935x449,valid
+C0394,"Mclaughlin, Garcia And Black",Richard Gibson,richard.gibson@gmail.com,001-766-811-0627x371,valid
+C0395,"Hansen, Maxwell And Wiggins",Mallory Barajas,mallory.barajas@hotmail.com,962.928.2772x8813,valid
+C0396,Francis Plc,Trevor Guzman,trevor.guzman@yahoo.com,715-694-0821,valid
+C0397,Turner-Tucker,Brenda Lawrence,brenda.lawrence@gmail.com,643-927-0185x1067,valid
+C0398,Harrington-Alvarez,Lisa Gill,lisa.gill@hotmail.com,+1-777-272-5199x6636,valid
+C0399,"Wu, Fitzgerald And Brewer",Michelle Armstrong,michelle.armstrong@hotmail.com,981-281-3989x0983,valid
+C0400,Barrett Plc,Albert Buchanan,albert.buchanan@COMPANY.COM,297.918.9569,placeholder
+C0401,Morgan And Sons,Scott Stewart,scott.stewart@yahoo.com,311-482-4224,valid
+C0402,Farley-Gregory,Tyrone White,tyrone.white@hotmail.com,8463152654,valid
+C0403,Harris Plc,Katherine Goodwin,,(214)605-7861x7063,missing
+C0404,"Richmond, Leonard And Sanchez",Rachel Torres,rachel.torres@yahoo.com,918.232.5823x868,valid
+C0405,Hess Plc,William Smith,william.smith@yahoo.com,394-665-3984x028,valid
+C0406,Foster Inc,Molly Lutz,molly.lutz@yahoo.com,798.755.4743,valid
+C0407,Stevens Plc,Thomas Anderson,thomas.anderson@gmail.com,+1-270-902-6876x811,valid
+C0408,"Martinez, Stanton And Bennett",Jasmine Combs,jasmine.combs@hotmail.com,6177537030,valid
+C0409,Davis Plc,Rhonda Walker,rhonda.walker@yahoo.com,(904)479-3036x149,valid
+C0410,"Lee, Rodgers And Chambers",Casey Chapman,casey.chapmangmail.com,001-912-249-3843x0894,malformed
+C0411,Davidson-Hahn,Todd Reynolds,todd.reynolds@yahoo.com,918-777-5803x046,valid
+C0412,Myers Llc,,kenneth.johnson@hotmail.com,361.233.2541,valid
+C0413,Reynolds-Johnson,Taylor Pittman,taylor.pittman@gmail.com,973-350-5831,valid
+C0414,"Griffin, Martinez And Villegas",,jamie.wu@hotmail.com,320-270-4961,valid
+C0415,"Williams, Horn And Morales",Jennifer Hancock,jennifer.hancock@hotmail.com,+1-707-567-6991x507,valid
+C0416,Garcia Plc,Leslie Randall,leslie.randall@hotmail.com,(584)456-7972,valid
+C0417,Brown Llc,Kayla Pearson,kayla.pearson@yahoo.com,498-222-7495x4508,valid
+C0418,Hunter Plc,Jennifer Gonzalez,jennifer.gonzalez@gmail.com,+1-631-853-7795x9959,valid
+C0419,Martin-Gibson,Amanda Robinson,amanda.robinson@gmail.com,+1-233-779-3375x6362,valid
+C0420,Jones Inc,Brenda Alexander,brenda.alexandergmail.com,+1-595-400-3342x3425,malformed
+C0421,Smith Llc,Alisha Byrd,alisha.byrd@yahoo.com,+1-315-334-7355x2896,valid
+C0422,Andrade And Sons,Cheryl Gray,cheryl.gray@yahoo.com,696-430-9938x42530,valid
+C0423,"Schmitt, Blackwell And Clark",John Alvarado,,428-768-5787,missing
+C0424,"Brooks, Neal And Baldwin",,derrick.morales.dvm@hotmail.com,+1-403-733-7363x4669,valid
+C0425,Pierce-Taylor,Jeremy Bell,jeremy.bell@hotmail.com,8787956776,valid
+C0426,Stewart-Reyes,David Brewer,david.brewer@yahoo.com,348-388-1431,valid
+C0427,Johnson-Gonzalez,Gary Turner,gary.turner@hotmail.com,239-928-4044x566,valid
+C0428,"Hunt, Juarez And Hernandez",Darrell Curry,darrell.currygmail.com,538.998.7751x5366,malformed
+C0429,Farrell-Johnson,Shane Torres,shane.torres@hotmail.com,6757536668,valid
+C0430,"Johnson, Floyd And Weeks",Troy Rivera,troy.rivera@hotmail.com,+1-399-766-3618x637,valid
+C0431,"Hayden, Fowler And Torres",Michael Thompson,michael.thompson@hotmail.com,+1-370-923-1643x348,valid
+C0432,Wood Inc,Scott Jenkins,scott.jenkins@gmail.com,528-667-1632,valid
+C0433,Meyers-Ortega,Kenneth Collins,kenneth.collins@gmail.com,974.930.2716x93859,valid
+C0434,Johnston-Mclaughlin,Stanley Bryant,stanley.bryant@hotmail.com,001-446-392-6329x676,valid
+C0435,Hale-Williams,Brooke Khan,brooke.khan@hotmail.com,913-476-8151x1856,valid
+C0436,Clark-Williams,Mark Lowe,mark.lowe@yahoo.com,(956)336-0041x2577,valid
+C0437,Kelley And Sons,Jessica Ruiz,,322-209-1241x862,missing
+C0438,"Nelson, Alexander And Thompson",Stephanie Patel,stephanie.patel@yahoo.com,001-508-516-4709x006,valid
+C0439,Kerr-Gonzalez,Alexis Smith,,313.712.2068,missing
+C0440,Hart-Lopez,Joshua Mcmillan,joshua.mcmillan@gmail.com,231.855.2065,valid
+C0441,Ellis Inc,Diana Hanson,diana.hanson@COMPANY.COM,4136649718,placeholder
+C0442,Greene Ltd,Megan Compton,megan.compton@hotmail.com,(952)857-1509,valid
+C0443,"Davidson, Hall And Matthews",Crystal Jensen Dvm,crystal.jensen.dvm@yahoo.com,663.591.0257,valid
+C0444,Bennett Ltd,Thomas George,thomas.george@yahoo.com,001-552-545-0864x0355,valid
+C0445,"Brown, Hardin And Mcneil",Melissa Walker,melissa.walker@yahoo.com,452.570.1713x02321,valid
+C0446,Romero Group,Emily Griffith,emily.griffith@gmail.com,(829)434-4973x47156,valid
+C0447,Alexander-Wagner,Paige Weiss,paige.weiss@yahoo.com,4666149828,valid
+C0448,Ford-Chavez,Larry Jones,larry.jones@gmail.com,001-873-723-0085x766,valid
+C0449,Burns-Davidson,Jennifer Williams,jennifer.williams@gmail.com,(592)536-4587x5066,valid
+C0450,Johnson-Li,Megan Terry,megan.terry@hotmail.com,(449)272-4399,valid

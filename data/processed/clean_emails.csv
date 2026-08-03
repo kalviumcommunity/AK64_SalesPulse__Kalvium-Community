@@ -1,0 +1,966 @@
+email_id,deal_id,sender,receiver,subject,email_body,sent_timestamp,sender_status,receiver_status,orphaned_deal,sentiment
+E00001,D0316,cristian.santos@yahoo.com,jeffery.berger@hotmail.com,past he practice center model daughter.,We may have to look at other vendors if this isn't resolved.,2026-06-29,valid,valid,False,negative
+E00002,D0621,monica.herrera@hotmail.com,mrs.janet.chase@yahoo.com,Page line decision form section you until.,"Thanks so much for the quick turnaround, this looks great!",2026-04-17,valid,valid,False,positive
+E00003,D0794,ryan.munoz@hotmail.com,stacy.gomez@yahoo.com,Fish conference like.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00004,D0450,allison.hill@gmail.com,jerry.pierce@yahoo.com,Current behind learn behind person.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00005,D0761,cristian.santos@gmail.com,joan.armstrong@yahoo.com,Third general add cover exist treatment international.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00006,D0115,gina.moore@yahoo.com,kristin.andrews@hotmail.com,Various night political dark or bill.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00007,D0352,monica.herrera@gmail.com,melissa.walker@yahoo.com,Bill someone onto she form sign option.,"Really appreciate the detailed proposal, excited to move forward.",2025-12-29,valid,valid,False,positive
+E00008,D0386,ryan.munoz@hotmail.com,tami.graves@hotmail.com,Decide able discussion describe upon past century.,"Really appreciate the detailed proposal, excited to move forward.",2026-01-15,valid,valid,False,positive
+E00009,D0460,allison.hill@COMPANY.COM,cindy.huntgmail.com,Follow time appear.,Please find attached the requested documents.,,placeholder,malformed,False,neutral
+E00010,D0860,daniel.wagnergmail.com,george.orozco@yahoo.com,Professor force matter bring nice help.,"Really appreciate the detailed proposal, excited to move forward.",,malformed,valid,False,positive
+E00011,D0154,angie.henderson@yahoo.com,lisa.brown@yahoo.com,stuff first back painting degree.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00012,D0335,allison.hill@hotmail.com,christine.wonggmail.com,represent style night majority smile.,Can we schedule a call sometime next week?,2025-12-16,valid,malformed,False,positive
+E00013,D0657,gina.moore@hotmail.com,,,"Really appreciate the detailed proposal, excited to move forward.",2026-07-05,valid,missing,False,positive
+E00014,D0880,angie.henderson@hotmail.com,gavin.zhang@hotmail.com,him condition section action kind.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00015,D0246,noah.rhodes@gmail.com,jennifer.martinez@hotmail.com,Foreign treat trouble me actually.,"This is taking longer than expected, we need an update ASAP.",2026-03-24,valid,valid,False,negative
+E00016,D0288,daniel.wagner@hotmail.com,michele.evans@yahoo.com,Huge yet region ever arm occur air.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00017,D0697,gina.moore@yahoo.com,,Space although ahead thus check save that.,"Great call today, looking forward to next steps.",2026-05-16,valid,missing,False,positive
+E00018,D0221,ryan.munozgmail.com,,Street budget kitchen report fire teach.,"Not happy with the delay, please escalate.",,malformed,missing,False,negative
+E00019,D0188,cristian.santos@gmail.com,jonathan.jimenez@hotmail.com,Scene four public tonight today college worry reveal.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00020,D0001,lisa.hensley@gmail.com,laura.mckinney@hotmail.com,indicate property article cover seven challenge.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00021,D0364,jamie.arnold@gmail.com,daniel.garcia@yahoo.com,Every cup measure.,"Not happy with the delay, please escalate.",2026-01-12,valid,valid,False,negative
+E00022,D0696,daniel.wagner@hotmail.com,scott.pierce@gmail.com,Event go game nothing recent.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00023,D0361,jamie.arnold@yahoo.com,joshua.mcmillan@gmail.com,Truth consumer beat fish.,"This is taking longer than expected, we need an update ASAP.",2026-04-04,valid,valid,False,negative
+E00024,D0131,abigail.shaffergmail.com,robert.bowen@gmail.com,Small design hear ball.,We may have to look at other vendors if this isn't resolved.,,malformed,valid,False,negative
+E00025,D0076,connie.lawrence@gmail.com,donna.wilson@yahoo.com,Section scene financial here expert.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00026,D0263,ryan.munoz@hotmail.com,christopher.ferrell@yahoo.com,Difficult could third computer far recently.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00027,D0427,noah.rhodes@yahoo.com,stanley.barnes@yahoo.com,Hair sign mission stop reach color wear one.,Following up on our last conversation regarding pricing.,2026-11-01,valid,valid,False,neutral
+E00028,D0625,ryan.munoz@hotmail.com,benjamin.smith@gmail.com,Get specific someone debate record mean.,We may have to look at other vendors if this isn't resolved.,2025-12-13,valid,valid,False,negative
+E00029,D0770,jamie.arnold@yahoo.com,cody.brown@gmail.com,Significant election life all boy probably cost.,"Not happy with the delay, please escalate.",2026-06-15,valid,valid,False,negative
+E00030,D0382,abigail.shaffergmail.com,mallory.barajas@COMPANY.COM,Follow nor probably top follow bit grow too.,We may have to look at other vendors if this isn't resolved.,2025-12-08,malformed,placeholder,False,negative
+E00031,D0715,michele.williams@yahoo.com,kristopher.shannon@yahoo.com,Possible beyond tree fill level control.,"Really appreciate the detailed proposal, excited to move forward.",2025-12-14,valid,valid,False,positive
+E00032,D0413,allison.hillgmail.com,,Lead office itself human street education health full.,"Not happy with the delay, please escalate.",2025-11-06,malformed,missing,False,negative
+E00033,D0861,jamie.arnold@yahoo.com,,Wife theory shake.,Following up on our last conversation regarding pricing.,2026-05-05,valid,missing,False,neutral
+E00034,D0749,noah.rhodes@hotmail.com,karen.wells@COMPANY.COM,Inside similar west husband.,"Not happy with the delay, please escalate.",,valid,placeholder,False,negative
+E00035,D0482,allison.hill@hotmail.com,laura.mckinney@gmail.com,Though whole wall cup win.,"This is taking longer than expected, we need an update ASAP.",2025-11-08,valid,valid,False,negative
+E00036,D0304,connie.lawrence@gmail.com,jenny.lewis@hotmail.com,small approach bed society center get.,Following up on our last conversation regarding pricing.,2026-05-25,valid,valid,False,neutral
+E00037,D0032,gina.moore@yahoo.com,briana.wiggins@gmail.com,Customer common film continue.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00038,D0411,ryan.munoz@yahoo.com,paula.bradley@gmail.com,Child new simply above city.,"Thanks so much for the quick turnaround, this looks great!",2026-06-23,valid,valid,False,positive
+E00039,D0412,angie.henderson@hotmail.com,,Recognize tree protect story relationship several.,"Thanks so much for the quick turnaround, this looks great!",,valid,missing,False,positive
+E00040,D0419,gabrielle.davis@gmail.com,amanda.diaz@yahoo.com,Hundred force executive push.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00041,D0318,lisa.hensley@hotmail.com,james.bowers@yahoo.com,author major science only develop part should.,Following up on our last conversation regarding pricing.,2026-06-27,valid,valid,False,neutral
+E00042,D0494,ryan.munoz@yahoo.com,martin.silva@hotmail.com,Particular seem trip.,"Not happy with the delay, please escalate.",2026-02-09,valid,valid,False,negative
+E00043,D0076,,richard.alvarez@gmail.com,Could deep itself fund pressure international expect.,"Great call today, looking forward to next steps.",2026-04-26,missing,valid,False,positive
+E00044,D0712,michele.williams@yahoo.com,heather.bennett@gmail.com,When instead clear radio strong.,Following up on our last conversation regarding pricing.,2026-02-14,valid,valid,False,neutral
+E00045,D0216,allison.hill@gmail.com,jared.smith@yahoo.com,Pretty identify southern claim.,Please find attached the requested documents.,2026-07-03,valid,valid,False,neutral
+E00046,D0294,ryan.munozgmail.com,mary.hernandez@hotmail.com,Rather activity president prove institution approach.,We may have to look at other vendors if this isn't resolved.,2025-12-05,malformed,valid,False,negative
+E00047,D0794,connie.lawrence@hotmail.com,rachel.flores@hotmail.com,Page sort late health.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00048,D0797,,james.palmer@yahoo.com,Will born condition interest service that bag.,We may have to look at other vendors if this isn't resolved.,2026-03-10,missing,valid,False,negative
+E00049,D0092,jamie.arnold@hotmail.com,sherry.graham@hotmail.com,Culture spend road lawyer any.,"Really appreciate the detailed proposal, excited to move forward.",2025-02-11,valid,valid,False,positive
+E00050,D0198,allison.hill@gmail.com,,Least anyone out hard international push short.,Can we schedule a call sometime next week?,,valid,missing,False,positive
+E00051,D0747,,jonathan.davis@yahoo.com,Fall indicate land fear.,"This is taking longer than expected, we need an update ASAP.",2025-11-06,missing,valid,False,negative
+E00052,D0617,noah.rhodes@gmail.com,elizabeth.richardsgmail.com,Rule most how compare movement call.,"Thanks so much for the quick turnaround, this looks great!",,valid,malformed,False,positive
+E00053,D0252,michele.williams@yahoo.com,jennifer.williams@yahoo.com,Generation leader pay try tough.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00054,D0780,ryan.munoz@hotmail.com,alexander.gomez@hotmail.com,american force although participant rich speech big.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00055,D0215,abigail.shaffer@hotmail.com,michael.long@gmail.com,Until see institution against wear either.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00056,D0568,monica.herrera@gmail.com,miguel.parks@yahoo.com,,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00057,D0156,connie.lawrence@gmail.com,roger.velasquez@hotmail.com,Hear list set.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00058,D0212,daniel.wagner@hotmail.com,mark.lowe@hotmail.com,Everybody provide painting travel.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00059,D0308,michele.williamsgmail.com,austin.williams@yahoo.com,Imagine affect increase.,"This is taking longer than expected, we need an update ASAP.",,malformed,valid,False,negative
+E00060,D0738,gabrielle.davis@yahoo.com,amanda.hardin@yahoo.com,,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00061,D0095,michele.williams@yahoo.com,james.wells@hotmail.com,Play forget home upon actually future.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00062,D0205,michele.williams@yahoo.com,steven.lopez@gmail.com,Take material mother color hope idea produce.,We may have to look at other vendors if this isn't resolved.,2026-02-03,valid,valid,False,negative
+E00063,D0575,connie.lawrence@gmail.com,george.orozco@hotmail.com,no generation debate world hard factor firm.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00064,D0466,monica.herrera@gmail.com,katherine.goodwin@gmail.com,Once person north indeed share seem exist season.,"Not happy with the delay, please escalate.",2026-04-05,valid,valid,False,negative
+E00065,D0489,connie.lawrence@yahoo.com,tracey.wagner@hotmail.com,Her we but how.,"Thanks so much for the quick turnaround, this looks great!",2026-07-29,valid,valid,False,positive
+E00066,D0656,noah.rhodes@gmail.com,,Eye ten short worker without nearly goal.,Can we schedule a call sometime next week?,,valid,missing,False,positive
+E00067,D0279,lisa.hensley@hotmail.com,christopher.marsh@yahoo.com,Side picture professional rather plan player.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00068,D0385,connie.lawrence@hotmail.com,austin.gentrygmail.com,Different identify series experience under church.,We may have to look at other vendors if this isn't resolved.,2026-03-18,valid,malformed,False,negative
+E00069,D0383,michele.williams@yahoo.com,john.smith@yahoo.com,Mouth free less.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00070,D0833,abigail.shaffer@gmail.com,rebecca.ramsey@yahoo.com,President wind improve player peace catch people your.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00071,D0749,,kim.lopez@hotmail.com,,We may have to look at other vendors if this isn't resolved.,,missing,valid,False,negative
+E00072,D0881,ryan.munozgmail.com,jennifer.velasquez@COMPANY.COM,third pressure need tell sure claim hard themselves.,Following up on our last conversation regarding pricing.,2026-02-09,malformed,placeholder,False,neutral
+E00073,D0374,allison.hill@hotmail.com,mary.thompson@gmail.com,Car ask air officer learn raise.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00074,D0479,ryan.munoz@gmail.com,dennis.garza@gmail.com,Matter book page former turn city left.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00075,D0639,gabrielle.davis@gmail.com,michael.richmond@hotmail.com,Radio image mind.,"Not happy with the delay, please escalate.",2026-07-22,valid,valid,False,negative
+E00076,D0264,cristian.santos@yahoo.com,casey.chapman@gmail.com,whatever third mr respond parent writer.,We may have to look at other vendors if this isn't resolved.,2026-03-09,valid,valid,False,negative
+E00077,D0711,connie.lawrence@yahoo.com,,Still art speech stock rise always human.,"Really appreciate the detailed proposal, excited to move forward.",,valid,missing,False,positive
+E00078,D0399,monica.herrera@hotmail.com,lee.steele@hotmail.com,Investment buy certainly energy stay send.,Can we schedule a call sometime next week?,2026-12-07,valid,valid,False,positive
+E00079,D0161,angie.henderson@gmail.com,mark.lowe@yahoo.com,prevent center during lot enough form.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00080,D0717,abigail.shaffergmail.com,dawn.rivera@yahoo.com,Sell serious garden ready former late election.,"Great call today, looking forward to next steps.",2026-09-05,malformed,valid,False,positive
+E00081,D0032,allison.hill@gmail.com,jaime.harris@gmail.com,miss ago they nor.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00082,D0202,lisa.hensley@yahoo.com,alyssa.lee@hotmail.com,Nothing fight require pull.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00083,D0452,monica.herrera@hotmail.com,terry.lewis@gmail.com,Parent teacher either direction.,Can we schedule a call sometime next week?,2025-12-12,valid,valid,False,positive
+E00084,D0540,,nathan.stanley@COMPANY.COM,Field once else return seat you image peace.,Following up on our last conversation regarding pricing.,2026-06-21,missing,placeholder,False,neutral
+E00085,D0453,..cristian.santos...gmail.com,jesse.sampson@yahoo.com,Onto may model her.,Following up on our last conversation regarding pricing.,2025-12-17,malformed,valid,False,neutral
+E00086,D0712,ryan.munozgmail.com,amanda.reed@hotmail.com,that lot low here.,"Really appreciate the detailed proposal, excited to move forward.",,malformed,valid,False,positive
+E00087,D0653,gabrielle.davis@gmail.com,carlos.ruiz@yahoo.com,Finally difference everything sing smile.,"This is taking longer than expected, we need an update ASAP.",2026-02-05,valid,valid,False,negative
+E00088,D0339,noah.rhodes@yahoo.com,victoria.brown@yahoo.com,Notice police activity second standard skin together.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00089,D0472,gabrielle.davis@yahoo.com,tracey.smith@hotmail.com,Huge better forget.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00090,D0868,lisa.hensley@hotmail.com,david.combs@hotmail.com,,"Really appreciate the detailed proposal, excited to move forward.",2025-11-18,valid,valid,False,positive
+E00091,D0027,connie.lawrence@hotmail.com,john.alvarez@gmail.com,ready lay american participant necessary.,"Not happy with the delay, please escalate.",2026-05-08,valid,valid,False,negative
+E00092,D0216,michele.williams@gmail.com,stacy.gomez@hotmail.com,town car few debate.,"Great call today, looking forward to next steps.",2025-11-25,valid,valid,False,positive
+E00093,D0836,lisa.hensley@hotmail.com,tracey.smith@yahoo.com,Better think anything so authority long kind.,"Great call today, looking forward to next steps.",2026-06-01,valid,valid,False,positive
+E00094,D0485,ryan.munoz@gmail.com,joseph.hill@hotmail.com,Democrat maintain notice ok technology born though since.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00095,D0245,angie.hendersongmail.com,,,"This is taking longer than expected, we need an update ASAP.",2025-12-23,malformed,missing,False,negative
+E00096,D0780,angie.henderson@hotmail.com,katherine.goodwin@yahoo.com,Test eat every night final.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00097,D0153,ryan.munozgmail.com,larry.jones@gmail.com,According throw meeting many condition set pull.,"Really appreciate the detailed proposal, excited to move forward.",2026-03-01,malformed,valid,False,positive
+E00098,D0707,angie.henderson@yahoo.com,sharon.wellsgmail.com,Point Mrs consumer single several degree.,"Really appreciate the detailed proposal, excited to move forward.",2025-11-26,valid,malformed,False,positive
+E00099,D0128,allison.hill@yahoo.com,kimberly.davenport@hotmail.com,Bill feel participant number choice choose short.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00100,D0641,lisa.hensley@gmail.com,autumn.higgins@COMPANY.COM,Production for might listen organization indicate risk director.,Following up on our last conversation regarding pricing.,2026-03-06,valid,placeholder,False,neutral
+E00101,D0185,gabrielle.davis@yahoo.com,autumn.higginsgmail.com,Certain free government seat last interesting.,"Not happy with the delay, please escalate.",,valid,malformed,False,negative
+E00102,D0822,allison.hill@yahoo.com,jesse.garza@gmail.com,Area impact position cause lead ever.,Can we schedule a call sometime next week?,2026-02-16,valid,valid,False,positive
+E00103,D0639,lisa.hensley@gmail.com,cody.smith@gmail.com,Far health focus so for.,"Not happy with the delay, please escalate.",2026-06-12,valid,valid,False,negative
+E00104,D0746,angie.henderson@gmail.com,gabriel.juarez@gmail.com,Me task blood during for look return like.,"Not happy with the delay, please escalate.",2026-04-02,valid,valid,False,negative
+E00105,D0519,abigail.shaffer@gmail.com,lance.simmons@hotmail.com,,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00106,D0863,daniel.wagner@hotmail.com,megan.orr@yahoo.com,Mrs just exist line thing.,"This is taking longer than expected, we need an update ASAP.",2025-11-28,valid,valid,False,negative
+E00107,D0422,noah.rhodes@hotmail.com,timothy.ruiz@yahoo.com,Them operation off no.,Following up on our last conversation regarding pricing.,2025-11-20,valid,valid,False,neutral
+E00108,D0602,lisa.hensley@yahoo.com,gregory.stanley@hotmail.com,Several end most fact against sign attention.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00109,D0809,cristian.santos@hotmail.com,sara.johnston@hotmail.com,Whatever guess significant section Democrat fly.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00110,D0888,ryan.munoz@yahoo.com,drew.kelley@yahoo.com,question region effort section age.,"This is taking longer than expected, we need an update ASAP.",2026-01-01,valid,valid,False,negative
+E00111,D0135,daniel.wagner@yahoo.com,tara.rose@yahoo.com,South something story art writer health.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00112,D0721,gabrielle.davis@gmail.com,,Their force much executive free attack away.,Please find attached the requested documents.,2026-04-04,valid,missing,False,neutral
+E00113,D0234,allison.hillgmail.com,,Sister mother sometimes suffer because two particular.,"Great call today, looking forward to next steps.",2025-11-25,malformed,missing,False,positive
+E00114,D0837,gabrielle.davis@gmail.com,benjamin.smith@hotmail.com,Stand letter threat yes charge form.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00115,D0765,jamie.arnold@hotmail.com,joseph.schwartz@yahoo.com,Husband family perhaps.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00116,D0659,monica.herrera@gmail.com,melissa.mckee@gmail.com,Interview else development purpose force leader.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00117,D0394,noah.rhodes@hotmail.com,gregory.stanley@yahoo.com,Check significant deal consider ago own suddenly.,Can we schedule a call sometime next week?,2026-01-05,valid,valid,False,positive
+E00118,D0766,ryan.munoz@hotmail.com,carlos.ruiz@yahoo.com,,Can we schedule a call sometime next week?,2026-01-06,valid,valid,False,positive
+E00119,D0639,ryan.munoz@yahoo.com,michele.evans@yahoo.com,View describe green case together.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00120,D0158,abigail.shaffer@yahoo.com,dana.santiagogmail.com,Know season science.,"Great call today, looking forward to next steps.",,valid,malformed,False,positive
+E00121,D0411,,laura.mckinney@yahoo.com,Human day herself sport behavior compare.,We may have to look at other vendors if this isn't resolved.,2026-02-12,missing,valid,False,negative
+E00122,D0339,monica.herrera@hotmail.com,beth.hall@hotmail.com,Clear decide wait scientist.,Can we schedule a call sometime next week?,2026-07-08,valid,valid,False,positive
+E00123,D0103,cristian.santos@yahoo.com,rita.ponce.dvm@yahoo.com,Decision before medical long meet.,"Not happy with the delay, please escalate.",2026-06-02,valid,valid,False,negative
+E00124,D0828,michele.williams@gmail.com,kim.lopez@gmail.com,Sound hundred tax great watch student.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00125,D0158,cristian.santos@hotmail.com,kenneth.mcdonald@yahoo.com,Yourself be poor hope likely.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00126,D0148,michele.williams@yahoo.com,william.smith@hotmail.com,Animal suggest concern act million cell.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00127,D0795,michele.williams@gmail.com,robert.cline@hotmail.com,He increase church common view.,"Thanks so much for the quick turnaround, this looks great!",2026-09-03,valid,valid,False,positive
+E00128,D0199,ryan.munoz@hotmail.com,kristin.stewart@hotmail.com,half understand skill air.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00129,D0047,jamie.arnold@yahoo.com,katherine.goodwingmail.com,Health success perform agreement ago agreement like same.,"Thanks so much for the quick turnaround, this looks great!",2025-12-26,valid,malformed,False,positive
+E00130,D0765,daniel.wagner@yahoo.com,todd.woods@gmail.com,Help out modern citizen address today begin.,"Really appreciate the detailed proposal, excited to move forward.",2025-10-12,valid,valid,False,positive
+E00131,D0611,michele.williams@gmail.com,john.smith@yahoo.com,Work task Mr care owner PM find.,Please find attached the requested documents.,2026-07-29,valid,valid,False,neutral
+E00132,D0569,noah.rhodes@yahoo.com,michele.evans@gmail.com,,Can we schedule a call sometime next week?,2026-09-03,valid,valid,False,positive
+E00133,D0210,lisa.hensley@gmail.com,jeremy.horne.md@gmail.com,Method south central process sea.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00134,D0656,daniel.wagner@yahoo.com,danielle.hamilton@hotmail.com,Economic economy role feeling.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00135,D0674,allison.hill@yahoo.com,dennis.young@hotmail.com,Mind officer third service capital instead product often.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00136,D0363,ryan.munoz@gmail.com,kim.lopez@hotmail.com,Place some woman add play structure.,"Thanks so much for the quick turnaround, this looks great!",2026-07-14,valid,valid,False,positive
+E00137,D0158,,megan.orr@yahoo.com,Activity lose tax could thank wife.,We may have to look at other vendors if this isn't resolved.,2026-01-04,missing,valid,False,negative
+E00138,D0625,noah.rhodes@gmail.com,,Perform national brother evidence shoulder under front.,We may have to look at other vendors if this isn't resolved.,2026-02-19,valid,missing,False,negative
+E00139,D0004,gabrielle.davis@yahoo.com,nicholas.hill@COMPANY.COM,Southern maintain nature professional property garden.,We may have to look at other vendors if this isn't resolved.,,valid,placeholder,False,negative
+E00140,D0826,noah.rhodes@gmail.com,cynthia.cochran@yahoo.com,Politics who call dinner leader book.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00141,D0659,jamie.arnold@yahoo.com,shannon.green@gmail.com,Film job worker bar term measure.,"This is taking longer than expected, we need an update ASAP.",2026-03-31,valid,valid,False,negative
+E00142,D0529,noah.rhodes@hotmail.com,elizabeth.sharp@gmail.com,Style develop admit safe.,"Great call today, looking forward to next steps.",2026-02-17,valid,valid,False,positive
+E00143,D0673,,,Sister none most another mouth much really young.,"Really appreciate the detailed proposal, excited to move forward.",,missing,missing,False,positive
+E00144,D0154,lisa.hensley@gmail.com,daniel.livingston@gmail.com,Play teacher difficult us.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00145,D0608,allison.hill@hotmail.com,cheryl.gray@hotmail.com,Teach everything where we fast too.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00146,D0122,ryan.munoz@yahoo.com,jaime.harris@yahoo.com,Carry visit a edge new find.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00147,D0058,jamie.arnold@hotmail.com,wesley.white@hotmail.com,Arrive improve century state.,We may have to look at other vendors if this isn't resolved.,2026-11-07,valid,valid,False,negative
+E00148,D0057,gabrielle.davis@gmail.com,christopher.nelson@yahoo.com,Position hospital cover strong.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00149,D0811,abigail.shaffer@yahoo.com,richard.gordon@gmail.com,But science want charge kitchen public.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00150,D0864,jamie.arnold@gmail.com,justin.webb@hotmail.com,Minute modern sign out.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00151,D0595,connie.lawrence@yahoo.com,scott.sanchez@yahoo.com,Must particular child they.,"This is taking longer than expected, we need an update ASAP.",2026-01-03,valid,valid,False,negative
+E00152,D0518,gabrielle.davis@hotmail.com,austin.williams@yahoo.com,We American study eight phone.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00153,D0082,daniel.wagner@gmail.com,melissa.bauer@yahoo.com,mission become rule where ten.,"Thanks so much for the quick turnaround, this looks great!",2026-02-25,valid,valid,False,positive
+E00154,D0756,gabrielle.davis@hotmail.com,charles.pitts@yahoo.com,instead point tend exactly right every.,We may have to look at other vendors if this isn't resolved.,2026-05-01,valid,valid,False,negative
+E00155,D0868,lisa.hensley@hotmail.com,harry.bryant@yahoo.com,project economy ground actually require magazine.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00156,D0412,jamie.arnold@gmail.com,victoria.brown@hotmail.com,Program billion sit remain night study.,"Not happy with the delay, please escalate.",2026-04-09,valid,valid,False,negative
+E00157,D0493,angie.henderson@hotmail.com,mallory.barajas@hotmail.com,Among blue study poor better believe.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00158,D0679,abigail.shaffer@gmail.com,darrell.curry@yahoo.com,,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00159,D0503,gina.moore@hotmail.com,gabrielle.morris@gmail.com,Spend physical sing protect agent note.,Following up on our last conversation regarding pricing.,2026-04-06,valid,valid,False,neutral
+E00160,D0347,jamie.arnold@yahoo.com,jeremy.horne.md@gmail.com,Turn soon rock support effect.,"Great call today, looking forward to next steps.",2025-11-07,valid,valid,False,positive
+E00161,D0103,connie.lawrence@yahoo.com,oscar.howardgmail.com,Wind eat land answer leader yard.,"Thanks so much for the quick turnaround, this looks great!",,valid,malformed,False,positive
+E00162,D0538,ryan.munoz@gmail.com,eddie.adams@gmail.com,Side natural focus husband give spring suddenly.,Please find attached the requested documents.,2026-01-11,valid,valid,False,neutral
+E00163,D0377,gabrielle.davis@yahoo.com,ashley.hall@yahoo.com,Mrs source whole first figure trial bed image.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00164,D0771,daniel.wagner@hotmail.com,jose.guerra@gmail.com,Dark task magazine front just guess.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00165,D0333,lisa.hensley@gmail.com,stacie.butler@yahoo.com,Born ok training.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00166,D0900,gina.moore@hotmail.com,alexis.smith@yahoo.com,Mrs huge receive cup bed our theory.,Please find attached the requested documents.,2026-05-11,valid,valid,False,neutral
+E00167,D0366,gabrielle.davis@yahoo.com,julie.howard@gmail.com,Mouth however TV billion what sport.,"Thanks so much for the quick turnaround, this looks great!",2026-02-19,valid,valid,False,positive
+E00168,D0840,abigail.shaffer@yahoo.com,tami.graves@hotmail.com,,"This is taking longer than expected, we need an update ASAP.",2026-07-01,valid,valid,False,negative
+E00169,D0628,gina.moore@gmail.com,rebecca.wright@hotmail.com,Early difficult possible democratic actually.,Can we schedule a call sometime next week?,2025-07-11,valid,valid,False,positive
+E00170,D0375,jamie.arnold@gmail.com,justin.webb@hotmail.com,Study increase necessary nothing include summer ok.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00171,D0403,lisa.hensley@yahoo.com,carl.hart@hotmail.com,religious word sound enjoy have.,Can we schedule a call sometime next week?,2026-04-21,valid,valid,False,positive
+E00172,D0658,michele.williams@gmail.com,emily.collins@yahoo.com,Ground when care team worry east mrs.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00173,D0356,jamie.arnold@hotmail.com,kristen.gonzales@hotmail.com,Movement bit step direction give reduce with.,"Not happy with the delay, please escalate.",2025-12-05,valid,valid,False,negative
+E00174,D0299,abigail.shaffer@gmail.com,scott.stewart@yahoo.com,Off apply peace market job.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00175,D0366,cristian.santos@gmail.com,danielle.medina@gmail.com,Large practice time live relationship as great.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00176,D0004,allison.hill@yahoo.com,elizabeth.davis@hotmail.com,Water road require make region.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00177,D0662,cristian.santos@yahoo.com,,Product finally recent fight discussion.,Please find attached the requested documents.,,valid,missing,False,neutral
+E00178,D0716,allison.hill@hotmail.com,larry.jones@yahoo.com,Short woman only television.,"Not happy with the delay, please escalate.",2026-06-07,valid,valid,False,negative
+E00179,D0606,jamie.arnold@gmail.com,rhonda.walker@hotmail.com,Onto simple audience as including claim.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00180,D0832,abigail.shaffer@hotmail.com,wanda.houston@gmail.com,Rock forward behind idea red rate source.,"This is taking longer than expected, we need an update ASAP.",2025-12-23,valid,valid,False,negative
+E00181,D0120,daniel.wagner@yahoo.com,bryan.villarreal@gmail.com,consumer find concern involve edge before.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00182,D0002,connie.lawrence@gmail.com,steven.cooper@gmail.com,Worry plan fund sell model after.,"Thanks so much for the quick turnaround, this looks great!",2026-01-10,valid,valid,False,positive
+E00183,D0137,jamie.arnold@hotmail.com,steven.lopez@gmail.com,,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00184,D0568,abigail.shaffer@hotmail.com,daniel.garcia@hotmail.com,Teacher western country per consider despite.,"Not happy with the delay, please escalate.",2026-06-07,valid,valid,False,negative
+E00185,D0154,cristian.santos@hotmail.com,linda.berry@yahoo.com,,"Great call today, looking forward to next steps.",2026-02-03,valid,valid,False,positive
+E00186,D0065,cristian.santos@gmail.com,zachary.chan@yahoo.com,Blue raise operation cold between.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00187,D0563,daniel.wagner@gmail.com,thomas.webb@COMPANY.COM,Turn visit up nature home language bring never.,Can we schedule a call sometime next week?,,valid,placeholder,False,positive
+E00188,D0133,monica.herrera@yahoo.com,matthew.rodriguez@gmail.com,whether make some among around.,"Not happy with the delay, please escalate.",2026-02-01,valid,valid,False,negative
+E00189,D0832,cristian.santos@yahoo.com,david.jenkinsgmail.com,Better mind professional fly month offer mother hour.,We may have to look at other vendors if this isn't resolved.,2026-07-27,valid,malformed,False,negative
+E00190,D0761,connie.lawrence@gmail.com,william.smith@yahoo.com,Career shake fall phone identify help.,Please find attached the requested documents.,2026-03-30,valid,valid,False,neutral
+E00191,D0897,abigail.shaffer@yahoo.com,mary.hernandez@gmail.com,Night participant fill yeah side side.,"Thanks so much for the quick turnaround, this looks great!",2026-03-14,valid,valid,False,positive
+E00192,D0240,cristian.santos@hotmail.com,david.griffith@gmail.com,Water film onto too myself.,Can we schedule a call sometime next week?,2026-05-10,valid,valid,False,positive
+E00193,D0595,daniel.wagner@hotmail.com,,Move another field.,"Not happy with the delay, please escalate.",,valid,missing,False,negative
+E00194,D0604,connie.lawrence@hotmail.com,jennifer.hancock@gmail.com,School model condition he recognize treat.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00195,D0508,abigail.shaffer@gmail.com,dan.crane@gmail.com,Authority data deal policy administration two.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00196,D0103,jamie.arnold@hotmail.com,stacey.walker@gmail.com,Above drive sport story worker.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00197,D0257,abigail.shaffer@gmail.com,terry.lewis@yahoo.com,And center east protect think institution.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00198,D0080,,jesse.wright@hotmail.com,Daughter these say evening real.,"This is taking longer than expected, we need an update ASAP.",2026-04-05,missing,valid,False,negative
+E00199,D0780,michele.williamsgmail.com,amy.price@yahoo.com,,"This is taking longer than expected, we need an update ASAP.",2026-02-22,malformed,valid,False,negative
+E00200,D0251,,rhonda.walker@hotmail.com,can ready audience boy city social at.,"Thanks so much for the quick turnaround, this looks great!",,missing,valid,False,positive
+E00201,D0190,allison.hill@gmail.com,veronica.silva@hotmail.com,Western resource reason expect expert.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00202,D0692,michele.williams@yahoo.com,gabrielle.morris@gmail.com,House those dark beat.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00203,D0419,allison.hill@COMPANY.COM,,Camera yet light body director.,"Great call today, looking forward to next steps.",,placeholder,missing,False,positive
+E00204,D0881,abigail.shaffer@gmail.com,charles.santiago@gmail.com,Drop past just central.,"Great call today, looking forward to next steps.",2026-06-16,valid,valid,False,positive
+E00205,D0039,connie.lawrence@gmail.com,marc.moore@hotmail.com,short country decision fish notice we game.,"Thanks so much for the quick turnaround, this looks great!",2026-04-12,valid,valid,False,positive
+E00206,D0671,noah.rhodes@gmail.com,kathy.king@yahoo.com,Customer popular hospital check factor as contain.,"Really appreciate the detailed proposal, excited to move forward.",2026-07-18,valid,valid,False,positive
+E00207,D0548,daniel.wagner@hotmail.com,tyrone.kaufman@COMPANY.COM,Agent key successful own explain claim.,"Great call today, looking forward to next steps.",,valid,placeholder,False,positive
+E00208,D0816,angie.henderson@yahoo.com,joshua.martin@gmail.com,Range improve move peace.,Please find attached the requested documents.,2026-03-30,valid,valid,False,neutral
+E00209,D0312,gabrielle.davis@yahoo.com,christopher.ferrell@yahoo.com,Century billion do.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00210,D0525,abigail.shaffer@hotmail.com,victor.holden@gmail.com,Shoulder build different pick nor available.,Can we schedule a call sometime next week?,2026-12-02,valid,valid,False,positive
+E00211,D0652,gina.moore@yahoo.com,christopher.nelson@hotmail.com,Executive pattern last security raise partner.,We may have to look at other vendors if this isn't resolved.,2026-04-27,valid,valid,False,negative
+E00212,D0182,gina.moore@hotmail.com,samantha.davis@yahoo.com,Try check movie growth certain PM company.,"Great call today, looking forward to next steps.",2026-03-02,valid,valid,False,positive
+E00213,D0380,connie.lawrence@yahoo.com,,Happy again south century.,"Great call today, looking forward to next steps.",2026-07-23,valid,missing,False,positive
+E00214,D0894,,danielle.hamilton@hotmail.com,Surface would by phone decade image third.,"Not happy with the delay, please escalate.",2026-03-06,missing,valid,False,negative
+E00215,D0225,abigail.shaffer@yahoo.com,alexander.gomez@yahoo.com,less full program card morning early.,Please find attached the requested documents.,2026-06-03,valid,valid,False,neutral
+E00216,D0445,connie.lawrence@hotmail.com,samantha.hale@gmail.com,Guy leg television society hear fill hotel like.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00217,D0565,connie.lawrence@yahoo.com,paige.weiss@yahoo.com,Include current front three process view it wall.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00218,D0155,noah.rhodes@gmail.com,,Note common worker quite shoulder political.,"This is taking longer than expected, we need an update ASAP.",,valid,missing,False,negative
+E00219,D0230,cristian.santos@gmail.com,oscar.howard@gmail.com,First early school several main particular.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00220,D0027,lisa.hensley@COMPANY.COM,tyler.medina@hotmail.com,then put skin beat across television apply system.,Following up on our last conversation regarding pricing.,,placeholder,valid,False,neutral
+E00221,D0807,noah.rhodes@yahoo.com,mary.spence@gmail.com,When film at perhaps.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00222,D0672,jamie.arnold@yahoo.com,jeremy.barnesgmail.com,Full compare field sort civil thing clear.,"Not happy with the delay, please escalate.",,valid,malformed,False,negative
+E00223,D0483,angie.henderson@hotmail.com,bryan.burns@yahoo.com,No pick record example.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00224,D0729,gabrielle.davis@gmail.com,scott.pierce@gmail.com,Training best always they.,"Great call today, looking forward to next steps.",2026-06-20,valid,valid,False,positive
+E00225,D0408,daniel.wagner@yahoo.com,brenda.lawrence@gmail.com,Only write gun.,Can we schedule a call sometime next week?,2026-03-09,valid,valid,False,positive
+E00226,D0767,michele.williams@hotmail.com,jack.white@gmail.com,Thus wife water note those write though.,"This is taking longer than expected, we need an update ASAP.",2026-03-01,valid,valid,False,negative
+E00227,D0613,gina.moore@gmail.com,amanda.wood@hotmail.com,Quality true book various whether.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00228,D0405,ryan.munoz@hotmail.com,michael.rush@gmail.com,Owner son administration through individual college.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00229,D0736,ryan.munoz@gmail.com,cynthia.cruz@hotmail.com,Word toward age five cold.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00230,D0230,connie.lawrence@hotmail.com,pamela.good@COMPANY.COM,enjoy you front evening yet.,"Great call today, looking forward to next steps.",,valid,placeholder,False,positive
+E00231,D0029,abigail.shaffer@hotmail.com,arthur.west@gmail.com,Necessary candidate within person same affect.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00232,D0200,daniel.wagner@yahoo.com,rachel.flores@yahoo.com,Along public recent friend sort table.,"Not happy with the delay, please escalate.",2026-02-12,valid,valid,False,negative
+E00233,D0703,gabrielle.davis@yahoo.com,jorge.armstrong.iii@hotmail.com,Car get energy cover example bar.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00234,D0073,abigail.shaffer@hotmail.com,brooke.khan@gmail.com,Technology time age campaign seven drug.,We may have to look at other vendors if this isn't resolved.,2026-03-03,valid,valid,False,negative
+E00235,D0011,ryan.munoz@gmail.com,drew.kelley@gmail.com,Soon single tell act add southern thank.,"Thanks so much for the quick turnaround, this looks great!",2025-12-19,valid,valid,False,positive
+E00236,D0133,angie.henderson@gmail.com,renee.mcdaniel@hotmail.com,Whole wide piece former professor partner argue catch.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00237,D0034,noah.rhodes@gmail.com,brandon.guerrero@gmail.com,Responsibility before item rate.,Following up on our last conversation regarding pricing.,2026-07-09,valid,valid,False,neutral
+E00238,D0310,cristian.santos@hotmail.com,cody.brown@gmail.com,Fly more live culture write painting.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00239,D0490,,stacy.gomez@yahoo.com,Ten article continue according compare culture century my.,We may have to look at other vendors if this isn't resolved.,,missing,valid,False,negative
+E00240,D0332,,michelle.armstrong@hotmail.com,Reflect away cost focus.,Following up on our last conversation regarding pricing.,,missing,valid,False,neutral
+E00241,D0597,cristian.santos@gmail.com,michelle.brandt@yahoo.com,Father include political design economy general drive according.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00242,D0166,gabrielle.davis@hotmail.com,,Example claim article management total.,We may have to look at other vendors if this isn't resolved.,2026-07-02,valid,missing,False,negative
+E00243,D0325,gina.moore@yahoo.com,,Purpose together knowledge with.,"This is taking longer than expected, we need an update ASAP.",,valid,missing,False,negative
+E00244,D0378,abigail.shaffer@yahoo.com,kathleen.watson@hotmail.com,Recently painting where notice road five.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00245,D0653,cristian.santos@yahoo.com,beth.hall@COMPANY.COM,Matter shake finish yourself couple onto.,Please find attached the requested documents.,2026-02-06,valid,placeholder,False,neutral
+E00246,D0122,cristian.santos@yahoo.com,,Let left type suffer win less.,Following up on our last conversation regarding pricing.,2025-12-11,valid,missing,False,neutral
+E00247,D0612,abigail.shaffer@yahoo.com,jake.mitchell@gmail.com,Scene history wear them.,Can we schedule a call sometime next week?,2026-07-04,valid,valid,False,positive
+E00248,D0180,monica.herrera@yahoo.com,james.palmer@hotmail.com,Human add social product.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00249,D0725,ryan.munoz@hotmail.com,tyler.vasquez@gmail.com,Believe hospital change front against.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00250,D0290,ryan.munoz@yahoo.com,mitchell.smith@hotmail.com,,"Really appreciate the detailed proposal, excited to move forward.",2026-02-15,valid,valid,False,positive
+E00251,D0444,connie.lawrence@hotmail.com,justin.webb@gmail.com,Which at follow live eye dog.,We may have to look at other vendors if this isn't resolved.,2025-12-14,valid,valid,False,negative
+E00252,D0873,gina.moore@gmail.com,,make whatever place full financial peace.,Can we schedule a call sometime next week?,,valid,missing,False,positive
+E00253,D0266,michele.williamsgmail.com,debra.quinngmail.com,Can example right southern ten hard wife as.,Please find attached the requested documents.,2026-04-17,malformed,malformed,False,neutral
+E00254,D0006,abigail.shaffer@yahoo.com,taylor.pittman@gmail.com,War read travel total plant.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00255,D0456,lisa.hensley@COMPANY.COM,richard.gibsongmail.com,Skill never officer former create camera focus.,"This is taking longer than expected, we need an update ASAP.",,placeholder,malformed,False,negative
+E00256,D0061,cristian.santos@gmail.com,joseph.bell@hotmail.com,participant spend eat none three finish thing his.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00257,D0418,daniel.wagner@yahoo.com,amanda.jones@COMPANY.COM,More leg too water.,"Great call today, looking forward to next steps.",2025-12-11,valid,placeholder,False,positive
+E00258,D0566,angie.henderson@gmail.com,katelyn.perez@yahoo.com,Since social everybody central summer arrive.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00259,D0198,ryan.munoz@hotmail.com,joseph.hanson@gmail.com,Green per no situation what machine.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00260,D0822,daniel.wagner@hotmail.com,robert.lopez@hotmail.com,Build safe save crime sometimes executive so institution.,Can we schedule a call sometime next week?,2026-01-25,valid,valid,False,positive
+E00261,D0199,lisa.hensley@gmail.com,rebecca.wright@yahoo.com,daughter fast agreement popular instead.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00262,D0811,cristian.santos@COMPANY.COM,jose.campbell@gmail.com,Personal new order serve blue event every.,We may have to look at other vendors if this isn't resolved.,,placeholder,valid,False,negative
+E00263,D0778,gabrielle.davis@yahoo.com,angela.velazquez@COMPANY.COM,Clear campaign what buy test.,"Thanks so much for the quick turnaround, this looks great!",,valid,placeholder,False,positive
+E00264,D0637,michele.williams@yahoo.com,james.li@gmail.com,Story heart agent its food concern.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00265,D0780,monica.herrera@gmail.com,david.jenkins@hotmail.com,Food series always memory reveal.,"Great call today, looking forward to next steps.",2026-04-17,valid,valid,False,positive
+E00266,D0088,gabrielle.davis@yahoo.com,jon.miller@gmail.com,Cause bill clear research.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00267,D0658,allison.hill@yahoo.com,amanda.moore@yahoo.com,Ball gas attorney hundred artist indicate.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00268,D0743,gina.moore@hotmail.com,theodore.long@gmail.com,State sport large boy treat end dream.,"Thanks so much for the quick turnaround, this looks great!",2026-06-04,valid,valid,False,positive
+E00269,D0566,connie.lawrence@hotmail.com,oscar.howard@gmail.com,Poor recently long.,"Thanks so much for the quick turnaround, this looks great!",2026-04-26,valid,valid,False,positive
+E00270,D0192,jamie.arnoldgmail.com,carlos.ruiz@gmail.com,West case floor hold.,"Thanks so much for the quick turnaround, this looks great!",2025-11-12,malformed,valid,False,positive
+E00271,D0133,gabrielle.davis@yahoo.com,jose.guerra@gmail.com,She man prove recent nearly always operation.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00272,D0471,daniel.wagner@hotmail.com,richard.knight@yahoo.com,,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00273,D0425,daniel.wagner@gmail.com,david.jenkins@yahoo.com,Charge account physical performance enter.,"Thanks so much for the quick turnaround, this looks great!",2026-03-19,valid,valid,False,positive
+E00274,D0651,gabrielle.davis@yahoo.com,jay.bernard@gmail.com,Senior eight cultural today hotel.,"This is taking longer than expected, we need an update ASAP.",2026-02-11,valid,valid,False,negative
+E00275,D0471,michele.williams@yahoo.com,cindy.hunt@gmail.com,Owner prepare memory if continue among source.,"Thanks so much for the quick turnaround, this looks great!",2026-04-27,valid,valid,False,positive
+E00276,D0247,angie.henderson@gmail.com,katherine.mcclure@gmail.com,,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00277,D0727,cristian.santos@COMPANY.COM,paula.bradley@gmail.com,Three such describe agency actually stop team.,"Really appreciate the detailed proposal, excited to move forward.",2026-04-26,placeholder,valid,False,positive
+E00278,D0323,cristian.santos@hotmail.com,zachary.chan@yahoo.com,Leader hospital send tv lose others.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00279,D0016,cristian.santos@hotmail.com,emily.collins@gmail.com,Pattern this system people.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00280,D0814,monica.herrera@yahoo.com,edgar.miller@gmail.com,Knowledge rock which best happy.,Can we schedule a call sometime next week?,2026-06-23,valid,valid,False,positive
+E00281,D0538,daniel.wagnergmail.com,victoria.browngmail.com,Score health evidence president father alone.,"This is taking longer than expected, we need an update ASAP.",,malformed,malformed,False,negative
+E00282,D0615,gina.moore@gmail.com,barry.welch@yahoo.com,Us thought song daughter try season radio.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00283,D0090,gina.moore@yahoo.com,dawn.rivera@gmail.com,Both right lay.,Following up on our last conversation regarding pricing.,2025-08-11,valid,valid,False,neutral
+E00284,D0392,daniel.wagner@hotmail.com,amanda.hardin@hotmail.com,Establish reflect look rule check.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00285,D0221,michele.williams@hotmail.com,john.boone@yahoo.com,Also it letter.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00286,D0155,,kristin.stewart@gmail.com,today prevent where then report rest dark.,Following up on our last conversation regarding pricing.,,missing,valid,False,neutral
+E00287,D0232,ryan.munoz@hotmail.com,christian.booker@yahoo.com,Dog language ability practice them.,"Great call today, looking forward to next steps.",2026-01-12,valid,valid,False,positive
+E00288,D0441,abigail.shaffer@yahoo.com,michele.conner@hotmail.com,Expert because happen.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00289,D0527,connie.lawrence@hotmail.com,jody.meza@gmail.com,Probably he necessary certainly same get.,"Great call today, looking forward to next steps.",2026-06-13,valid,valid,False,positive
+E00290,D0813,connie.lawrence@yahoo.com,mallory.barajas@yahoo.com,work should challenge pull threat put imagine.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00291,D0477,gabrielle.davis@gmail.com,trevor.guzman@hotmail.com,Those four grow level send.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00292,D0014,jamie.arnold@COMPANY.COM,trevor.guzman@gmail.com,Gas truth work.,"Really appreciate the detailed proposal, excited to move forward.",,placeholder,valid,False,positive
+E00293,D0511,abigail.shaffer@yahoo.com,dean.shannon@hotmail.com,Story city sometimes cause staff day really bank.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00294,D0028,ryan.munoz@gmail.com,,Name mind offer effort nearly walk science.,We may have to look at other vendors if this isn't resolved.,,valid,missing,False,negative
+E00295,D0679,lisa.hensley@yahoo.com,dwayne.campbellgmail.com,bring rule someone nature house prevent hotel.,"Really appreciate the detailed proposal, excited to move forward.",,valid,malformed,False,positive
+E00296,D0697,allison.hill@hotmail.com,jesse.garza@yahoo.com,Difficult popular choose really.,Following up on our last conversation regarding pricing.,2026-04-07,valid,valid,False,neutral
+E00297,D0701,noah.rhodes@hotmail.com,john.smith@gmail.com,Son manager trouble reason fill sense field.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00298,D0377,daniel.wagner@hotmail.com,,Week course administration fast.,Please find attached the requested documents.,,valid,missing,False,neutral
+E00299,D0030,daniel.wagner@hotmail.com,brandon.guerrero@gmail.com,Effect week instead group.,We may have to look at other vendors if this isn't resolved.,2025-12-27,valid,valid,False,negative
+E00300,D0895,jamie.arnold@hotmail.com,tyrone.matthews@hotmail.com,Gas heart field people try.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00301,D0628,angie.henderson@hotmail.com,nicole.thompson@gmail.com,With matter goal eight list something send.,"Not happy with the delay, please escalate.",2026-04-23,valid,valid,False,negative
+E00302,D0821,gina.moore@yahoo.com,michelle.brandt@hotmail.com,Per go will make agree although maintain town.,Following up on our last conversation regarding pricing.,2026-05-30,valid,valid,False,neutral
+E00303,D0043,noah.rhodes@hotmail.com,david.jenkins@gmail.com,Early store piece behind.,Can we schedule a call sometime next week?,2026-10-03,valid,valid,False,positive
+E00304,D0403,angie.henderson@yahoo.com,cynthia.cruz@gmail.com,Worker alone finally since take describe improve act.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00305,D0148,angie.henderson@hotmail.com,sandra.walker@gmail.com,Know maybe leg recent hold understand president.,Following up on our last conversation regarding pricing.,2025-12-05,valid,valid,False,neutral
+E00306,D0689,connie.lawrence@hotmail.com,roger.velasquez@gmail.com,Make total fall clear face former body.,We may have to look at other vendors if this isn't resolved.,2025-11-13,valid,valid,False,negative
+E00307,D0603,angie.henderson@gmail.com,julie.howard@gmail.com,Main accept simply southern town significant analysis.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00308,D0417,angie.henderson@yahoo.com,kristen.gonzales@hotmail.com,Suffer director know red treatment big cause science.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00309,D0342,noah.rhodes@hotmail.com,kenneth.collins@gmail.com,Many some involve remain today happy.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00310,D0184,daniel.wagner@yahoo.com,taylor.berry@yahoo.com,Everything newspaper institution.,Following up on our last conversation regarding pricing.,2026-03-29,valid,valid,False,neutral
+E00311,D0888,noah.rhodes@yahoo.com,joel.johnson@COMPANY.COM,Listen medical during until case agency.,Can we schedule a call sometime next week?,2025-11-18,valid,placeholder,False,positive
+E00312,D0151,daniel.wagner@gmail.com,michelle.armstrong@hotmail.com,Land you health enjoy at.,"Thanks so much for the quick turnaround, this looks great!",2025-11-24,valid,valid,False,positive
+E00313,D0505,ryan.munoz@gmail.com,stacey.walker@hotmail.com,Break always dark feel second hospital.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00314,D0470,daniel.wagner@hotmail.com,james.powers@gmail.com,modern entire most field.,We may have to look at other vendors if this isn't resolved.,2026-02-10,valid,valid,False,negative
+E00315,D0793,daniel.wagner@yahoo.com,tyrone.matthews@gmail.com,,Please find attached the requested documents.,2026-10-06,valid,valid,False,neutral
+E00316,D0500,lisa.hensley@gmail.com,miguel.parksgmail.com,project tax certainly set.,"Great call today, looking forward to next steps.",,valid,malformed,False,positive
+E00317,D0437,allison.hill@COMPANY.COM,donna.berry@gmail.com,Clearly phone including personal visit still image.,"Thanks so much for the quick turnaround, this looks great!",,placeholder,valid,False,positive
+E00318,D0675,jamie.arnold@gmail.com,paige.weiss@yahoo.com,Agree public us hospital paper term.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00319,D0209,lisa.hensley@gmail.com,matthew.avila@yahoo.com,We meeting image the play drop miss market.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00320,D0620,gina.moore@hotmail.com,holly.chapman@gmail.com,At be through certainly political hard.,Can we schedule a call sometime next week?,2025-11-21,valid,valid,False,positive
+E00321,D0622,abigail.shaffer@yahoo.com,kevin.stone@hotmail.com,Field movement force final way memory.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00322,D0117,daniel.wagner@hotmail.com,mark.lowe@hotmail.com,Type painting produce off light before majority.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00323,D0080,connie.lawrence@hotmail.com,amanda.wood@COMPANY.COM,Place edge environmental even eye message fine town.,"Thanks so much for the quick turnaround, this looks great!",,valid,placeholder,False,positive
+E00324,D0222,jamie.arnold@hotmail.com,william.jensen@gmail.com,,Please find attached the requested documents.,,valid,valid,False,neutral
+E00325,D0289,cristian.santos@gmail.com,jerry.christensen@hotmail.com,Soon read couple rather.,"Really appreciate the detailed proposal, excited to move forward.",2026-05-02,valid,valid,False,positive
+E00326,D0196,monica.herrera@hotmail.com,matthew.gonzalez.dds@yahoo.com,Something ok community right then.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00327,D0052,allison.hill@gmail.com,jeremy.barnesgmail.com,So store consumer positive market early machine establish.,Can we schedule a call sometime next week?,,valid,malformed,False,positive
+E00328,D0113,michele.williams@hotmail.com,sandra.walker@yahoo.com,Effort author buy heavy.,"Thanks so much for the quick turnaround, this looks great!",2026-05-04,valid,valid,False,positive
+E00329,D0810,noah.rhodes@yahoo.com,mary.spence@gmail.com,Country various until lawyer.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00330,D0447,noah.rhodes@hotmail.com,david.jenkins@yahoo.com,Note current anything into word other live.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00331,D0585,michele.williams@gmail.com,tyler.cooper@gmail.com,But set yes American.,Following up on our last conversation regarding pricing.,2026-02-14,valid,valid,False,neutral
+E00332,D0424,gina.moore@gmail.com,david.griffith@hotmail.com,Environmental six understand rather daughter through note.,We may have to look at other vendors if this isn't resolved.,2025-11-19,valid,valid,False,negative
+E00333,D0262,monica.herrera@yahoo.com,tracy.fleming@hotmail.com,Exist drive determine page seem.,"Great call today, looking forward to next steps.",2025-11-03,valid,valid,False,positive
+E00334,D0374,daniel.wagner@yahoo.com,jared.cunningham@gmail.com,Age once several commercial.,"Great call today, looking forward to next steps.",2026-07-12,valid,valid,False,positive
+E00335,D0097,lisa.hensley@yahoo.com,amanda.reed@gmail.com,Pattern west before science without especially main.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00336,D0439,gina.moore@yahoo.com,jesse.wright@gmail.com,Least close community detail blue.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00337,D0350,angie.henderson@yahoo.com,matthew.avila@yahoo.com,Team support land discussion suggest impact know character.,We may have to look at other vendors if this isn't resolved.,2026-01-04,valid,valid,False,negative
+E00338,D0262,noah.rhodes@hotmail.com,daniel.lopez@yahoo.com,Must even think.,"Great call today, looking forward to next steps.",2026-07-01,valid,valid,False,positive
+E00339,D0308,noah.rhodes@hotmail.com,julie.howardgmail.com,Focus material past study paper health.,"Thanks so much for the quick turnaround, this looks great!",,valid,malformed,False,positive
+E00340,D0484,jamie.arnold@hotmail.com,paula.bradley@hotmail.com,Collection identify design government ever resource.,"Great call today, looking forward to next steps.",2026-12-05,valid,valid,False,positive
+E00341,D0481,jamie.arnold@yahoo.com,linda.bautista@COMPANY.COM,There whether rather none population ask require against.,"Great call today, looking forward to next steps.",2026-04-07,valid,placeholder,False,positive
+E00342,D0669,abigail.shaffer@yahoo.com,john.ramsey@yahoo.com,Join give especially treatment.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00343,D0848,jamie.arnold@gmail.com,meghan.williams@gmail.com,Table population out special suffer.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00344,D0358,monica.herrera@yahoo.com,jody.meza@gmail.com,Bed trouble begin receive anyone.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00345,D0124,ryan.munoz@yahoo.com,rachel.jones@yahoo.com,Fall teach everything trouble.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00346,D0413,gina.moore@yahoo.com,kelly.jonesgmail.com,Minute discussion begin appear.,We may have to look at other vendors if this isn't resolved.,2026-01-02,valid,malformed,False,negative
+E00347,D0295,..cristian.santos...gmail.com,richard.gibson@hotmail.com,Explain like institution collection.,Please find attached the requested documents.,,malformed,valid,False,neutral
+E00348,D0699,connie.lawrence@gmail.com,jennifer.cox@hotmail.com,Attack big stage condition.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00349,D0078,cristian.santos@yahoo.com,rebecca.marsh@hotmail.com,,Please find attached the requested documents.,2025-12-04,valid,valid,False,neutral
+E00350,D0432,lisa.hensley@COMPANY.COM,randy.shah@hotmail.com,May thus hour.,Can we schedule a call sometime next week?,,placeholder,valid,False,positive
+E00351,D0719,,stephanie.marshall@yahoo.com,Suffer drop participant happen.,"Thanks so much for the quick turnaround, this looks great!",2025-12-16,missing,valid,False,positive
+E00352,D0411,gabrielle.davis@yahoo.com,lee.steele@gmail.com,Compare body eat policy senior attack help.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00353,D0875,daniel.wagner@yahoo.com,matthew.avila@hotmail.com,Quality house must identify modern while wall.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00354,D0291,abigail.shaffer@hotmail.com,,Responsibility see seem model imagine me matter.,We may have to look at other vendors if this isn't resolved.,2026-05-02,valid,missing,False,negative
+E00355,D0874,monica.herrera@gmail.com,michael.anderson@gmail.com,Yes success break tough him federal agency maintain.,"Not happy with the delay, please escalate.",2026-08-06,valid,valid,False,negative
+E00356,D0434,angie.henderson@gmail.com,gabriela.davis@yahoo.com,Last opportunity serve cause.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00357,D0686,..cristian.santos...gmail.com,jeffrey.campbell@yahoo.com,Central too tough education human.,"Great call today, looking forward to next steps.",,malformed,valid,False,positive
+E00358,D0401,,mrs.toni.avila@yahoo.com,,"Really appreciate the detailed proposal, excited to move forward.",,missing,valid,False,positive
+E00359,D0785,cristian.santos@yahoo.com,edgar.miller@yahoo.com,Go travel thought.,Following up on our last conversation regarding pricing.,2026-07-11,valid,valid,False,neutral
+E00360,D0241,abigail.shaffer@gmail.com,rebecca.wright@hotmail.com,Great mention local value than.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00361,D0060,jamie.arnoldgmail.com,jennifer.espinozagmail.com,Former financial medical action big season.,"Really appreciate the detailed proposal, excited to move forward.",,malformed,malformed,False,positive
+E00362,D0117,allison.hill@gmail.com,dylan.green@gmail.com,Despite minute agency idea sometimes least perform.,"Great call today, looking forward to next steps.",2026-04-03,valid,valid,False,positive
+E00363,D0344,,gregory.stanley@gmail.com,One third serve item method program nature.,"Thanks so much for the quick turnaround, this looks great!",2026-01-17,missing,valid,False,positive
+E00364,D0051,jamie.arnold@hotmail.com,austin.williams@gmail.com,Usually help produce key.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00365,D0659,gabrielle.davis@yahoo.com,,Central trip behavior himself.,"This is taking longer than expected, we need an update ASAP.",2026-05-17,valid,missing,False,negative
+E00366,D0874,lisa.hensley@gmail.com,brooke.khan@gmail.com,Activity card industry create son.,"Not happy with the delay, please escalate.",2026-02-16,valid,valid,False,negative
+E00367,D0736,noah.rhodes@yahoo.com,julie.ball@hotmail.com,Effort trouble a at teach enter lot.,We may have to look at other vendors if this isn't resolved.,2026-06-30,valid,valid,False,negative
+E00368,D0009,ryan.munoz@yahoo.com,brooke.khan@gmail.com,Box prove speech garden road head light.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00369,D0572,noah.rhodes@hotmail.com,johnny.keller@hotmail.com,Threat sport former professor money property structure.,"This is taking longer than expected, we need an update ASAP.",2026-07-20,valid,valid,False,negative
+E00370,D0664,lisa.hensley@hotmail.com,kathy.king@yahoo.com,Sing early spring its evening vote feel win.,"Really appreciate the detailed proposal, excited to move forward.",2026-11-04,valid,valid,False,positive
+E00371,D0408,angie.henderson@gmail.com,stephanie.patel@hotmail.com,Soon election station never such.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00372,D0681,connie.lawrencegmail.com,elizabeth.richards@gmail.com,Toward unit recently media include hundred note.,"Great call today, looking forward to next steps.",,malformed,valid,False,positive
+E00373,D0177,angie.henderson@gmail.com,laura.bradford@gmail.com,Loss up at finish threat itself spring child.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00374,D0717,daniel.wagner@gmail.com,kurt.ewing@yahoo.com,Brother dog these man when open.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00375,D0657,monica.herrera@gmail.com,john.alvarez@yahoo.com,Particular close city force heavy.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00376,D0549,angie.henderson@gmail.com,elizabeth.vasquez@gmail.com,Change investment to.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00377,D0390,allison.hill@hotmail.com,pamela.santos@hotmail.com,Yeah able concern card.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00378,D0031,jamie.arnold@yahoo.com,dwayne.campbell@hotmail.com,Program beautiful close finally beyond you.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00379,D0597,,martha.ruiz@gmail.com,A two smile today station make environment fact.,Can we schedule a call sometime next week?,2025-11-23,missing,valid,False,positive
+E00380,D0821,gabrielle.davis@gmail.com,,expect assume paper employee poor record benefit paper.,We may have to look at other vendors if this isn't resolved.,,valid,missing,False,negative
+E00381,D0894,connie.lawrence@gmail.com,dan.cranegmail.com,System professor reason special grow meeting.,"Great call today, looking forward to next steps.",2026-08-05,valid,malformed,False,positive
+E00382,D0575,gina.moore@hotmail.com,alisha.byrd@yahoo.com,Southern dog world finally force drive.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00383,D0201,noah.rhodes@COMPANY.COM,scott.pierce@gmail.com,,We may have to look at other vendors if this isn't resolved.,,placeholder,valid,False,negative
+E00384,D0506,angie.henderson@yahoo.com,jorge.armstrong.iii@gmail.com,Reveal executive four floor.,Can we schedule a call sometime next week?,2025-11-30,valid,valid,False,positive
+E00385,D0166,michele.williams@yahoo.com,bob.cole@yahoo.com,But popular wall need onto visit.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00386,D0014,gina.moore@yahoo.com,trevor.guzmangmail.com,hair hospital generation.,"Great call today, looking forward to next steps.",,valid,malformed,False,positive
+E00387,D0143,jamie.arnold@yahoo.com,lonnie.hart@yahoo.com,Speech less whom situation.,Please find attached the requested documents.,2025-11-13,valid,valid,False,neutral
+E00388,D0507,lisa.hensley@yahoo.com,melissa.walker@gmail.com,Seat religious probably when seem test.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00389,D0262,jamie.arnold@gmail.com,randy.shah@yahoo.com,Behavior then free among cell mention.,Please find attached the requested documents.,2025-12-20,valid,valid,False,neutral
+E00390,D0225,connie.lawrence@yahoo.com,rachael.nguyen@gmail.com,Individual side place represent.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00391,D0363,gabrielle.davis@yahoo.com,joshua.mcmillan@yahoo.com,Bit sign wide.,Please find attached the requested documents.,2026-06-07,valid,valid,False,neutral
+E00392,D0678,monica.herrera@gmail.com,alyssa.lee@yahoo.com,event hospital more opportunity unit cultural show.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00393,D0850,gabrielle.davis@gmail.com,austin.joseph@yahoo.com,Natural much sense and forward imagine phone social.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00394,D0005,ryan.munoz@yahoo.com,ashley.hall@yahoo.com,Occur type strong development enter through system stage.,We may have to look at other vendors if this isn't resolved.,2026-03-10,valid,valid,False,negative
+E00395,D0308,michele.williams@hotmail.com,tyrone.matthews@yahoo.com,Enter most American weight last however.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00396,D0025,jamie.arnold@gmail.com,daniel.williams@yahoo.com,Sport national indicate maybe weight some policy.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00397,D0276,gina.moore@hotmail.com,charles.santiago@hotmail.com,Market oil move.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00398,D0777,ryan.munozgmail.com,jeremy.barnes@gmail.com,Understand home rise concern prevent.,"Great call today, looking forward to next steps.",,malformed,valid,False,positive
+E00399,D0323,monica.herrera@yahoo.com,melissa.brewer@gmail.com,Positive water again candidate see election.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00400,D0065,angie.henderson@hotmail.com,christopher.marsh@yahoo.com,,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00401,D0308,allison.hill@hotmail.com,sharon.wells@hotmail.com,Baby choose building view.,Following up on our last conversation regarding pricing.,2026-07-31,valid,valid,False,neutral
+E00402,D0476,cristian.santos@gmail.com,taylor.berry@yahoo.com,Box later building she.,"Not happy with the delay, please escalate.",2026-07-19,valid,valid,False,negative
+E00403,D0193,lisa.hensley@yahoo.com,erin.steele@hotmail.com,loss pass size green.,Can we schedule a call sometime next week?,2026-06-01,valid,valid,False,positive
+E00404,D0890,abigail.shaffer@gmail.com,lance.simmons@yahoo.com,Nation economy adult trial source.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00405,D0188,monica.herrera@gmail.com,thomas.anderson@gmail.com,Certainly civil spring movement.,We may have to look at other vendors if this isn't resolved.,2026-06-05,valid,valid,False,negative
+E00406,D0357,connie.lawrence@hotmail.com,cynthia.cruz@yahoo.com,Future home series.,"Really appreciate the detailed proposal, excited to move forward.",2026-03-11,valid,valid,False,positive
+E00407,D0097,gina.moore@hotmail.com,erin.steele@yahoo.com,Cold perform low only recently.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00408,D0784,angie.henderson@hotmail.com,michael.obrien@gmail.com,newspaper leader focus hard tonight already could.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00409,D0098,angie.henderson@gmail.com,jeremy.bell@hotmail.com,Possible indeed study wide television be.,"This is taking longer than expected, we need an update ASAP.",2026-04-05,valid,valid,False,negative
+E00410,D0780,cristian.santos@hotmail.com,emily.hayes@hotmail.com,She or list network necessary seven build.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00411,D0402,allison.hill@hotmail.com,jason.beck@yahoo.com,Fine state fall teach area.,"This is taking longer than expected, we need an update ASAP.",2026-06-10,valid,valid,False,negative
+E00412,D0634,connie.lawrence@gmail.com,sarah.ramirez@hotmail.com,,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00413,D0338,ryan.munoz@yahoo.com,bradley.moore@gmail.com,Final feel age wonder foreign Republican thank.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00414,D0178,daniel.wagner@hotmail.com,rebecca.marsh@hotmail.com,Guy believe enough free.,We may have to look at other vendors if this isn't resolved.,2026-07-13,valid,valid,False,negative
+E00415,D0515,michele.williams@gmail.com,blake.vega@hotmail.com,,Can we schedule a call sometime next week?,2026-07-01,valid,valid,False,positive
+E00416,D0411,connie.lawrencegmail.com,adam.taylor@gmail.com,Very that national trade price beyond idea.,Following up on our last conversation regarding pricing.,2026-05-26,malformed,valid,False,neutral
+E00417,D0136,connie.lawrence@yahoo.com,charles.haley@yahoo.com,Price especially appear attention.,"Really appreciate the detailed proposal, excited to move forward.",2026-07-13,valid,valid,False,positive
+E00418,D0300,allison.hill@hotmail.com,benjamin.smith@gmail.com,through amount special image.,Following up on our last conversation regarding pricing.,2026-07-18,valid,valid,False,neutral
+E00419,D0447,ryan.munoz@gmail.com,melissa.walker@hotmail.com,,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00420,D0496,noah.rhodes@yahoo.com,sherry.graham@COMPANY.COM,Rock call scene state radio.,"Really appreciate the detailed proposal, excited to move forward.",2026-10-06,valid,placeholder,False,positive
+E00421,D0620,abigail.shaffer@yahoo.com,paula.bradley@gmail.com,Themselves office role success manage draw involve.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00422,D0115,abigail.shaffer@yahoo.com,jeremy.bell@gmail.com,Fall carry wind in official especially pattern.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00423,D0160,noah.rhodes@hotmail.com,monica.rose@yahoo.com,Possible marriage within if course.,Can we schedule a call sometime next week?,2026-02-07,valid,valid,False,positive
+E00424,D0446,gina.moore@COMPANY.COM,richard.gibsongmail.com,office sport oil whose.,"Not happy with the delay, please escalate.",2026-08-01,placeholder,malformed,False,negative
+E00425,D0659,connie.lawrence@hotmail.com,cynthia.cruz@gmail.com,Your seat rule range card.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00426,D0281,allison.hillgmail.com,daniel.lopez@gmail.com,Able decision book recent including game language.,"This is taking longer than expected, we need an update ASAP.",,malformed,valid,False,negative
+E00427,D0250,gina.moore@hotmail.com,carl.hartgmail.com,Than foot in process.,Can we schedule a call sometime next week?,2025-12-10,valid,malformed,False,positive
+E00428,D0609,gabrielle.davis@yahoo.com,robert.johnson@hotmail.com,Tax certainly home could program.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00429,D0800,lisa.hensley@gmail.com,samantha.hale@yahoo.com,We join edge item city sit street.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00430,D0729,angie.henderson@hotmail.com,stacey.walker@yahoo.com,,Following up on our last conversation regarding pricing.,2026-05-24,valid,valid,False,neutral
+E00431,D0458,noah.rhodesgmail.com,rita.ponce.dvm@hotmail.com,only girl popular last.,"This is taking longer than expected, we need an update ASAP.",,malformed,valid,False,negative
+E00432,D0559,angie.henderson@yahoo.com,,White especially lose just card sit population.,Can we schedule a call sometime next week?,2026-05-08,valid,missing,False,positive
+E00433,D0033,gabrielle.davis@hotmail.com,kelly.jones@hotmail.com,Body return miss ready.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00434,D0228,michele.williamsgmail.com,kristin.andrews@hotmail.com,Son second after note those drop executive.,"Not happy with the delay, please escalate.",,malformed,valid,False,negative
+E00435,D0615,gina.moore@hotmail.com,austin.johnson@hotmail.com,Off under two physical within about when force.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00436,D0024,,jeremy.horne.md@hotmail.com,,"Not happy with the delay, please escalate.",2026-08-05,missing,valid,False,negative
+E00437,D0117,daniel.wagner@yahoo.com,holly.valdez@hotmail.com,Pick prove whether north ground.,We may have to look at other vendors if this isn't resolved.,2026-01-08,valid,valid,False,negative
+E00438,D0107,daniel.wagner@hotmail.com,lisa.kirby@gmail.com,Foot tax ground serve mouth.,"Really appreciate the detailed proposal, excited to move forward.",2026-02-12,valid,valid,False,positive
+E00439,D0371,connie.lawrence@yahoo.com,lonnie.hart@hotmail.com,Ready billion time.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00440,D0191,abigail.shaffer@gmail.com,amy.price@gmail.com,Include you authority race wish kid career.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00441,D0513,lisa.hensley@gmail.com,kristin.andrews@yahoo.com,Already activity onto build.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00442,D0795,gabrielle.davis@hotmail.com,nathan.stanleygmail.com,Throw behavior type partner behavior economy our.,"Really appreciate the detailed proposal, excited to move forward.",,valid,malformed,False,positive
+E00443,D0490,cristian.santos@gmail.com,brandon.guerrerogmail.com,Live everyone cold.,Please find attached the requested documents.,,valid,malformed,False,neutral
+E00444,D0310,lisa.hensley@hotmail.com,adam.taylor@gmail.com,Stage describe in former become old under.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00445,D0697,noah.rhodes@yahoo.com,gavin.zhang@hotmail.com,Various send news clearly school wonder.,"Really appreciate the detailed proposal, excited to move forward.",2026-01-15,valid,valid,False,positive
+E00446,D0524,noah.rhodes@hotmail.com,bob.cole@yahoo.com,Common church scene run cultural.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00447,D0862,abigail.shaffer@gmail.com,charles.jackson@yahoo.com,Article last peace all rise right happen.,"Not happy with the delay, please escalate.",2025-12-27,valid,valid,False,negative
+E00448,D0387,gabrielle.davis@yahoo.com,jonathan.jimenez@hotmail.com,Child as top list account hear.,"Not happy with the delay, please escalate.",2026-05-26,valid,valid,False,negative
+E00449,D0412,daniel.wagner@hotmail.com,,Board share deep child board director.,"Great call today, looking forward to next steps.",,valid,missing,False,positive
+E00450,D0117,monica.herrera@yahoo.com,martin.silva@hotmail.com,Research this most too option which one.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00451,D0271,abigail.shaffer@yahoo.com,randy.shah@gmail.com,Mouth note well interesting particularly some evidence employee.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00452,D0161,gina.moore@COMPANY.COM,jaime.jones@hotmail.com,Cultural far significant.,"This is taking longer than expected, we need an update ASAP.",,placeholder,valid,False,negative
+E00453,D0343,gina.moore@gmail.com,william.mills@hotmail.com,Someone camera approach say.,Please find attached the requested documents.,2026-07-03,valid,valid,False,neutral
+E00454,D0133,ryan.munoz@gmail.com,michael.anderson@hotmail.com,House power republican stage apply conference then.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00455,D0114,gabrielle.davis@gmail.com,tiffany.robertson@gmail.com,Teach myself avoid much base modern behavior.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00456,D0679,allison.hill@hotmail.com,elizabeth.harrell@gmail.com,Analysis make study cause.,Can we schedule a call sometime next week?,2026-01-11,valid,valid,False,positive
+E00457,D0097,daniel.wagner@hotmail.com,dawn.rivera@hotmail.com,Military person author return.,Can we schedule a call sometime next week?,2026-06-04,valid,valid,False,positive
+E00458,D0763,lisa.hensley@hotmail.com,mark.lowe@yahoo.com,Clearly everybody suggest air she sister simple.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00459,D0073,ryan.munoz@hotmail.com,charles.pitts@gmail.com,Follow serious space one.,"Thanks so much for the quick turnaround, this looks great!",2026-05-08,valid,valid,False,positive
+E00460,D0715,noah.rhodes@gmail.com,george.orozco@yahoo.com,Keep thus positive arm.,"Not happy with the delay, please escalate.",2025-11-23,valid,valid,False,negative
+E00461,D0118,daniel.wagner@hotmail.com,kenneth.miller@gmail.com,Write fine public some.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00462,D0629,gabrielle.davis@yahoo.com,stanley.bryant@yahoo.com,,"Thanks so much for the quick turnaround, this looks great!",2026-03-18,valid,valid,False,positive
+E00463,D0616,jamie.arnold@hotmail.com,tracy.fleming@gmail.com,Compare shake may small.,"This is taking longer than expected, we need an update ASAP.",2026-01-18,valid,valid,False,negative
+E00464,D0697,ryan.munoz@yahoo.com,sarah.ramirez@gmail.com,itself ago out able end early generation.,Following up on our last conversation regarding pricing.,2026-01-25,valid,valid,False,neutral
+E00465,D0149,lisa.hensley@yahoo.com,steven.osborne@hotmail.com,Every change help but include something memory.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00466,D0645,michele.williams@yahoo.com,jody.meza@hotmail.com,Hand start size.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00467,D0839,angie.henderson@gmail.com,robert.alvarez@hotmail.com,Person apply debate.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00468,D0268,,joseph.hanson@hotmail.com,Least great your sign single well task.,Following up on our last conversation regarding pricing.,,missing,valid,False,neutral
+E00469,D0223,allison.hill@gmail.com,joan.armstronggmail.com,Art soon up tend.,"This is taking longer than expected, we need an update ASAP.",2026-03-24,valid,malformed,False,negative
+E00470,D0794,allison.hill@hotmail.com,samantha.davis@gmail.com,Trip school energy safe while popular natural.,We may have to look at other vendors if this isn't resolved.,2026-01-08,valid,valid,False,negative
+E00471,D0747,gabrielle.davis@gmail.com,marc.moore@hotmail.com,Her shake month ask environmental.,"Not happy with the delay, please escalate.",2026-03-10,valid,valid,False,negative
+E00472,D0337,lisa.hensley@gmail.com,dan.crane@gmail.com,People far color number prove room.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00473,D0482,abigail.shaffer@gmail.com,john.bryant@gmail.com,these series candidate reveal suddenly.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00474,D0724,cristian.santos@gmail.com,lisa.kirby@yahoo.com,bank them state factor word.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00475,D0538,lisa.hensley@yahoo.com,crystal.jensen.dvm@yahoo.com,Term amount idea director put.,Following up on our last conversation regarding pricing.,2026-02-15,valid,valid,False,neutral
+E00476,D0445,cristian.santos@hotmail.com,,Family where treatment age.,Please find attached the requested documents.,2026-02-01,valid,missing,False,neutral
+E00477,D0304,gabrielle.davis@yahoo.com,rebecca.marsh@yahoo.com,Society tell message whether morning trouble.,"Great call today, looking forward to next steps.",2025-11-23,valid,valid,False,positive
+E00478,D0828,lisa.hensley@gmail.com,cheryl.gray@hotmail.com,Happy new may condition.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00479,D0437,noah.rhodes@yahoo.com,mary.spence@hotmail.com,Letter story article read.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00480,D0360,ryan.munoz@hotmail.com,john.bryant@hotmail.com,Year fact daughter democratic.,Can we schedule a call sometime next week?,2025-11-10,valid,valid,False,positive
+E00481,D0308,connie.lawrence@yahoo.com,john.alvarado@gmail.com,Election fire remember house develop center bill.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00482,D0684,,kelsey.griffith@gmail.com,Answer wish drop before quickly manage care.,Please find attached the requested documents.,,missing,valid,False,neutral
+E00483,D0608,allison.hill@gmail.com,kenneth.mcdonald@gmail.com,Talk rich what truth partner measure.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00484,D0615,lisa.hensley@yahoo.com,rita.ponce.dvm@yahoo.com,Left may imagine need.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00485,D0641,gabrielle.davis@gmail.com,jennifer.hancock@gmail.com,Decade ago specific only.,Following up on our last conversation regarding pricing.,2026-06-25,valid,valid,False,neutral
+E00486,D0130,monica.herrera@yahoo.com,jaime.jones@gmail.com,Campaign others under each help line reflect.,"Great call today, looking forward to next steps.",2026-01-31,valid,valid,False,positive
+E00487,D0277,daniel.wagner@yahoo.com,jonathan.perry@hotmail.com,Whether traditional true think.,Following up on our last conversation regarding pricing.,2026-11-01,valid,valid,False,neutral
+E00488,D0380,jamie.arnold@yahoo.com,elizabeth.harrell@yahoo.com,Society care around find audience but moment sign.,We may have to look at other vendors if this isn't resolved.,2026-05-05,valid,valid,False,negative
+E00489,D0832,angie.henderson@hotmail.com,james.li@yahoo.com,discuss morning gas ago cause.,"Great call today, looking forward to next steps.",2026-01-18,valid,valid,False,positive
+E00490,D0022,cristian.santos@gmail.com,jaime.harris@gmail.com,Walk paper media available.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00491,D0649,lisa.hensley@yahoo.com,matthew.gonzalez.dds@yahoo.com,Baby effort already second room candidate.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00492,D0255,abigail.shaffer@hotmail.com,briana.wiggins@gmail.com,Piece sing front manage how itself.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00493,D0860,gina.moore@gmail.com,brooke.khangmail.com,Really bring can sister adult among cover.,We may have to look at other vendors if this isn't resolved.,,valid,malformed,False,negative
+E00494,D0781,lisa.hensley@hotmail.com,laura.bradford@gmail.com,Hospital this because that agree child.,Following up on our last conversation regarding pricing.,2026-07-29,valid,valid,False,neutral
+E00495,D0758,ryan.munoz@yahoo.com,timothy.ruiz@hotmail.com,Beyond compare despite today green.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00496,D0594,gina.mooregmail.com,lonnie.hart@hotmail.com,Contain occur magazine suggest interesting no total.,"Thanks so much for the quick turnaround, this looks great!",2026-12-06,malformed,valid,False,positive
+E00497,D0599,noah.rhodes@hotmail.com,rebecca.ramsey@yahoo.com,See American drug to above.,Following up on our last conversation regarding pricing.,2026-04-19,valid,valid,False,neutral
+E00498,D0816,gina.moore@COMPANY.COM,michael.richmond@yahoo.com,Garden down television tree say.,Can we schedule a call sometime next week?,,placeholder,valid,False,positive
+E00499,D0347,gabrielle.davis@yahoo.com,sara.johnston@gmail.com,Do hear rich apply project.,"Not happy with the delay, please escalate.",2026-03-25,valid,valid,False,negative
+E00500,D0577,jamie.arnold@hotmail.com,paige.weiss@gmail.com,State medical year oil ask eye off various.,Can we schedule a call sometime next week?,2026-04-03,valid,valid,False,positive
+E00501,D0590,connie.lawrencegmail.com,thomas.navarro@yahoo.com,Old close series relationship perhaps.,"Thanks so much for the quick turnaround, this looks great!",,malformed,valid,False,positive
+E00502,D0419,jamie.arnold@hotmail.com,scott.jenkins@hotmail.com,Thank prevent store politics service second.,"Great call today, looking forward to next steps.",2026-04-20,valid,valid,False,positive
+E00503,D0183,gabrielle.davis@yahoo.com,tyrone.white@gmail.com,Far movement hand himself weight eat form.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00504,D0308,michele.williams@gmail.com,robert.stevensgmail.com,Thought notice society task well three board.,We may have to look at other vendors if this isn't resolved.,,valid,malformed,False,negative
+E00505,D0439,angie.henderson@gmail.com,tara.rose@yahoo.com,Simply involve nor whether.,"Really appreciate the detailed proposal, excited to move forward.",2026-06-18,valid,valid,False,positive
+E00506,D0530,cristian.santos@hotmail.com,tina.clark@hotmail.com,Wrong list huge.,"Thanks so much for the quick turnaround, this looks great!",2025-11-15,valid,valid,False,positive
+E00507,D0331,connie.lawrence@yahoo.com,tyrone.west@gmail.com,Community democratic no yes direction parent.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00508,D0387,,william.coffey@hotmail.com,,Please find attached the requested documents.,,missing,valid,False,neutral
+E00509,D0881,angie.henderson@gmail.com,mrs.amy.hayes@yahoo.com,Thought brother central reason particular game.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00510,D0675,abigail.shaffer@gmail.com,jennifer.velasquez@yahoo.com,Several name chair produce behavior nearly of general.,Following up on our last conversation regarding pricing.,2026-03-30,valid,valid,False,neutral
+E00511,D0217,ryan.munoz@gmail.com,stacie.butler@gmail.com,Loss international public rate certainly couple more.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00512,D0074,angie.henderson@gmail.com,kristin.norris@yahoo.com,Since human chance onto significant.,"Thanks so much for the quick turnaround, this looks great!",2026-04-06,valid,valid,False,positive
+E00513,D0859,gina.moore@yahoo.com,tammy.bell@hotmail.com,Take strategy clearly.,"Great call today, looking forward to next steps.",2026-06-21,valid,valid,False,positive
+E00514,D0398,abigail.shaffer@gmail.com,randy.friedman@gmail.com,Its hospital those artist area street shake.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00515,D0501,gina.moore@gmail.com,todd.reynolds@gmail.com,Sport friend wide take answer.,Please find attached the requested documents.,2026-03-18,valid,valid,False,neutral
+E00516,D0293,gabrielle.davis@hotmail.com,john.alvarado@gmail.com,Possible bag picture available scene approach imagine concern.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00517,D0772,daniel.wagner@gmail.com,brenda.lawrence@hotmail.com,Politics phone anyone happy point establish.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00518,D0888,abigail.shaffer@yahoo.com,,Out hospital around wall those rise.,Please find attached the requested documents.,2026-07-03,valid,missing,False,neutral
+E00519,D0773,lisa.hensley@yahoo.com,charles.haley@hotmail.com,Others general new begin.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00520,D0585,cristian.santos@hotmail.com,shane.torres@hotmail.com,Type type word not usually at sing.,We may have to look at other vendors if this isn't resolved.,2026-06-27,valid,valid,False,negative
+E00521,D0740,connie.lawrence@hotmail.com,austin.williams@hotmail.com,Enjoy wife cup law become car use.,"This is taking longer than expected, we need an update ASAP.",2025-11-06,valid,valid,False,negative
+E00522,D0185,michele.williams@gmail.com,donna.berry@gmail.com,,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00523,D0267,allison.hill@gmail.com,tyler.vasquez@hotmail.com,,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00524,D0772,connie.lawrence@hotmail.com,,Car many of general building design.,We may have to look at other vendors if this isn't resolved.,,valid,missing,False,negative
+E00525,D0854,,tristan.bond@COMPANY.COM,Father enough any which ten follow cell.,"Not happy with the delay, please escalate.",2025-11-20,missing,placeholder,False,negative
+E00526,D0412,noah.rhodes@hotmail.com,julie.howard@gmail.com,Issue expect apply later.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00527,D0524,monica.herreragmail.com,sandra.walker@gmail.com,Like board center leg so project.,"This is taking longer than expected, we need an update ASAP.",2026-05-06,malformed,valid,False,negative
+E00528,D0726,allison.hill@gmail.com,mary.adams@gmail.com,Street police there.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00529,D0658,noah.rhodes@hotmail.com,dr.jeffrey.lopez@hotmail.com,Bill cover mind wind.,"Great call today, looking forward to next steps.",2026-07-03,valid,valid,False,positive
+E00530,D0509,cristian.santos@hotmail.com,emily.hayes@yahoo.com,Six rather just serious term discuss state.,We may have to look at other vendors if this isn't resolved.,2025-12-17,valid,valid,False,negative
+E00531,D0069,allison.hill@gmail.com,manuel.brock@hotmail.com,Myself you impact full.,"Thanks so much for the quick turnaround, this looks great!",2026-01-06,valid,valid,False,positive
+E00532,D0462,daniel.wagner@yahoo.com,jessica.ruiz@hotmail.com,Manage reflect name.,We may have to look at other vendors if this isn't resolved.,2026-04-06,valid,valid,False,negative
+E00533,D0467,michele.williams@yahoo.com,austin.joseph@COMPANY.COM,law record i visit.,Please find attached the requested documents.,2026-04-23,valid,placeholder,False,neutral
+E00534,D0740,lisa.hensley@yahoo.com,rachel.flores@hotmail.com,Team administration share heavy.,We may have to look at other vendors if this isn't resolved.,2026-04-01,valid,valid,False,negative
+E00535,D0424,michele.williams@hotmail.com,victor.young@gmail.com,Difference glass purpose beat.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00536,D0518,daniel.wagnergmail.com,kristin.norris@hotmail.com,Address friend writer view rather if.,"This is taking longer than expected, we need an update ASAP.",,malformed,valid,False,negative
+E00537,D0835,connie.lawrence@gmail.com,erin.steele@hotmail.com,Authority number force huge.,"Great call today, looking forward to next steps.",2025-11-12,valid,valid,False,positive
+E00538,D0564,connie.lawrence@hotmail.com,john.alvarez@gmail.com,Opportunity significant environmental involve participant eye national.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00539,D0175,abigail.shaffer@gmail.com,cody.brown@gmail.com,Surface sometimes week.,"Really appreciate the detailed proposal, excited to move forward.",2025-11-04,valid,valid,False,positive
+E00540,D0777,angie.henderson@gmail.com,nathan.sullivan@hotmail.com,Item rest respond economy why possible fear.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00541,D0094,jamie.arnold@hotmail.com,jesse.wright@hotmail.com,Network at base get personal medical while.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00542,D0194,angie.henderson@gmail.com,lonnie.hart@hotmail.com,begin type dog name language local.,"Really appreciate the detailed proposal, excited to move forward.",2026-05-25,valid,valid,False,positive
+E00543,D0589,jamie.arnold@hotmail.com,angela.velazquez@gmail.com,Value later herself.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00544,D0322,gina.moore@hotmail.com,brett.espinoza@gmail.com,Professional left particular manage my tax off job.,"This is taking longer than expected, we need an update ASAP.",2025-11-21,valid,valid,False,negative
+E00545,D0086,monica.herrera@gmail.com,heather.bennett@gmail.com,Might cultural yes although poor five.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00546,D0061,cristian.santos@yahoo.com,jasmine.combs@hotmail.com,Radio society happy receive.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00547,D0726,abigail.shaffer@hotmail.com,jennifer.smith@yahoo.com,Herself people rate notice air by.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00548,D0244,lisa.hensley@hotmail.com,jordan.santiago@gmail.com,System environmental consumer model leave hour.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00549,D0145,ryan.munoz@hotmail.com,dawn.rivera@yahoo.com,,Please find attached the requested documents.,,valid,valid,False,neutral
+E00550,D0752,noah.rhodesgmail.com,molly.lutz@yahoo.com,Store develop wait national top occur.,"This is taking longer than expected, we need an update ASAP.",,malformed,valid,False,negative
+E00551,D0018,lisa.hensley@yahoo.com,jason.henry@gmail.com,Bag quite foreign mouth full.,"Great call today, looking forward to next steps.",2025-11-28,valid,valid,False,positive
+E00552,D0820,noah.rhodes@yahoo.com,jody.meza@gmail.com,Home why commercial watch develop reason.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00553,D0365,abigail.shaffer@hotmail.com,philip.robinson@hotmail.com,Bill team vote blood represent hard.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00554,D0542,monica.herrera@hotmail.com,veronica.silva@yahoo.com,Enjoy hit sure food particular series significant.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00555,D0583,angie.henderson@yahoo.com,terry.lewis@gmail.com,Create physical build.,Can we schedule a call sometime next week?,2026-01-18,valid,valid,False,positive
+E00556,D0565,gina.mooregmail.com,stacie.butler@hotmail.com,,"Not happy with the delay, please escalate.",2026-05-04,malformed,valid,False,negative
+E00557,D0573,ryan.munoz@gmail.com,edgar.miller@COMPANY.COM,Soldier beat hair house because.,"Really appreciate the detailed proposal, excited to move forward.",2026-01-30,valid,placeholder,False,positive
+E00558,D0091,connie.lawrence@gmail.com,pamela.santos@yahoo.com,Dark describe community people democrat information.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00559,D0724,monica.herrera@hotmail.com,katelyn.perez@gmail.com,,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00560,D0811,angie.henderson@gmail.com,amanda.robinson@hotmail.com,Exist show beautiful simply.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00561,D0710,connie.lawrencegmail.com,megan.decker@yahoo.com,More young receive model no painting strong serious.,We may have to look at other vendors if this isn't resolved.,,malformed,valid,False,negative
+E00562,D0518,abigail.shaffer@yahoo.com,tracey.underwood@gmail.com,Suddenly money task give clear.,"This is taking longer than expected, we need an update ASAP.",2025-11-02,valid,valid,False,negative
+E00563,D0442,angie.henderson@yahoo.com,thomas.anderson@hotmail.com,Indicate western tell on indeed senior.,"Not happy with the delay, please escalate.",2025-08-12,valid,valid,False,negative
+E00564,D0356,jamie.arnold@yahoo.com,emily.hayes@yahoo.com,Catch relationship member work.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00565,D0427,angie.henderson@yahoo.com,tina.clark@hotmail.com,Fund open who someone fish require party concern.,"Really appreciate the detailed proposal, excited to move forward.",2026-07-03,valid,valid,False,positive
+E00566,D0570,allison.hill@hotmail.com,debra.quinn@gmail.com,Speech into forward carry.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00567,D0772,ryan.munozgmail.com,rhonda.miller@gmail.com,Choose fill police.,Please find attached the requested documents.,,malformed,valid,False,neutral
+E00568,D0601,lisa.hensley@gmail.com,katherine.goodwin@gmail.com,capital theory third still son.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00569,D0729,noah.rhodes@gmail.com,christine.wong@gmail.com,Food lose miss.,Following up on our last conversation regarding pricing.,2026-06-26,valid,valid,False,neutral
+E00570,D0575,ryan.munoz@yahoo.com,,Scene radio exist expect mind pay history.,"Thanks so much for the quick turnaround, this looks great!",2026-04-22,valid,missing,False,positive
+E00571,D0747,angie.henderson@hotmail.com,daniel.garcia@yahoo.com,Matter sure wrong develop.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00572,D0835,gabrielle.davis@hotmail.com,kristen.gonzales@yahoo.com,Poor change according hand middle.,"Great call today, looking forward to next steps.",2026-03-03,valid,valid,False,positive
+E00573,D0377,monica.herrera@gmail.com,cindy.hunt@yahoo.com,decide when moment south common.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00574,D0002,lisa.hensley@COMPANY.COM,rebecca.marsh@gmail.com,Couple as customer century.,"This is taking longer than expected, we need an update ASAP.",,placeholder,valid,False,negative
+E00575,D0352,gabrielle.davis@gmail.com,julie.howard@hotmail.com,Perhaps arrive scene those mind.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00576,D0019,abigail.shaffer@yahoo.com,jeffery.berger@gmail.com,Response leg agency close likely.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00577,D0487,,benjamin.mcmahon@gmail.com,Computer Congress glass less employee wind no.,Can we schedule a call sometime next week?,2026-03-22,missing,valid,False,positive
+E00578,D0615,angie.henderson@gmail.com,stacie.butler@yahoo.com,Television walk foot peace.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00579,D0703,jamie.arnold@hotmail.com,katherine.chang@hotmail.com,Him price drop bill apply than responsibility.,"Great call today, looking forward to next steps.",2026-03-20,valid,valid,False,positive
+E00580,D0779,michele.williams@hotmail.com,robin.hawkins@COMPANY.COM,Compare lead Democrat kitchen response describe north.,Please find attached the requested documents.,2026-07-21,valid,placeholder,False,neutral
+E00581,D0628,connie.lawrence@gmail.com,,For common office.,Please find attached the requested documents.,,valid,missing,False,neutral
+E00582,D0413,gabrielle.davis@hotmail.com,nathan.stanley@gmail.com,Thing western run son price one.,"Thanks so much for the quick turnaround, this looks great!",2026-04-04,valid,valid,False,positive
+E00583,D0360,gabrielle.davis@gmail.com,,nearly door coach president reflect each officer.,"Thanks so much for the quick turnaround, this looks great!",2026-04-24,valid,missing,False,positive
+E00584,D0590,monica.herrera@gmail.com,heather.nunez@yahoo.com,Vote environment business right leg season manage.,Please find attached the requested documents.,2026-07-03,valid,valid,False,neutral
+E00585,D0313,monica.herrera@yahoo.com,tami.graves@yahoo.com,,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00586,D0671,allison.hill@hotmail.com,audrey.barry@hotmail.com,Keep cost company attorney area east too life.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00587,D0209,cristian.santos@yahoo.com,,Democrat remain stage catch.,"Not happy with the delay, please escalate.",2026-03-24,valid,missing,False,negative
+E00588,D0814,gabrielle.davis@hotmail.com,thomas.george@gmail.com,Chance speech sell better.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00589,D0661,connie.lawrence@yahoo.com,scott.pierce@hotmail.com,Nature community third.,"This is taking longer than expected, we need an update ASAP.",2026-06-05,valid,valid,False,negative
+E00590,D0766,abigail.shaffer@hotmail.com,leslie.randall@yahoo.com,specific rather letter me tell just raise really.,Following up on our last conversation regarding pricing.,2026-01-12,valid,valid,False,neutral
+E00591,D0640,noah.rhodes@COMPANY.COM,marcus.palmer@yahoo.com,Group door movement under sometimes two so.,Can we schedule a call sometime next week?,2026-05-17,placeholder,valid,False,positive
+E00592,D0823,connie.lawrence@gmail.com,nicholas.hill@gmail.com,Everything few two.,Can we schedule a call sometime next week?,2026-06-11,valid,valid,False,positive
+E00593,D0571,michele.williamsgmail.com,randy.friedman@hotmail.com,Fly least get the west the now.,"Great call today, looking forward to next steps.",2026-04-26,malformed,valid,False,positive
+E00594,D0396,abigail.shaffer@gmail.com,robert.sullivan@gmail.com,Poor cold unit walk.,We may have to look at other vendors if this isn't resolved.,2026-12-07,valid,valid,False,negative
+E00595,D0003,gabrielle.davis@hotmail.com,jane.chapman@gmail.com,Field long president same.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00596,D0714,noah.rhodes@hotmail.com,,Treatment office yeah bar rather.,"Great call today, looking forward to next steps.",2025-12-23,valid,missing,False,positive
+E00597,D0307,lisa.hensley@hotmail.com,stephanie.marshall@gmail.com,Huge plan rule break.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00598,D0555,gabrielle.davis@hotmail.com,travis.stone@hotmail.com,Improve sell cause boy sign pull break.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00599,D0445,abigail.shaffer@gmail.com,roger.adams@gmail.com,,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00600,D0270,lisa.hensley@hotmail.com,jacob.nunez@hotmail.com,Usually cup performance role already occur.,"This is taking longer than expected, we need an update ASAP.",2026-02-02,valid,valid,False,negative
+E00601,D0105,michele.williams@yahoo.com,elizabeth.davis@gmail.com,Add condition practice professor feeling minute change.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00602,D0499,jamie.arnold@gmail.com,holly.chapman@gmail.com,Expect smile raise personal.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00603,D0680,noah.rhodes@COMPANY.COM,george.orozco@yahoo.com,Office force care.,Following up on our last conversation regarding pricing.,,placeholder,valid,False,neutral
+E00604,D0270,,richard.knight@yahoo.com,Admit statement create suggest.,"Great call today, looking forward to next steps.",2026-04-12,missing,valid,False,positive
+E00605,D0480,connie.lawrence@yahoo.com,nicholas.hill@COMPANY.COM,Style at score pretty south Democrat.,"Not happy with the delay, please escalate.",,valid,placeholder,False,negative
+E00606,D0547,monica.herrera@hotmail.com,richard.silva@gmail.com,Director law center course.,"Great call today, looking forward to next steps.",2026-05-02,valid,valid,False,positive
+E00607,D0358,allison.hill@hotmail.com,jonathan.jimenez@yahoo.com,Happen film under deep agree walk thousand.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00608,D0309,gina.moore@gmail.com,brenda.alexander@gmail.com,Us institution gun class discuss manager art.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00609,D0792,monica.herrera@gmail.com,austin.williams@yahoo.com,Issue technology against direction.,Please find attached the requested documents.,2026-04-13,valid,valid,False,neutral
+E00610,D0019,noah.rhodes@yahoo.com,tyler.vasquez@hotmail.com,Garden end tell still.,"Really appreciate the detailed proposal, excited to move forward.",2025-05-12,valid,valid,False,positive
+E00611,D0686,gina.moore@hotmail.com,benjamin.smith@gmail.com,Red term allow around admit.,"Really appreciate the detailed proposal, excited to move forward.",2026-05-06,valid,valid,False,positive
+E00612,D0586,allison.hill@yahoo.com,john.perez@yahoo.com,Trial policy happy throw final assume kind.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00613,D0473,daniel.wagner@yahoo.com,christopher.bass@yahoo.com,Interesting common early look blood.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00614,D0777,gina.moore@yahoo.com,samantha.bentley@yahoo.com,Able analysis arrive budget situation but.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00615,D0557,jamie.arnold@hotmail.com,dennis.young@yahoo.com,Discover last everybody wall major interest amount.,"This is taking longer than expected, we need an update ASAP.",2025-12-27,valid,valid,False,negative
+E00616,D0113,lisa.hensley@gmail.com,jordan.santiago@hotmail.com,Language challenge air rest wind region.,"This is taking longer than expected, we need an update ASAP.",2025-11-04,valid,valid,False,negative
+E00617,D0362,lisa.hensley@gmail.com,hector.ingram@hotmail.com,Impact big approach.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00618,D0418,gina.mooregmail.com,kristin.stewart@COMPANY.COM,Bag answer thank guess most every.,"Really appreciate the detailed proposal, excited to move forward.",2026-05-14,malformed,placeholder,False,positive
+E00619,D0821,michele.williams@COMPANY.COM,blake.vega@yahoo.com,Box cultural admit itself.,"Thanks so much for the quick turnaround, this looks great!",2026-01-21,placeholder,valid,False,positive
+E00620,D0169,monica.herrera@hotmail.com,sandra.martinez@hotmail.com,Land region other many daughter night.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00621,D0424,lisa.hensley@hotmail.com,,Parent church special voice two.,"Thanks so much for the quick turnaround, this looks great!",,valid,missing,False,positive
+E00622,D0681,gina.moore@yahoo.com,rebecca.ramsey@yahoo.com,Bad one modern store.,Can we schedule a call sometime next week?,2026-06-18,valid,valid,False,positive
+E00623,D0400,allison.hill@yahoo.com,leslie.randall@gmail.com,Arm entire increase.,"This is taking longer than expected, we need an update ASAP.",2026-11-05,valid,valid,False,negative
+E00624,D0830,cristian.santos@yahoo.com,benjamin.smith@hotmail.com,agent attack bring land magazine level trial also.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00625,D0107,lisa.hensley@COMPANY.COM,charles.pitts@COMPANY.COM,one name walk attack resource.,"Really appreciate the detailed proposal, excited to move forward.",2026-05-24,placeholder,placeholder,False,positive
+E00626,D0331,angie.henderson@hotmail.com,,recent off fire property remain first common eight.,We may have to look at other vendors if this isn't resolved.,2026-05-26,valid,missing,False,negative
+E00627,D0864,lisa.hensley@gmail.com,heather.bennett@hotmail.com,Position our market tree situation.,"Not happy with the delay, please escalate.",2026-04-16,valid,valid,False,negative
+E00628,D0387,jamie.arnold@yahoo.com,joy.meyer@hotmail.com,Possible cup opportunity rate sport.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00629,D0817,jamie.arnold@hotmail.com,tami.graves@hotmail.com,Bill traditional western chance machine.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00630,D0193,allison.hill@yahoo.com,christopher.morales@yahoo.com,Entire do company focus consumer say whom.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00631,D0222,michele.williams@hotmail.com,richard.gordon@yahoo.com,Nothing box particular southern attack state enough third.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00632,D0267,monica.herrera@hotmail.com,debra.quinngmail.com,Ago level middle star.,Following up on our last conversation regarding pricing.,2026-06-20,valid,malformed,False,neutral
+E00633,D0274,noah.rhodes@COMPANY.COM,jason.henry@gmail.com,Become area citizen program.,"Thanks so much for the quick turnaround, this looks great!",,placeholder,valid,False,positive
+E00634,D0494,lisa.hensley@hotmail.com,megan.compton@hotmail.com,,"Thanks so much for the quick turnaround, this looks great!",2025-08-11,valid,valid,False,positive
+E00635,D0446,gabrielle.davis@hotmail.com,amanda.wood@hotmail.com,number other those sister large chair born wish.,"Thanks so much for the quick turnaround, this looks great!",2026-03-01,valid,valid,False,positive
+E00636,D0706,noah.rhodes@hotmail.com,john.alvarado@hotmail.com,Personal who until meet spring surface wife.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00637,D0405,allison.hill@yahoo.com,christy.davidson@COMPANY.COM,Movement claim build water third.,"Thanks so much for the quick turnaround, this looks great!",2026-07-12,valid,placeholder,False,positive
+E00638,D0397,cristian.santos@hotmail.com,david.brewer@gmail.com,Work win health usually much article agent.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00639,D0086,allison.hill@yahoo.com,charles.santiago@yahoo.com,List behavior successful success herself be.,"Thanks so much for the quick turnaround, this looks great!",2026-03-28,valid,valid,False,positive
+E00640,D0816,ryan.munozgmail.com,katherine.goodwin@gmail.com,Various memory matter stage.,"Thanks so much for the quick turnaround, this looks great!",2026-04-12,malformed,valid,False,positive
+E00641,D0345,monica.herrera@gmail.com,todd.reynolds@hotmail.com,Nice measure leg sell official yourself.,"Really appreciate the detailed proposal, excited to move forward.",2026-01-13,valid,valid,False,positive
+E00642,D0573,noah.rhodes@yahoo.com,marcus.palmer@hotmail.com,environment open director.,"Thanks so much for the quick turnaround, this looks great!",2026-07-13,valid,valid,False,positive
+E00643,D0121,,heather.bennett@gmail.com,Interest great analysis tonight politics computer exist throw.,Can we schedule a call sometime next week?,2025-02-12,missing,valid,False,positive
+E00644,D0815,angie.henderson@hotmail.com,austin.gentry@gmail.com,Reveal government single least something source.,We may have to look at other vendors if this isn't resolved.,2026-08-05,valid,valid,False,negative
+E00645,D0376,cristian.santos@yahoo.com,albert.buchanan@gmail.com,Policy those unit reduce executive.,Following up on our last conversation regarding pricing.,2026-05-02,valid,valid,False,neutral
+E00646,D0559,lisa.hensley@yahoo.com,robert.bowen@hotmail.com,Result very investment enter memory.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00647,D0371,daniel.wagner@yahoo.com,jaime.harris@gmail.com,Night bill central wonder.,Please find attached the requested documents.,2025-12-12,valid,valid,False,neutral
+E00648,D0791,jamie.arnold@gmail.com,bryan.burnsgmail.com,image my by maybe off smile develop movement.,"Thanks so much for the quick turnaround, this looks great!",,valid,malformed,False,positive
+E00649,D0155,daniel.wagner@hotmail.com,danielle.medina@gmail.com,American job world house character would money own.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00650,D0226,lisa.hensley@gmail.com,edgar.miller@hotmail.com,Become available your both.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00651,D0197,connie.lawrence@hotmail.com,marc.moore@gmail.com,Product would policy clear star daughter.,"Really appreciate the detailed proposal, excited to move forward.",2026-03-07,valid,valid,False,positive
+E00652,D0005,noah.rhodes@gmail.com,nathan.kline@yahoo.com,Wonder analysis effort news.,We may have to look at other vendors if this isn't resolved.,2026-02-20,valid,valid,False,negative
+E00653,D0245,abigail.shaffer@yahoo.com,jaime.harris@COMPANY.COM,Travel growth what.,"This is taking longer than expected, we need an update ASAP.",,valid,placeholder,False,negative
+E00654,D0879,allison.hill@yahoo.com,jerry.christensen@gmail.com,Buy best fish all cover.,"Not happy with the delay, please escalate.",2026-05-25,valid,valid,False,negative
+E00655,D0863,monica.herrera@gmail.com,erin.steele@hotmail.com,I as sense machine treatment section.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00656,D0767,jamie.arnold@gmail.com,jennifer.gonzalez@hotmail.com,Organization of national among must.,Please find attached the requested documents.,2026-05-31,valid,valid,False,neutral
+E00657,D0120,allison.hill@gmail.com,mallory.barajas@yahoo.com,,Please find attached the requested documents.,2026-07-07,valid,valid,False,neutral
+E00658,D0743,daniel.wagner@yahoo.com,william.smith@hotmail.com,Try phone water national.,Can we schedule a call sometime next week?,2026-01-01,valid,valid,False,positive
+E00659,D0496,gina.moore@hotmail.com,rebecca.ramsey@hotmail.com,Recognize ok recent near find.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00660,D0852,noah.rhodes@COMPANY.COM,sharon.jordan@hotmail.com,Read term force open without.,Please find attached the requested documents.,2026-03-19,placeholder,valid,False,neutral
+E00661,D0297,jamie.arnold@gmail.com,joseph.bell@gmail.com,party reveal quickly around.,"Not happy with the delay, please escalate.",2026-08-06,valid,valid,False,negative
+E00662,D0700,daniel.wagner@yahoo.com,rhonda.miller@yahoo.com,Recent high reason goal audience.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00663,D0520,monica.herrera@hotmail.com,lonnie.hart@hotmail.com,,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00664,D0747,angie.henderson@yahoo.com,taylor.berry@yahoo.com,Improve remember call method employee.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00665,D0801,gina.mooregmail.com,jesse.wright@gmail.com,Magazine any order prepare feeling career.,"Not happy with the delay, please escalate.",2026-02-10,malformed,valid,False,negative
+E00666,D0480,lisa.hensley@hotmail.com,megan.orr@yahoo.com,Another turn your radio.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00667,D0604,jamie.arnold@hotmail.com,kayla.rodriguez@hotmail.com,Itself marriage anyone smile energy add so financial.,"Thanks so much for the quick turnaround, this looks great!",2026-01-14,valid,valid,False,positive
+E00668,D0367,angie.henderson@yahoo.com,tammy.bell@yahoo.com,future throughout number site final five.,"This is taking longer than expected, we need an update ASAP.",2026-02-24,valid,valid,False,negative
+E00669,D0295,angie.henderson@hotmail.com,dana.santiago@hotmail.com,,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00670,D0236,cristian.santos@yahoo.com,manuel.brock@yahoo.com,Take contain industry red.,"This is taking longer than expected, we need an update ASAP.",2026-01-10,valid,valid,False,negative
+E00671,D0725,monica.herrera@yahoo.com,bob.cole@hotmail.com,Page get understand across use international.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00672,D0331,angie.henderson@gmail.com,,Charge Congress seven later.,"Thanks so much for the quick turnaround, this looks great!",,valid,missing,False,positive
+E00673,D0392,cristian.santos@yahoo.com,brooke.khan@hotmail.com,Financial care firm attack agree bad exactly.,"Not happy with the delay, please escalate.",2026-07-22,valid,valid,False,negative
+E00674,D0252,noah.rhodes@gmail.com,elizabeth.vasquez@yahoo.com,Spring economy someone police year accept toward.,"Thanks so much for the quick turnaround, this looks great!",2026-07-27,valid,valid,False,positive
+E00675,D0359,angie.henderson@gmail.com,randy.hayesgmail.com,Open word loss manager next cultural bad.,Please find attached the requested documents.,2026-03-27,valid,malformed,False,neutral
+E00676,D0342,allison.hill@yahoo.com,rachel.torres@yahoo.com,Us event care.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00677,D0696,allison.hill@yahoo.com,lisa.kirby@gmail.com,away room try apply more director.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00678,D0096,jamie.arnold@yahoo.com,samantha.davis@yahoo.com,Involve recent role term mother.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00679,D0580,lisa.hensley@yahoo.com,william.jensen@hotmail.com,Happy enter method finally.,"Really appreciate the detailed proposal, excited to move forward.",2026-03-06,valid,valid,False,positive
+E00680,D0825,ryan.munoz@hotmail.com,victor.young@hotmail.com,Me these gun sell wear.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00681,D0438,daniel.wagner@hotmail.com,kerry.smith@yahoo.com,,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00682,D0081,allison.hill@gmail.com,wayne.harris@gmail.com,War child require language.,"Thanks so much for the quick turnaround, this looks great!",2025-12-24,valid,valid,False,positive
+E00683,D0749,monica.herrera@hotmail.com,,Radio per spring be just similar shake.,Can we schedule a call sometime next week?,,valid,missing,False,positive
+E00684,D0408,gabrielle.davis@yahoo.com,cynthia.cochran@hotmail.com,Majority air test never.,Please find attached the requested documents.,2026-01-06,valid,valid,False,neutral
+E00685,D0896,connie.lawrence@gmail.com,tyler.vasquezgmail.com,Today government actually myself.,"Not happy with the delay, please escalate.",2026-02-12,valid,malformed,False,negative
+E00686,D0846,daniel.wagner@gmail.com,rebecca.ramsey@hotmail.com,While step effort resource create hit.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00687,D0825,daniel.wagnergmail.com,martha.ruiz@gmail.com,Rest me certain person director summer.,Following up on our last conversation regarding pricing.,2026-07-30,malformed,valid,False,neutral
+E00688,D0408,jamie.arnold@gmail.com,susan.murphy@gmail.com,Method resource how listen.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00689,D0158,angie.henderson@gmail.com,,Generation common effect true western energy.,We may have to look at other vendors if this isn't resolved.,,valid,missing,False,negative
+E00690,D0650,,jared.smithgmail.com,decision movement gun at owner design relate.,"Not happy with the delay, please escalate.",,missing,malformed,False,negative
+E00691,D0633,,donna.wilson@gmail.com,drive other chair lead maybe produce.,We may have to look at other vendors if this isn't resolved.,2026-03-31,missing,valid,False,negative
+E00692,D0130,daniel.wagner@hotmail.com,joseph.hill@yahoo.com,,Please find attached the requested documents.,2026-06-27,valid,valid,False,neutral
+E00693,D0773,ryan.munoz@yahoo.com,eddie.adams@yahoo.com,Reflect study bit style race effect discussion special.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00694,D0080,michele.williams@hotmail.com,dean.shannon@hotmail.com,Report company car data news difficult.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00695,D0343,gina.moore@hotmail.com,amanda.robinson@gmail.com,Nothing billion wish world process.,"Great call today, looking forward to next steps.",2026-03-03,valid,valid,False,positive
+E00696,D0847,ryan.munoz@yahoo.com,joseph.hill@gmail.com,Decide common term under Republican news deep.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00697,D0183,monica.herrera@gmail.com,austin.joseph@gmail.com,Continue compare able.,"Not happy with the delay, please escalate.",2025-10-12,valid,valid,False,negative
+E00698,D0726,gina.moore@hotmail.com,michelle.armstrong@yahoo.com,Its boy travel meet place public newspaper.,Please find attached the requested documents.,2025-11-17,valid,valid,False,neutral
+E00699,D0881,ryan.munoz@yahoo.com,robert.jarvis@hotmail.com,business natural stand country himself behavior.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00700,D0346,lisa.hensley@hotmail.com,holly.chapman@gmail.com,Eye floor during want operation sense skill.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00701,D0586,lisa.hensley@hotmail.com,george.orozco@hotmail.com,,Please find attached the requested documents.,,valid,valid,False,neutral
+E00702,D0596,abigail.shaffer@gmail.com,brooke.khan@gmail.com,Cup significant admit.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00703,D0716,gina.moore@yahoo.com,jeremy.horne.md@gmail.com,Have spring want.,"This is taking longer than expected, we need an update ASAP.",2026-06-17,valid,valid,False,negative
+E00704,D0129,cristian.santos@hotmail.com,lisa.kennedy@yahoo.com,Street former total animal item to.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00705,D0779,jamie.arnold@yahoo.com,breanna.jones@gmail.com,,"Really appreciate the detailed proposal, excited to move forward.",2026-02-15,valid,valid,False,positive
+E00706,D0478,noah.rhodes@gmail.com,richard.knight@COMPANY.COM,Would ability language food human.,"This is taking longer than expected, we need an update ASAP.",,valid,placeholder,False,negative
+E00707,D0265,michele.williams@hotmail.com,kathleen.watson@yahoo.com,Light mission address significant set involve nature family.,"Really appreciate the detailed proposal, excited to move forward.",2026-06-12,valid,valid,False,positive
+E00708,D0626,daniel.wagner@hotmail.com,katherine.goodwin@hotmail.com,North if home learn address doctor item.,"Not happy with the delay, please escalate.",2025-12-09,valid,valid,False,negative
+E00709,D0162,gabrielle.davis@hotmail.com,carlos.ruiz@hotmail.com,Line yet produce magazine.,Can we schedule a call sometime next week?,2026-01-04,valid,valid,False,positive
+E00710,D0711,lisa.hensley@yahoo.com,cameron.rose@gmail.com,Sort investment guy such notice to.,"Thanks so much for the quick turnaround, this looks great!",2026-04-17,valid,valid,False,positive
+E00711,D0442,angie.henderson@hotmail.com,paul.ward@gmail.com,Against beautiful it reduce.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00712,D0208,ryan.munoz@yahoo.com,kurt.hurley@hotmail.com,Officer store cost address within network accept.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00713,D0417,michele.williams@hotmail.com,adrian.ferguson@yahoo.com,wait six guess member.,Following up on our last conversation regarding pricing.,2026-07-16,valid,valid,False,neutral
+E00714,D0326,monica.herrera@gmail.com,kathryn.cooper@yahoo.com,Lead relationship provide case father own six.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00715,D0614,jamie.arnold@hotmail.com,,Certain begin require idea case entire class.,Please find attached the requested documents.,2025-11-26,valid,missing,False,neutral
+E00716,D0637,cristian.santos@yahoo.com,jeremy.barnes@yahoo.com,,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00717,D0886,lisa.hensley@gmail.com,robert.sullivan@gmail.com,Get family main strong five single call.,Following up on our last conversation regarding pricing.,2026-01-12,valid,valid,False,neutral
+E00718,D0255,lisa.hensley@gmail.com,,,"Not happy with the delay, please escalate.",2026-06-19,valid,missing,False,negative
+E00719,D0255,michele.williams@hotmail.com,aaron.younggmail.com,As human understand.,"Really appreciate the detailed proposal, excited to move forward.",2025-11-05,valid,malformed,False,positive
+E00720,D0301,gina.moore@yahoo.com,michael.smithgmail.com,Week least deep carry summer.,"Not happy with the delay, please escalate.",2026-07-04,valid,malformed,False,negative
+E00721,D0236,allison.hill@gmail.com,,Clear nice foreign return skin above become.,"Great call today, looking forward to next steps.",,valid,missing,False,positive
+E00722,D0500,noah.rhodes@hotmail.com,ronald.brown@gmail.com,Read response drive carry.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00723,D0280,angie.henderson@yahoo.com,kimberly.velazquez@yahoo.com,Loss arrive goal.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00724,D0608,angie.henderson@hotmail.com,nathan.sullivan@gmail.com,Break head a concern.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00725,D0498,,,Wonder prevent fire into.,Can we schedule a call sometime next week?,2026-03-07,missing,missing,False,positive
+E00726,D0733,daniel.wagner@gmail.com,katherine.mcclure@hotmail.com,Dinner stage soldier apply notice current.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00727,D0113,jamie.arnold@gmail.com,heather.bennett@yahoo.com,Finish address whatever eight red write beautiful mean.,"This is taking longer than expected, we need an update ASAP.",2025-11-09,valid,valid,False,negative
+E00728,D0178,monica.herrera@hotmail.com,terri.short@hotmail.com,,"This is taking longer than expected, we need an update ASAP.",2026-03-06,valid,valid,False,negative
+E00729,D0138,,david.brewer@gmail.com,General organization everything line break student.,"This is taking longer than expected, we need an update ASAP.",2026-04-01,missing,valid,False,negative
+E00730,D0010,lisa.hensleygmail.com,joshua.mcmillan@hotmail.com,,"Great call today, looking forward to next steps.",,malformed,valid,False,positive
+E00731,D0622,monica.herrera@gmail.com,christy.davidson@yahoo.com,Animal goal no particularly develop consumer.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00732,D0314,monica.herrera@yahoo.com,jerry.pierce@gmail.com,Just model thing drop the character.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00733,D0039,,amanda.wood@yahoo.com,Without itself seat language open.,"Thanks so much for the quick turnaround, this looks great!",,missing,valid,False,positive
+E00734,D0153,michele.williams@hotmail.com,john.smith@yahoo.com,Us me natural whose fish.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00735,D0673,abigail.shaffer@hotmail.com,arthur.west@yahoo.com,trip music former apply staff until.,"Not happy with the delay, please escalate.",2026-01-01,valid,valid,False,negative
+E00736,D0091,michele.williams@yahoo.com,lisa.brown@yahoo.com,,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00737,D0391,abigail.shaffer@hotmail.com,benjamin.mcmahon@yahoo.com,blue management record room program outside.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00738,D0491,jamie.arnold@gmail.com,brett.espinoza@gmail.com,Leg medical hold over.,"Really appreciate the detailed proposal, excited to move forward.",2026-07-02,valid,valid,False,positive
+E00739,D0459,monica.herrera@gmail.com,brett.espinoza@yahoo.com,,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00740,D0547,allison.hill@yahoo.com,daniel.garcia@hotmail.com,He doctor stage usually recognize bar computer a.,Can we schedule a call sometime next week?,2026-04-23,valid,valid,False,positive
+E00741,D0355,ryan.munoz@gmail.com,michael.anderson@gmail.com,Too size tonight ground while action.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00742,D0446,gabrielle.davis@hotmail.com,deborah.williams@gmail.com,Floor front television us.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00743,D0087,cristian.santos@yahoo.com,emily.hayesgmail.com,Employee plant pay allow executive what manage share.,"This is taking longer than expected, we need an update ASAP.",2026-07-06,valid,malformed,False,negative
+E00744,D0255,noah.rhodes@gmail.com,michael.melton@yahoo.com,Nearly us remain operation hand agreement discover seem.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00745,D0034,connie.lawrence@gmail.com,richard.jones@yahoo.com,Whatever performance wide significant activity.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00746,D0721,gina.moore@hotmail.com,eddie.adamsgmail.com,Able give visit there.,We may have to look at other vendors if this isn't resolved.,,valid,malformed,False,negative
+E00747,D0802,michele.williams@hotmail.com,lori.ingram@hotmail.com,Ask myself phone travel western.,"Thanks so much for the quick turnaround, this looks great!",2026-02-25,valid,valid,False,positive
+E00748,D0269,allison.hill@yahoo.com,mrs.toni.avila@hotmail.com,Throughout whether grow service during health note chair.,"Thanks so much for the quick turnaround, this looks great!",2026-07-29,valid,valid,False,positive
+E00749,D0303,allison.hill@gmail.com,benjamin.smith@gmail.com,Imagine main wait actually.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00750,D0867,abigail.shaffer@hotmail.com,mark.williams@yahoo.com,Arrive national response local analysis receive drop.,"This is taking longer than expected, we need an update ASAP.",2025-11-05,valid,valid,False,negative
+E00751,D0014,lisa.hensley@yahoo.com,dana.santiago@hotmail.com,Respond what production now.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00752,D0595,cristian.santos@hotmail.com,erin.steele@hotmail.com,Technology after hotel learn serve suffer.,"Thanks so much for the quick turnaround, this looks great!",2026-01-18,valid,valid,False,positive
+E00753,D0109,ryan.munoz@gmail.com,alison.williams@gmail.com,Plan stock authority defense.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00754,D0509,daniel.wagner@yahoo.com,rebecca.harris@gmail.com,Contain black Mr contain article cost.,Can we schedule a call sometime next week?,2026-02-12,valid,valid,False,positive
+E00755,D0648,allison.hillgmail.com,melissa.schwartz@COMPANY.COM,Despite determine former believe.,Please find attached the requested documents.,,malformed,placeholder,False,neutral
+E00756,D0392,gina.moore@gmail.com,katherine.mcclure@hotmail.com,Poor throughout stuff.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00757,D0578,allison.hill@gmail.com,jonathan.davis@COMPANY.COM,Pm where new.,We may have to look at other vendors if this isn't resolved.,,valid,placeholder,False,negative
+E00758,D0345,abigail.shaffer@yahoo.com,todd.woodsgmail.com,Add though bring himself know.,"Great call today, looking forward to next steps.",2026-02-21,valid,malformed,False,positive
+E00759,D0500,gabrielle.davis@hotmail.com,jerry.johnson@gmail.com,,We may have to look at other vendors if this isn't resolved.,2026-06-06,valid,valid,False,negative
+E00760,D0427,connie.lawrence@hotmail.com,willie.durham@hotmail.com,Later tax team because order order interest.,Please find attached the requested documents.,2026-06-28,valid,valid,False,neutral
+E00761,D0016,angie.henderson@gmail.com,kurt.hurley@gmail.com,Industry sound condition across reason.,We may have to look at other vendors if this isn't resolved.,2025-12-16,valid,valid,False,negative
+E00762,D0742,daniel.wagner@yahoo.com,jessica.carroll@hotmail.com,Back left leg agency.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00763,D0546,jamie.arnold@gmail.com,marc.moore@yahoo.com,Before general class require.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00764,D0781,monica.herrera@gmail.com,alexander.gomezgmail.com,Issue whatever between somebody rise.,"Really appreciate the detailed proposal, excited to move forward.",,valid,malformed,False,positive
+E00765,D0854,noah.rhodes@yahoo.com,tara.rose@hotmail.com,Mission travel reveal rather.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00766,D0674,ryan.munoz@yahoo.com,william.mills@gmail.com,Me deep he nearly.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00767,D0226,noah.rhodes@hotmail.com,austin.williams@yahoo.com,See real like region behind new and.,We may have to look at other vendors if this isn't resolved.,2025-11-22,valid,valid,False,negative
+E00768,D0010,noah.rhodes@yahoo.com,sharon.wells@gmail.com,Movement space page democratic natural heart wall.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00769,D0040,connie.lawrence@hotmail.com,cody.smith@yahoo.com,,"This is taking longer than expected, we need an update ASAP.",2026-03-19,valid,valid,False,negative
+E00770,D0677,gabrielle.davis@gmail.com,taylor.pittman@hotmail.com,Collection senior class approach.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00771,D0279,gina.moore@COMPANY.COM,robert.johnson@hotmail.com,Mr personal stuff director production.,"Not happy with the delay, please escalate.",,placeholder,valid,False,negative
+E00772,D0466,..cristian.santos...gmail.com,autumn.higgins@yahoo.com,Everyone maintain everything deep.,Please find attached the requested documents.,,malformed,valid,False,neutral
+E00773,D0629,gina.mooregmail.com,william.jensen@hotmail.com,Security at wind what officer report red.,Following up on our last conversation regarding pricing.,,malformed,valid,False,neutral
+E00774,D0296,angie.henderson@hotmail.com,charles.pitts@hotmail.com,,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00775,D0172,lisa.hensley@hotmail.com,julie.howard@hotmail.com,Despite capital response marriage.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00776,D0501,,stanley.barnes@gmail.com,During responsibility among since.,"This is taking longer than expected, we need an update ASAP.",2026-06-21,missing,valid,False,negative
+E00777,D0417,noah.rhodes@gmail.com,lisa.gill@yahoo.com,Though imagine how able worker arm.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00778,D0452,gabrielle.davis@hotmail.com,leah.cruz@gmail.com,Lead green total benefit Mr car.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00779,D0259,noah.rhodes@gmail.com,thomas.navarro@hotmail.com,Wrong bed radio spend.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00780,D0818,allison.hill@gmail.com,amanda.reed@yahoo.com,Her part team city see.,Following up on our last conversation regarding pricing.,2026-07-26,valid,valid,False,neutral
+E00781,D0588,ryan.munoz@gmail.com,victor.young@gmail.com,,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00782,D0453,ryan.munoz@gmail.com,elizabeth.vasquez@hotmail.com,,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00783,D0275,,kevin.stone@yahoo.com,Newspaper happy subject success traditional leave.,"This is taking longer than expected, we need an update ASAP.",2026-03-17,missing,valid,False,negative
+E00784,D0238,monica.herrera@gmail.com,michael.spears@gmail.com,Mention hour gun field expert several effort.,Can we schedule a call sometime next week?,2026-05-25,valid,valid,False,positive
+E00785,D0235,noah.rhodes@yahoo.com,jesse.sampson@yahoo.com,Woman range painting country different indicate.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00786,D0898,allison.hill@hotmail.com,james.palmer@hotmail.com,Cold couple suffer history its street.,"This is taking longer than expected, we need an update ASAP.",2025-11-02,valid,valid,False,negative
+E00787,D0737,jamie.arnold@COMPANY.COM,kelly.manning@gmail.com,Describe in case stock gas.,Following up on our last conversation regarding pricing.,,placeholder,valid,False,neutral
+E00788,D0222,michele.williams@hotmail.com,jesse.sampson@yahoo.com,Pull big method message though.,"Not happy with the delay, please escalate.",2026-04-28,valid,valid,False,negative
+E00789,D0201,jamie.arnold@hotmail.com,albert.buchanan@yahoo.com,Wear pay science us challenge drive find star.,Can we schedule a call sometime next week?,2025-11-11,valid,valid,False,positive
+E00790,D0856,angie.henderson@hotmail.com,samantha.davis@hotmail.com,Enough cut fund dream care whole.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00791,D0248,ryan.munoz@yahoo.com,jorge.armstrong.iii@COMPANY.COM,Threat project half door.,"This is taking longer than expected, we need an update ASAP.",,valid,placeholder,False,negative
+E00792,D0441,connie.lawrence@gmail.com,martin.rodriguez@gmail.com,Back relationship hand protect matter.,Can we schedule a call sometime next week?,2026-01-06,valid,valid,False,positive
+E00793,D0122,jamie.arnold@COMPANY.COM,crystal.jensen.dvm@hotmail.com,Have level road trouble nor.,We may have to look at other vendors if this isn't resolved.,2025-11-08,placeholder,valid,False,negative
+E00794,D0769,abigail.shaffer@yahoo.com,austin.williams@yahoo.com,Only thus something environmental sign top.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00795,D0304,monica.herrera@gmail.com,jake.mitchell@yahoo.com,Job nor yard establish hit.,Following up on our last conversation regarding pricing.,2026-04-23,valid,valid,False,neutral
+E00796,D0487,michele.williams@hotmail.com,dennis.garza@yahoo.com,Issue town call computer.,"Great call today, looking forward to next steps.",2026-05-18,valid,valid,False,positive
+E00797,D0619,michele.williams@gmail.com,brenda.alexander@hotmail.com,Of understand view.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00798,D0683,lisa.hensley@yahoo.com,kathleen.ramos@hotmail.com,Spring continue human central.,"Really appreciate the detailed proposal, excited to move forward.",2026-09-07,valid,valid,False,positive
+E00799,D0076,noah.rhodes@yahoo.com,kristin.andrews@hotmail.com,However such consider table dream law.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00800,D0876,allison.hillgmail.com,robert.bowen@gmail.com,Happy response would enter his.,Following up on our last conversation regarding pricing.,2026-07-27,malformed,valid,False,neutral
+E00801,D0682,michele.williams@yahoo.com,matthew.batesgmail.com,Young west practice.,We may have to look at other vendors if this isn't resolved.,,valid,malformed,False,negative
+E00802,D0131,monica.herrera@gmail.com,,Wait staff feeling first.,"Really appreciate the detailed proposal, excited to move forward.",2026-09-04,valid,missing,False,positive
+E00803,D0644,monica.herrera@hotmail.com,randy.friedman@gmail.com,Note detail show difficult which quite adult.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00804,D0142,noah.rhodes@hotmail.com,paula.bradley@hotmail.com,many most green cold.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00805,D0539,abigail.shaffer@gmail.com,dylan.green@COMPANY.COM,Role land trouble news five decide.,Following up on our last conversation regarding pricing.,2026-07-13,valid,placeholder,False,neutral
+E00806,D0195,cristian.santos@hotmail.com,tyler.medina@yahoo.com,Item town something employee.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00807,D0606,abigail.shaffer@hotmail.com,david.griffith@hotmail.com,Any market poor clear possible staff agent.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00808,D0731,jamie.arnold@yahoo.com,alison.blake@hotmail.com,Development know laugh officer.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00809,D0825,noah.rhodes@yahoo.com,amy.price@yahoo.com,Crime about everything artist still.,Can we schedule a call sometime next week?,2026-02-18,valid,valid,False,positive
+E00810,D0191,angie.henderson@hotmail.com,tristan.bond@hotmail.com,Spring sport usually as until happen.,We may have to look at other vendors if this isn't resolved.,2026-07-11,valid,valid,False,negative
+E00811,D0821,monica.herrera@hotmail.com,brandon.guerrero@gmail.com,Agent charge task.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00812,D0802,daniel.wagnergmail.com,daniel.garcia@gmail.com,Finally floor production war.,Can we schedule a call sometime next week?,,malformed,valid,False,positive
+E00813,D0088,connie.lawrence@gmail.com,cristina.berry@gmail.com,Several more physical beautiful year.,"Thanks so much for the quick turnaround, this looks great!",2025-03-12,valid,valid,False,positive
+E00814,D0716,angie.henderson@gmail.com,larry.jones@gmail.com,,Can we schedule a call sometime next week?,2026-07-07,valid,valid,False,positive
+E00815,D0017,jamie.arnold@gmail.com,emily.collier@hotmail.com,Offer piece machine early.,"This is taking longer than expected, we need an update ASAP.",2026-06-07,valid,valid,False,negative
+E00816,D0405,allison.hill@yahoo.com,autumn.higgins@hotmail.com,Still teacher raise travel chance character.,"Thanks so much for the quick turnaround, this looks great!",2025-12-05,valid,valid,False,positive
+E00817,D0353,ryan.munoz@yahoo.com,mary.spence@gmail.com,Couple mission part ability hair list really thus.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00818,D0201,michele.williams@yahoo.com,john.alvarez@gmail.com,Dinner interview medical will.,"Really appreciate the detailed proposal, excited to move forward.",2026-06-16,valid,valid,False,positive
+E00819,D0261,gina.moore@gmail.com,,Necessary learn memory.,"This is taking longer than expected, we need an update ASAP.",2026-09-03,valid,missing,False,negative
+E00820,D0013,jamie.arnold@yahoo.com,pamela.good@gmail.com,Southern stop customer although add by how.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00821,D0106,connie.lawrence@hotmail.com,lori.ingram@gmail.com,Question place consumer bed teacher program success.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00822,D0044,abigail.shaffer@hotmail.com,wendy.cabreragmail.com,Move election I customer kind.,"Great call today, looking forward to next steps.",,valid,malformed,False,positive
+E00823,D0143,gina.moore@gmail.com,christopher.morales@gmail.com,Word word center claim Republican.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00824,D0538,noah.rhodes@gmail.com,dana.santiago@hotmail.com,Effect child nice prove scientist.,Please find attached the requested documents.,2025-11-05,valid,valid,False,neutral
+E00825,D0189,gina.moore@hotmail.com,,,Please find attached the requested documents.,2025-12-12,valid,missing,False,neutral
+E00826,D0260,,jennifer.gonzalez@hotmail.com,too drug today.,"This is taking longer than expected, we need an update ASAP.",2025-12-28,missing,valid,False,negative
+E00827,D0645,,tracey.smith@yahoo.com,At positive mother even raise.,"Really appreciate the detailed proposal, excited to move forward.",,missing,valid,False,positive
+E00828,D0019,noah.rhodesgmail.com,gabriela.davis@COMPANY.COM,Still according protect director.,Please find attached the requested documents.,2026-03-15,malformed,placeholder,False,neutral
+E00829,D0440,angie.henderson@yahoo.com,megan.comptongmail.com,,"Not happy with the delay, please escalate.",2026-04-02,valid,malformed,False,negative
+E00830,D0330,angie.henderson@yahoo.com,renee.mcdaniel@gmail.com,Produce meet expert human number result.,Please find attached the requested documents.,2025-12-30,valid,valid,False,neutral
+E00831,D0203,connie.lawrence@yahoo.com,linda.bautista@gmail.com,Room so and five notice son.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00832,D0031,ryan.munoz@COMPANY.COM,brooke.khan@hotmail.com,Happy into result author.,"This is taking longer than expected, we need an update ASAP.",,placeholder,valid,False,negative
+E00833,D0483,monica.herrera@hotmail.com,dylan.green@yahoo.com,Into admit value before result or.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00834,D0020,noah.rhodes@yahoo.com,kenneth.miller@yahoo.com,,We may have to look at other vendors if this isn't resolved.,2025-12-28,valid,valid,False,negative
+E00835,D0566,noah.rhodes@hotmail.com,kathy.king@gmail.com,Performance present benefit rock.,"This is taking longer than expected, we need an update ASAP.",2026-07-25,valid,valid,False,negative
+E00836,D0529,ryan.munoz@COMPANY.COM,,Available cut during respond town.,"Thanks so much for the quick turnaround, this looks great!",,placeholder,missing,False,positive
+E00837,D0631,jamie.arnold@yahoo.com,marcus.palmer@hotmail.com,Positive image not model democratic close make.,"Great call today, looking forward to next steps.",2026-04-19,valid,valid,False,positive
+E00838,D0164,daniel.wagner@gmail.com,gregory.stanley@hotmail.com,Car present push agreement.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00839,D0198,monica.herrera@hotmail.com,linda.bautista@hotmail.com,Movement little name good subject very wait.,"Thanks so much for the quick turnaround, this looks great!",2026-07-21,valid,valid,False,positive
+E00840,D0509,angie.henderson@hotmail.com,holly.chapman@hotmail.com,Data owner picture him final.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00841,D0119,lisa.hensley@hotmail.com,rachel.walsh@gmail.com,By animal building attorney success.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00842,D0566,angie.henderson@yahoo.com,alexander.odom@yahoo.com,Year none lay TV lose.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00843,D0261,lisa.hensley@gmail.com,joseph.hanson@gmail.com,Why less fill name several market.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00844,D0443,lisa.hensley@yahoo.com,adrian.ferguson@hotmail.com,Type those become staff history girl real.,Following up on our last conversation regarding pricing.,2026-01-21,valid,valid,False,neutral
+E00845,D0709,cristian.santos@yahoo.com,paul.ward@gmail.com,,Can we schedule a call sometime next week?,2025-09-11,valid,valid,False,positive
+E00846,D0329,gina.moore@gmail.com,richard.gordon@hotmail.com,Window north pattern while kid body.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00847,D0229,jamie.arnold@hotmail.com,scott.pierce@yahoo.com,Notice herself fly anyone.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00848,D0090,allison.hill@yahoo.com,kenneth.miller@hotmail.com,Conference glass claim.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00849,D0818,noah.rhodes@yahoo.com,james.palmer@hotmail.com,Interview doctor bad finish face.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00850,D0610,,joan.armstrong@hotmail.com,shake particularly give example price easy win.,"Really appreciate the detailed proposal, excited to move forward.",,missing,valid,False,positive
+E00851,D0651,gabrielle.davis@yahoo.com,rhonda.miller@hotmail.com,Film either authority to partner.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00852,D0759,jamie.arnold@hotmail.com,nicole.sanchez@hotmail.com,Every late difficult thing theory.,"Great call today, looking forward to next steps.",2026-02-16,valid,valid,False,positive
+E00853,D0713,allison.hill@hotmail.com,mitchell.griffith@hotmail.com,Commercial different order matter campaign reveal rich.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00854,D0693,michele.williams@hotmail.com,alyssa.lee@hotmail.com,Politics think old value between citizen whose.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00855,D0560,lisa.hensley@hotmail.com,tami.graves@yahoo.com,Article community team seven.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00856,D0603,allison.hill@yahoo.com,briana.wiggins@hotmail.com,Cover piece six have line one.,Please find attached the requested documents.,2026-03-11,valid,valid,False,neutral
+E00857,D0474,monica.herrera@gmail.com,william.martinez@gmail.com,Act few note summer high.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00858,D0849,jamie.arnold@hotmail.com,allison.lopez@hotmail.com,Note statement center say green.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00859,D0851,ryan.munoz@COMPANY.COM,jeremy.horne.md@gmail.com,Safe left teach ten more.,Following up on our last conversation regarding pricing.,,placeholder,valid,False,neutral
+E00860,D0215,gabrielle.davis@gmail.com,jeffery.berger@yahoo.com,Front quality likely able vote wife bad off.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00861,D0721,ryan.munoz@gmail.com,trevor.guzman@yahoo.com,Need country receive however determine authority.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00862,D0338,monica.herrera@hotmail.com,michael.obrien@yahoo.com,Those father contain.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00863,D0501,jamie.arnold@gmail.com,natalie.johnson@gmail.com,Financial fall enter debate blue.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00864,D0097,monica.herrera@hotmail.com,crystal.jensen.dvm@yahoo.com,Indeed scientist push price sit music agreement need.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00865,D0224,ryan.munoz@hotmail.com,victoria.brown@yahoo.com,Notice exactly send where.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00866,D0194,ryan.munoz@hotmail.com,jonathan.perry@gmail.com,Just experience letter could also debate five.,"Thanks so much for the quick turnaround, this looks great!",2025-12-12,valid,valid,False,positive
+E00867,D0090,angie.henderson@hotmail.com,anthony.rich@yahoo.com,Clear spring participant.,"Not happy with the delay, please escalate.",2025-12-13,valid,valid,False,negative
+E00868,D0829,cristian.santos@yahoo.com,sharon.jordan@yahoo.com,,"Great call today, looking forward to next steps.",2026-01-16,valid,valid,False,positive
+E00869,D0275,,cameron.rose@gmail.com,Minute check soldier act.,Following up on our last conversation regarding pricing.,2025-12-14,missing,valid,False,neutral
+E00870,D0377,jamie.arnold@yahoo.com,blake.vega@yahoo.com,Yard democratic there discover detail effect life.,"Thanks so much for the quick turnaround, this looks great!",2025-04-11,valid,valid,False,positive
+E00871,D0258,daniel.wagner@hotmail.com,dwayne.campbell@gmail.com,Situation half staff join interview simply.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00872,D0114,angie.henderson@COMPANY.COM,brooke.carter@yahoo.com,Eat security community politics decision back.,"Great call today, looking forward to next steps.",,placeholder,valid,False,positive
+E00873,D0863,connie.lawrencegmail.com,andrew.armstrong@gmail.com,news election maintain dog describe respond week capital.,"Great call today, looking forward to next steps.",,malformed,valid,False,positive
+E00874,D0665,monica.herrera@yahoo.com,joseph.hillgmail.com,Attention win ok scientist yourself side before.,We may have to look at other vendors if this isn't resolved.,2025-12-05,valid,malformed,False,negative
+E00875,D0688,cristian.santos@gmail.com,brandi.williams@yahoo.com,Keep these including story.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00876,D0218,connie.lawrence@hotmail.com,laura.lewis@yahoo.com,Story live player manager.,Please find attached the requested documents.,2026-04-30,valid,valid,False,neutral
+E00877,D0238,angie.henderson@yahoo.com,megan.barron@gmail.com,skill over television understand anyone growth must mr.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00878,D0037,gabrielle.davis@gmail.com,kathy.king@hotmail.com,Pick fund the ask choose out sort.,"Great call today, looking forward to next steps.",2026-10-07,valid,valid,False,positive
+E00879,D0795,allison.hill@hotmail.com,karen.wells@yahoo.com,hour move republican trip right challenge.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00880,D0411,gina.moore@gmail.com,samantha.bentleygmail.com,Could of wait some between be without budget.,"Thanks so much for the quick turnaround, this looks great!",,valid,malformed,False,positive
+E00881,D0349,noah.rhodes@hotmail.com,rachel.jonesgmail.com,Dog get read.,Please find attached the requested documents.,2026-05-03,valid,malformed,False,neutral
+E00882,D0447,gina.moore@hotmail.com,sarah.ramirez@hotmail.com,Prove through together.,We may have to look at other vendors if this isn't resolved.,2026-02-22,valid,valid,False,negative
+E00883,D0774,michele.williams@gmail.com,mrs.shannon.jacobson@yahoo.com,Really something usually our good.,"Great call today, looking forward to next steps.",2026-04-03,valid,valid,False,positive
+E00884,D0802,ryan.munoz@hotmail.com,jacob.nunezgmail.com,,"Really appreciate the detailed proposal, excited to move forward.",2026-10-04,valid,malformed,False,positive
+E00885,D0044,allison.hill@yahoo.com,mark.lowe@COMPANY.COM,economic newspaper consider again tax.,"Not happy with the delay, please escalate.",2026-07-06,valid,placeholder,False,negative
+E00886,D0187,lisa.hensleygmail.com,amy.price@gmail.com,Computer quickly rate end these him.,We may have to look at other vendors if this isn't resolved.,2025-11-12,malformed,valid,False,negative
+E00887,D0809,gabrielle.davis@gmail.com,,realize staff dark.,We may have to look at other vendors if this isn't resolved.,,valid,missing,False,negative
+E00888,D0082,abigail.shaffer@yahoo.com,lance.simmons@yahoo.com,Fight subject material.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00889,D0332,jamie.arnold@yahoo.com,joel.johnson@gmail.com,Let source action hear raise.,"Thanks so much for the quick turnaround, this looks great!",2026-04-13,valid,valid,False,positive
+E00890,D0451,jamie.arnold@hotmail.com,brett.espinoza@yahoo.com,Partner themselves country radio.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00891,D0477,cristian.santos@hotmail.com,catherine.simmons@hotmail.com,,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00892,D0280,connie.lawrence@yahoo.com,michael.obrien@yahoo.com,Some civil grow child industry though.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00893,D0527,ryan.munoz@gmail.com,nicholas.hill@gmail.com,Card pressure of until character experience author under.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00894,D0614,gabrielle.davis@yahoo.com,mary.thompson@gmail.com,Charge fish serious.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00895,D0028,connie.lawrence@yahoo.com,melinda.jones@gmail.com,Each property speech position common performance.,"Thanks so much for the quick turnaround, this looks great!",2026-11-05,valid,valid,False,positive
+E00896,D0556,allison.hill@gmail.com,,Issue away professional.,"This is taking longer than expected, we need an update ASAP.",,valid,missing,False,negative
+E00897,D0891,michele.williams@gmail.com,,Fund create rich development Mrs surface analysis.,"Really appreciate the detailed proposal, excited to move forward.",2026-04-20,valid,missing,False,positive
+E00898,D0137,monica.herrera@gmail.com,bryan.villarreal@hotmail.com,Ask politics computer charge.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00899,D0591,noah.rhodes@gmail.com,amanda.hardin@gmail.com,,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00900,D0720,gina.mooregmail.com,sharon.jordan@yahoo.com,Matter husband throw billion old most energy.,"Really appreciate the detailed proposal, excited to move forward.",,malformed,valid,False,positive
+E00901,D0492,monica.herrera@COMPANY.COM,amanda.reed@yahoo.com,Writer seek student purpose amount.,Please find attached the requested documents.,,placeholder,valid,False,neutral
+E00902,D0562,connie.lawrence@hotmail.com,jack.white@hotmail.com,Kind modern each finish force say hold.,Please find attached the requested documents.,,valid,valid,False,neutral
+E00903,D0336,noah.rhodesgmail.com,adrian.ferguson@yahoo.com,,"Not happy with the delay, please escalate.",,malformed,valid,False,negative
+E00904,D0109,gabrielle.davis@hotmail.com,richard.alvarezgmail.com,resource job certain avoid.,"Great call today, looking forward to next steps.",2025-12-19,valid,malformed,False,positive
+E00905,D0579,angie.henderson@yahoo.com,david.combs@hotmail.com,Animal clear education describe.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00906,D0013,angie.henderson@yahoo.com,kristin.norris@hotmail.com,Visit true nothing technology tend bed television.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00907,D0691,monica.herrera@yahoo.com,rebecca.harris@hotmail.com,Order party offer money prepare message current save.,"This is taking longer than expected, we need an update ASAP.",2026-02-03,valid,valid,False,negative
+E00908,D0767,cristian.santos@gmail.com,victor.young@yahoo.com,important scene seat relationship artist girl.,Please find attached the requested documents.,2025-11-06,valid,valid,False,neutral
+E00909,D0058,noah.rhodes@gmail.com,drew.kelley@COMPANY.COM,From name country benefit focus another special.,Please find attached the requested documents.,,valid,placeholder,False,neutral
+E00910,D0813,monica.herrera@hotmail.com,,Near ability great ready understand.,"Not happy with the delay, please escalate.",,valid,missing,False,negative
+E00911,D0786,michele.williams@hotmail.com,terry.lewis@gmail.com,Should artist later move it state series.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00912,D0762,abigail.shaffer@gmail.com,william.millsgmail.com,Such year deal the.,"Really appreciate the detailed proposal, excited to move forward.",,valid,malformed,False,positive
+E00913,D0309,monica.herreragmail.com,sarah.ramirez@yahoo.com,Democrat low too bar from.,We may have to look at other vendors if this isn't resolved.,2026-04-16,malformed,valid,False,negative
+E00914,D0280,ryan.munozgmail.com,michael.longgmail.com,White tree seek should computer lawyer easy need.,We may have to look at other vendors if this isn't resolved.,2025-12-01,malformed,malformed,False,negative
+E00915,D0753,monica.herrera@gmail.com,kristin.stewart@gmail.com,Couple professional social cut.,We may have to look at other vendors if this isn't resolved.,2026-07-22,valid,valid,False,negative
+E00916,D0265,lisa.hensley@hotmail.com,jaime.bowman@gmail.com,Pull support room difference.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00917,D0709,jamie.arnold@yahoo.com,jennifer.espinoza@hotmail.com,Rock as local remain share wait after well.,Please find attached the requested documents.,2026-04-07,valid,valid,False,neutral
+E00918,D0603,ryan.munoz@yahoo.com,christopher.morales@gmail.com,Institution pick have.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00919,D0366,ryan.munoz@gmail.com,kayla.pearson@hotmail.com,Mission task spend easy avoid camera parent.,"Not happy with the delay, please escalate.",2026-04-08,valid,valid,False,negative
+E00920,D0667,jamie.arnold@gmail.com,jorge.armstrong.iii@yahoo.com,,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00921,D0272,connie.lawrence@yahoo.com,brett.espinoza@gmail.com,Wrong state character.,Can we schedule a call sometime next week?,2026-02-04,valid,valid,False,positive
+E00922,D0560,angie.henderson@yahoo.com,kayla.pearson@hotmail.com,Move shake particularly government stop catch.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00923,D0145,michele.williams@yahoo.com,katherine.chang@hotmail.com,Or through class for own provide pick.,We may have to look at other vendors if this isn't resolved.,2026-03-03,valid,valid,False,negative
+E00924,D0396,cristian.santos@yahoo.com,stacie.riley@hotmail.com,Knowledge physical central.,We may have to look at other vendors if this isn't resolved.,2025-03-11,valid,valid,False,negative
+E00925,D0814,,crystal.jensen.dvm@yahoo.com,Write fight share off how again about site.,We may have to look at other vendors if this isn't resolved.,,missing,valid,False,negative
+E00926,D0278,lisa.hensley@hotmail.com,blake.vega@hotmail.com,effort goal pay number if away meeting.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00927,D0531,ryan.munoz@hotmail.com,jacob.nunez@yahoo.com,In drug stuff million.,Can we schedule a call sometime next week?,2026-06-08,valid,valid,False,positive
+E00928,D0526,gina.moore@gmail.com,lonnie.hart@yahoo.com,,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00929,D0709,abigail.shaffer@hotmail.com,joshua.martin@hotmail.com,South then force color structure worry clearly.,"This is taking longer than expected, we need an update ASAP.",,valid,valid,False,negative
+E00930,D0341,noah.rhodes@yahoo.com,jake.mitchell@gmail.com,Hundred need top adult name establish.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00931,D0157,cristian.santos@yahoo.com,patricia.smith@hotmail.com,New themselves source form figure spring necessary.,Following up on our last conversation regarding pricing.,2026-06-16,valid,valid,False,neutral
+E00932,D0417,noah.rhodes@hotmail.com,sharon.jordan@yahoo.com,Street sea black girl worker.,"Great call today, looking forward to next steps.",2026-04-18,valid,valid,False,positive
+E00933,D0889,lisa.hensley@gmail.com,jerry.christensen@yahoo.com,Trip another defense quickly result service.,"Thanks so much for the quick turnaround, this looks great!",2026-01-04,valid,valid,False,positive
+E00934,D0105,allison.hill@hotmail.com,jason.martin@hotmail.com,Population admit why group fall newspaper.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00935,D0858,monica.herrera@gmail.com,nathan.stanley@yahoo.com,Professor today family large appear seven trial.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00936,D0424,monica.herrera@hotmail.com,john.perry@hotmail.com,All piece daughter.,Following up on our last conversation regarding pricing.,,valid,valid,False,neutral
+E00937,D0134,noah.rhodes@hotmail.com,kristen.gonzales@gmail.com,Discuss try field.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00938,D0777,allison.hill@gmail.com,katherine.goodwin@hotmail.com,Visit hotel ever garden instead total husband trouble.,Can we schedule a call sometime next week?,,valid,valid,False,positive
+E00939,D0340,abigail.shaffer@gmail.com,tyrone.west@yahoo.com,Skin call food general.,"Really appreciate the detailed proposal, excited to move forward.",,valid,valid,False,positive
+E00940,D0170,michele.williams@yahoo.com,stacie.butler@gmail.com,Usually should contain talk by account.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00941,D0722,abigail.shaffer@hotmail.com,james.wellsgmail.com,Keep ahead material lose home.,Please find attached the requested documents.,,valid,malformed,False,neutral
+E00942,D0539,cristian.santos@hotmail.com,rebecca.marsh@yahoo.com,others over for benefit station discussion.,We may have to look at other vendors if this isn't resolved.,,valid,valid,False,negative
+E00943,D0484,connie.lawrence@gmail.com,wesley.white@yahoo.com,Wide explain rock design.,"Great call today, looking forward to next steps.",,valid,valid,False,positive
+E00944,D0569,,mark.lowe@hotmail.com,About eat campaign continue.,"Great call today, looking forward to next steps.",2025-12-16,missing,valid,False,positive
+E00945,D0889,abigail.shaffer@gmail.com,dennis.young@hotmail.com,door single century wide manager international establish.,"Not happy with the delay, please escalate.",2025-11-25,valid,valid,False,negative
+E00946,D0438,jamie.arnold@hotmail.com,katherine.nguyen@gmail.com,Get fly push never commercial once figure race.,"This is taking longer than expected, we need an update ASAP.",2026-04-25,valid,valid,False,negative
+E00947,D0154,gabrielle.davis@hotmail.com,martin.rodriguez@yahoo.com,Image within foreign happy.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00948,D0417,monica.herrera@gmail.com,robert.sullivan@gmail.com,Trouble more PM guy out election.,Can we schedule a call sometime next week?,2025-11-23,valid,valid,False,positive
+E00949,D0675,angie.henderson@yahoo.com,emily.hayes@yahoo.com,Share police ground center just.,"Not happy with the delay, please escalate.",,valid,valid,False,negative
+E00950,D0058,connie.lawrence@hotmail.com,rachael.nguyen@hotmail.com,Born smile leave ground feel.,"Thanks so much for the quick turnaround, this looks great!",,valid,valid,False,positive
+E00226,D0767,michele.williams@hotmail.com,jack.white@gmail.com,Thus wife water note those write though.,,2026-03-01,valid,valid,False,unknown
+E00764,D0781,monica.herrera@gmail.com,alexander.gomezgmail.com,Issue whatever between somebody rise.,,,valid,malformed,False,unknown
+E00652,D0005,noah.rhodes@gmail.com,nathan.kline@yahoo.com,Wonder analysis effort news.,,2026-02-20,valid,valid,False,unknown
+E00686,D0846,daniel.wagner@gmail.com,rebecca.ramsey@hotmail.com,While step effort resource create hit.,,,valid,valid,False,unknown
+E00845,D0709,cristian.santos@yahoo.com,paul.ward@gmail.com,,,2025-09-11,valid,valid,False,unknown
+E00130,D0765,daniel.wagner@yahoo.com,todd.woods@gmail.com,Help out modern citizen address today begin.,,2025-10-12,valid,valid,False,unknown
+E00175,D0366,cristian.santos@gmail.com,danielle.medina@gmail.com,Large practice time live relationship as great.,,,valid,valid,False,unknown
+E00564,D0356,jamie.arnold@yahoo.com,emily.hayes@yahoo.com,Catch relationship member work.,,,valid,valid,False,unknown
+E00353,D0875,daniel.wagner@yahoo.com,matthew.avila@hotmail.com,Quality house must identify modern while wall.,,,valid,valid,False,unknown
+E00836,D0529,ryan.munoz@COMPANY.COM,,Available cut during respond town.,,,placeholder,missing,False,unknown
+E00947,D0154,gabrielle.davis@hotmail.com,martin.rodriguez@yahoo.com,Image within foreign happy.,,,valid,valid,False,unknown
+E00830,D0330,angie.henderson@yahoo.com,renee.mcdaniel@gmail.com,Produce meet expert human number result.,,2025-12-30,valid,valid,False,unknown
+E00459,D0073,ryan.munoz@hotmail.com,charles.pitts@gmail.com,Follow serious space one.,,2026-05-08,valid,valid,False,unknown
+E00945,D0889,abigail.shaffer@gmail.com,dennis.young@hotmail.com,door single century wide manager international establish.,,2025-11-25,valid,valid,False,unknown
+E00934,D0105,allison.hill@hotmail.com,jason.martin@hotmail.com,Population admit why group fall newspaper.,,,valid,valid,False,unknown

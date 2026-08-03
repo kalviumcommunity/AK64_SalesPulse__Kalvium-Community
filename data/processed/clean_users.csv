@@ -1,0 +1,15 @@
+user_id,name,email,role,email_status
+U001,Allison Hill,allison.hillgmail.com,manager,malformed
+U002,Noah Rhodes,noah.rhodes@gmail.com,manager,valid
+U003,Angie Henderson,angie.hendersongmail.com,manager,malformed
+U004,Daniel Wagner,daniel.wagner@yahoo.com,admin,valid
+U005,Cristian Santos,cristian.santos@gmail.com,unknown,valid
+U006,Connie Lawrence,connie.lawrence@gmail.com,rep,valid
+U007,Abigail Shaffer,abigail.shaffer@gmail.com,rep,valid
+U008,Gina Moore,gina.moore@yahoo.com,rep,valid
+U009,Gabrielle Davis,gabrielle.davis@yahoo.com,rep,valid
+U010,Ryan Munoz,ryan.munoz@yahoo.com,rep,valid
+U011,Monica Herrera,monica.herreragmail.com,rep,malformed
+U012,Jamie Arnold,jamie.arnold@hotmail.com,rep,valid
+U013,Lisa Hensley,lisa.hensley@yahoo.com,rep,valid
+U014,Michele Williams,michele.williams@gmail.com,rep,valid
