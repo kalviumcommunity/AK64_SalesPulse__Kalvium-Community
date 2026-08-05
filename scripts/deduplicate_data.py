@@ -2,7 +2,11 @@ import pandas as pd
 import numpy as np
 import json
 import os
+from pathlib import Path
 from datetime import datetime
+
+# Resolve project root regardless of where the script is called from
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 def detect_exact_duplicates(df):
     """
@@ -145,8 +149,8 @@ def log_removed_duplicates(df_original, df_dedup):
     print(f"Total records removed: {len(removed_records)}")
     
     # Save removed records for audit trail
-    os.makedirs('output', exist_ok=True)
-    removed_records.to_csv('output/removed_duplicates_audit.csv', index=False)
+    os.makedirs(PROJECT_ROOT / 'output', exist_ok=True)
+    removed_records.to_csv(PROJECT_ROOT / 'output/removed_duplicates_audit.csv', index=False)
     print(f"[OK] Removed records saved to audit file")
     
     # Create summary
@@ -158,7 +162,7 @@ def log_removed_duplicates(df_original, df_dedup):
         'audit_note': 'All removed records logged for compliance and recovery if needed'
     }
     
-    with open('output/dedup_audit_summary.json', 'w') as f:
+    with open(PROJECT_ROOT / 'output/dedup_audit_summary.json', 'w') as f:
         json.dump(audit_summary, f, indent=2, default=str)
     
     print(f"[OK] Audit summary saved")
@@ -194,14 +198,14 @@ def compare_before_after(df_original, df_dedup):
     print(f"Null change:  {comparison['nulls_before'] - comparison['nulls_after']:,}")
     print("="*70)
     
-    with open('output/dedup_summary.json', 'w') as f:
+    with open(PROJECT_ROOT / 'output/dedup_summary.json', 'w') as f:
         json.dump(comparison, f, indent=2)
     
     return comparison
 
 if __name__ == "__main__":
     # Load data
-    df = pd.read_csv('data/raw/data_with_dupes.csv')
+    df = pd.read_csv(PROJECT_ROOT / 'data/raw/data_with_dupes.csv')
     df_original = df.copy()
     
     print("\n" + "="*70)
@@ -237,6 +241,6 @@ if __name__ == "__main__":
     compare_before_after(df_original, df)
     
     # Save deduplicated data
-    os.makedirs('data/processed', exist_ok=True)
-    df.to_csv('data/processed/deduplicated_data.csv', index=False)
+    os.makedirs(PROJECT_ROOT / 'data/processed', exist_ok=True)
+    df.to_csv(PROJECT_ROOT / 'data/processed/deduplicated_data.csv', index=False)
     print("\n[OK] Deduplicated data saved to data/processed/deduplicated_data.csv")
