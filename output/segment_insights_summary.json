@@ -1,0 +1,30 @@
+{
+  "highest_value_segment": {
+    "segment": "Enterprise",
+    "avg_ltv": 146755.43
+  },
+  "lowest_value_segment": {
+    "segment": "Startup",
+    "avg_ltv": 2457.85
+  },
+  "highest_churn_segment": {
+    "segment": "SMB",
+    "churn_rate": 0.1225
+  },
+  "lowest_churn_segment": {
+    "segment": "Enterprise",
+    "churn_rate": 0.0
+  },
+  "best_retention_segment": {
+    "segment": "Enterprise",
+    "avg_retention_days": 945.0
+  },
+  "best_adoption_segment": {
+    "segment": "Enterprise",
+    "avg_adoption_score": 88.2
+  },
+  "best_nps_segment": {
+    "segment": "Enterprise",
+    "avg_nps": 77.1
+  }
+}
