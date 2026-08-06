@@ -1,0 +1,55 @@
+Funnel Analysis & Drop-Off Detection
+====================================
+
+Stage volumes:
+Sign Up             10000
+Email Entered        8000
+Password Created     6000
+Email Verified       5000
+Payment Added        4000
+First Purchase       2000
+
+Drop-off table:
+      from_stage         to_stage  users_before  users_after  users_lost  completion_rate  drop_rate  revenue_impact
+         Sign Up    Email Entered         10000         8000        2000             80.0       20.0          200000
+   Email Entered Password Created          8000         6000        2000             75.0       25.0          200000
+Password Created   Email Verified          6000         5000        1000             83.3       16.7          100000
+  Email Verified    Payment Added          5000         4000        1000             80.0       20.0          100000
+   Payment Added   First Purchase          4000         2000        2000             50.0       50.0          200000
+
+Business impact ranking:
+      from_stage         to_stage  users_before  users_after  users_lost  completion_rate  drop_rate  revenue_impact priority
+   Payment Added   First Purchase          4000         2000        2000             50.0       50.0          200000     HIGH
+   Email Entered Password Created          8000         6000        2000             75.0       25.0          200000     HIGH
+         Sign Up    Email Entered         10000         8000        2000             80.0       20.0          200000     HIGH
+  Email Verified    Payment Added          5000         4000        1000             80.0       20.0          100000   MEDIUM
+Password Created   Email Verified          6000         5000        1000             83.3       16.7          100000   MEDIUM
+
+FUNNEL OPTIMIZATION PRIORITY
+
+CRITICAL BOTTLENECK:
+Stage: Payment Added → First Purchase
+Users Lost: 2,000
+Completion Rate: 50.0%
+Drop Rate: 50.0%
+Revenue Impact: $200,000
+
+ROOT CAUSE HYPOTHESES:
+- The step may be too complex or too long.
+- The step may be unclear, with weak guidance or messaging.
+- The step may require too much trust too early in the journey.
+- The step may suffer from technical friction or form errors.
+
+RECOMMENDED ACTION:
+1. A/B test a simplified version of the step.
+2. Reduce the number of fields or required actions.
+3. Add clearer copy, progress cues, and reassurance.
+4. Track the drop rate before and after the change.
+
+BUSINESS VALUE OF FIXING THE LEAK:
+If completion improves by 10%, additional conversions = 200 and additional revenue = $20,000.
+
+SUCCESS CRITERIA:
+- Reduce drop rate on this step by at least 5 percentage points.
+- Improve completion rate by at least 10% relative to baseline.
+- Confirm the change with a statistically valid A/B test.
