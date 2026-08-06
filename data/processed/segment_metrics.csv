@@ -1,0 +1,4 @@
+customer_type,avg_ltv,churn_rate,avg_tickets,avg_retention,avg_adoption,avg_nps,count
+Enterprise,146755.4344,0.0,1.64,944.98,88.246,77.064,50
+SMB,8512.0408,0.1225,4.4,343.8975,60.855,35.4828,400
+Startup,2457.849,0.08,2.9927,161.4964,35.4296,9.9405,550

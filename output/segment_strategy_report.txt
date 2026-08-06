@@ -1,0 +1,68 @@
+
++==============================================================+
+|        SEGMENT STRATEGY SUMMARY — SALESPULSE 2.32           |
++==============================================================+
+
+--------------------------------------------------------------
+ENTERPRISE  (50 customers | 5% of base)
+--------------------------------------------------------------
+  Observed:  Avg LTV $146,755 | Churn 0.0% |
+             Retention 945 days | Adoption 88.2/100 | NPS +77.1
+
+  Insight:   Enterprise is the revenue anchor — 5% of the customer base
+             generates disproportionate LTV at $146,755 per customer. Their
+             0.0% churn rate is near-zero, but any single churned enterprise
+             account represents the equivalent of ~17 SMB customers lost.
+
+  Action:    Assign dedicated Customer Success Managers (CSMs) and maintain SLA-backed
+             premium support. Run quarterly Executive Business Reviews (EBRs) to surface
+             expansion opportunities. Protect this segment — do not cut support budget here.
+
+--------------------------------------------------------------
+SMB  (400 customers | 40% of base)
+--------------------------------------------------------------
+  Observed:  Avg LTV $8,512 | Churn 12.2% |
+             Retention 344 days | Adoption 60.9/100 | NPS +35.5
+
+  Insight:   SMB customers represent 40% of the base and carry a dangerously high
+             12.2% churn rate — 12× Enterprise. Their average 4.4 support
+             tickets per customer indicate friction in onboarding and product usage, directly
+             driving churn. Low feature adoption (60.9/100) confirms shallow product
+             engagement before customers abandon.
+
+  Action:    Launch automated onboarding email sequences triggered by low feature-adoption
+             signals (<40/100). Introduce a cheaper tiered support plan (chat-first, no
+             phone), and create SMB-specific playbooks that reduce time-to-value to <14 days.
+             Target churn reduction from 12% to <8% in 2 quarters.
+
+--------------------------------------------------------------
+STARTUP  (550 customers | 55% of base)
+--------------------------------------------------------------
+  Observed:  Avg LTV $2,458 | Churn 8.0% |
+             Retention 161 days | Adoption 35.4/100 | NPS +9.9
+
+  Insight:   Startups are the largest cohort (55% of base) but carry the lowest
+             LTV at $2,458 — making individual-level human support economically
+             unviable. With 8.0% churn and 35.4/100 feature adoption, the biggest
+             lever is education: customers who discover value early are significantly more
+             likely to expand into SMB/Enterprise contracts as they grow.
+
+  Action:    Invest in self-service resources — interactive product tours, in-app tooltips,
+             and a searchable knowledge base. Implement a usage-based upgrade nudge when
+             Startup customers hit 80% of their plan limits. Treat this segment as a
+             pipeline (future SMB/Enterprise), not just a revenue line.
+
+--------------------------------------------------------------
+CROSS-SEGMENT STRATEGIC PRIORITIES
+--------------------------------------------------------------
+  1. BUDGET ALLOCATION:  Concentrate 60% of Customer Success budget on Enterprise
+     (highest LTV, lowest churn risk), 30% on SMB churn reduction (highest ROI on
+     intervention), and 10% on Startup self-service infrastructure.
+
+  2. PRODUCT PRIORITISATION: Build features requested by Enterprise first (NPS +77.1).
+     Validate each SMB feature request against churn signal data before committing roadmap.
+     Startup requests -> direct to community/upvote forum.
+
+  3. REPORTING: Stop reporting aggregate "average churn" (6.8%).
+     Report per-segment. Stakeholders making decisions on the aggregate miss the 12×
+     churn gap between Enterprise and SMB entirely.
