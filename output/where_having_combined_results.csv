@@ -1,0 +1,4 @@
+customer_type,segment_customers,total_transactions,segment_revenue,avg_order_value,revenue_per_customer
+Enterprise,26,93,3886778.15,41793.31,149491.47
+SMB,140,478,2358911.31,4934.96,16849.37
+Startup,217,760,707491.79,930.91,3260.33
