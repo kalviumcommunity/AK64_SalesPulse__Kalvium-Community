@@ -1,14 +1,14 @@
 """
 SalesPulse Analytics Dashboard
 --------------------------------
-Assignment 2.51 - Streamlit App Structure & Navigation
+Assignment 2.52 - Dataset Upload & Dynamic Preview System
 
-Multi-section analytics application with:
-  Task 1: Sidebar navigation controlling section display
-  Task 2: Three content sections with st.columns and st.expander
-  Task 3: Consistent visual hierarchy (title, header, subheader, divider)
-  Task 4: Requirements.txt, clean environment compatibility
-  Task 5: KPI cards above the fold on first load
+Extends the multi-section app (2.51) with a full file upload pipeline:
+  Task 1: st.file_uploader accepts CSV and JSON, handles None state
+  Task 2: Automatic preview -- rows, columns, null%, first 10 rows, column summary
+  Task 3: Descriptive statistics via df.describe()
+  Task 4: Graceful error handling with st.error / st.stop (no tracebacks)
+  Task 5: Downstream usability -- uploaded DataFrame drives filters and charts
 """
 
 import streamlit as st
@@ -16,7 +16,7 @@ import pandas as pd
 import numpy as np
 
 # -----------------------------------------------------------------------
-# Page Configuration (must be first Streamlit command)
+# Page Configuration
 # -----------------------------------------------------------------------
 st.set_page_config(
     page_title="SalesPulse Analytics Dashboard",
@@ -26,13 +26,11 @@ st.set_page_config(
 )
 
 # -----------------------------------------------------------------------
-# Data Layer with Caching
-# Streamlit reruns the entire script on every interaction.
-# @st.cache_data ensures load_data() runs only once per session.
+# Cached sample data loader (2.51 baseline dataset)
+# @st.cache_data prevents recomputation on every Streamlit rerun
 # -----------------------------------------------------------------------
 @st.cache_data
-def load_data():
-    """Generate sample SalesPulse dataset. Cached to prevent recomputation."""
+def load_sample_data():
     np.random.seed(42)
     dates = pd.date_range("2024-01-01", periods=180, freq="D")
     df = pd.DataFrame({
@@ -52,19 +50,19 @@ def load_data():
     return df
 
 
-df = load_data()
+df_sample = load_sample_data()
 
-# Precompute summary KPIs
-total_revenue = df["revenue"].iloc[-1]
-total_customers = int(df["customers"].iloc[-1])
-avg_aov = df["aov"].mean()
-churn_pct = round((df["churn_risk"] == "High").mean() * 100, 1)
+# Precompute KPIs for Overview section
+total_revenue = df_sample["revenue"].iloc[-1]
+total_customers = int(df_sample["customers"].iloc[-1])
+avg_aov = df_sample["aov"].mean()
+churn_pct = round((df_sample["churn_risk"] == "High").mean() * 100, 1)
 nps_score = 72
-prev_revenue = df["revenue"].iloc[-31]
+prev_revenue = df_sample["revenue"].iloc[-31]
 revenue_delta = f"+{((total_revenue - prev_revenue) / prev_revenue * 100):.1f}%"
 
 # -----------------------------------------------------------------------
-# Task 1: Sidebar Navigation
+# Sidebar Navigation
 # -----------------------------------------------------------------------
 st.sidebar.title("SalesPulse")
 st.sidebar.markdown("*Analytics Dashboard*")
@@ -73,7 +71,7 @@ st.sidebar.divider()
 st.sidebar.subheader("Navigation")
 page = st.sidebar.radio(
     "Go to",
-    ["Overview", "Trends", "Data Explorer"],
+    ["Overview", "Trends", "Data Upload", "Data Explorer"],
     label_visibility="collapsed"
 )
 
@@ -83,21 +81,19 @@ st.sidebar.markdown(
     **Sections**
     - **Overview**: KPIs & summary metrics
     - **Trends**: Revenue & customer charts
+    - **Data Upload**: Upload your own CSV or JSON
     - **Data Explorer**: Filters, tables & export
     """
 )
 
 
 # -----------------------------------------------------------------------
-# Task 3 + Task 5: Visual Hierarchy -- Overview Page
-# KPI cards appear at the very top -- above the fold, no scroll needed.
+# OVERVIEW PAGE
 # -----------------------------------------------------------------------
-
 if page == "Overview":
     st.title("Business Overview")
     st.caption("Executive summary -- SalesPulse performance at a glance")
 
-    # -- Task 2 + Task 5: Five KPI cards in columns, immediately visible --
     st.header("Key Performance Indicators")
     col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
@@ -113,12 +109,11 @@ if page == "Overview":
 
     st.divider()
 
-    # -- Segment breakdown using columns --
     st.header("Segment Performance")
-    st.subheader("Revenue and Order Volume by Customer Segment")
+    st.subheader("Revenue and Risk Distribution by Segment")
 
     seg_summary = (
-        df.groupby("segment")
+        df_sample.groupby("segment")
         .agg(avg_revenue=("revenue", "mean"), order_count=("orders", "sum"))
         .reset_index()
     )
@@ -128,13 +123,10 @@ if page == "Overview":
         try:
             import plotly.express as px
             fig_seg = px.bar(
-                seg_summary, x="segment", y="avg_revenue",
-                color="segment",
+                seg_summary, x="segment", y="avg_revenue", color="segment",
                 title="Average Daily Revenue by Segment",
                 color_discrete_map={
-                    "Enterprise": "#1e3a8a",
-                    "Mid-Market": "#3b82f6",
-                    "SMB": "#93c5fd"
+                    "Enterprise": "#1e3a8a", "Mid-Market": "#3b82f6", "SMB": "#93c5fd"
                 },
                 template="plotly_white"
             )
@@ -144,54 +136,47 @@ if page == "Overview":
 
     with col_b:
         try:
-            risk_counts = df["churn_risk"].value_counts().reset_index()
+            risk_counts = df_sample["churn_risk"].value_counts().reset_index()
             risk_counts.columns = ["churn_risk", "count"]
             fig_risk = px.pie(
-                risk_counts,
-                names="churn_risk", values="count",
+                risk_counts, names="churn_risk", values="count",
                 title="Customer Risk Distribution",
                 color="churn_risk",
-                color_discrete_map={
-                    "Low": "#22c55e",
-                    "Medium": "#f59e0b",
-                    "High": "#ef4444"
-                },
+                color_discrete_map={"Low": "#22c55e", "Medium": "#f59e0b", "High": "#ef4444"},
                 template="plotly_white"
             )
             st.plotly_chart(fig_risk, use_container_width=True)
         except ImportError:
-            st.write(df["churn_risk"].value_counts())
+            st.write(df_sample["churn_risk"].value_counts())
 
     st.divider()
 
-    # -- Task 2: Expander for methodology notes (progressive disclosure) --
     with st.expander("About These Metrics"):
         st.write(
             "**Revenue** is the cumulative total of all order amounts. "
             "The delta shows change from the same period last month.\n\n"
             "**High Churn Risk** is the percentage of customers flagged by the "
             "risk model (support response delay > 8 hours AND declining order "
-            "frequency). A negative delta is good -- fewer at-risk customers.\n\n"
+            "frequency). A negative delta is good.\n\n"
             "**NPS Score** is measured via quarterly stakeholder surveys. "
             "Scores above 50 are considered Excellent."
         )
 
 
 # -----------------------------------------------------------------------
-# Task 3: Trends Page
+# TRENDS PAGE
 # -----------------------------------------------------------------------
 elif page == "Trends":
     st.title("Trend Analysis")
     st.caption("Time-series performance over the past 6 months")
 
-    # -- Revenue Trends --
     st.header("Revenue Trends")
     st.subheader("Daily Revenue -- Last 180 Days")
 
     try:
         import plotly.express as px
         fig_rev = px.line(
-            df, x="date", y="revenue",
+            df_sample, x="date", y="revenue",
             title="Cumulative Revenue Growth",
             labels={"revenue": "Revenue ($)", "date": "Date"},
             template="plotly_white",
@@ -200,11 +185,10 @@ elif page == "Trends":
         fig_rev.update_traces(line_width=2)
         st.plotly_chart(fig_rev, use_container_width=True)
     except ImportError:
-        st.line_chart(df.set_index("date")["revenue"])
+        st.line_chart(df_sample.set_index("date")["revenue"])
 
     st.divider()
 
-    # -- Customer Metrics --
     st.header("Customer Metrics")
     st.subheader("Active Customers and Order Volume Over Time")
 
@@ -212,7 +196,7 @@ elif page == "Trends":
     with col_left:
         try:
             fig_cust = px.area(
-                df, x="date", y="customers",
+                df_sample, x="date", y="customers",
                 title="Cumulative Active Customers",
                 labels={"customers": "Customers", "date": "Date"},
                 template="plotly_white",
@@ -220,13 +204,11 @@ elif page == "Trends":
             )
             st.plotly_chart(fig_cust, use_container_width=True)
         except ImportError:
-            st.line_chart(df.set_index("date")["customers"])
+            st.line_chart(df_sample.set_index("date")["customers"])
 
     with col_right:
         try:
-            weekly_orders = (
-                df.resample("W", on="date")["orders"].sum().reset_index()
-            )
+            weekly_orders = df_sample.resample("W", on="date")["orders"].sum().reset_index()
             fig_orders = px.bar(
                 weekly_orders, x="date", y="orders",
                 title="Weekly Order Volume",
@@ -236,29 +218,217 @@ elif page == "Trends":
             )
             st.plotly_chart(fig_orders, use_container_width=True)
         except ImportError:
-            st.bar_chart(df.set_index("date")["orders"])
+            st.bar_chart(df_sample.set_index("date")["orders"])
 
     st.divider()
 
-    # -- Task 2: Expander for trend methodology --
     with st.expander("Methodology Notes"):
         st.write(
             "**Revenue** is plotted as a cumulative daily sum to show growth "
             "trajectory over the full 6-month period.\n\n"
             "**Weekly Order Volume** is aggregated using a 7-day rolling window. "
-            "Weeks with fewer than 7 data points (start/end of range) are partial.\n\n"
             "Data source: analytics_views.db -- vw_product_performance view."
         )
 
 
 # -----------------------------------------------------------------------
-# Task 3: Data Explorer Page
+# DATA UPLOAD PAGE  (Assignment 2.52 -- all 5 tasks)
+# -----------------------------------------------------------------------
+elif page == "Data Upload":
+    st.title("Dataset Upload & Preview")
+    st.caption("Upload your own CSV or JSON file for instant analysis")
+
+    # -------------------------------------------------------------------
+    # Task 1: st.file_uploader accepting CSV and JSON, None state handled
+    # -------------------------------------------------------------------
+    uploaded_file = st.file_uploader(
+        "Upload your dataset",
+        type=["csv", "json"],
+        help="Supported formats: CSV (.csv) and JSON (.json)"
+    )
+
+    if uploaded_file is not None:
+
+        # ---------------------------------------------------------------
+        # Task 4: Error handling -- wrap everything in try/except.
+        # Show st.error / st.warning + st.stop instead of Python traceback.
+        # ---------------------------------------------------------------
+        try:
+            if uploaded_file.name.endswith(".csv"):
+                df = pd.read_csv(uploaded_file)
+            elif uploaded_file.name.endswith(".json"):
+                df = pd.read_json(uploaded_file)
+            else:
+                st.error(
+                    "Unsupported file type: '" + uploaded_file.name +
+                    "'. Please upload a .csv or .json file."
+                )
+                st.stop()
+
+            if len(df) == 0:
+                st.warning("The uploaded file is empty. Please check your data and try again.")
+                st.stop()
+
+        except Exception as e:
+            st.error(
+                "Could not read '" + uploaded_file.name +
+                "'. Please check the file format and try again."
+            )
+            st.stop()
+
+        # Success banner
+        st.success(
+            "File loaded: " + uploaded_file.name +
+            " (" + str(len(df)) + " rows, " + str(len(df.columns)) + " columns)"
+        )
+
+        st.divider()
+
+        # ---------------------------------------------------------------
+        # Task 2: Automatic preview -- shape metrics, first 10 rows, column summary
+        # ---------------------------------------------------------------
+        st.header("Dataset Preview")
+
+        total_nulls = df.isnull().sum().sum()
+        total_cells = df.shape[0] * df.shape[1]
+        null_pct = (total_nulls / total_cells * 100) if total_cells > 0 else 0
+
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric("Rows", f"{len(df):,}")
+        with col2:
+            st.metric("Columns", str(len(df.columns)))
+        with col3:
+            st.metric("Null %", f"{null_pct:.1f}%")
+
+        st.divider()
+
+        st.subheader("First 10 Rows")
+        st.dataframe(df.head(10), use_container_width=True)
+
+        st.subheader("Column Summary")
+        summary = pd.DataFrame({
+            "Column": df.columns,
+            "Type": df.dtypes.astype(str).values,
+            "Non-Null": df.notnull().sum().values,
+            "Null Count": df.isnull().sum().values,
+            "Null %": (df.isnull().sum() / len(df) * 100).round(1).values,
+        })
+        st.dataframe(summary, use_container_width=True)
+
+        st.divider()
+
+        # ---------------------------------------------------------------
+        # Task 3: Descriptive statistics for numeric columns
+        # ---------------------------------------------------------------
+        st.header("Descriptive Statistics")
+        st.subheader("Numeric Column Summary (count, mean, std, min, quartiles, max)")
+
+        numeric_df = df.select_dtypes(include="number")
+        if not numeric_df.empty:
+            st.dataframe(numeric_df.describe(), use_container_width=True)
+        else:
+            st.info("No numeric columns found in this dataset.")
+
+        # Categorical column top value counts
+        cat_cols = df.select_dtypes(exclude="number").columns.tolist()
+        if cat_cols:
+            st.subheader("Categorical Column Value Counts")
+            cat_col_sel = st.selectbox(
+                "Select a categorical column to inspect",
+                cat_cols,
+                key="cat_col_inspect"
+            )
+            val_counts = df[cat_col_sel].value_counts().head(10).reset_index()
+            val_counts.columns = [cat_col_sel, "Count"]
+            st.dataframe(val_counts, use_container_width=True)
+
+        st.divider()
+
+        # ---------------------------------------------------------------
+        # Task 5: Downstream usability -- uploaded data drives filters & chart
+        # ---------------------------------------------------------------
+        st.header("Quick Exploration")
+        st.subheader("Visualise Your Uploaded Data")
+
+        numeric_cols = df.select_dtypes(include="number").columns.tolist()
+        if numeric_cols:
+            col_vis, col_filter = st.columns([2, 1])
+
+            with col_filter:
+                selected_col = st.selectbox(
+                    "Select a numeric column to visualise",
+                    numeric_cols,
+                    key="vis_col"
+                )
+                n_bins = st.slider("Number of bins", min_value=5, max_value=50, value=20)
+
+            with col_vis:
+                try:
+                    import plotly.express as px
+                    fig_hist = px.histogram(
+                        df, x=selected_col, nbins=n_bins,
+                        title=f"Distribution of {selected_col}",
+                        template="plotly_white",
+                        color_discrete_sequence=["#3b82f6"]
+                    )
+                    st.plotly_chart(fig_hist, use_container_width=True)
+                except ImportError:
+                    st.bar_chart(df[selected_col].value_counts().head(20))
+
+            st.divider()
+
+            # Optional correlation heatmap for multi-numeric datasets
+            if len(numeric_cols) >= 2:
+                with st.expander("View Correlation Matrix"):
+                    corr = df[numeric_cols].corr().round(2)
+                    try:
+                        fig_corr = px.imshow(
+                            corr, text_auto=True,
+                            color_continuous_scale="Blues",
+                            title="Numeric Column Correlations",
+                            template="plotly_white"
+                        )
+                        st.plotly_chart(fig_corr, use_container_width=True)
+                    except Exception:
+                        st.dataframe(corr, use_container_width=True)
+
+        else:
+            st.info("No numeric columns available for visualisation.")
+
+        st.divider()
+
+        # Download filtered data back out
+        with st.expander("Download Processed Data"):
+            csv_out = df.to_csv(index=False).encode("utf-8")
+            st.download_button(
+                label="Download as CSV",
+                data=csv_out,
+                file_name="processed_" + uploaded_file.name.replace(".json", ".csv"),
+                mime="text/csv"
+            )
+
+    else:
+        # Task 1: Handle None state -- show informative placeholder
+        st.info("Upload a CSV or JSON file to begin. Your data will be previewed instantly.")
+
+        st.subheader("What you will see after upload")
+        col_p1, col_p2, col_p3 = st.columns(3)
+        with col_p1:
+            st.markdown("**Dataset Shape**\nRow count, column count, and null percentage at a glance.")
+        with col_p2:
+            st.markdown("**Column Summary**\nData types, non-null counts, and null percentages per column.")
+        with col_p3:
+            st.markdown("**Descriptive Statistics**\nMean, std, min, max, and quartiles for all numeric columns.")
+
+
+# -----------------------------------------------------------------------
+# DATA EXPLORER PAGE
 # -----------------------------------------------------------------------
 elif page == "Data Explorer":
     st.title("Data Explorer")
-    st.caption("Filter, inspect, and export the underlying dataset")
+    st.caption("Filter, inspect, and export the underlying sample dataset")
 
-    # -- Filters using columns --
     st.header("Filter Controls")
     st.subheader("Segment and Risk Tier Filters")
 
@@ -278,13 +448,12 @@ elif page == "Data Explorer":
     with col_f3:
         date_range = st.date_input(
             "Date Range",
-            value=(df["date"].min().date(), df["date"].max().date())
+            value=(df_sample["date"].min().date(), df_sample["date"].max().date())
         )
 
-    # Apply filters
-    filtered = df[
-        df["segment"].isin(segments) &
-        df["churn_risk"].isin(risk_tiers)
+    filtered = df_sample[
+        df_sample["segment"].isin(segments) &
+        df_sample["churn_risk"].isin(risk_tiers)
     ]
     if len(date_range) == 2:
         filtered = filtered[
@@ -294,7 +463,6 @@ elif page == "Data Explorer":
 
     st.divider()
 
-    # -- Filtered Summary --
     st.header("Filtered Data Summary")
     st.subheader(f"Showing {len(filtered):,} records matching your filters")
 
@@ -308,7 +476,6 @@ elif page == "Data Explorer":
 
     st.divider()
 
-    # -- Task 2: Expander for raw data table (progressive disclosure) --
     with st.expander("View Raw Data Table"):
         st.dataframe(
             filtered[[
@@ -341,12 +508,9 @@ elif page == "Data Explorer":
                     filtered, x="support_response_hours", color="churn_risk",
                     title="Response Time Distribution",
                     color_discrete_map={
-                        "Low": "#22c55e",
-                        "Medium": "#f59e0b",
-                        "High": "#ef4444"
+                        "Low": "#22c55e", "Medium": "#f59e0b", "High": "#ef4444"
                     },
-                    template="plotly_white",
-                    nbins=20
+                    template="plotly_white", nbins=20
                 )
                 st.plotly_chart(fig_resp, use_container_width=True)
             except ImportError:
