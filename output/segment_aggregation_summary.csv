@@ -1,0 +1,4 @@
+customer_type,customer_count,avg_lifetime_value,total_revenue,churn_rate_pct
+Enterprise,25,146447.93,3661198.15,0.0
+SMB,200,7868.15,1573629.2,11.0
+Startup,275,3301.64,907950.25,7.27

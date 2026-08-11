@@ -1,451 +1,501 @@
-customer_id,company_name,contact_person,email,phone_number,email_status
-C0001,Kelly-Santiago,Melinda Jones,melinda.jones@hotmail.com,(783)227-6483,valid
-C0002,Underwood Llc,Austin Gentry,austin.gentry@hotmail.com,001-653-876-7242x388,valid
-C0003,"Ross, Robinson And Bright",,ann.williams@gmail.com,(626)291-6697,valid
-C0004,"Le, Maldonado And Herrera",Martin Rodriguez,martin.rodriguez@yahoo.com,(570)448-2814,valid
-C0005,Farmer-Ryan,Kerry Smith,kerry.smith@yahoo.com,401.454.3039x1171,valid
-C0006,"Alvarez, Pierce And Baker",Jenny Lewis,jenny.lewis@hotmail.com,001-534-565-7871x33150,valid
-C0007,Jones Ltd,Austin Johnson,,,missing
-C0008,Davis Group,Jason Shields,jason.shields@gmail.com,,valid
-C0009,Baxter Inc,Scott Pierce,scott.pierce@gmail.com,+1-880-213-2677x3602,valid
-C0010,Baker-Bowers,Jay Bernard,jay.bernard@hotmail.com,+1-972-434-3098x05009,valid
-C0011,Yu Inc,Andrea Jones,andrea.jones@gmail.com,(719)639-9091x6998,valid
-C0012,Santiago Llc,James Powers,james.powers@yahoo.com,651.407.9911x838,valid
-C0013,Ibarra-Suarez,Christopher Bass,christopher.bass@hotmail.com,698-608-4124x1182,valid
-C0014,"Clark, Cooper And Watts",Kathy King,kathy.king@gmail.com,,valid
-C0015,"Smith, Jones And Ware",Kimberly Davenport,kimberly.davenport@hotmail.com,+1-526-520-4505,valid
-C0016,"Garcia, Deleon And Henson",Marc Moore,marc.moore@gmail.com,(426)302-5634,valid
-C0017,Brennan-Garrison,Robert Stevens,robert.stevens@yahoo.com,730.836.5414,valid
-C0018,"Zavala, Herrera And Crosby",Wesley White,wesley.white@yahoo.com,3198655698,valid
-C0019,"Lee, Williams And Graham",Renee Mcdaniel,renee.mcdaniel@hotmail.com,001-735-861-5951x4846,valid
-C0020,"Phillips, Martinez And Fisher",Megan Orr,megan.orr@hotmail.com,001-746-980-4436,valid
-C0021,Ramos-Lewis,Steven Flynn,steven.flynn@gmail.com,+1-514-989-5134x33200,valid
-C0022,"Atkinson, Jones And Perry",Cheyenne Horton,cheyenne.horton@yahoo.com,(332)901-6328x7083,valid
-C0023,Solis Ltd,Kristin Stewart,kristin.stewart@yahoo.com,+1-986-587-2774x348,valid
-C0024,Gonzales-Reeves,George Orozco,george.orozco@gmail.com,(723)962-3166,valid
-C0025,Brown-Wall,Randy Shah,randy.shah@gmail.com,001-596-670-5466x88937,valid
-C0026,Tucker-Price,Rebecca Ramsey,,929.480.6990x162,missing
-C0027,Green Llc,Gabriel Juarez,gabriel.juarez@yahoo.com,264-517-0805x310,valid
-C0028,Combs Plc,Cameron Caldwell,cameron.caldwell@hotmail.com,674.352.9912,valid
-C0029,"Johnson, Collins And Byrd",Jennifer Espinoza,jennifer.espinoza@gmail.com,001-831-749-1905,valid
-C0030,Hunter Llc,Jason Henry,jason.henry@yahoo.com,(672)762-8498x776,valid
-C0031,Rivas Inc,Jerry Christensen,jerry.christensen@hotmail.com,+1-665-607-5273x545,valid
-C0032,"Smith, Vaughan And Miller",Katherine Chang,katherine.chang@hotmail.com,777.801.4363x4957,valid
-C0033,"Pierce, Bell And Chavez",David Griffith,david.griffith@yahoo.com,682-333-7498,valid
-C0034,Phillips Llc,Adrian Ferguson,adrian.ferguson@yahoo.com,,valid
-C0035,Alexander-Lopez,Todd Woods,todd.woods@gmail.com,(871)590-2294x1318,valid
-C0036,"James, Kerr And Evans",Jessica Carroll,jessica.carroll@gmail.com,+1-213-834-1232x812,valid
-C0037,Norris-Harrison,Dwayne Campbell,dwayne.campbell@yahoo.com,434-693-6183,valid
-C0038,Jones And Sons,Linda Holloway,linda.holloway@yahoo.com,217.846.4887x719,valid
-C0039,"Morris, Wright And Davis",Sara Johnston,sara.johnston@gmail.com,001-949-702-7874x29671,valid
-C0040,Cook-Santiago,Erin Steele,erin.steele@yahoo.com,+1-968-807-1545x16808,valid
-C0041,Lopez Llc,Kathleen Ramos,kathleen.ramos@gmail.com,548.424.7710,valid
-C0042,Pierce-Tran,Willie Durham,willie.durham@yahoo.com,527-948-4677,valid
-C0043,"Thomas, Lee And Greene",Breanna Jones,breanna.jones@yahoo.com,,valid
-C0044,Cantu-Kane,Mrs. Janet Chase,mrs.janet.chase@yahoo.com,7573662702,valid
-C0045,Garcia-Lozano,Charles Pitts,charles.pitts@gmail.com,874-759-6158,valid
-C0046,"Higgins, Malone And Brennan",Barry Welch,barry.welch@yahoo.com,216.711.7240,valid
-C0047,Carter Llc,David Jenkins,david.jenkins@hotmail.com,(422)519-6937,valid
-C0048,Little-Stevens,Stephanie Marshall,stephanie.marshall@yahoo.com,+1-982-317-5946x47436,valid
-C0049,James Llc,,,+1-664-409-0974x39533,missing
-C0050,"Davis, Burton And Williams",Amanda Diaz,amanda.diaz@gmail.com,645-462-3285,valid
-C0051,Sloan-Raymond,Elizabeth Harrell,elizabeth.harrell@gmail.com,312.936.8516x048,valid
-C0052,Chambers-Chambers,Samantha Bentley,samantha.bentley@COMPANY.COM,337-909-8593,placeholder
-C0053,"Turner, Ortiz And Taylor",Elizabeth Vasquez,elizabeth.vasquez@gmail.com,482.867.5869,valid
-C0054,"Garcia, Burns And Russell",Amanda Wood,amanda.wood@yahoo.com,,valid
-C0055,"Lewis, Fowler And Maddox",Gavin Zhang,gavin.zhang@hotmail.com,218.639.3352,valid
-C0056,Huerta Plc,Christopher Guerrero,christopher.guerrero@COMPANY.COM,6202539502,placeholder
-C0057,Harmon Plc,Arthur West,arthur.west@yahoo.com,891.878.3908x47007,valid
-C0058,"Rodriguez, Joseph And Wallace",,erica.hernandez@gmail.com,899-385-6984x789,valid
-C0059,"Wilson, Pena And Rich",Sharon Jordan,sharon.jordan@gmail.com,(357)366-1565x45271,valid
-C0060,Reynolds Ltd,Robin Hawkins,robin.hawkins@COMPANY.COM,001-688-651-6560,placeholder
-C0061,Garcia-Romero,John Boone,john.boone@COMPANY.COM,(285)614-9368x998,placeholder
-C0062,White Ltd,Tammy Bell,tammy.bell@gmail.com,(896)812-0183,valid
-C0063,Peterson-Wood,Paula Bradley,paula.bradleygmail.com,802-929-0147,malformed
-C0064,"Ramos, Nelson And Fischer",Jeffrey Campbell,jeffrey.campbell@hotmail.com,001-278-540-3690,valid
-C0065,Dougherty-Saunders,Donna Wilson,donna.wilson@yahoo.com,001-862-226-8388x5160,valid
-C0066,Morse-Atkins,Laura Mckinney,laura.mckinney@yahoo.com,816-805-2975x1613,valid
-C0067,"Miller, Harrell And Reese",Richard Jones,richard.jones@hotmail.com,488-635-5231,valid
-C0068,Thompson And Sons,Mary Thompson,mary.thompson@hotmail.com,,valid
-C0069,Vargas-Bell,Joel Johnson,joel.johnson@yahoo.com,511-799-8679x8079,valid
-C0070,"Alvarez, Hernandez And Brown",Steven Cooper,steven.cooper@hotmail.com,482-703-7788,valid
-C0071,Hardin-Hughes,Meghan Williams,meghan.williams@hotmail.com,+1-451-751-8644x9251,valid
-C0072,Ponce-Hale,Kurt Hurley,kurt.hurley@yahoo.com,+1-265-728-1685,valid
-C0073,White-Lewis,Katelyn Perez,katelyn.perez@gmail.com,,valid
-C0074,Martin Ltd,Rhonda Martin,rhonda.martin@yahoo.com,5656379473,valid
-C0075,Mckee-Lee,,laura.alexander@yahoo.com,001-368-386-2392x40758,valid
-C0076,Miller-Martin,Jose Guerra,jose.guerra@gmail.com,575.806.0685,valid
-C0077,Brooks Inc,Brett Espinoza,brett.espinoza@yahoo.com,(220)347-2779,valid
-C0078,Scott And Sons,Monica Rose,monica.rose@gmail.com,001-243-541-0369x71179,valid
-C0079,"Thomas, Patterson And Mendez",Jason Beck,jason.beck@gmail.com,651.288.8880x67065,valid
-C0080,Kramer-Cooper,Lori Ingram,lori.ingram@hotmail.com,001-252-605-8527x72217,valid
-C0081,Williams And Sons,Emily Collins,emily.collins@yahoo.com,+1-674-303-4505,valid
-C0082,Kim-Ross,Tyler Morgan,tyler.morgan@gmail.com,775.384.1616x9284,valid
-C0083,Murphy Llc,Lance Simmons,lance.simmons@hotmail.com,,valid
-C0084,Allison Ltd,Amanda Jones,amanda.jones@hotmail.com,(456)790-9275x571,valid
-C0085,Edwards-Ramirez,Allison Lopez,allison.lopez@hotmail.com,(381)944-7394x7312,valid
-C0086,Roach Group,Rita Ponce Dvm,rita.ponce.dvm@hotmail.com,(518)484-4225x831,valid
-C0087,Tyler Inc,Kenneth Mcdonald,kenneth.mcdonald@hotmail.com,(891)314-6786,valid
-C0088,Compton Ltd,John Holmes,john.holmesgmail.com,(489)622-6801,malformed
-C0089,Martin Ltd,Travis Stone,travis.stone@yahoo.com,343-484-2498,valid
-C0090,"David, Moore And Hopkins",Lisa Kirby,lisa.kirby@hotmail.com,,valid
-C0091,"Gardner, May And Turner",Robert Sullivan,robert.sullivangmail.com,710.727.6773x592,malformed
-C0092,"Travis, Reed And Ross",Kayla Rodriguez,kayla.rodriguez@gmail.com,514.473.2104x696,valid
-C0093,Peck-Griffith,Christopher Ferrell,christopher.ferrellgmail.com,774.270.1687x339,malformed
-C0094,Campbell Plc,Martha Ruiz,martha.ruiz@hotmail.com,8162245650,valid
-C0095,"Hoffman, Cox And Roberts",Jerry Pierce,jerry.piercegmail.com,+1-891-221-6558x523,malformed
-C0096,Williams Ltd,John Bryant,john.bryant@hotmail.com,925.695.2694x95888,valid
-C0097,Cabrera-Richardson,Veronica Silva,veronica.silva@hotmail.com,001-809-474-9930x972,valid
-C0098,"Allen, Armstrong And Graves",Jeremy Barnes,jeremy.barnesgmail.com,(836)789-7028x38578,malformed
-C0099,Stevens Plc,Hector Ingram,hector.ingram@hotmail.com,,valid
-C0100,Castro-Michael,Donna Berry,donna.berry@hotmail.com,(565)624-0415x7473,valid
-C0101,"Horton, Taylor And Gilbert",Dana Santiago,dana.santiago@hotmail.com,230.416.5712,valid
-C0102,Delgado-Gilmore,Matthew Avila,matthew.avila@yahoo.com,440-619-3802x62067,valid
-C0103,Smith Plc,Tanya Rogers,tanya.rogers@yahoo.com,+1-688-472-8743x1527,valid
-C0104,Doyle Llc,Nicole Thompson,nicole.thompson@hotmail.com,(668)851-6122x7530,valid
-C0105,Griffin Llc,Elizabeth Sharp,elizabeth.sharp@gmail.com,653-701-7426x841,valid
-C0106,"Walker, Bernard And Mendoza",William Brooks,,001-387-383-3918x785,missing
-C0107,Poole Plc,Joshua Martin,joshua.martin@hotmail.com,,valid
-C0108,"Brown, Ford And Roman",Jennifer Velasquez,jennifer.velasquez@hotmail.com,391.906.5180,valid
-C0109,Mitchell And Sons,Pamela Good,pamela.goodgmail.com,+1-865-467-6618x2512,malformed
-C0110,"Irwin, Davenport And Avila",Julie Ball,julie.ball@yahoo.com,+1-363-237-5243,valid
-C0111,"Barnes, Miranda And Stephenson",Daniel Garcia,,5792030673,missing
-C0112,Gordon Llc,Thomas Johnston,thomas.johnston@hotmail.com,+1-453-842-8364x408,valid
-C0113,"Simpson, Compton And David",Rachel Flores,rachel.flores@yahoo.com,(824)862-8733x42708,valid
-C0114,"Moreno, Price And Scott",Bob Cole,bob.cole@COMPANY.COM,(518)930-4699x013,placeholder
-C0115,Booth Llc,Terry Lewis,terry.lewis@gmail.com,001-717-639-3638x5467,valid
-C0116,Ward-Andrade,Robert Bowen,robert.bowen@COMPANY.COM,001-853-655-6093x20489,placeholder
-C0117,Gonzalez And Sons,,roy.porter@hotmail.com,+1-254-277-7252x28728,valid
-C0118,Landry Ltd,Aaron Taylor,aaron.taylor@COMPANY.COM,+1-931-220-3875x0997,placeholder
-C0119,Patel Group,Joseph Hill,joseph.hill@yahoo.com,5866211823,valid
-C0120,Adams-Sanders,Jared Cunningham,jared.cunningham@hotmail.com,941.201.6668,valid
-C0121,"Smith, Jackson And Porter",Richard Knight,richard.knightgmail.com,380-633-9740,malformed
-C0122,"Elliott, Johnson And Mcfarland",Tyrone Matthews,tyrone.matthews@COMPANY.COM,001-761-242-9396x85621,placeholder
-C0123,Kim Inc,Randy Friedman,randy.friedman@yahoo.com,001-350-647-7358x66296,valid
-C0124,Marquez Inc,James Bowers,james.bowers@gmail.com,001-365-451-1047x5412,valid
-C0125,Cole-Peters,Alexander Gomez,alexander.gomez@gmail.com,+1-495-860-4661x839,valid
-C0126,Taylor Llc,Charles Jackson,,,missing
-C0127,Torres Group,Manuel Brock,manuel.brock@yahoo.com,856.792.4593x752,valid
-C0128,Navarro-Chen,Rachael Nguyen,rachael.nguyen@yahoo.com,(651)393-9828x0737,valid
-C0129,Chambers-Taylor,David Moore,david.moore@yahoo.com,(317)397-9688x6805,valid
-C0130,Sandoval Llc,Lonnie Hart,,+1-565-961-0143x8889,missing
-C0131,Myers-Barton,Kathryn Cooper,kathryn.cooper@gmail.com,914.761.1254x5738,valid
-C0132,Davis-Bowen,Austin Williams,austin.williams@hotmail.com,405-712-3828,valid
-C0133,"Simmons, Murray And Salinas",Charlotte Sandoval,charlotte.sandoval@yahoo.com,5936796603,valid
-C0134,"Stokes, Brown And Garcia",Chelsea Nguyen,chelsea.nguyen@yahoo.com,347-785-9696,valid
-C0135,Bruce-Williamson,Michele Evans,michele.evansgmail.com,+1-891-825-1341x252,malformed
-C0136,"Taylor, Reyes And Lopez",Melissa Brewer,melissa.brewer@gmail.com,+1-227-742-2579,valid
-C0137,Washington And Sons,Tracey Wagner,tracey.wagner@yahoo.com,(676)477-2190x34043,valid
-C0138,Cunningham-Barton,Jorge Armstrong Iii,jorge.armstrong.iii@hotmail.com,(680)778-3613x407,valid
-C0139,Gonzales Inc,Cynthia Cochran,cynthia.cochran@hotmail.com,001-659-462-9233x095,valid
-C0140,Werner-Carter,Tiffany Robertson,tiffany.robertson@hotmail.com,726-504-2232,valid
-C0141,"Long, Thomas And Chen",Jaime Jones,jaime.jones@gmail.com,(884)557-7590x1751,valid
-C0142,Summers-Simpson,Drew Kelley,drew.kelley@gmail.com,001-475-900-1701,valid
-C0143,Smith-Rubio,Michael Anderson,michael.anderson@COMPANY.COM,+1-542-841-5415x2064,placeholder
-C0144,"Davis, Davis And Lewis",Kevin Stone,kevin.stone@yahoo.com,8053162713,valid
-C0145,"Shaffer, Garcia And Richardson",James Li,james.li@gmail.com,+1-921-589-0927x5326,valid
-C0146,Mosley And Sons,Leah Cruz,leah.cruz@yahoo.com,523-841-3899x94043,valid
-C0147,Lucas-Bowers,Cynthia Cruz,cynthia.cruz@gmail.com,491.980.5526x9658,valid
-C0148,Smith Inc,Daniel Livingston,daniel.livingston@yahoo.com,348.566.6188x92414,valid
-C0149,Herrera Group,Pamela Santos,pamela.santos@hotmail.com,946-230-3161,valid
-C0150,Wade-Barrett,Adam Taylor,adam.taylor@gmail.com,(675)388-4252,valid
-C0151,Rogers Group,Austin Joseph,austin.joseph@hotmail.com,+1-317-378-5079x2524,valid
-C0152,Yang Inc,Scott Sanchez,scott.sanchez@yahoo.com,(662)320-8635x365,valid
-C0153,"Watson, Shaw And Winters",Robert Jarvis,robert.jarvis@yahoo.com,774-545-1870,valid
-C0154,Elliott-Torres,Julie Vargas,julie.vargas@yahoo.com,001-838-632-0603x85050,valid
-C0155,Harris And Sons,Tyrone Kaufman,tyrone.kaufman@gmail.com,001-441-803-8657x191,valid
-C0156,Vargas Inc,Victor Young,victor.young@yahoo.com,465-957-4313x29121,valid
-C0157,Edwards-Martinez,Randy Hayes,randy.hayes@yahoo.com,711-824-9035x213,valid
-C0158,"Williams, Evans And Wilkins",Tristan Bond,tristan.bond@hotmail.com,001-883-717-1210x0323,valid
-C0159,"Mccoy, Newman And Aguilar",Robert Johnson,robert.johnson@gmail.com,472.815.1070,valid
-C0160,"Foster, Johnson And Vega",Daniel Lopez,daniel.lopez@yahoo.com,220.399.9347x687,valid
-C0161,Reyes-Barnes,Rebecca Wright,,+1-706-857-8759,missing
-C0162,White-Flores,Steven Osborne,steven.osborne@gmail.com,,valid
-C0163,Thompson Plc,Oscar Howard,oscar.howard@hotmail.com,6594929378,valid
-C0164,Johnson-Brown,Alicia Woods,,793-325-2500x29218,missing
-C0165,Bush-Bates,Gabrielle Morris,gabrielle.morris@gmail.com,001-667-452-8953x9264,valid
-C0166,Daniel Ltd,,jenna.gamble@hotmail.com,4297593917,valid
-C0167,"Miller, Reed And Flores",Tracey Underwood,tracey.underwood@hotmail.com,+1-857-904-3315x4100,valid
-C0168,"Barnes, Jackson And Gutierrez",Heather Bennett,heather.bennett@yahoo.com,001-632-371-0405,valid
-C0169,Peterson Group,Benjamin Mcmahon,benjamin.mcmahon@gmail.com,599-870-6296x20153,valid
-C0170,"Spencer, Frost And Fernandez",Elizabeth Davis,elizabeth.davis@yahoo.com,001-687-920-5061,valid
-C0171,Davis And Sons,Edgar Miller,edgar.millergmail.com,446-777-4186,malformed
-C0172,Wood-Griffin,John Perez,john.perez@yahoo.com,001-502-211-5869,valid
-C0173,Cardenas-Barnes,Sharon Wells,sharon.wells@gmail.com,441.460.8989x9217,valid
-C0174,Stokes And Sons,Blake Vega,blake.vega@gmail.com,+1-929-245-1168x6854,valid
-C0175,"Dean, Mills And Barnes",Charles Matthews,charles.matthews@gmail.com,991-948-5646,valid
-C0176,Jackson Group,Lee Steele,lee.steele@gmail.com,(353)507-4505x4447,valid
-C0177,Turner Ltd,Roger Adams,roger.adams@yahoo.com,+1-313-673-6785x082,valid
-C0178,"Hunter, Taylor And York",Alyssa Lee,alyssa.lee@gmail.com,9308705345,valid
-C0179,"Leblanc, Maldonado And Allen",Jeremy Horne Md,jeremy.horne.md@hotmail.com,(552)541-4060x293,valid
-C0180,"Clark, Pearson And Palmer",Tracy Fleming,tracy.fleming@yahoo.com,(829)803-4944,valid
-C0181,Stevens-Robinson,Joseph Hanson,joseph.hanson@hotmail.com,308-958-9944,valid
-C0182,Rogers Llc,Shannon Green,shannon.green@hotmail.com,+1-643-628-3096x5207,valid
-C0183,Sullivan-Doyle,Wendy Cabrera,wendy.cabrera@yahoo.com,001-438-675-8428x2417,valid
-C0184,"Stokes, Hines And White",Gabriela Davis,gabriela.davis@yahoo.com,346.955.4947,valid
-C0185,Delacruz Plc,Lisa Kennedy,lisa.kennedy@gmail.com,416.784.6022x35697,valid
-C0186,"White, Miller And Cook",Mrs. Amy Hayes,mrs.amy.hayes@gmail.com,001-229-227-1296x66676,valid
-C0187,"Gonzalez, Watson And Smith",Roy Lee,roy.lee@hotmail.com,6334542168,valid
-C0188,Colon Llc,Joy Meyer,joy.meyer@hotmail.com,262-457-5326x03323,valid
-C0189,Richardson Ltd,Jaime Bowman,jaime.bowman@hotmail.com,+1-609-901-0016x761,valid
-C0190,"Hernandez, Neal And Mccoy",Matthew Bates,matthew.bates@yahoo.com,+1-592-561-8914x117,valid
-C0191,Decker-Dudley,Jason Martin,jason.martin@hotmail.com,337.353.0011x9721,valid
-C0192,Newman-Bryant,Deborah Williams,deborah.williamsgmail.com,(204)455-6110,malformed
-C0193,"Holland, Murphy And Kline",Debra Quinn,,(352)416-6746x762,missing
-C0194,"Barber, Jarvis And Richard",Thomas Webb,thomas.webb@hotmail.com,+1-272-396-5902x77167,valid
-C0195,Pena-Smith,Kelly Manning,kelly.manning@hotmail.com,001-935-788-9163,valid
-C0196,"Rhodes, Cruz And Combs",Victoria Brown,victoria.browngmail.com,,malformed
-C0197,Montoya-Miller,Kenneth Miller,kenneth.miller@yahoo.com,,valid
-C0198,"Hart, Pena And Bryant",Roger Velasquez,roger.velasquez@yahoo.com,789-397-5711x30554,valid
-C0199,Prince Group,Mitchell Griffith,mitchell.griffith@gmail.com,,valid
-C0200,Ellis-Lawrence,Tracey Smith,tracey.smith@hotmail.com,4863978292,valid
-C0201,Sandoval-Obrien,Stanley Barnes,stanley.barnes@hotmail.com,001-634-765-4722x698,valid
-C0202,"Doyle, Spencer And Robinson",Miguel Parks,miguel.parks@hotmail.com,,valid
-C0203,Stokes-Mills,Charles Santiago,charles.santiago@gmail.com,324-542-0438x057,valid
-C0204,"Holland, Price And Dixon",Melissa Schwartz,,5669658004,missing
-C0205,Pruitt Ltd,Holly Chapman,holly.chapman@hotmail.com,+1-233-847-2122x816,valid
-C0206,Hawkins-Anderson,Dawn Rivera,dawn.rivera@hotmail.com,(702)359-0947,valid
-C0207,"Stewart, Robinson And White",Jonathan Perry,jonathan.perry@hotmail.com,(215)333-5554x3987,valid
-C0208,"Reed, Allen And May",Dana Williams,,261-664-8408x58877,missing
-C0209,"Lee, Palmer And Vaughan",Tyler Medina,tyler.medina@gmail.com,+1-713-236-1386x1207,valid
-C0210,Jones And Sons,Kristin Andrews,kristin.andrews@gmail.com,366-276-6506x180,valid
-C0211,"Charles, Howard And Shaw",Michael Obrien,michael.obrien@yahoo.com,001-676-760-7283x26842,valid
-C0212,Spencer Plc,Andrew Armstrong,andrew.armstrong@yahoo.com,+1-481-443-5368,valid
-C0213,Walker Llc,Christopher Marsh,christopher.marsh@gmail.com,001-487-581-4141x39755,valid
-C0214,Mitchell Inc,Emily Hayes,emily.hayes@hotmail.com,+1-849-629-9556x20533,valid
-C0215,Taylor-Quinn,Julie Howard,julie.howard@yahoo.com,281.229.1428x3411,valid
-C0216,"Riley, Hammond And Lewis",Dean Shannon,dean.shannongmail.com,+1-972-356-3942,malformed
-C0217,Cox-Smith,Victor Holden,victor.holden@hotmail.com,,valid
-C0218,Robinson Group,Dennis Young,dennis.young@hotmail.com,385.667.7005,valid
-C0219,"Baker, Stephens And Thompson",Holly Valdez,,,missing
-C0220,"Smith, Macias And Gonzales",Jose Campbell,jose.campbell@gmail.com,(925)991-3651,valid
-C0221,Clark-Martin,Alison Williams,alison.williams@hotmail.com,001-622-480-9202,valid
-C0222,"Mullen, Greene And Elliott",Nathan Stanley,nathan.stanley@yahoo.com,437-497-7236,valid
-C0223,"Keller, Baker And Ramsey",Jesse Garza,jesse.garzagmail.com,866.421.0388,malformed
-C0224,"Davis, Alvarez And Mendez",Richard Gordon,richard.gordon@gmail.com,,valid
-C0225,"Moreno, Perez And Lang",Jane Chapman,jane.chapman@hotmail.com,001-591-262-4731x49864,valid
-C0226,"Manning, Smith And Mills",Jaime Harris,jaime.harris@yahoo.com,,valid
-C0227,Arnold-Grant,Justin Webb,justin.webb@yahoo.com,001-556-821-3721,valid
-C0228,Owen-Mendez,Amy Price,amy.pricegmail.com,+1-201-827-9611x4351,malformed
-C0229,Mendez-Meyer,Linda Bautista,linda.bautista@gmail.com,+1-477-203-8430x9883,valid
-C0230,Allen-Smith,Zachary Chan,zachary.chan@yahoo.com,+1-766-693-8011x84895,valid
-C0231,Obrien And Sons,Jared Smith,jared.smith@gmail.com,(981)881-8451x84894,valid
-C0232,"Webb, Sanchez And Morgan",Melanie Mosley,melanie.mosley@gmail.com,614.516.3356x5880,valid
-C0233,Davis-Nunez,Angela Velazquez,angela.velazquez@yahoo.com,553-594-2373x33433,valid
-C0234,"Kelly, Maxwell And Wilson",Tyler Vasquez,tyler.vasquez@gmail.com,001-880-575-9579x47284,valid
-C0235,"Anderson, Fox And Henderson",Amanda Reed,amanda.reed@hotmail.com,001-727-618-7500x36915,valid
-C0236,Dunn And Sons,Tyler Cooper,tyler.cooper@gmail.com,563.365.5647x2929,valid
-C0237,"Nelson, Young And Reynolds",Charles Haley,charles.haley@gmail.com,202.867.2885x7448,valid
-C0238,Vaughn Inc,David Combs,david.combs@gmail.com,,valid
-C0239,"Johnston, Banks And Thompson",Heather Nunez,heather.nunez@yahoo.com,001-371-369-4722x56996,valid
-C0240,Cooper Llc,Eddie Adams,eddie.adams@hotmail.com,(647)359-8762x2023,valid
-C0241,Jackson Inc,Timothy Kennedy,timothy.kennedy@gmail.com,8686114921,valid
-C0242,Wright Llc,Cameron Rose,cameron.rose@gmail.com,9054577848,valid
-C0243,"Ryan, Garza And Bryant",Sherry Graham,sherry.graham@hotmail.com,+1-484-657-8317x4564,valid
-C0244,Smith And Sons,John Smith,john.smith@yahoo.com,001-874-806-4930x85368,valid
-C0245,Martin Ltd,Sandra Walker,sandra.walker@gmail.com,(338)994-4846x31224,valid
-C0246,"Chavez, Graves And Vasquez",Christian Booker,christian.booker@gmail.com,(414)242-7031,valid
-C0247,Robinson-Fisher,Kathleen Watson,kathleen.watson@hotmail.com,9514204618,valid
-C0248,Huang Llc,Sandra Martinez,sandra.martinez@hotmail.com,567.930.3718,valid
-C0249,Maldonado-Collins,Mark Williams,mark.williams@hotmail.com,414.674.3503x13650,valid
-C0250,"Wilson, Mccormick And Smith",Richard Alvarez,richard.alvarez@hotmail.com,(251)232-7195,valid
-C0251,Newman-Miles,Beth Hall,beth.hall@hotmail.com,+1-657-930-6524x0778,valid
-C0252,Knight Plc,Nicholas Hill,nicholas.hill@hotmail.com,+1-721-982-7448,valid
-C0253,Parsons Plc,Cody Smith,cody.smith@COMPANY.COM,(693)751-8638x782,placeholder
-C0254,Davidson-Rodriguez,,andrea.conley@gmail.com,(803)917-3109,valid
-C0255,"Hanson, Garza And Williams",Mitchell Smith,mitchell.smith@gmail.com,+1-271-370-5865x0948,valid
-C0256,Miller-Lewis,Ashley Hall,ashley.hall@yahoo.com,338.739.2886,valid
-C0257,"Ellis, Ortega And Andrade",Christopher Morales,christopher.morales@yahoo.com,+1-528-597-5585x56659,valid
-C0258,Cannon-Howe,Tyrone West,tyrone.west@yahoo.com,6045908240,valid
-C0259,Foley Inc,Terri Short,terri.short@hotmail.com,589.592.1075x22459,valid
-C0260,Shepherd-Davis,Thomas Navarro,thomas.navarro@hotmail.com,772-879-1940x96105,valid
-C0261,Conrad-Martinez,Nicole Atkinson,nicole.atkinson@gmail.com,+1-460-248-0589x2583,valid
-C0262,"Dennis, Long And Griffin",Kathy Walker,kathy.walker@yahoo.com,(822)451-7908x6416,valid
-C0263,Castillo And Sons,Matthew Gonzalez Dds,matthew.gonzalez.dds@hotmail.com,533.714.6591x16655,valid
-C0264,Wheeler-Johnson,William Jensen,william.jensengmail.com,,malformed
-C0265,Smith-Benson,Jerry Johnson,jerry.johnson@gmail.com,,valid
-C0266,Brown And Sons,Lisa Brown,lisa.brown@hotmail.com,5168451046,valid
-C0267,"Bray, Garcia And Stewart",Kim Lopez,kim.lopez@hotmail.com,780.703.8457x620,valid
-C0268,Garrett-Young,Kathryn Cain,kathryn.cain@hotmail.com,560-884-3256x216,valid
-C0269,Berry Group,Susan Murphy,susan.murphy@COMPANY.COM,+1-423-829-8324,placeholder
-C0270,Douglas Plc,Emily Grant,emily.grant@hotmail.com,925-620-5664,valid
-C0271,Maxwell Inc,Alexander Odom,alexander.odomgmail.com,+1-949-499-3933x051,malformed
-C0272,"Mathis, Harrison And Banks",James Wells,james.wells@gmail.com,530.360.4633,valid
-C0273,Ho Group,Katherine Nguyen,katherine.nguyen@yahoo.com,,valid
-C0274,Bryant-Rich,Danielle Medina,danielle.medina@hotmail.com,6866803476,valid
-C0275,Jackson-Phillips,Melissa Mckee,melissa.mckee@yahoo.com,,valid
-C0276,Garza-Marquez,Jesse Wright,jesse.wright@hotmail.com,+1-821-811-7518x6892,valid
-C0277,Tate Llc,Mary Hernandez,mary.hernandez@gmail.com,(406)544-7421,valid
-C0278,Dean Llc,Jonathan Jimenez,jonathan.jimenez@gmail.com,+1-273-539-7767x199,valid
-C0279,"Ramirez, Fuller And Wilkins",Cody Brown,cody.brown@yahoo.com,3208994510,valid
-C0280,Martin Llc,Melissa Larson,melissa.larson@hotmail.com,(879)350-1455,valid
-C0281,Bridges-Brown,Bryan Villarreal,bryan.villarreal@yahoo.com,868.733.9019x81794,valid
-C0282,Fox-Carney,Carl Hart,carl.hart@hotmail.com,001-577-829-3430x1071,valid
-C0283,Williams-Bailey,Christy Davidson,christy.davidson@hotmail.com,241-444-8850x1556,valid
-C0284,Rivera Llc,Karen Wells,karen.wells@gmail.com,+1-727-227-8576x0849,valid
-C0285,Ray Llc,Stacy Gomez,stacy.gomez@gmail.com,605-768-2996x291,valid
-C0286,"Johnson, Gutierrez And Crawford",Jesse Sampson,jesse.sampson@gmail.com,542.715.0317x80782,valid
-C0287,Oconnor-Mills,Briana Wiggins,briana.wiggins@hotmail.com,,valid
-C0288,Meyer Ltd,Alison Blake,alison.blake@hotmail.com,353.634.4857,valid
-C0289,Moore Inc,Marcus Palmer,marcus.palmer@gmail.com,+1-458-354-2493,valid
-C0290,Austin-Morgan,Carlos Ruiz,carlos.ruiz@hotmail.com,9167016629,valid
-C0291,Cook-Gonzalez,Rhonda Miller,rhonda.miller@yahoo.com,001-521-571-7477,valid
-C0292,Callahan Plc,Jack White,jack.white@hotmail.com,457-370-1715x77245,valid
-C0293,Roth-Robles,Matthew Sparks,matthew.sparks@hotmail.com,769.563.9382x761,valid
-C0294,"Garza, Mueller And Graham",Kimberly Young,kimberly.young@hotmail.com,+1-819-371-9975x81724,valid
-C0295,"Rodriguez, Cervantes And Wise",Johnny Keller,johnny.keller@gmail.com,829.902.2784,valid
-C0296,Harris Llc,Robert Frazier,robert.frazier@COMPANY.COM,(251)790-9862x40580,placeholder
-C0297,Callahan Inc,Michael Long,,866-466-8327x23865,missing
-C0298,Bright-Santiago,Benjamin Smith,,001-876-921-2679x6927,missing
-C0299,Kelly-Lopez,Laura Bradford,laura.bradford@gmail.com,001-384-968-9500x975,valid
-C0300,"Miller, Cross And Fox",Nicole Ramirez,nicole.ramirez@hotmail.com,689-213-7189,valid
-C0301,Nichols-Smith,Taylor Berry,taylor.berry@yahoo.com,(254)642-0949x40792,valid
-C0302,"Weber, Mitchell And Miller",Sarah Ramirez,sarah.ramirez@gmail.com,+1-444-640-1929x275,valid
-C0303,"Young, White And Rose",William Coffey,william.coffey@hotmail.com,,valid
-C0304,"Baker, Weiss And Williams",John Alvarez,john.alvarez@hotmail.com,666.974.2860,valid
-C0305,Gregory-Nixon,Amanda Hardin,amanda.hardin@hotmail.com,(569)545-4414x967,valid
-C0306,"Rogers, Vaughn And White",Megan Decker,megan.decker@COMPANY.COM,6615817534,placeholder
-C0307,Johnson Inc,Kristopher Shannon,kristopher.shannon@gmail.com,+1-611-919-2692x124,valid
-C0308,"Mayer, Fowler And Livingston",Jeffery Berger,jeffery.berger@yahoo.com,921-340-6650x442,valid
-C0309,Krause-Gonzalez,Matthew Rodriguez,matthew.rodriguez@hotmail.com,001-263-991-7410x11947,valid
-C0310,Delgado Inc,Mary Adams,mary.adams@hotmail.com,969-308-7766x18306,valid
-C0311,"Nichols, Frey And Cook",Anthony Shea,anthony.sheagmail.com,,malformed
-C0312,"Price, Rodriguez And Barker",Dr. Jeffrey Lopez,dr.jeffrey.lopez@gmail.com,909.937.6184,valid
-C0313,Johnson Inc,Nathan Sullivan,nathan.sullivan@gmail.com,+1-287-582-9310x2707,valid
-C0314,"Banks, Smith And Chen",Samantha Davis,samantha.davis@hotmail.com,,valid
-C0315,Rogers-Huff,Jennifer Martinez,jennifer.martinez@hotmail.com,001-382-353-0925,valid
-C0316,Thomas-Perry,Kristen Gonzales,kristen.gonzales@hotmail.com,2212962071,valid
-C0317,Howe Ltd,Stacie Butler,stacie.butler@yahoo.com,001-423-924-8763x290,valid
-C0318,"Clements, Burton And Patton",Aaron Young,aaron.young@gmail.com,919.958.8373x40312,valid
-C0319,Moore Inc,Jackson Clark,jackson.clark@yahoo.com,597-901-0822x07811,valid
-C0320,"Riley, Barnes And Burgess",Crystal Rodriguez,crystal.rodriguez@gmail.com,936-236-3179,valid
-C0321,Thomas-Reilly,,james.taylor@hotmail.com,654.435.2090,valid
-C0322,York Group,Philip Robinson,philip.robinsongmail.com,992-992-9831x6873,malformed
-C0323,Smith-Patterson,Danielle Hamilton,danielle.hamilton@gmail.com,001-229-806-0078,valid
-C0324,"Foster, Pacheco And Horton",Jon Miller,jon.miller@gmail.com,001-963-225-4310x742,valid
-C0325,Ford-Taylor,Cathy Savage,cathy.savage@hotmail.com,,valid
-C0326,"Gilmore, Fitzgerald And Brown",Megan Barron,megan.barron@gmail.com,(757)590-5528x1832,valid
-C0327,"Wilson, Mendoza And Crosby",Tina Clark,tina.clark@hotmail.com,001-335-954-8640x15577,valid
-C0328,"Patel, Bryan And Lam",Jacob Nunez,jacob.nunez@hotmail.com,337-411-6241,valid
-C0329,Rodriguez-Hernandez,Dan Crane,dan.crane@gmail.com,568-727-5670x4310,valid
-C0330,Lane-Rios,Katelyn Wade,katelyn.wade@hotmail.com,+1-577-949-2424,valid
-C0331,Arellano-Carrillo,Harry Bryant,harry.bryant@gmail.com,+1-428-942-2223x105,valid
-C0332,Wood-Harris,Mary Spence,mary.spence@gmail.com,(778)428-4106x727,valid
-C0333,Cordova Plc,Erin Thornton,erin.thornton@yahoo.com,292-897-5170x2814,valid
-C0334,"Randall, Griffin And Davis",Martin Silva,martin.silva@gmail.com,001-243-701-8718x63759,valid
-C0335,Hernandez-Nash,Jake Mitchell,jake.mitchell@yahoo.com,378-413-7674x2662,valid
-C0336,Turner Plc,Mrs. Toni Avila,mrs.toni.avila@gmail.com,5644628792,valid
-C0337,Roberts-Henry,Elizabeth Richards,elizabeth.richardsgmail.com,487.930.0244x7146,malformed
-C0338,"Newman, Johnson And Hubbard",Wesley George Md,wesley.george.md@yahoo.com,001-664-471-5890,valid
-C0339,"Brown, Flores And Johns",Christopher Nelson,christopher.nelson@yahoo.com,+1-750-744-8183x2192,valid
-C0340,"Marsh, Nelson And Wolfe",Joseph Bell,joseph.bell@gmail.com,3285457652,valid
-C0341,Gordon And Sons,Kristin Norris,kristin.norris@hotmail.com,+1-981-767-1120,valid
-C0342,Vazquez-Taylor,William Mills,william.mills@yahoo.com,(440)513-2234,valid
-C0343,Zavala Group,Rachel Jones,rachel.jones@yahoo.com,001-660-231-0890x71401,valid
-C0344,Patton Plc,Steven Lopez,steven.lopez@yahoo.com,5123495528,valid
-C0345,Weiss Inc,Michelle Brandt,michelle.brandt@gmail.com,001-880-813-8759x27125,valid
-C0346,Palmer Group,William Martinez,william.martinez@gmail.com,627.954.8015x71647,valid
-C0347,Spencer Llc,Mrs. Shannon Jacobson,mrs.shannon.jacobson@yahoo.com,+1-352-407-1678x11266,valid
-C0348,Cox And Sons,Kurt Ewing,kurt.ewing@gmail.com,967.849.9465,valid
-C0349,Dixon-Hernandez,Bryan Burns,bryan.burns@gmail.com,+1-620-310-1702x6952,valid
-C0350,Guerrero Plc,Rebecca Harris,rebecca.harris@hotmail.com,978.748.5880x0616,valid
-C0351,Ramos-Johnson,,matthew.chan@hotmail.com,(976)924-6719,valid
-C0352,Hart-Moore,Dennis Garza,dennis.garza@yahoo.com,+1-254-750-0902x559,valid
-C0353,Davis-Reed,Gregory Stanley,gregory.stanley@gmail.com,249.711.4152,valid
-C0354,Murray Group,Stephanie Adams,stephanie.adams@hotmail.com,790.956.9659x1713,valid
-C0355,"Cain, Contreras And Jackson",Wayne Harris,wayne.harris@hotmail.com,583-344-0496,valid
-C0356,"Richard, Davis And Rogers",Robert Alvarez,robert.alvarez@gmail.com,(914)484-6853x664,valid
-C0357,Burton Plc,Laura Lewis,laura.lewis@COMPANY.COM,001-574-489-6908x3572,placeholder
-C0358,"Jennings, Evans And Graham",Ronald Brown,ronald.brown@gmail.com,(644)924-9363x12303,valid
-C0359,Castro-Graham,Amanda Moore,amanda.moore@COMPANY.COM,(204)348-2070,placeholder
-C0360,Guzman-Camacho,Jennifer Cox,jennifer.cox@hotmail.com,662-931-9818,valid
-C0361,Young Inc,Emily Collier,emily.collier@hotmail.com,(236)932-1234x7649,valid
-C0362,"Brooks, Fry And Stewart",Michael Richmond,michael.richmond@gmail.com,(675)740-9003x486,valid
-C0363,"Martinez, Camacho And Mathews",Theodore Long,theodore.long@yahoo.com,913-843-2756x0417,valid
-C0364,Love-Mcdowell,Samantha Hale,samantha.hale@hotmail.com,,valid
-C0365,"Taylor, Morales And Fuller",Bradley Moore,bradley.moore@COMPANY.COM,329.865.7724x29543,placeholder
-C0366,White-Walter,Stacey Walker,stacey.walker@gmail.com,+1-893-817-3420,valid
-C0367,"Green, Davis And Richardson",Autumn Higgins,autumn.higgins@yahoo.com,001-577-613-3344x76263,valid
-C0368,"Byrd, Barnes And Ortiz",Dylan Green,dylan.green@hotmail.com,835.897.1072x563,valid
-C0369,"Harper, Jones And Hawkins",Timothy Ruiz,timothy.ruiz@yahoo.com,+1-290-404-8964x652,valid
-C0370,Jackson-Vasquez,John Davis,,001-886-624-1502x745,missing
-C0371,Austin-Juarez,Erik Stafford,,472-987-0320x32074,missing
-C0372,Wilson-Woodard,Jeremy Zhang Md,jeremy.zhang.md@yahoo.com,512.215.1342x2849,valid
-C0373,"Wang, White And Knapp",Jonathan Davis,,904-616-5915x20177,missing
-C0374,"Barrett, Rivera And Williams",Jody Meza,jody.meza@hotmail.com,,valid
-C0375,Scott-Allen,Jennifer Smith,jennifer.smith@gmail.com,(666)442-1476,valid
-C0376,Wade-Collier,Katherine Mcclure,katherine.mcclure@yahoo.com,,valid
-C0377,Rhodes-Holland,Tara Rose,tara.rose@hotmail.com,,valid
-C0378,"Jones, Williams And Rodriguez",Brandon Guerrero,brandon.guerrero@hotmail.com,254-391-8017x226,valid
-C0379,Mcdowell-Evans,Jordan Santiago,jordan.santiago@hotmail.com,252-832-1941x680,valid
-C0380,Smith Ltd,Michael Melton,michael.melton@hotmail.com,+1-574-399-5641x220,valid
-C0381,Horton And Sons,Christine Wong,christine.wong@hotmail.com,868.231.4727,valid
-C0382,Martin And Sons,,jill.washington@gmail.com,893.934.9605x016,valid
-C0383,"Lane, Simon And Duarte",James Palmer,james.palmer@hotmail.com,+1-873-908-0695x814,valid
-C0384,Simpson Ltd,Michael Smith,michael.smith@COMPANY.COM,637-857-3839x5972,placeholder
-C0385,Whitaker-Nunez,Rebecca Marsh,rebecca.marshgmail.com,(493)941-7223,malformed
-C0386,Leon Group,Daniel Williams,daniel.williams@gmail.com,,valid
-C0387,"Walker, Scott And Peterson",Anthony Rich,anthony.rich@yahoo.com,(389)210-7711,valid
-C0388,"Garcia, Soto And Pitts",Brooke Carter,brooke.carter@yahoo.com,001-987-712-5521x37603,valid
-C0389,Wagner-Miller,Paul Ward,paul.ward@hotmail.com,928.763.2666,valid
-C0390,Ramos Inc,Kelly Jones,kelly.jones@yahoo.com,,valid
-C0391,Smith-Ramirez,Tami Graves,tami.graves@yahoo.com,+1-738-899-7563x4108,valid
-C0392,"Higgins, Hobbs And Meyer",Cindy Hunt,cindy.hunt@yahoo.com,752.600.8943x46810,valid
-C0393,"Romero, Martinez And Sherman",Joan Armstrong,joan.armstrong@gmail.com,453.899.8935x449,valid
-C0394,"Mclaughlin, Garcia And Black",Richard Gibson,richard.gibson@gmail.com,001-766-811-0627x371,valid
-C0395,"Hansen, Maxwell And Wiggins",Mallory Barajas,mallory.barajas@hotmail.com,962.928.2772x8813,valid
-C0396,Francis Plc,Trevor Guzman,trevor.guzman@yahoo.com,715-694-0821,valid
-C0397,Turner-Tucker,Brenda Lawrence,brenda.lawrence@gmail.com,643-927-0185x1067,valid
-C0398,Harrington-Alvarez,Lisa Gill,lisa.gill@hotmail.com,+1-777-272-5199x6636,valid
-C0399,"Wu, Fitzgerald And Brewer",Michelle Armstrong,michelle.armstrong@hotmail.com,981-281-3989x0983,valid
-C0400,Barrett Plc,Albert Buchanan,albert.buchanan@COMPANY.COM,297.918.9569,placeholder
-C0401,Morgan And Sons,Scott Stewart,scott.stewart@yahoo.com,311-482-4224,valid
-C0402,Farley-Gregory,Tyrone White,tyrone.white@hotmail.com,8463152654,valid
-C0403,Harris Plc,Katherine Goodwin,,(214)605-7861x7063,missing
-C0404,"Richmond, Leonard And Sanchez",Rachel Torres,rachel.torres@yahoo.com,918.232.5823x868,valid
-C0405,Hess Plc,William Smith,william.smith@yahoo.com,394-665-3984x028,valid
-C0406,Foster Inc,Molly Lutz,molly.lutz@yahoo.com,798.755.4743,valid
-C0407,Stevens Plc,Thomas Anderson,thomas.anderson@gmail.com,+1-270-902-6876x811,valid
-C0408,"Martinez, Stanton And Bennett",Jasmine Combs,jasmine.combs@hotmail.com,6177537030,valid
-C0409,Davis Plc,Rhonda Walker,rhonda.walker@yahoo.com,(904)479-3036x149,valid
-C0410,"Lee, Rodgers And Chambers",Casey Chapman,casey.chapmangmail.com,001-912-249-3843x0894,malformed
-C0411,Davidson-Hahn,Todd Reynolds,todd.reynolds@yahoo.com,918-777-5803x046,valid
-C0412,Myers Llc,,kenneth.johnson@hotmail.com,361.233.2541,valid
-C0413,Reynolds-Johnson,Taylor Pittman,taylor.pittman@gmail.com,973-350-5831,valid
-C0414,"Griffin, Martinez And Villegas",,jamie.wu@hotmail.com,320-270-4961,valid
-C0415,"Williams, Horn And Morales",Jennifer Hancock,jennifer.hancock@hotmail.com,+1-707-567-6991x507,valid
-C0416,Garcia Plc,Leslie Randall,leslie.randall@hotmail.com,(584)456-7972,valid
-C0417,Brown Llc,Kayla Pearson,kayla.pearson@yahoo.com,498-222-7495x4508,valid
-C0418,Hunter Plc,Jennifer Gonzalez,jennifer.gonzalez@gmail.com,+1-631-853-7795x9959,valid
-C0419,Martin-Gibson,Amanda Robinson,amanda.robinson@gmail.com,+1-233-779-3375x6362,valid
-C0420,Jones Inc,Brenda Alexander,brenda.alexandergmail.com,+1-595-400-3342x3425,malformed
-C0421,Smith Llc,Alisha Byrd,alisha.byrd@yahoo.com,+1-315-334-7355x2896,valid
-C0422,Andrade And Sons,Cheryl Gray,cheryl.gray@yahoo.com,696-430-9938x42530,valid
-C0423,"Schmitt, Blackwell And Clark",John Alvarado,,428-768-5787,missing
-C0424,"Brooks, Neal And Baldwin",,derrick.morales.dvm@hotmail.com,+1-403-733-7363x4669,valid
-C0425,Pierce-Taylor,Jeremy Bell,jeremy.bell@hotmail.com,8787956776,valid
-C0426,Stewart-Reyes,David Brewer,david.brewer@yahoo.com,348-388-1431,valid
-C0427,Johnson-Gonzalez,Gary Turner,gary.turner@hotmail.com,239-928-4044x566,valid
-C0428,"Hunt, Juarez And Hernandez",Darrell Curry,darrell.currygmail.com,538.998.7751x5366,malformed
-C0429,Farrell-Johnson,Shane Torres,shane.torres@hotmail.com,6757536668,valid
-C0430,"Johnson, Floyd And Weeks",Troy Rivera,troy.rivera@hotmail.com,+1-399-766-3618x637,valid
-C0431,"Hayden, Fowler And Torres",Michael Thompson,michael.thompson@hotmail.com,+1-370-923-1643x348,valid
-C0432,Wood Inc,Scott Jenkins,scott.jenkins@gmail.com,528-667-1632,valid
-C0433,Meyers-Ortega,Kenneth Collins,kenneth.collins@gmail.com,974.930.2716x93859,valid
-C0434,Johnston-Mclaughlin,Stanley Bryant,stanley.bryant@hotmail.com,001-446-392-6329x676,valid
-C0435,Hale-Williams,Brooke Khan,brooke.khan@hotmail.com,913-476-8151x1856,valid
-C0436,Clark-Williams,Mark Lowe,mark.lowe@yahoo.com,(956)336-0041x2577,valid
-C0437,Kelley And Sons,Jessica Ruiz,,322-209-1241x862,missing
-C0438,"Nelson, Alexander And Thompson",Stephanie Patel,stephanie.patel@yahoo.com,001-508-516-4709x006,valid
-C0439,Kerr-Gonzalez,Alexis Smith,,313.712.2068,missing
-C0440,Hart-Lopez,Joshua Mcmillan,joshua.mcmillan@gmail.com,231.855.2065,valid
-C0441,Ellis Inc,Diana Hanson,diana.hanson@COMPANY.COM,4136649718,placeholder
-C0442,Greene Ltd,Megan Compton,megan.compton@hotmail.com,(952)857-1509,valid
-C0443,"Davidson, Hall And Matthews",Crystal Jensen Dvm,crystal.jensen.dvm@yahoo.com,663.591.0257,valid
-C0444,Bennett Ltd,Thomas George,thomas.george@yahoo.com,001-552-545-0864x0355,valid
-C0445,"Brown, Hardin And Mcneil",Melissa Walker,melissa.walker@yahoo.com,452.570.1713x02321,valid
-C0446,Romero Group,Emily Griffith,emily.griffith@gmail.com,(829)434-4973x47156,valid
-C0447,Alexander-Wagner,Paige Weiss,paige.weiss@yahoo.com,4666149828,valid
-C0448,Ford-Chavez,Larry Jones,larry.jones@gmail.com,001-873-723-0085x766,valid
-C0449,Burns-Davidson,Jennifer Williams,jennifer.williams@gmail.com,(592)536-4587x5066,valid
-C0450,Johnson-Li,Megan Terry,megan.terry@hotmail.com,(449)272-4399,valid
+customer_id,email,customer_type,signup_date,lifetime_value,is_churned,region
+1001,customer_1001@company1.com,Enterprise,2025-01-01,142472.41,0,US
+1002,customer_1002@company2.com,Enterprise,2025-01-02,177042.86,0,EU
+1003,customer_1003@company3.com,Enterprise,2025-01-03,163919.64,0,APAC
+1004,customer_1004@company4.com,Enterprise,2025-01-04,155919.51,0,EU
+1005,customer_1005@company5.com,Enterprise,2025-01-05,129361.12,0,APAC
+1006,customer_1006@company6.com,Enterprise,2025-01-06,129359.67,0,EU
+1007,customer_1007@company7.com,Enterprise,2025-01-07,123485.02,0,EU
+1008,customer_1008@company8.com,Enterprise,2025-01-08,171970.57,0,APAC
+1009,customer_1009@company9.com,Enterprise,2025-01-09,156066.9,0,US
+1010,customer_1010@company10.com,Enterprise,2025-01-10,162484.35,0,EU
+1011,customer_1011@company11.com,Enterprise,2025-01-11,121235.07,0,US
+1012,customer_1012@company12.com,Enterprise,2025-01-12,178194.59,0,LATAM
+1013,customer_1013@company13.com,Enterprise,2025-01-13,169946.56,0,LATAM
+1014,customer_1014@company14.com,Enterprise,2025-01-14,132740.35,0,US
+1015,customer_1015@company15.com,Enterprise,2025-01-15,130909.5,0,EU
+1016,customer_1016@company16.com,Enterprise,2025-01-16,131004.27,0,LATAM
+1017,customer_1017@company17.com,Enterprise,2025-01-17,138254.53,0,US
+1018,customer_1018@company18.com,Enterprise,2025-01-18,151485.39,0,EU
+1019,customer_1019@company19.com,Enterprise,2025-01-19,145916.7,0,LATAM
+1020,customer_1020@company0.com,Enterprise,2025-01-20,137473.75,0,US
+1021,customer_1021@company1.com,Enterprise,2025-01-21,156711.17,0,EU
+1022,customer_1022@company2.com,Enterprise,2025-01-22,128369.63,0,US
+1023,customer_1023@company3.com,Enterprise,2025-01-23,137528.68,0,LATAM
+1024,customer_1024@company4.com,Enterprise,2025-01-24,141981.71,0,LATAM
+1025,customer_1025@company5.com,Enterprise,2025-01-25,147364.2,0,LATAM
+1026,customer_1026@company6.com,SMB,2025-01-26,10281.41,0,EU
+1027,customer_1027@company7.com,SMB,2025-01-27,5597.39,0,APAC
+1028,customer_1028@company8.com,SMB,2025-01-28,8113.88,0,APAC
+1029,customer_1029@company9.com,SMB,2025-01-29,8739.32,1,US
+1030,customer_1030@company10.com,SMB,2025-01-30,4371.6,0,APAC
+1031,customer_1031@company11.com,SMB,2025-01-31,8860.36,0,US
+1032,customer_1032@company12.com,SMB,2025-02-01,5364.19,0,EU
+1033,customer_1033@company13.com,SMB,2025-02-02,4520.41,0,US
+1034,customer_1034@company14.com,SMB,2025-02-03,11591.08,0,US
+1035,customer_1035@company15.com,SMB,2025-02-04,11725.06,0,US
+1036,customer_1036@company16.com,SMB,2025-02-05,10467.18,0,EU
+1037,customer_1037@company17.com,SMB,2025-02-06,6436.91,0,US
+1038,customer_1038@company18.com,SMB,2025-02-07,4781.38,0,EU
+1039,customer_1039@company19.com,SMB,2025-02-08,9473.86,0,US
+1040,customer_1040@company0.com,SMB,2025-02-09,7521.22,0,US
+1041,customer_1041@company1.com,SMB,2025-02-10,4976.31,0,EU
+1042,customer_1042@company2.com,SMB,2025-02-11,7961.42,0,APAC
+1043,customer_1043@company3.com,SMB,2025-02-12,4275.11,0,US
+1044,customer_1044@company4.com,SMB,2025-02-13,11274.56,0,EU
+1045,customer_1045@company5.com,SMB,2025-02-14,6070.24,0,APAC
+1046,customer_1046@company6.com,SMB,2025-02-15,9300.18,0,EU
+1047,customer_1047@company7.com,SMB,2025-02-16,6493.69,1,US
+1048,customer_1048@company8.com,SMB,2025-02-17,8160.54,0,US
+1049,customer_1049@company9.com,SMB,2025-02-18,8373.68,0,APAC
+1050,customer_1050@company10.com,SMB,2025-02-19,5478.84,0,US
+1051,customer_1051@company11.com,SMB,2025-02-20,11756.68,0,APAC
+1052,customer_1052@company12.com,SMB,2025-02-21,10201.06,0,EU
+1053,customer_1053@company13.com,SMB,2025-02-22,11515.99,0,LATAM
+1054,customer_1054@company14.com,SMB,2025-02-23,11158.62,0,APAC
+1055,customer_1055@company15.com,SMB,2025-02-24,8783.2,0,LATAM
+1056,customer_1056@company16.com,SMB,2025-02-25,11374.99,0,US
+1057,customer_1057@company17.com,SMB,2025-02-26,4707.94,0,APAC
+1058,customer_1058@company18.com,SMB,2025-02-27,5567.86,1,US
+1059,customer_1059@company19.com,SMB,2025-02-28,4361.82,0,EU
+1060,customer_1060@company0.com,SMB,2025-03-01,6602.64,0,EU
+1061,customer_1061@company1.com,SMB,2025-03-02,7109.42,0,APAC
+1062,customer_1062@company2.com,SMB,2025-03-03,6170.79,0,LATAM
+1063,customer_1063@company3.com,SMB,2025-03-04,10629.9,0,APAC
+1064,customer_1064@company4.com,SMB,2025-03-05,6854.03,1,US
+1065,customer_1065@company5.com,SMB,2025-03-06,6247.48,0,US
+1066,customer_1066@company6.com,SMB,2025-03-07,8341.57,0,EU
+1067,customer_1067@company7.com,SMB,2025-03-08,5127.39,0,US
+1068,customer_1068@company8.com,SMB,2025-03-09,10417.58,0,US
+1069,customer_1069@company9.com,SMB,2025-03-10,4596.41,0,US
+1070,customer_1070@company10.com,SMB,2025-03-11,11895.1,0,US
+1071,customer_1071@company11.com,SMB,2025-03-12,10177.96,0,US
+1072,customer_1072@company12.com,SMB,2025-03-13,5589.73,0,US
+1073,customer_1073@company13.com,SMB,2025-03-14,4044.18,0,US
+1074,customer_1074@company14.com,SMB,2025-03-15,10523.69,0,US
+1075,customer_1075@company15.com,SMB,2025-03-16,9654.86,0,LATAM
+1076,customer_1076@company16.com,SMB,2025-03-17,9832.06,0,US
+1077,customer_1077@company17.com,SMB,2025-03-18,10170.16,0,US
+1078,customer_1078@company18.com,SMB,2025-03-19,4592.36,0,EU
+1079,customer_1079@company19.com,SMB,2025-03-20,6867.73,0,US
+1080,customer_1080@company0.com,SMB,2025-03-21,4926.95,0,LATAM
+1081,customer_1081@company1.com,SMB,2025-03-22,10904.83,0,APAC
+1082,customer_1082@company2.com,SMB,2025-03-23,8986.39,0,US
+1083,customer_1083@company3.com,SMB,2025-03-24,6647.18,0,US
+1084,customer_1084@company4.com,SMB,2025-03-25,4508.47,0,APAC
+1085,customer_1085@company5.com,SMB,2025-03-26,6487.86,0,LATAM
+1086,customer_1086@company6.com,SMB,2025-03-27,6601.47,0,EU
+1087,customer_1087@company7.com,SMB,2025-03-28,9836.85,1,EU
+1088,customer_1088@company8.com,SMB,2025-03-29,9100.46,0,US
+1089,customer_1089@company9.com,SMB,2025-03-30,11097.7,0,LATAM
+1090,customer_1090@company10.com,SMB,2025-03-31,7777.72,0,US
+1091,customer_1091@company11.com,SMB,2025-04-01,4956.75,0,LATAM
+1092,customer_1092@company12.com,SMB,2025-04-02,9705.96,0,EU
+1093,customer_1093@company13.com,SMB,2025-04-03,10086.28,0,EU
+1094,customer_1094@company14.com,SMB,2025-04-04,8490.22,0,EU
+1095,customer_1095@company15.com,SMB,2025-04-05,10167.74,0,US
+1096,customer_1096@company16.com,SMB,2025-04-06,7950.36,0,US
+1097,customer_1097@company17.com,SMB,2025-04-07,8181.86,0,US
+1098,customer_1098@company18.com,SMB,2025-04-08,7420.33,0,US
+1099,customer_1099@company19.com,SMB,2025-04-09,4203.35,0,APAC
+1100,customer_1100@company0.com,SMB,2025-04-10,4863.13,1,US
+1101,customer_1101@company1.com,SMB,2025-04-11,4251.43,0,US
+1102,customer_1102@company2.com,SMB,2025-04-12,9091.28,0,LATAM
+1103,customer_1103@company3.com,SMB,2025-04-13,6514.85,0,APAC
+1104,customer_1104@company4.com,SMB,2025-04-14,8068.57,1,LATAM
+1105,customer_1105@company5.com,SMB,2025-04-15,11260.53,0,LATAM
+1106,customer_1106@company6.com,SMB,2025-04-16,5994.34,0,US
+1107,customer_1107@company7.com,SMB,2025-04-17,7283.06,0,US
+1108,customer_1108@company8.com,SMB,2025-04-18,10044.41,0,APAC
+1109,customer_1109@company9.com,SMB,2025-04-19,5830.39,0,EU
+1110,customer_1110@company10.com,SMB,2025-04-20,4615.84,0,US
+1111,customer_1111@company11.com,SMB,2025-04-21,6318.01,1,APAC
+1112,customer_1112@company12.com,SMB,2025-04-22,5289.77,0,US
+1113,customer_1113@company13.com,SMB,2025-04-23,11437.58,0,US
+1114,customer_1114@company14.com,SMB,2025-04-24,10464.96,1,EU
+1115,customer_1115@company15.com,SMB,2025-04-25,9067.23,0,EU
+1116,customer_1116@company16.com,SMB,2025-04-26,10971.68,0,EU
+1117,customer_1117@company17.com,SMB,2025-04-27,10429.38,1,US
+1118,customer_1118@company18.com,SMB,2025-04-28,5492.56,0,APAC
+1119,customer_1119@company19.com,SMB,2025-04-29,11140.47,0,US
+1120,customer_1120@company0.com,SMB,2025-04-30,8314.74,0,US
+1121,customer_1121@company1.com,SMB,2025-05-01,10459.52,0,APAC
+1122,customer_1122@company2.com,SMB,2025-05-02,11168.73,0,LATAM
+1123,customer_1123@company3.com,SMB,2025-05-03,6544.03,0,APAC
+1124,customer_1124@company4.com,SMB,2025-05-04,4880.42,0,APAC
+1125,customer_1125@company5.com,SMB,2025-05-05,5823.48,0,EU
+1126,customer_1126@company6.com,SMB,2025-05-06,7416.86,0,EU
+1127,customer_1127@company7.com,SMB,2025-05-07,10544.12,0,US
+1128,customer_1128@company8.com,SMB,2025-05-08,10885.84,0,US
+1129,customer_1129@company9.com,SMB,2025-05-09,4055.62,1,US
+1130,customer_1130@company10.com,SMB,2025-05-10,8085.98,0,US
+1131,customer_1131@company11.com,SMB,2025-05-11,7339.29,0,EU
+1132,customer_1132@company12.com,SMB,2025-05-12,5776.86,0,EU
+1133,customer_1133@company13.com,SMB,2025-05-13,4958.92,0,US
+1134,customer_1134@company14.com,SMB,2025-05-14,6700.92,0,US
+1135,customer_1135@company15.com,SMB,2025-05-15,11543.28,1,EU
+1136,customer_1136@company16.com,SMB,2025-05-16,6585.62,0,US
+1137,customer_1137@company17.com,SMB,2025-05-17,8150.32,0,APAC
+1138,customer_1138@company18.com,SMB,2025-05-18,9624.15,0,EU
+1139,customer_1139@company19.com,SMB,2025-05-19,6909.04,0,EU
+1140,customer_1140@company0.com,SMB,2025-05-20,11774.26,0,EU
+1141,customer_1141@company1.com,SMB,2025-05-21,11699.58,1,APAC
+1142,customer_1142@company2.com,SMB,2025-05-22,6014.26,0,US
+1143,customer_1143@company3.com,SMB,2025-05-23,7977.99,0,EU
+1144,customer_1144@company4.com,SMB,2025-05-24,6407.03,0,EU
+1145,customer_1145@company5.com,SMB,2025-05-25,6278.72,1,US
+1146,customer_1146@company6.com,SMB,2025-05-26,4295.1,0,APAC
+1147,customer_1147@company7.com,SMB,2025-05-27,8876.51,0,APAC
+1148,customer_1148@company8.com,SMB,2025-05-28,8021.43,0,EU
+1149,customer_1149@company9.com,SMB,2025-05-29,4411.83,0,APAC
+1150,customer_1150@company10.com,SMB,2025-05-30,6229.17,0,APAC
+1151,customer_1151@company11.com,SMB,2025-05-31,11266.13,1,EU
+1152,customer_1152@company12.com,SMB,2025-06-01,5916.5,0,APAC
+1153,customer_1153@company13.com,SMB,2025-06-02,5159.16,0,EU
+1154,customer_1154@company14.com,SMB,2025-06-03,7915.62,0,EU
+1155,customer_1155@company15.com,SMB,2025-06-04,11885.2,0,EU
+1156,customer_1156@company16.com,SMB,2025-06-05,5936.44,0,APAC
+1157,customer_1157@company17.com,SMB,2025-06-06,9377.08,0,US
+1158,customer_1158@company18.com,SMB,2025-06-07,10092.96,0,APAC
+1159,customer_1159@company19.com,SMB,2025-06-08,5901.1,0,APAC
+1160,customer_1160@company0.com,SMB,2025-06-09,9825.73,0,US
+1161,customer_1161@company1.com,SMB,2025-06-10,6942.27,0,APAC
+1162,customer_1162@company2.com,SMB,2025-06-11,9058.45,0,US
+1163,customer_1163@company3.com,SMB,2025-06-12,9068.24,0,US
+1164,customer_1164@company4.com,SMB,2025-06-13,8286.2,0,EU
+1165,customer_1165@company5.com,SMB,2025-06-14,4722.32,1,US
+1166,customer_1166@company6.com,SMB,2025-06-15,10682.42,0,APAC
+1167,customer_1167@company7.com,SMB,2025-06-16,6566.24,0,APAC
+1168,customer_1168@company8.com,SMB,2025-06-17,5492.15,0,EU
+1169,customer_1169@company9.com,SMB,2025-06-18,4326.2,0,US
+1170,customer_1170@company10.com,SMB,2025-06-19,8727.14,0,US
+1171,customer_1171@company11.com,SMB,2025-06-20,9420.51,0,EU
+1172,customer_1172@company12.com,SMB,2025-06-21,4132.7,0,LATAM
+1173,customer_1173@company13.com,SMB,2025-06-22,8096.74,1,EU
+1174,customer_1174@company14.com,SMB,2025-06-23,5811.97,0,US
+1175,customer_1175@company15.com,SMB,2025-06-24,9161.38,0,EU
+1176,customer_1176@company16.com,SMB,2025-06-25,5394.93,0,EU
+1177,customer_1177@company17.com,SMB,2025-06-26,9527.5,1,APAC
+1178,customer_1178@company18.com,SMB,2025-06-27,7093.88,0,US
+1179,customer_1179@company19.com,SMB,2025-06-28,11493.84,0,APAC
+1180,customer_1180@company0.com,SMB,2025-06-29,5100.17,0,EU
+1181,customer_1181@company1.com,SMB,2025-06-30,6728.53,0,LATAM
+1182,customer_1182@company2.com,SMB,2025-07-01,4907.79,0,US
+1183,customer_1183@company3.com,SMB,2025-07-02,11397.55,0,EU
+1184,customer_1184@company4.com,SMB,2025-07-03,11018.71,0,LATAM
+1185,customer_1185@company5.com,SMB,2025-07-04,6063.53,0,US
+1186,customer_1186@company6.com,SMB,2025-07-05,9279.87,0,LATAM
+1187,customer_1187@company7.com,SMB,2025-07-06,10537.78,0,EU
+1188,customer_1188@company8.com,SMB,2025-07-07,8441.61,0,US
+1189,customer_1189@company9.com,SMB,2025-07-08,8237.2,0,US
+1190,customer_1190@company10.com,SMB,2025-07-09,5934.82,0,EU
+1191,customer_1191@company11.com,SMB,2025-07-10,4744.82,0,US
+1192,customer_1192@company12.com,SMB,2025-07-11,11177.73,0,EU
+1193,customer_1193@company13.com,SMB,2025-07-12,11203.34,0,US
+1194,customer_1194@company14.com,SMB,2025-07-13,9064.81,0,EU
+1195,customer_1195@company15.com,SMB,2025-07-14,6712.24,1,US
+1196,customer_1196@company16.com,SMB,2025-07-15,6793.68,0,APAC
+1197,customer_1197@company17.com,SMB,2025-07-16,9807.65,0,LATAM
+1198,customer_1198@company18.com,SMB,2025-07-17,11176.88,0,LATAM
+1199,customer_1199@company19.com,SMB,2025-07-18,11096.69,0,EU
+1200,customer_1200@company0.com,SMB,2025-07-19,10239.0,0,US
+1201,customer_1201@company1.com,SMB,2025-07-20,9136.25,0,APAC
+1202,customer_1202@company2.com,SMB,2025-07-21,4673.12,1,US
+1203,customer_1203@company3.com,SMB,2025-07-22,5293.03,0,US
+1204,customer_1204@company4.com,SMB,2025-07-23,11188.43,0,US
+1205,customer_1205@company5.com,SMB,2025-07-24,8851.43,1,EU
+1206,customer_1206@company6.com,SMB,2025-07-25,4073.58,0,APAC
+1207,customer_1207@company7.com,SMB,2025-07-26,4811.77,0,EU
+1208,customer_1208@company8.com,SMB,2025-07-27,9308.01,0,US
+1209,customer_1209@company9.com,SMB,2025-07-28,4040.49,0,US
+1210,customer_1210@company10.com,SMB,2025-07-29,5286.46,0,LATAM
+1211,customer_1211@company11.com,SMB,2025-07-30,8389.87,0,US
+1212,customer_1212@company12.com,SMB,2025-07-31,9535.16,0,EU
+1213,customer_1213@company13.com,SMB,2025-08-01,9215.69,0,US
+1214,customer_1214@company14.com,SMB,2025-08-02,5794.15,0,APAC
+1215,customer_1215@company15.com,SMB,2025-08-03,9697.43,0,EU
+1216,customer_1216@company16.com,SMB,2025-08-04,5897.99,0,US
+1217,customer_1217@company17.com,SMB,2025-08-05,6603.2,0,US
+1218,customer_1218@company18.com,SMB,2025-08-06,9971.93,0,EU
+1219,customer_1219@company19.com,SMB,2025-08-07,9197.06,0,EU
+1220,customer_1220@company0.com,SMB,2025-08-08,10793.79,0,US
+1221,customer_1221@company1.com,SMB,2025-08-09,9260.9,0,LATAM
+1222,customer_1222@company2.com,SMB,2025-08-10,8546.47,0,US
+1223,customer_1223@company3.com,SMB,2025-08-11,4749.4,1,US
+1224,customer_1224@company4.com,SMB,2025-08-12,6941.73,0,LATAM
+1225,customer_1225@company5.com,SMB,2025-08-13,6121.62,0,US
+1226,customer_1226@company6.com,Startup,2025-08-14,2353.96,0,EU
+1227,customer_1227@company7.com,Startup,2025-08-15,4905.54,0,US
+1228,customer_1228@company8.com,Startup,2025-08-16,2875.84,0,US
+1229,customer_1229@company9.com,Startup,2025-08-17,4622.16,0,LATAM
+1230,customer_1230@company10.com,Startup,2025-08-18,3708.99,0,US
+1231,customer_1231@company11.com,Startup,2025-08-19,4281.84,0,APAC
+1232,customer_1232@company12.com,Startup,2025-08-20,3259.23,0,US
+1233,customer_1233@company13.com,Startup,2025-08-21,3519.16,0,US
+1234,customer_1234@company14.com,Startup,2025-08-22,3223.81,0,US
+1235,customer_1235@company15.com,Startup,2025-08-23,2183.35,0,EU
+1236,customer_1236@company16.com,Startup,2025-08-24,4028.58,0,US
+1237,customer_1237@company17.com,Startup,2025-08-25,2482.7,0,APAC
+1238,customer_1238@company18.com,Startup,2025-08-26,1585.11,0,EU
+1239,customer_1239@company19.com,Startup,2025-08-27,3759.15,0,LATAM
+1240,customer_1240@company0.com,Startup,2025-08-28,2119.89,0,US
+1241,customer_1241@company1.com,Startup,2025-08-29,4791.61,0,APAC
+1242,customer_1242@company2.com,Startup,2025-08-30,4838.75,0,APAC
+1243,customer_1243@company3.com,Startup,2025-08-31,4702.03,0,APAC
+1244,customer_1244@company4.com,Startup,2025-09-01,2795.56,0,APAC
+1245,customer_1245@company5.com,Startup,2025-09-02,1554.1,0,APAC
+1246,customer_1246@company6.com,Startup,2025-09-03,4749.11,0,EU
+1247,customer_1247@company7.com,Startup,2025-09-04,2998.64,0,US
+1248,customer_1248@company8.com,Startup,2025-09-05,4883.29,0,US
+1249,customer_1249@company9.com,Startup,2025-09-06,4872.67,0,LATAM
+1250,customer_1250@company10.com,Startup,2025-09-07,4485.53,0,EU
+1251,customer_1251@company11.com,Startup,2025-09-08,2530.57,0,APAC
+1252,customer_1252@company12.com,Startup,2025-09-09,2847.84,0,EU
+1253,customer_1253@company13.com,Startup,2025-09-10,4478.98,0,US
+1254,customer_1254@company14.com,Startup,2025-09-11,2609.23,0,US
+1255,customer_1255@company15.com,Startup,2025-09-12,2093.22,0,EU
+1256,customer_1256@company16.com,Startup,2025-09-13,3448.8,0,US
+1257,customer_1257@company17.com,Startup,2025-09-14,4776.54,0,US
+1258,customer_1258@company18.com,Startup,2025-09-15,3936.1,0,EU
+1259,customer_1259@company19.com,Startup,2025-09-16,3495.21,0,US
+1260,customer_1260@company0.com,Startup,2025-09-17,1840.12,0,EU
+1261,customer_1261@company1.com,Startup,2025-09-18,3652.53,0,US
+1262,customer_1262@company2.com,Startup,2025-09-19,4965.19,0,APAC
+1263,customer_1263@company3.com,Startup,2025-09-20,1990.29,0,US
+1264,customer_1264@company4.com,Startup,2025-09-21,3314.15,0,EU
+1265,customer_1265@company5.com,Startup,2025-09-22,4570.81,1,US
+1266,customer_1266@company6.com,Startup,2025-09-23,4092.69,0,US
+1267,customer_1267@company7.com,Startup,2025-09-24,3939.56,0,US
+1268,customer_1268@company8.com,Startup,2025-09-25,3958.69,0,EU
+1269,customer_1269@company9.com,Startup,2025-09-26,2758.22,0,EU
+1270,customer_1270@company10.com,Startup,2025-09-27,2527.57,0,US
+1271,customer_1271@company11.com,Startup,2025-09-28,4332.76,0,EU
+1272,customer_1272@company12.com,Startup,2025-09-29,4335.4,0,APAC
+1273,customer_1273@company13.com,Startup,2025-09-30,4534.75,0,APAC
+1274,customer_1274@company14.com,Startup,2025-10-01,4696.34,0,US
+1275,customer_1275@company15.com,Startup,2025-10-02,3289.7,0,EU
+1276,customer_1276@company16.com,Startup,2025-10-03,3255.31,0,US
+1277,customer_1277@company17.com,Startup,2025-10-04,4294.03,0,US
+1278,customer_1278@company18.com,Startup,2025-10-05,3774.87,0,LATAM
+1279,customer_1279@company19.com,Startup,2025-10-06,3956.88,0,US
+1280,customer_1280@company0.com,Startup,2025-10-07,4285.27,0,EU
+1281,customer_1281@company1.com,Startup,2025-10-08,4615.02,0,EU
+1282,customer_1282@company2.com,Startup,2025-10-09,2682.98,0,EU
+1283,customer_1283@company3.com,Startup,2025-10-10,2814.54,0,EU
+1284,customer_1284@company4.com,Startup,2025-10-11,1828.94,0,US
+1285,customer_1285@company5.com,Startup,2025-10-12,3523.98,0,US
+1286,customer_1286@company6.com,Startup,2025-10-13,1625.8,0,EU
+1287,customer_1287@company7.com,Startup,2025-10-14,3129.59,0,US
+1288,customer_1288@company8.com,Startup,2025-10-15,3399.26,0,US
+1289,customer_1289@company9.com,Startup,2025-10-16,2502.89,0,US
+1290,customer_1290@company10.com,Startup,2025-10-17,3567.92,0,US
+1291,customer_1291@company11.com,Startup,2025-10-18,1606.75,0,US
+1292,customer_1292@company12.com,Startup,2025-10-19,1630.72,0,US
+1293,customer_1293@company13.com,Startup,2025-10-20,4379.1,0,EU
+1294,customer_1294@company14.com,Startup,2025-10-21,2760.67,0,EU
+1295,customer_1295@company15.com,Startup,2025-10-22,1944.71,1,APAC
+1296,customer_1296@company16.com,Startup,2025-10-23,3327.85,0,US
+1297,customer_1297@company17.com,Startup,2025-10-24,4194.98,0,US
+1298,customer_1298@company18.com,Startup,2025-10-25,2255.37,0,US
+1299,customer_1299@company19.com,Startup,2025-10-26,3680.12,0,EU
+1300,customer_1300@company0.com,Startup,2025-10-27,1798.72,0,EU
+1301,customer_1301@company1.com,Startup,2025-10-28,1680.89,0,US
+1302,customer_1302@company2.com,Startup,2025-10-29,3359.74,0,LATAM
+1303,customer_1303@company3.com,Startup,2025-10-30,3392.22,0,US
+1304,customer_1304@company4.com,Startup,2025-10-31,3731.0,0,EU
+1305,customer_1305@company5.com,Startup,2025-11-01,4041.32,0,EU
+1306,customer_1306@company6.com,Startup,2025-11-02,4915.48,0,APAC
+1307,customer_1307@company7.com,Startup,2025-11-03,3307.05,0,EU
+1308,customer_1308@company8.com,Startup,2025-11-04,2630.35,0,APAC
+1309,customer_1309@company9.com,Startup,2025-11-05,4283.15,0,US
+1310,customer_1310@company10.com,Startup,2025-11-06,2447.91,0,APAC
+1311,customer_1311@company11.com,Startup,2025-11-07,3036.4,0,US
+1312,customer_1312@company12.com,Startup,2025-11-08,1774.6,0,APAC
+1313,customer_1313@company13.com,Startup,2025-11-09,1588.73,0,EU
+1314,customer_1314@company14.com,Startup,2025-11-10,4869.27,0,APAC
+1315,customer_1315@company15.com,Startup,2025-11-11,4425.93,0,EU
+1316,customer_1316@company16.com,Startup,2025-11-12,3935.91,0,EU
+1317,customer_1317@company17.com,Startup,2025-11-13,2931.34,0,EU
+1318,customer_1318@company18.com,Startup,2025-11-14,2106.53,0,EU
+1319,customer_1319@company19.com,Startup,2025-11-15,2047.53,1,US
+1320,customer_1320@company0.com,Startup,2025-11-16,2375.85,0,US
+1321,customer_1321@company1.com,Startup,2025-11-17,3422.29,0,US
+1322,customer_1322@company2.com,Startup,2025-11-18,4001.09,1,US
+1323,customer_1323@company3.com,Startup,2025-11-19,3810.69,0,APAC
+1324,customer_1324@company4.com,Startup,2025-11-20,2479.77,0,US
+1325,customer_1325@company5.com,Startup,2025-11-21,4842.03,0,LATAM
+1326,customer_1326@company6.com,Startup,2025-11-22,4082.64,0,US
+1327,customer_1327@company7.com,Startup,2025-11-23,3440.24,0,US
+1328,customer_1328@company8.com,Startup,2025-11-24,3641.02,0,APAC
+1329,customer_1329@company9.com,Startup,2025-11-25,2968.6,0,EU
+1330,customer_1330@company10.com,Startup,2025-11-26,2367.06,0,EU
+1331,customer_1331@company11.com,Startup,2025-11-27,2745.9,0,EU
+1332,customer_1332@company12.com,Startup,2025-11-28,4152.46,0,EU
+1333,customer_1333@company13.com,Startup,2025-11-29,1550.38,0,US
+1334,customer_1334@company14.com,Startup,2025-11-30,1906.25,0,LATAM
+1335,customer_1335@company15.com,Startup,2025-12-01,1661.01,0,LATAM
+1336,customer_1336@company16.com,Startup,2025-12-02,1642.55,0,EU
+1337,customer_1337@company17.com,Startup,2025-12-03,4494.11,0,US
+1338,customer_1338@company18.com,Startup,2025-12-04,3962.8,0,EU
+1339,customer_1339@company19.com,Startup,2025-12-05,3159.61,0,US
+1340,customer_1340@company0.com,Startup,2025-12-06,1842.42,0,US
+1341,customer_1341@company1.com,Startup,2025-12-07,3220.66,1,US
+1342,customer_1342@company2.com,Startup,2025-12-08,3157.15,0,EU
+1343,customer_1343@company3.com,Startup,2025-12-09,2106.21,0,APAC
+1344,customer_1344@company4.com,Startup,2025-12-10,3018.48,0,EU
+1345,customer_1345@company5.com,Startup,2025-12-11,2894.77,0,EU
+1346,customer_1346@company6.com,Startup,2025-12-12,3655.48,0,US
+1347,customer_1347@company7.com,Startup,2025-12-13,3722.83,0,US
+1348,customer_1348@company8.com,Startup,2025-12-14,1658.56,0,US
+1349,customer_1349@company9.com,Startup,2025-12-15,2811.14,0,LATAM
+1350,customer_1350@company10.com,Startup,2025-12-16,3690.51,0,US
+1351,customer_1351@company11.com,Startup,2025-12-17,3260.98,1,APAC
+1352,customer_1352@company12.com,Startup,2025-12-18,4497.71,0,EU
+1353,customer_1353@company13.com,Startup,2025-12-19,3805.43,0,US
+1354,customer_1354@company14.com,Startup,2025-12-20,2070.27,0,EU
+1355,customer_1355@company15.com,Startup,2025-12-21,1746.99,0,EU
+1356,customer_1356@company16.com,Startup,2025-12-22,3748.47,0,APAC
+1357,customer_1357@company17.com,Startup,2025-12-23,1592.79,1,LATAM
+1358,customer_1358@company18.com,Startup,2025-12-24,3550.21,0,US
+1359,customer_1359@company19.com,Startup,2025-12-25,4790.81,0,US
+1360,customer_1360@company0.com,Startup,2025-12-26,3514.16,1,EU
+1361,customer_1361@company1.com,Startup,2025-12-27,2858.59,0,LATAM
+1362,customer_1362@company2.com,Startup,2025-12-28,3751.51,0,US
+1363,customer_1363@company3.com,Startup,2025-12-29,3103.89,0,EU
+1364,customer_1364@company4.com,Startup,2025-12-30,3409.66,0,EU
+1365,customer_1365@company5.com,Startup,2025-12-31,4795.13,0,EU
+1366,customer_1366@company6.com,Startup,2026-01-01,2851.36,0,US
+1367,customer_1367@company7.com,Startup,2026-01-02,4864.17,0,EU
+1368,customer_1368@company8.com,Startup,2026-01-03,4668.73,0,LATAM
+1369,customer_1369@company9.com,Startup,2026-01-04,2185.27,0,US
+1370,customer_1370@company10.com,Startup,2026-01-05,1742.76,0,US
+1371,customer_1371@company11.com,Startup,2026-01-06,1852.72,0,LATAM
+1372,customer_1372@company12.com,Startup,2026-01-07,1563.78,0,US
+1373,customer_1373@company13.com,Startup,2026-01-08,1830.55,0,APAC
+1374,customer_1374@company14.com,Startup,2026-01-09,3890.52,0,EU
+1375,customer_1375@company15.com,Startup,2026-01-10,1749.16,1,US
+1376,customer_1376@company16.com,Startup,2026-01-11,2616.41,0,APAC
+1377,customer_1377@company17.com,Startup,2026-01-12,4457.06,0,US
+1378,customer_1378@company18.com,Startup,2026-01-13,1581.45,0,EU
+1379,customer_1379@company19.com,Startup,2026-01-14,4350.64,1,US
+1380,customer_1380@company0.com,Startup,2026-01-15,2486.49,0,EU
+1381,customer_1381@company1.com,Startup,2026-01-16,1913.58,0,US
+1382,customer_1382@company2.com,Startup,2026-01-17,3938.58,0,US
+1383,customer_1383@company3.com,Startup,2026-01-18,3701.3,1,LATAM
+1384,customer_1384@company4.com,Startup,2026-01-19,4571.15,0,US
+1385,customer_1385@company5.com,Startup,2026-01-20,4072.75,0,EU
+1386,customer_1386@company6.com,Startup,2026-01-21,4312.18,0,US
+1387,customer_1387@company7.com,Startup,2026-01-22,2487.12,0,APAC
+1388,customer_1388@company8.com,Startup,2026-01-23,2121.04,0,US
+1389,customer_1389@company9.com,Startup,2026-01-24,4127.15,0,LATAM
+1390,customer_1390@company10.com,Startup,2026-01-25,4323.92,0,EU
+1391,customer_1391@company11.com,Startup,2026-01-26,4966.77,0,US
+1392,customer_1392@company12.com,Startup,2026-01-27,2944.16,0,US
+1393,customer_1393@company13.com,Startup,2026-01-28,2802.06,0,US
+1394,customer_1394@company14.com,Startup,2026-01-29,4217.45,0,EU
+1395,customer_1395@company15.com,Startup,2026-01-30,2692.81,0,US
+1396,customer_1396@company16.com,Startup,2026-01-31,4757.65,0,APAC
+1397,customer_1397@company17.com,Startup,2026-02-01,4504.44,0,US
+1398,customer_1398@company18.com,Startup,2026-02-02,3001.48,0,US
+1399,customer_1399@company19.com,Startup,2026-02-03,4128.05,1,EU
+1400,customer_1400@company0.com,Startup,2026-02-04,4140.9,0,EU
+1401,customer_1401@company1.com,Startup,2026-02-05,1860.93,0,US
+1402,customer_1402@company2.com,Startup,2026-02-06,4658.94,1,US
+1403,customer_1403@company3.com,Startup,2026-02-07,3268.38,0,US
+1404,customer_1404@company4.com,Startup,2026-02-08,4392.6,0,EU
+1405,customer_1405@company5.com,Startup,2026-02-09,2620.17,0,EU
+1406,customer_1406@company6.com,Startup,2026-02-10,4634.33,0,EU
+1407,customer_1407@company7.com,Startup,2026-02-11,2862.21,0,APAC
+1408,customer_1408@company8.com,Startup,2026-02-12,1537.93,0,APAC
+1409,customer_1409@company9.com,Startup,2026-02-13,4668.84,0,EU
+1410,customer_1410@company10.com,Startup,2026-02-14,1819.5,0,APAC
+1411,customer_1411@company11.com,Startup,2026-02-15,2617.6,0,US
+1412,customer_1412@company12.com,Startup,2026-02-16,4825.22,0,US
+1413,customer_1413@company13.com,Startup,2026-02-17,4827.13,0,US
+1414,customer_1414@company14.com,Startup,2026-02-18,3507.03,0,US
+1415,customer_1415@company15.com,Startup,2026-02-19,3711.43,0,EU
+1416,customer_1416@company16.com,Startup,2026-02-20,3069.56,0,LATAM
+1417,customer_1417@company17.com,Startup,2026-02-21,2526.24,0,US
+1418,customer_1418@company18.com,Startup,2026-02-22,2650.33,0,US
+1419,customer_1419@company19.com,Startup,2026-02-23,3853.81,0,EU
+1420,customer_1420@company0.com,Startup,2026-02-24,4133.31,0,LATAM
+1421,customer_1421@company1.com,Startup,2026-02-25,4270.53,0,US
+1422,customer_1422@company2.com,Startup,2026-02-26,4263.66,0,EU
+1423,customer_1423@company3.com,Startup,2026-02-27,1819.22,0,US
+1424,customer_1424@company4.com,Startup,2026-02-28,3230.47,0,US
+1425,customer_1425@company5.com,Startup,2026-03-01,1701.46,0,LATAM
+1426,customer_1426@company6.com,Startup,2026-03-02,3423.35,1,LATAM
+1427,customer_1427@company7.com,Startup,2026-03-03,3045.36,0,US
+1428,customer_1428@company8.com,Startup,2026-03-04,4606.96,0,LATAM
+1429,customer_1429@company9.com,Startup,2026-03-05,2728.2,0,EU
+1430,customer_1430@company10.com,Startup,2026-03-06,1909.73,0,APAC
+1431,customer_1431@company11.com,Startup,2026-03-07,2000.47,0,EU
+1432,customer_1432@company12.com,Startup,2026-03-08,4165.29,0,EU
+1433,customer_1433@company13.com,Startup,2026-03-09,3663.76,0,EU
+1434,customer_1434@company14.com,Startup,2026-03-10,1853.93,0,EU
+1435,customer_1435@company15.com,Startup,2026-03-11,1794.37,0,US
+1436,customer_1436@company16.com,Startup,2026-03-12,3953.39,0,US
+1437,customer_1437@company17.com,Startup,2026-03-13,1754.67,1,US
+1438,customer_1438@company18.com,Startup,2026-03-14,4376.51,0,EU
+1439,customer_1439@company19.com,Startup,2026-03-15,3971.85,0,US
+1440,customer_1440@company0.com,Startup,2026-03-16,1784.72,0,EU
+1441,customer_1441@company1.com,Startup,2026-03-17,1796.93,0,LATAM
+1442,customer_1442@company2.com,Startup,2026-03-18,4953.24,0,US
+1443,customer_1443@company3.com,Startup,2026-03-19,2809.95,0,EU
+1444,customer_1444@company4.com,Startup,2026-03-20,2797.25,0,US
+1445,customer_1445@company5.com,Startup,2026-03-21,4344.8,0,APAC
+1446,customer_1446@company6.com,Startup,2026-03-22,4815.37,1,US
+1447,customer_1447@company7.com,Startup,2026-03-23,4951.0,0,EU
+1448,customer_1448@company8.com,Startup,2026-03-24,4136.82,0,APAC
+1449,customer_1449@company9.com,Startup,2026-03-25,2816.91,0,LATAM
+1450,customer_1450@company10.com,Startup,2026-03-26,1792.25,0,EU
+1451,customer_1451@company11.com,Startup,2026-03-27,4220.01,0,EU
+1452,customer_1452@company12.com,Startup,2026-03-28,3454.41,0,EU
+1453,customer_1453@company13.com,Startup,2026-03-29,2984.78,0,APAC
+1454,customer_1454@company14.com,Startup,2026-03-30,4672.24,0,EU
+1455,customer_1455@company15.com,Startup,2026-03-31,1889.19,0,US
+1456,customer_1456@company16.com,Startup,2026-04-01,3224.19,0,LATAM
+1457,customer_1457@company17.com,Startup,2026-04-02,1539.74,0,EU
+1458,customer_1458@company18.com,Startup,2026-04-03,3140.31,1,EU
+1459,customer_1459@company19.com,Startup,2026-04-04,1697.06,0,US
+1460,customer_1460@company0.com,Startup,2026-04-05,1915.86,0,EU
+1461,customer_1461@company1.com,Startup,2026-04-06,1911.34,0,US
+1462,customer_1462@company2.com,Startup,2026-04-07,3772.24,0,EU
+1463,customer_1463@company3.com,Startup,2026-04-08,4111.16,0,US
+1464,customer_1464@company4.com,Startup,2026-04-09,3541.79,0,EU
+1465,customer_1465@company5.com,Startup,2026-04-10,4867.6,0,LATAM
+1466,customer_1466@company6.com,Startup,2026-04-11,2812.05,0,US
+1467,customer_1467@company7.com,Startup,2026-04-12,2499.99,0,LATAM
+1468,customer_1468@company8.com,Startup,2026-04-13,4540.1,0,US
+1469,customer_1469@company9.com,Startup,2026-04-14,2282.59,0,APAC
+1470,customer_1470@company10.com,Startup,2026-04-15,4871.28,0,APAC
+1471,customer_1471@company11.com,Startup,2026-04-16,1542.54,0,EU
+1472,customer_1472@company12.com,Startup,2026-04-17,4894.58,0,EU
+1473,customer_1473@company13.com,Startup,2026-04-18,1651.06,0,APAC
+1474,customer_1474@company14.com,Startup,2026-04-19,4619.0,0,US
+1475,customer_1475@company15.com,Startup,2026-04-20,3346.95,1,US
+1476,customer_1476@company16.com,Startup,2026-04-21,4975.38,0,EU
+1477,customer_1477@company17.com,Startup,2026-04-22,1758.29,0,APAC
+1478,customer_1478@company18.com,Startup,2026-04-23,3438.49,1,APAC
+1479,customer_1479@company19.com,Startup,2026-04-24,4892.56,0,APAC
+1480,customer_1480@company0.com,Startup,2026-04-25,3330.84,0,US
+1481,customer_1481@company1.com,Startup,2026-04-26,3702.9,0,APAC
+1482,customer_1482@company2.com,Startup,2026-04-27,3935.12,0,US
+1483,customer_1483@company3.com,Startup,2026-04-28,3090.89,0,EU
+1484,customer_1484@company4.com,Startup,2026-04-29,3696.45,1,US
+1485,customer_1485@company5.com,Startup,2026-04-30,3545.1,0,US
+1486,customer_1486@company6.com,Startup,2026-05-01,4654.05,0,US
+1487,customer_1487@company7.com,Startup,2026-05-02,1659.06,0,US
+1488,customer_1488@company8.com,Startup,2026-05-03,2483.37,0,EU
+1489,customer_1489@company9.com,Startup,2026-05-04,4826.44,0,US
+1490,customer_1490@company10.com,Startup,2026-05-05,4615.92,0,US
+1491,customer_1491@company11.com,Startup,2026-05-06,3094.8,0,US
+1492,customer_1492@company12.com,Startup,2026-05-07,3670.46,0,US
+1493,customer_1493@company13.com,Startup,2026-05-08,2470.83,0,US
+1494,customer_1494@company14.com,Startup,2026-05-09,2158.42,0,US
+1495,customer_1495@company15.com,Startup,2026-05-10,3122.94,0,EU
+1496,customer_1496@company16.com,Startup,2026-05-11,2736.73,0,EU
+1497,customer_1497@company17.com,Startup,2026-05-12,3542.8,0,EU
+1498,customer_1498@company18.com,Startup,2026-05-13,1772.07,0,EU
+1499,customer_1499@company19.com,Startup,2026-05-14,4910.38,0,US
+1500,customer_1500@company0.com,Startup,2026-05-15,4951.74,0,APAC
