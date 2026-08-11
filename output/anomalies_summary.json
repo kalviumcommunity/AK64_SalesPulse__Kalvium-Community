@@ -1,0 +1,11 @@
+{
+  "engine": "SalesPulse Anomaly Monitor",
+  "monitoring_window_days": 30,
+  "mean_daily_revenue": 10652.584,
+  "std_daily_revenue": 6218.431985183159,
+  "total_anomalies_detected": 1,
+  "critical_high_count": 1,
+  "log_file": "anomalies_log.csv",
+  "visualization_file": "anomaly_detection.png",
+  "timestamp": "2026-08-11T09:58:15.100248"
+}
