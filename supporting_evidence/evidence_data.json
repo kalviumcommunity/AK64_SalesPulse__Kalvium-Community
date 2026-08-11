@@ -1,0 +1,44 @@
+{
+  "dataset_summary": {
+    "total_customers_analyzed": 50000,
+    "observation_period_months": 24,
+    "annual_churn_cost_usd": 2000000,
+    "projected_revenue_recovery_usd": 400000
+  },
+  "churn_by_response_time_bucket": [
+    {
+      "bucket": "< 2 Hours",
+      "customer_count": 18500,
+      "churned_count": 555,
+      "churn_rate_pct": 3.0,
+      "risk_factor": "1.0x"
+    },
+    {
+      "bucket": "2 - 4 Hours",
+      "customer_count": 14200,
+      "churned_count": 724,
+      "churn_rate_pct": 5.1,
+      "risk_factor": "1.7x"
+    },
+    {
+      "bucket": "4 - 24 Hours",
+      "customer_count": 11800,
+      "churned_count": 1086,
+      "churn_rate_pct": 9.2,
+      "risk_factor": "3.1x"
+    },
+    {
+      "bucket": "> 24 Hours",
+      "customer_count": 5500,
+      "churned_count": 660,
+      "churn_rate_pct": 12.0,
+      "risk_factor": "4.0x"
+    }
+  ],
+  "recommendations_roi": {
+    "headcount_investment_usd": 160000,
+    "gross_revenue_recovery_usd": 400000,
+    "net_benefit_usd": 240000,
+    "roi_pct": 250
+  }
+}
