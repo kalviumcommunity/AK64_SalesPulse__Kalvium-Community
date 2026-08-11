@@ -1,0 +1,33 @@
+name: Data Validation
+
+on:
+  push:
+    branches: [main, develop, GitHubWorkflowAutomationValidation]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy
+
+      - name: Run Data Pipeline (Generate Output Data)
+        run: |
+          python pipeline.py --input data/raw/latest.csv --output output
+
+      - name: Run Data Validation
+        run: |
+          python validate_data.py output/cleaned.csv

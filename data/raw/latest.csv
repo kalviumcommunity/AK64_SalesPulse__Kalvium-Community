@@ -1,0 +1,6 @@
+customer_id,order_id,amount,date,segment
+1001,5001,2450.50,2024-01-01,Enterprise
+1002,5002,1200.00,2024-01-02,Mid-Market
+1003,5003,850.75,2024-01-03,SMB
+1004,5004,3400.00,2024-01-04,Enterprise
+1005,5005,1950.25,2024-01-05,Mid-Market
