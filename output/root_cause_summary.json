@@ -1,0 +1,12 @@
+{
+  "investigation_status": "CONFIRMED",
+  "anomaly_date": "2026-01-15",
+  "anomaly_hour_utc": 14,
+  "affected_segment": "credit_card",
+  "dominant_error": "Stripe API timeout",
+  "error_dominance_percentage": 0.96875,
+  "confidence_level": "HIGH",
+  "root_cause": "External payment processor failure (Stripe outage)",
+  "annual_cost_savings": 475000,
+  "timestamp": "2026-08-11T09:48:36.153116"
+}
