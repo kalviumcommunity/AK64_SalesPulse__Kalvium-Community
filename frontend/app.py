@@ -1,31 +1,40 @@
 """
 SalesPulse Analytics Dashboard
 --------------------------------
-Assignment 2.56 - Alert Monitoring & Metric Threshold Detection
+Assignment 2.57 - Insight Sharing & Email Report Integration
 
-Operational Streamlit dashboard displaying business KPIs and reactive alerts:
-  Task 1: Monitor 3 metrics (Churn Rate, Avg Order Value, Data Quality Null %) against thresholds
-  Task 2: Visual alerts displayed using st.error (critical) and st.warning (warning)
-  Task 3: Thresholds stored in alert_config.py configuration module
-  Task 4: Complete alert messages including metric name, current value, threshold, and risk action
-  Task 5: Alerts dynamically update on filter changes
+Operational Streamlit dashboard displaying business KPIs, alerts, and report delivery:
+  Task 1: Generate structured reports (KPI Summary, Key Findings, Recommended Action)
+  Task 2: Email delivery via SMTPLib reading credentials from environment variables
+  Task 3: Report includes 3 required sections computed from active filter context
+  Task 4: Non-blocking error handling (try/except) ensures app never crashes on email failure
+  Task 5: Credentials read from os.environ, template documented in .env.example
 """
 
 import os
 import sys
 import io
+from datetime import datetime
 import streamlit as st
 import pandas as pd
 import numpy as np
 
-# Add frontend directory to path if needed for imports
+# Add local path for imports
 sys.path.append(os.path.dirname(__file__))
 
-# Import Alert Configuration Module (Task 1 & Task 3)
+# Import Alert Configuration Module (2.56)
 try:
     from alert_config import ALERT_THRESHOLDS, check_alerts
 except ImportError:
     from frontend.alert_config import ALERT_THRESHOLDS, check_alerts
+
+# Import Report Generator & Email Sender Modules (2.57)
+try:
+    from report_generator import generate_report
+    from email_sender import send_report, send_report_email
+except ImportError:
+    from frontend.report_generator import generate_report
+    from frontend.email_sender import send_report, send_report_email
 
 # -----------------------------------------------------------------------
 # Page Configuration
@@ -91,7 +100,7 @@ if "customer_id" not in df.columns:
     df["customer_id"] = np.arange(1000, 1000 + len(df))
 
 # -----------------------------------------------------------------------
-# Sidebar Navigation & Threshold Config Viewer
+# Sidebar Navigation
 # -----------------------------------------------------------------------
 st.sidebar.title("SalesPulse")
 st.sidebar.markdown("*Analytics Dashboard*")
@@ -106,7 +115,7 @@ page = st.sidebar.radio(
 
 st.sidebar.divider()
 
-# Sidebar Threshold Settings Info (Task 3 Verification)
+# Sidebar Threshold Settings Info (2.56)
 with st.sidebar.expander("⚙️ Alert Threshold Config"):
     st.caption("Configured in `alert_config.py`:")
     for key, cfg in ALERT_THRESHOLDS.items():
@@ -162,6 +171,30 @@ granularity = st.sidebar.radio(
 
 st.sidebar.divider()
 
+# -----------------------------------------------------------------------
+# Task 2 & Task 4: Report Email Actions Sidebar Widget (Assignment 2.57)
+# -----------------------------------------------------------------------
+st.sidebar.header("📧 Email Report Actions")
+recipient = st.sidebar.text_input("Recipient Email", placeholder="executive@company.com")
+
+if st.sidebar.button("Send Email Report"):
+    if not recipient:
+        st.sidebar.error("Please enter a valid recipient email.")
+    else:
+        report_txt = generate_report(df, datetime.now().strftime("%Y-%m-%d"))
+        success = send_report(report_txt, recipient)
+        if success:
+            st.sidebar.success(f"✓ Report successfully sent to {recipient}")
+        else:
+            st.sidebar.warning(
+                "Email send skipped or unconfigured. "
+                "Check SENDER_EMAIL & SENDER_PASSWORD environment variables. "
+                "Report preview generated below."
+            )
+            st.session_state["preview_report"] = report_txt
+
+st.sidebar.divider()
+
 if st.sidebar.button("Reset Filters"):
     st.rerun()
 
@@ -207,53 +240,44 @@ def resample_revenue(fdf, gran):
 
 
 # -----------------------------------------------------------------------
-# OVERVIEW PAGE WITH ALERT SYSTEM INTEGRATION
+# OVERVIEW PAGE
 # -----------------------------------------------------------------------
 if page == "Overview":
-    st.title("Real-Time Business Overview & Alert Monitoring")
-    st.caption("Live operational dashboard with metric threshold detection (Assignment 2.56)")
+    st.title("Real-Time Business Overview & Report Hub")
+    st.caption("Operational dashboard with threshold alerts and automated email report delivery (2.57)")
 
     check_empty(filtered_df)
 
-    # -------------------------------------------------------------------
-    # Compute Current Metrics for Threshold Evaluation (Task 1 & Task 5)
-    # -------------------------------------------------------------------
+    # Render Report Preview if triggered
+    if "preview_report" in st.session_state and st.session_state["preview_report"]:
+        with st.expander("📄 Generated Email Report Preview", expanded=True):
+            st.code(st.session_state["preview_report"], language="text")
+
+    # Metric evaluation & alert checks
     total_revenue = filtered_df[rev_col].sum()
     avg_order = filtered_df[rev_col].mean()
     row_count = len(filtered_df)
     unique_customers = filtered_df["customer_id"].nunique()
 
-    # Metric 1: Churn Rate (%)
-    if "churn_risk" in filtered_df.columns:
-        churn_rate_val = float((filtered_df["churn_risk"] == "High").mean() * 100)
-    else:
-        churn_rate_val = 0.0
-
-    # Metric 2: Avg Order Value ($)
+    churn_rate_val = float((filtered_df["churn_risk"] == "High").mean() * 100) if "churn_risk" in filtered_df.columns else 0.0
     avg_order_val = float(avg_order) if not pd.isna(avg_order) else 0.0
 
-    # Metric 3: Data Quality Null Percentage (%)
     total_cells = filtered_df.shape[0] * filtered_df.shape[1]
     null_count = filtered_df.isnull().sum().sum()
     null_pct_val = (null_count / total_cells * 100) if total_cells > 0 else 0.0
     data_quality_pct = 100.0 - null_pct_val
 
-    # Dict of current metrics for threshold evaluation
     current_metrics = {
         "churn_rate": churn_rate_val,
         "avg_order_value": avg_order_val,
         "null_percentage": null_pct_val
     }
 
-    # -------------------------------------------------------------------
-    # Check Alerts & Render Visual Banner Alerts (Task 2, Task 4, Task 5)
-    # -------------------------------------------------------------------
     active_alerts = check_alerts(current_metrics, ALERT_THRESHOLDS)
 
     if active_alerts:
         st.header("🚨 Active Operational Alerts")
         for alert in active_alerts:
-            # Task 4: Complete message string: metric, value, threshold, action
             alert_text = (
                 f"**ALERT:** {alert['metric']} is **{alert['value']:.1f}** "
                 f"(Threshold: `{alert['threshold']}`). {alert['message']}"
@@ -264,9 +288,6 @@ if page == "Overview":
                 st.warning(alert_text)
         st.divider()
 
-    # -------------------------------------------------------------------
-    # Five Reactive KPI Cards
-    # -------------------------------------------------------------------
     st.header("Key Performance Indicators")
 
     col1, col2, col3, col4, col5 = st.columns(5)
@@ -283,9 +304,6 @@ if page == "Overview":
 
     st.divider()
 
-    # -------------------------------------------------------------------
-    # Visualizations
-    # -------------------------------------------------------------------
     st.header("Interactive Analytics Visualizations")
 
     st.subheader("Revenue Over Time (Line Trend)")
@@ -319,13 +337,12 @@ if page == "Overview":
 
     st.divider()
 
-    with st.expander("ℹ️ About Metric Threshold Monitoring"):
+    with st.expander("ℹ️ About Insight Sharing & Email Dispatch"):
         st.write(
-            "Threshold alerts are defined in `alert_config.py` and checked on every rerun.\n\n"
-            "• **Churn Rate Threshold**: > 7.0% (Critical Error)\n"
-            "• **Avg Order Value Threshold**: < $2500.0 (Warning)\n"
-            "• **Null Data Quality Threshold**: > 5.0% (Warning)\n\n"
-            "When filters change the metrics (e.g. filtering to Enterprise vs SMB), alerts recalculate dynamically."
+            "Use the **Email Report Actions** sidebar widget to dispatch weekly analytics summaries.\n\n"
+            "• **Task 1 & 3**: Reports include KPI Summary, Key Findings, and Recommended Actions.\n"
+            "• **Task 2 & 5**: Dispatch uses `smtplib` reading credentials from environment variables (`SENDER_EMAIL`, `SENDER_PASSWORD`).\n"
+            "• **Task 4**: Email errors log safely without crashing the dashboard."
         )
 
 # -----------------------------------------------------------------------
