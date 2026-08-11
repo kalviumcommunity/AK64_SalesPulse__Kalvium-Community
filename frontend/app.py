@@ -1,14 +1,15 @@
 """
 SalesPulse Analytics Dashboard
 --------------------------------
-Assignment 2.53 - Streamlit Filters & Interactive Widgets
+Assignment 2.54 - Streamlit Session State & Workflow Persistence
+(builds on 2.53 filter chain)
 
-Extends 2.52 with a full interactive filter chain:
-  Task 1: Three widget types -- date_input, multiselect, slider, radio
-  Task 2: All widgets wired to filter the DataFrame reactively
-  Task 3: Meaningful defaults so the app loads with full data visible
-  Task 4: Empty filter result handling with st.warning + st.stop
-  Task 5: Reset Filters button via st.rerun()
+Session state additions:
+  Task 1: Three values persisted -- selected_segment, workflow_step, analysis_result
+  Task 2: Descriptive key names, safe "not in" initialisation
+  Task 3: Multi-step workflow where Step 2 depends on Step 1 confirmation
+  Task 4: Reset Workflow button deletes specific keys and calls st.rerun()
+  Task 5: Inline comments document each session state key's purpose
 """
 
 import streamlit as st
@@ -61,7 +62,7 @@ st.sidebar.divider()
 st.sidebar.subheader("Navigation")
 page = st.sidebar.radio(
     "Go to",
-    ["Overview", "Trends", "Data Explorer", "Data Upload"],
+    ["Overview", "Trends", "Data Explorer", "Segment Workflow", "Data Upload"],
     label_visibility="collapsed"
 )
 
@@ -501,3 +502,163 @@ elif page == "Data Upload":
 
     else:
         st.info("Upload a CSV or JSON file to begin. Your data will be previewed instantly.")
+
+
+# -----------------------------------------------------------------------
+# SEGMENT WORKFLOW PAGE (Assignment 2.54 -- Session State & Workflow Persistence)
+# -----------------------------------------------------------------------
+elif page == "Segment Workflow":
+    st.title("Guided Segment Analysis Workflow")
+    st.caption("Multi-step analytical workflow powered by Streamlit session state")
+
+    # -------------------------------------------------------------------
+    # Task 1 & Task 2 & Task 5: Safe initialisation & descriptive comments
+    # -------------------------------------------------------------------
+    # "selected_segment" - stores the user's segment choice from Step 1
+    # so it survives reruns when the user interacts with Step 2/3 widgets.
+    if "selected_segment" not in st.session_state:
+        st.session_state["selected_segment"] = "All"
+
+    # "workflow_step" - tracks which step of the analysis the user has completed.
+    # Prevents downstream steps from displaying before upstream steps are confirmed.
+    if "workflow_step" not in st.session_state:
+        st.session_state["workflow_step"] = 1
+
+    # "analysis_result" - caches the computed summary metrics from Step 2
+    # so it does not recompute unnecessarily when other widgets trigger a rerun.
+    if "analysis_result" not in st.session_state:
+        st.session_state["analysis_result"] = None
+
+    # Sidebar Reset Button (Task 4)
+    st.sidebar.divider()
+    st.sidebar.subheader("Workflow State")
+    st.sidebar.info(f"Current Step: {st.session_state['workflow_step']} of 3")
+    st.sidebar.write(f"Active Segment: **{st.session_state['selected_segment']}**")
+
+    # Task 4: Reset button clears all persisted keys and reruns
+    if st.sidebar.button("Reset Workflow"):
+        for key in ["selected_segment", "workflow_step", "analysis_result"]:
+            if key in st.session_state:
+                del st.session_state[key]
+        st.rerun()
+
+    # Progress bar showing workflow completion
+    progress_val = min(st.session_state["workflow_step"] / 3.0, 1.0)
+    st.progress(progress_val, text=f"Workflow Progress: Step {st.session_state['workflow_step']} / 3")
+    st.divider()
+
+    # -------------------------------------------------------------------
+    # Task 3: Multi-Step Workflow
+    # -------------------------------------------------------------------
+    # STEP 1: Select Segment
+    st.header("Step 1: Select Target Segment")
+    segment_options = ["All", "Enterprise", "Mid-Market", "SMB"]
+    current_index = segment_options.index(st.session_state["selected_segment"])
+
+    col_s1, col_s2 = st.columns([3, 1])
+    with col_s1:
+        chosen_seg = st.selectbox(
+            "Choose customer segment to analyze",
+            options=segment_options,
+            index=current_index,
+            help="Select a segment and click 'Confirm Segment' to advance."
+        )
+    with col_s2:
+        st.write("") # spacing
+        st.write("")
+        if st.button("Confirm Segment", type="primary"):
+            st.session_state["selected_segment"] = chosen_seg
+            st.session_state["workflow_step"] = max(st.session_state["workflow_step"], 2)
+            st.rerun()
+
+    st.divider()
+
+    # STEP 2: Compute Segment Metrics (only if Step 1 is confirmed)
+    if st.session_state["workflow_step"] >= 2:
+        st.header("Step 2: Segment Metrics Computation")
+        active_seg = st.session_state["selected_segment"]
+        st.success(f"Confirmed Target Segment: **{active_seg}**")
+
+        # Compute metrics based on persisted segment
+        if active_seg == "All":
+            w_df = filtered_df
+        else:
+            w_df = filtered_df[filtered_df["segment"] == active_seg]
+
+        check_empty(w_df)
+
+        # Store analysis results into session state
+        st.session_state["analysis_result"] = {
+            "segment": active_seg,
+            "record_count": len(w_df),
+            "total_revenue": w_df["revenue"].sum(),
+            "avg_aov": w_df["aov"].mean(),
+            "high_risk_pct": (w_df["churn_risk"] == "High").mean() * 100,
+            "avg_response_hrs": w_df["support_response_hours"].mean()
+        }
+
+        res = st.session_state["analysis_result"]
+
+        m_col1, m_col2, m_col3, m_col4 = st.columns(4)
+        with m_col1:
+            st.metric("Segment Revenue", f"${res['total_revenue']:,.0f}")
+        with m_col2:
+            st.metric("Total Records", f"{res['record_count']:,}")
+        with m_col3:
+            st.metric("Avg AOV", f"${res['avg_aov']:.2f}")
+        with m_col4:
+            st.metric("High Churn Risk %", f"{res['high_risk_pct']:.1f}%")
+
+        if st.button("Proceed to Detailed Breakdown"):
+            st.session_state["workflow_step"] = 3
+            st.rerun()
+
+        st.divider()
+
+    # STEP 3: Detailed Breakdown & Export (only if Step 2 is confirmed)
+    if st.session_state["workflow_step"] >= 3:
+        st.header("Step 3: Detailed Breakdown & Export")
+        res = st.session_state["analysis_result"]
+
+        active_seg = st.session_state["selected_segment"]
+        if active_seg == "All":
+            w_df = filtered_df
+        else:
+            w_df = filtered_df[filtered_df["segment"] == active_seg]
+
+        col_w1, col_w2 = st.columns(2)
+        with col_w1:
+            try:
+                import plotly.express as px
+                fig_res = px.histogram(
+                    w_df, x="support_response_hours", color="churn_risk",
+                    title=f"Support Delay Profile for {res['segment']}",
+                    color_discrete_map={"Low": "#22c55e", "Medium": "#f59e0b", "High": "#ef4444"},
+                    template="plotly_white"
+                )
+                st.plotly_chart(fig_res, use_container_width=True)
+            except ImportError:
+                st.write(w_df["support_response_hours"].describe())
+
+        with col_w2:
+            try:
+                import plotly.express as px
+                fig_scat = px.scatter(
+                    w_df, x="orders", y="revenue", color="churn_risk",
+                    title=f"Orders vs Revenue ({res['segment']})",
+                    color_discrete_map={"Low": "#22c55e", "Medium": "#f59e0b", "High": "#ef4444"},
+                    template="plotly_white"
+                )
+                st.plotly_chart(fig_scat, use_container_width=True)
+            except ImportError:
+                st.write(w_df[["orders", "revenue"]].head())
+
+        with st.expander("Export Segment Analysis Data"):
+            csv_data = w_df.to_csv(index=False).encode("utf-8")
+            st.download_button(
+                label=f"Download {res['segment']} Segment CSV",
+                data=csv_data,
+                file_name=f"salespulse_{res['segment'].lower()}_analysis.csv",
+                mime="text/csv"
+            )
+
