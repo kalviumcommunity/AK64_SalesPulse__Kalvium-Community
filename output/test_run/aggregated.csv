@@ -1,0 +1,4 @@
+segment,revenue,order_count,avg_order,unique_customers
+Enterprise,12926.56,52,248.59,10
+Mid-Market,12474.83,52,239.9,10
+SMB,9164.49,46,199.23,10
