@@ -1,0 +1,44 @@
+[
+  {
+    "column": "customer_id",
+    "expected_type": "INTEGER",
+    "actual_type": "BIGINT",
+    "status": "PASSED"
+  },
+  {
+    "column": "email",
+    "expected_type": "TEXT",
+    "actual_type": "TEXT",
+    "status": "PASSED"
+  },
+  {
+    "column": "customer_type",
+    "expected_type": "TEXT",
+    "actual_type": "TEXT",
+    "status": "PASSED"
+  },
+  {
+    "column": "signup_date",
+    "expected_type": "TEXT",
+    "actual_type": "TEXT",
+    "status": "PASSED"
+  },
+  {
+    "column": "lifetime_value",
+    "expected_type": "FLOAT",
+    "actual_type": "FLOAT",
+    "status": "PASSED"
+  },
+  {
+    "column": "is_churned",
+    "expected_type": "INTEGER",
+    "actual_type": "BIGINT",
+    "status": "PASSED"
+  },
+  {
+    "column": "region",
+    "expected_type": "TEXT",
+    "actual_type": "TEXT",
+    "status": "PASSED"
+  }
+]
