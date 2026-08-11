@@ -1,20 +1,20 @@
 """
 SalesPulse Analytics Dashboard
 --------------------------------
-Assignment 2.54 - Streamlit Session State & Workflow Persistence
-(builds on 2.53 filter chain)
+Assignment 2.55 - Real-Time KPI Dashboard Development
 
-Session state additions:
-  Task 1: Three values persisted -- selected_segment, workflow_step, analysis_result
-  Task 2: Descriptive key names, safe "not in" initialisation
-  Task 3: Multi-step workflow where Step 2 depends on Step 1 confirmation
-  Task 4: Reset Workflow button deletes specific keys and calls st.rerun()
-  Task 5: Inline comments document each session state key's purpose
+Operational Streamlit dashboard displaying business KPIs dynamically:
+  Task 1: Five reactive KPI metrics computed from filtered DataFrame
+  Task 2: Three chart types (Line trend, Bar comparison, Plotly histogram distribution)
+  Task 3: @st.cache_data applied to data loading functions for instant response
+  Task 4: Empty filtered result guard with st.warning + st.stop
+  Task 5: End-to-end execution with zero hardcoded values
 """
 
 import streamlit as st
 import pandas as pd
 import numpy as np
+import io
 
 # -----------------------------------------------------------------------
 # Page Configuration
@@ -27,17 +27,31 @@ st.set_page_config(
 )
 
 # -----------------------------------------------------------------------
-# Cached data loader
+# Task 3: @st.cache_data applied to data loading functions
+# Prevents redundant recomputation on each filter interaction
 # -----------------------------------------------------------------------
 @st.cache_data
+def load_uploaded_data(file_bytes, file_name):
+    """Load uploaded file bytes into a DataFrame. Cached by argument content."""
+    buffer = io.BytesIO(file_bytes)
+    if file_name.endswith(".csv"):
+        return pd.read_csv(buffer)
+    elif file_name.endswith(".json"):
+        return pd.read_json(buffer)
+    else:
+        raise ValueError(f"Unsupported file format: {file_name}")
+
+@st.cache_data
 def load_sample_data():
+    """Generate baseline SalesPulse dataset. Cached in memory."""
     np.random.seed(42)
     dates = pd.date_range("2024-01-01", periods=180, freq="D")
+    customer_ids = np.random.randint(1001, 1500, size=180)
     df = pd.DataFrame({
+        "customer_id": customer_ids,
         "date": dates,
-        "revenue": np.cumsum(np.random.normal(loc=5000, scale=800, size=180)) + 400_000,
-        "customers": np.cumsum(np.random.randint(5, 30, size=180)) + 1800,
-        "orders": np.random.randint(80, 300, size=180),
+        "revenue": np.round(np.random.uniform(500, 5000, size=180), 2),
+        "orders": np.random.randint(1, 15, size=180),
         "segment": np.random.choice(["Enterprise", "Mid-Market", "SMB"], size=180),
         "support_response_hours": np.round(
             np.random.exponential(scale=5, size=180), 1
@@ -50,10 +64,25 @@ def load_sample_data():
     return df
 
 
-df = load_sample_data()
+# Initialize dataset source (Sample or Uploaded)
+if "custom_df" in st.session_state and st.session_state["custom_df"] is not None:
+    df = st.session_state["custom_df"]
+else:
+    df = load_sample_data()
+
+# Ensure date column is datetime
+if "date" in df.columns and not pd.api.types.is_datetime64_any_dtype(df["date"]):
+    try:
+        df["date"] = pd.to_datetime(df["date"])
+    except Exception:
+        pass
+
+# Ensure customer_id column exists dynamically (Task 5)
+if "customer_id" not in df.columns:
+    df["customer_id"] = np.arange(1000, 1000 + len(df))
 
 # -----------------------------------------------------------------------
-# Sidebar: Navigation
+# Sidebar Navigation
 # -----------------------------------------------------------------------
 st.sidebar.title("SalesPulse")
 st.sidebar.markdown("*Analytics Dashboard*")
@@ -69,42 +98,49 @@ page = st.sidebar.radio(
 st.sidebar.divider()
 
 # -----------------------------------------------------------------------
-# Task 1: Three widget types wired to a shared filter chain
-# Widget 1 -- st.date_input  (date range picker)
-# Widget 2 -- st.multiselect (categorical segment filter)
-# Widget 3 -- st.slider      (numeric revenue range)
-# Widget 4 -- st.radio       (chart granularity: Daily / Weekly / Monthly)
+# Sidebar Filters (Reactive Filter Chain)
 # -----------------------------------------------------------------------
 st.sidebar.header("Filters")
 
-# Widget 1: Date range picker -- defaults to full dataset range (Task 3)
-date_range = st.sidebar.date_input(
-    "Date Range",
-    value=(df["date"].min().date(), df["date"].max().date()),
-    min_value=df["date"].min().date(),
-    max_value=df["date"].max().date(),
-)
+# Date range picker
+if "date" in df.columns and pd.api.types.is_datetime64_any_dtype(df["date"]):
+    min_date = df["date"].min().date()
+    max_date = df["date"].max().date()
+    date_range = st.sidebar.date_input(
+        "Date Range",
+        value=(min_date, max_date),
+        min_value=min_date,
+        max_value=max_date,
+    )
+else:
+    date_range = None
 
-# Widget 2: Multi-select -- defaults to all segments selected (Task 3)
-all_segments = sorted(df["segment"].unique().tolist())
-selected_segments = st.sidebar.multiselect(
-    "Segments",
-    options=all_segments,
-    default=all_segments,
-)
+# Segment multi-select
+if "segment" in df.columns:
+    all_segments = sorted(df["segment"].dropna().unique().tolist())
+    selected_segments = st.sidebar.multiselect(
+        "Segments",
+        options=all_segments,
+        default=all_segments,
+    )
+else:
+    all_segments = []
+    selected_segments = []
 
-# Widget 3: Revenue slider -- defaults to full range (Task 3)
-rev_min_global = int(df["revenue"].min())
-rev_max_global = int(df["revenue"].max())
+# Revenue slider
+rev_col = "revenue" if "revenue" in df.columns else df.select_dtypes(include="number").columns[0]
+rev_min_global = float(df[rev_col].min())
+rev_max_global = float(df[rev_col].max())
+
 rev_range = st.sidebar.slider(
     "Revenue Range ($)",
-    min_value=rev_min_global,
-    max_value=rev_max_global,
-    value=(rev_min_global, rev_max_global),
-    step=1000,
+    min_value=int(rev_min_global),
+    max_value=int(rev_max_global),
+    value=(int(rev_min_global), int(rev_max_global)),
+    step=100 if rev_max_global - rev_min_global < 10000 else 1000,
 )
 
-# Widget 4: Radio -- chart granularity (Task 1, 4th widget type)
+# Radio widget for chart granularity
 granularity = st.sidebar.radio(
     "Chart Granularity",
     ["Daily", "Weekly", "Monthly"],
@@ -113,143 +149,147 @@ granularity = st.sidebar.radio(
 
 st.sidebar.divider()
 
-# Task 5: Reset Filters -- st.rerun() resets all widgets to defaults
+# Reset Filters
 if st.sidebar.button("Reset Filters"):
     st.rerun()
 
-st.sidebar.caption("Filters apply to Overview, Trends, and Data Explorer sections.")
+st.sidebar.caption("Filters update all KPIs and charts in real-time.")
 
 # -----------------------------------------------------------------------
-# Task 2: Wire all widgets into a single filtered DataFrame
-# Every chart, metric, and table reads from filtered_df
+# Reactive DataFrame Filter Chain
 # -----------------------------------------------------------------------
-if len(date_range) == 2:
+filtered_df = df.copy()
+
+if date_range and len(date_range) == 2 and "date" in filtered_df.columns:
     start_date, end_date = date_range
-else:
-    start_date = df["date"].min().date()
-    end_date = df["date"].max().date()
+    filtered_df = filtered_df[
+        (filtered_df["date"].dt.date >= start_date) &
+        (filtered_df["date"].dt.date <= end_date)
+    ]
 
-# Guard: if multiselect is cleared use all segments to prevent crash
-active_segments = selected_segments if selected_segments else all_segments
+if selected_segments and "segment" in filtered_df.columns:
+    filtered_df = filtered_df[filtered_df["segment"].isin(selected_segments)]
 
-filtered_df = df[
-    (df["date"].dt.date >= start_date)
-    & (df["date"].dt.date <= end_date)
-    & (df["segment"].isin(active_segments))
-    & (df["revenue"] >= rev_range[0])
-    & (df["revenue"] <= rev_range[1])
-].copy()
+filtered_df = filtered_df[
+    (filtered_df[rev_col] >= rev_range[0]) &
+    (filtered_df[rev_col] <= rev_range[1])
+]
 
 # -----------------------------------------------------------------------
-# Task 4: Empty filter result handling
+# Task 4: Empty Filtered Results Guard
 # -----------------------------------------------------------------------
 def check_empty(fdf):
     if len(fdf) == 0:
-        st.warning(
-            "No data matches the current filters. "
-            "Try broadening your date range, selecting more segments, "
-            "or widening the revenue slider."
-        )
+        st.warning("No data matches current filters. Broaden your selection.")
         st.stop()
 
 
 # -----------------------------------------------------------------------
-# Helper: resample filtered_df by granularity widget
+# Resample Helper
 # -----------------------------------------------------------------------
 RESAMPLE_MAP = {"Daily": "D", "Weekly": "W", "Monthly": "ME"}
 
 def resample_revenue(fdf, gran):
     freq = RESAMPLE_MAP.get(gran, "D")
-    return (
-        fdf.resample(freq, on="date")["revenue"]
-        .sum()
-        .reset_index()
-        .rename(columns={"revenue": "Revenue ($)"})
-    )
+    if "date" in fdf.columns:
+        return (
+            fdf.resample(freq, on="date")[rev_col]
+            .sum()
+            .reset_index()
+            .rename(columns={rev_col: "Revenue ($)"})
+        )
+    return pd.DataFrame()
 
 
 # -----------------------------------------------------------------------
-# OVERVIEW PAGE
+# OVERVIEW PAGE (Task 1: 5 Reactive KPIs, Task 2: 3 Chart Types, Task 4/5)
 # -----------------------------------------------------------------------
 if page == "Overview":
-    st.title("Business Overview")
-    st.caption(
-        f"Filtered view: {start_date} to {end_date} "
-        f"| Segments: {', '.join(active_segments)} "
-        f"| Revenue: ${rev_range[0]:,} - ${rev_range[1]:,}"
-    )
+    st.title("Real-Time Business Overview")
+    st.caption("Live operational dashboard -- dynamic KPI metrics and interactive charts")
 
+    # Task 4: Guard against empty filter results
     check_empty(filtered_df)
 
-    # KPI cards from filtered data
+    # -------------------------------------------------------------------
+    # Task 1: Five Reactive KPI Metrics computed from filtered_df
+    # -------------------------------------------------------------------
     st.header("Key Performance Indicators")
+
+    total_revenue = filtered_df[rev_col].sum()
+    avg_order = filtered_df[rev_col].mean()
+    row_count = len(filtered_df)
+    unique_customers = filtered_df["customer_id"].nunique()
+    
+    total_cells = filtered_df.shape[0] * filtered_df.shape[1]
+    null_count = filtered_df.isnull().sum().sum()
+    null_pct = (null_count / total_cells * 100) if total_cells > 0 else 0
+    data_quality_pct = 100.0 - null_pct
+
     col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
-        st.metric("Revenue (Filtered)", f"${filtered_df['revenue'].sum():,.0f}")
+        st.metric("Revenue", f"${total_revenue:,.0f}")
     with col2:
-        st.metric("Records", f"{len(filtered_df):,}")
+        st.metric("Avg Order", f"${avg_order:,.0f}")
     with col3:
-        st.metric("Avg. Order Value", f"${filtered_df['aov'].mean():.2f}")
+        st.metric("Records", f"{row_count:,}")
     with col4:
-        churn_high = round((filtered_df["churn_risk"] == "High").mean() * 100, 1)
-        st.metric("High Churn Risk", f"{churn_high}%", delta_color="inverse")
+        st.metric("Customers", f"{unique_customers:,}")
     with col5:
-        avg_resp = filtered_df["support_response_hours"].mean()
-        st.metric("Avg Response Time", f"{avg_resp:.1f} hrs")
+        st.metric("Quality", f"{data_quality_pct:.1f}%")
 
-    st.caption(f"Showing {len(filtered_df):,} of {len(df):,} total records")
     st.divider()
 
-    # Segment breakdown on filtered data
-    st.header("Segment Performance")
-    st.subheader("Revenue and Risk Distribution")
+    # -------------------------------------------------------------------
+    # Task 2: Three Chart Types wired to filtered_df
+    # -------------------------------------------------------------------
+    st.header("Interactive Analytics Visualizations")
 
-    seg_summary = (
-        filtered_df.groupby("segment")
-        .agg(avg_revenue=("revenue", "mean"), record_count=("orders", "sum"))
-        .reset_index()
-    )
+    # Chart 1: Line Chart (Trend over time)
+    st.subheader("Chart 1: Revenue Over Time (Line Trend)")
+    if "date" in filtered_df.columns:
+        trend_df = resample_revenue(filtered_df, granularity)
+        st.line_chart(trend_df.set_index("date"))
+    else:
+        st.info("No date column available for line trend chart.")
 
-    col_a, col_b = st.columns(2)
-    with col_a:
+    st.divider()
+
+    col_chart_a, col_chart_b = st.columns(2)
+
+    with col_chart_a:
+        # Chart 2: Bar Chart (Category / Segment Comparison)
+        st.subheader("Chart 2: Revenue by Segment (Bar Chart)")
+        if "segment" in filtered_df.columns:
+            seg_df = filtered_df.groupby("segment")[rev_col].sum().reset_index()
+            st.bar_chart(seg_df.set_index("segment"))
+        else:
+            st.info("No segment column available for bar chart.")
+
+    with col_chart_b:
+        # Chart 3: Plotly Histogram (Value Distribution)
+        st.subheader("Chart 3: Order Value Distribution (Plotly Histogram)")
         try:
             import plotly.express as px
-            fig_seg = px.bar(
-                seg_summary, x="segment", y="avg_revenue", color="segment",
-                title="Average Daily Revenue by Segment (Filtered)",
-                color_discrete_map={
-                    "Enterprise": "#1e3a8a",
-                    "Mid-Market": "#3b82f6",
-                    "SMB": "#93c5fd",
-                },
+            fig_hist = px.histogram(
+                filtered_df, x=rev_col, nbins=30,
+                title="Revenue / Order Value Distribution",
                 template="plotly_white",
+                color_discrete_sequence=["#1e3a8a"]
             )
-            st.plotly_chart(fig_seg, use_container_width=True)
+            st.plotly_chart(fig_hist, use_container_width=True)
         except ImportError:
-            st.bar_chart(seg_summary.set_index("segment")["avg_revenue"])
+            st.write(filtered_df[rev_col].describe())
 
-    with col_b:
-        try:
-            risk_counts = filtered_df["churn_risk"].value_counts().reset_index()
-            risk_counts.columns = ["churn_risk", "count"]
-            fig_risk = px.pie(
-                risk_counts, names="churn_risk", values="count",
-                title="Risk Distribution (Filtered)",
-                color="churn_risk",
-                color_discrete_map={
-                    "Low": "#22c55e", "Medium": "#f59e0b", "High": "#ef4444"
-                },
-                template="plotly_white",
-            )
-            st.plotly_chart(fig_risk, use_container_width=True)
-        except ImportError:
-            st.write(filtered_df["churn_risk"].value_counts())
+    st.divider()
 
-    with st.expander("About These Metrics"):
+    with st.expander("About This Dashboard"):
         st.write(
-            "All KPIs reflect the current filter selection. "
-            "Use the sidebar to change date range, segments, or revenue threshold. "
-            "Click **Reset Filters** to return to the full dataset view."
+            "This real-time KPI dashboard updates metrics and charts dynamically "
+            "as filters change or new datasets are uploaded.\n\n"
+            "- **Caching**: Data loading uses `@st.cache_data` for instant response.\n"
+            "- **Reactive KPIs**: All 5 cards read directly from `filtered_df`.\n"
+            "- **Safety**: Empty filter states trigger a user-friendly warning."
         )
 
 
@@ -258,120 +298,79 @@ if page == "Overview":
 # -----------------------------------------------------------------------
 elif page == "Trends":
     st.title("Trend Analysis")
-    st.caption(
-        f"Granularity: {granularity} | "
-        f"{start_date} to {end_date} | "
-        f"Segments: {', '.join(active_segments)}"
-    )
+    st.caption(f"Granularity: {granularity} | Filtered Selection")
 
     check_empty(filtered_df)
 
-    # Revenue trend -- granularity controlled by radio widget
     st.header("Revenue Trends")
-    st.subheader(f"{granularity} Revenue -- Filtered Selection")
-
-    resampled = resample_revenue(filtered_df, granularity)
-
-    try:
-        import plotly.express as px
-        fig_rev = px.line(
-            resampled, x="date", y="Revenue ($)",
-            title=f"{granularity} Revenue (Filtered)",
-            template="plotly_white",
-            color_discrete_sequence=["#1e3a8a"],
-        )
-        fig_rev.update_traces(line_width=2)
-        st.plotly_chart(fig_rev, use_container_width=True)
-    except ImportError:
-        st.line_chart(resampled.set_index("date")["Revenue ($)"])
+    if "date" in filtered_df.columns:
+        resampled = resample_revenue(filtered_df, granularity)
+        try:
+            import plotly.express as px
+            fig_rev = px.line(
+                resampled, x="date", y="Revenue ($)",
+                title=f"{granularity} Revenue Growth",
+                template="plotly_white",
+                color_discrete_sequence=["#1e3a8a"],
+            )
+            fig_rev.update_traces(line_width=2)
+            st.plotly_chart(fig_rev, use_container_width=True)
+        except ImportError:
+            st.line_chart(resampled.set_index("date")["Revenue ($)"])
 
     st.divider()
 
-    # Customer and orders trends
-    st.header("Customer Metrics")
-    st.subheader("Orders and Support Response Over Filtered Period")
-
-    col_left, col_right = st.columns(2)
-    with col_left:
-        try:
+    st.header("Volume & Risk Distribution")
+    col_t1, col_t2 = st.columns(2)
+    with col_t1:
+        if "orders" in filtered_df.columns and "date" in filtered_df.columns:
             freq = RESAMPLE_MAP.get(granularity, "D")
-            weekly_orders = (
-                filtered_df.resample(freq, on="date")["orders"]
-                .sum()
-                .reset_index()
-            )
-            fig_orders = px.bar(
-                weekly_orders, x="date", y="orders",
-                title=f"{granularity} Order Volume (Filtered)",
-                template="plotly_white",
-                color_discrete_sequence=["#6366f1"],
-            )
-            st.plotly_chart(fig_orders, use_container_width=True)
-        except Exception:
-            st.bar_chart(filtered_df.set_index("date")["orders"])
+            weekly_orders = filtered_df.resample(freq, on="date")["orders"].sum().reset_index()
+            st.bar_chart(weekly_orders.set_index("date"))
+        else:
+            st.bar_chart(filtered_df[rev_col].head(20))
 
-    with col_right:
-        try:
-            fig_resp = px.histogram(
-                filtered_df, x="support_response_hours", color="churn_risk",
-                title="Response Time Distribution (Filtered)",
-                color_discrete_map={
-                    "Low": "#22c55e", "Medium": "#f59e0b", "High": "#ef4444"
-                },
-                template="plotly_white", nbins=20,
-            )
-            st.plotly_chart(fig_resp, use_container_width=True)
-        except ImportError:
-            st.write(filtered_df["support_response_hours"].describe())
-
-    with st.expander("Methodology Notes"):
-        st.write(
-            f"**{granularity} granularity** is controlled by the Chart Granularity "
-            "radio button in the sidebar. Switch between Daily, Weekly, and Monthly "
-            "to smooth or zoom the revenue trend line.\n\n"
-            "All data reflects the current sidebar filter combination."
-        )
-
+    with col_t2:
+        if "churn_risk" in filtered_df.columns:
+            try:
+                import plotly.express as px
+                fig_risk = px.pie(
+                    filtered_df["churn_risk"].value_counts().reset_index(),
+                    names="churn_risk", values="count",
+                    title="Risk Tier Distribution",
+                    template="plotly_white",
+                    color_discrete_map={"Low": "#22c55e", "Medium": "#f59e0b", "High": "#ef4444"}
+                )
+                st.plotly_chart(fig_risk, use_container_width=True)
+            except ImportError:
+                st.write(filtered_df["churn_risk"].value_counts())
 
 # -----------------------------------------------------------------------
 # DATA EXPLORER PAGE
 # -----------------------------------------------------------------------
 elif page == "Data Explorer":
     st.title("Data Explorer")
-    st.caption("Interactive filter chain -- all sidebar widgets apply here")
+    st.caption("Inspect and export filtered dataset")
 
     check_empty(filtered_df)
 
-    # Summary metrics from filtered data
     st.header("Filtered Data Summary")
-    st.subheader(f"Showing {len(filtered_df):,} of {len(df):,} records")
-
     m1, m2, m3, m4 = st.columns(4)
     with m1:
         st.metric("Records", f"{len(filtered_df):,}")
     with m2:
-        st.metric("Total Revenue", f"${filtered_df['revenue'].sum():,.0f}")
+        st.metric("Total Revenue", f"${filtered_df[rev_col].sum():,.0f}")
     with m3:
-        st.metric("Avg AOV", f"${filtered_df['aov'].mean():.2f}")
+        st.metric("Avg Order", f"${filtered_df[rev_col].mean():,.0f}")
     with m4:
-        st.metric("Avg Response", f"{filtered_df['support_response_hours'].mean():.1f} hrs")
+        st.metric("Customers", f"{filtered_df['customer_id'].nunique():,}")
 
     st.divider()
 
-    # Filtered data table
     st.header("Filtered Records")
-    st.dataframe(
-        filtered_df[[
-            "date", "segment", "revenue", "orders",
-            "aov", "churn_risk", "support_response_hours"
-        ]].reset_index(drop=True),
-        use_container_width=True,
-    )
+    st.dataframe(filtered_df.reset_index(drop=True), use_container_width=True)
 
     st.divider()
-
-    # Download filtered dataset
-    st.header("Export")
     csv_bytes = filtered_df.to_csv(index=False).encode("utf-8")
     st.download_button(
         label="Download Filtered CSV",
@@ -380,39 +379,121 @@ elif page == "Data Explorer":
         mime="text/csv",
     )
 
-    with st.expander("Support Response Analysis"):
-        col_s1, col_s2 = st.columns(2)
-        with col_s1:
-            avg_resp = filtered_df["support_response_hours"].mean()
-            high_resp = (filtered_df["support_response_hours"] > 8).mean() * 100
-            st.metric("Avg Response Time", f"{avg_resp:.1f} hrs")
-            st.metric("% Responses > 8 hrs", f"{high_resp:.1f}%")
-            st.write(
-                "Customers with response time > 8 hours are flagged as "
-                "High Churn Risk in the pipeline."
-            )
-        with col_s2:
-            try:
-                import plotly.express as px
-                fig_resp = px.histogram(
-                    filtered_df, x="support_response_hours", color="churn_risk",
-                    title="Response Time Distribution",
-                    color_discrete_map={
-                        "Low": "#22c55e", "Medium": "#f59e0b", "High": "#ef4444"
-                    },
-                    template="plotly_white", nbins=20,
-                )
-                st.plotly_chart(fig_resp, use_container_width=True)
-            except ImportError:
-                st.write(filtered_df["support_response_hours"].describe())
+# -----------------------------------------------------------------------
+# SEGMENT WORKFLOW PAGE (2.54 Session State Workflow)
+# -----------------------------------------------------------------------
+elif page == "Segment Workflow":
+    st.title("Guided Segment Analysis Workflow")
+    st.caption("Multi-step analytical workflow powered by Streamlit session state")
 
+    if "selected_segment" not in st.session_state:
+        st.session_state["selected_segment"] = "All"
+    if "workflow_step" not in st.session_state:
+        st.session_state["workflow_step"] = 1
+    if "analysis_result" not in st.session_state:
+        st.session_state["analysis_result"] = None
+
+    st.sidebar.divider()
+    st.sidebar.subheader("Workflow State")
+    st.sidebar.info(f"Current Step: {st.session_state['workflow_step']} of 3")
+    st.sidebar.write(f"Active Segment: **{st.session_state['selected_segment']}**")
+
+    if st.sidebar.button("Reset Workflow"):
+        for key in ["selected_segment", "workflow_step", "analysis_result"]:
+            if key in st.session_state:
+                del st.session_state[key]
+        st.rerun()
+
+    progress_val = min(st.session_state["workflow_step"] / 3.0, 1.0)
+    st.progress(progress_val, text=f"Workflow Progress: Step {st.session_state['workflow_step']} / 3")
+    st.divider()
+
+    st.header("Step 1: Select Target Segment")
+    segment_options = ["All", "Enterprise", "Mid-Market", "SMB"]
+    current_index = segment_options.index(st.session_state["selected_segment"])
+
+    col_s1, col_s2 = st.columns([3, 1])
+    with col_s1:
+        chosen_seg = st.selectbox(
+            "Choose customer segment to analyze",
+            options=segment_options,
+            index=current_index,
+        )
+    with col_s2:
+        st.write("")
+        st.write("")
+        if st.button("Confirm Segment", type="primary"):
+            st.session_state["selected_segment"] = chosen_seg
+            st.session_state["workflow_step"] = max(st.session_state["workflow_step"], 2)
+            st.rerun()
+
+    st.divider()
+
+    if st.session_state["workflow_step"] >= 2:
+        st.header("Step 2: Segment Metrics Computation")
+        active_seg = st.session_state["selected_segment"]
+        st.success(f"Confirmed Target Segment: **{active_seg}**")
+
+        if active_seg == "All" or "segment" not in filtered_df.columns:
+            w_df = filtered_df
+        else:
+            w_df = filtered_df[filtered_df["segment"] == active_seg]
+
+        check_empty(w_df)
+
+        st.session_state["analysis_result"] = {
+            "segment": active_seg,
+            "record_count": len(w_df),
+            "total_revenue": w_df[rev_col].sum(),
+            "avg_order": w_df[rev_col].mean(),
+            "customers": w_df["customer_id"].nunique()
+        }
+
+        res = st.session_state["analysis_result"]
+
+        m_col1, m_col2, m_col3, m_col4 = st.columns(4)
+        with m_col1:
+            st.metric("Segment Revenue", f"${res['total_revenue']:,.0f}")
+        with m_col2:
+            st.metric("Total Records", f"{res['record_count']:,}")
+        with m_col3:
+            st.metric("Avg Order", f"${res['avg_order']:,.0f}")
+        with m_col4:
+            st.metric("Unique Customers", f"{res['customers']:,}")
+
+        if st.button("Proceed to Detailed Breakdown"):
+            st.session_state["workflow_step"] = 3
+            st.rerun()
+
+        st.divider()
+
+    if st.session_state["workflow_step"] >= 3:
+        st.header("Step 3: Detailed Breakdown & Export")
+        res = st.session_state["analysis_result"]
+
+        active_seg = st.session_state["selected_segment"]
+        if active_seg == "All" or "segment" not in filtered_df.columns:
+            w_df = filtered_df
+        else:
+            w_df = filtered_df[filtered_df["segment"] == active_seg]
+
+        st.dataframe(w_df.head(20), use_container_width=True)
+
+        with st.expander("Export Segment Analysis Data"):
+            csv_data = w_df.to_csv(index=False).encode("utf-8")
+            st.download_button(
+                label=f"Download {res['segment']} Segment CSV",
+                data=csv_data,
+                file_name=f"salespulse_{res['segment'].lower()}_analysis.csv",
+                mime="text/csv"
+            )
 
 # -----------------------------------------------------------------------
-# DATA UPLOAD PAGE (2.52 -- preserved unchanged)
+# DATA UPLOAD PAGE (Task 3 & 5: Cached loading, dynamic preview)
 # -----------------------------------------------------------------------
 elif page == "Data Upload":
-    st.title("Dataset Upload & Preview")
-    st.caption("Upload your own CSV or JSON file for instant analysis")
+    st.title("Dataset Upload & Live Dashboard Wiring")
+    st.caption("Upload custom CSV/JSON files -- automatically updates dashboard metrics")
 
     uploaded_file = st.file_uploader(
         "Upload your dataset",
@@ -422,31 +503,30 @@ elif page == "Data Upload":
 
     if uploaded_file is not None:
         try:
-            if uploaded_file.name.endswith(".csv"):
-                udf = pd.read_csv(uploaded_file)
-            elif uploaded_file.name.endswith(".json"):
-                udf = pd.read_json(uploaded_file)
-            else:
-                st.error("Unsupported file type. Please upload a .csv or .json file.")
-                st.stop()
+            # Task 3: Use cached loader function
+            file_bytes = uploaded_file.getvalue()
+            udf = load_uploaded_data(file_bytes, uploaded_file.name)
 
             if len(udf) == 0:
                 st.warning("The uploaded file is empty. Please check your data.")
                 st.stop()
 
-        except Exception:
-            st.error("Could not read this file. Please check the format and try again.")
+            # Store in session state so full app uses custom dataset
+            st.session_state["custom_df"] = udf
+
+        except Exception as e:
+            st.error(f"Could not read '{uploaded_file.name}': {e}")
             st.stop()
 
         st.success(
-            "File loaded: " + uploaded_file.name +
-            " (" + str(len(udf)) + " rows, " + str(len(udf.columns)) + " columns)"
+            f"File loaded and wired to dashboard: {uploaded_file.name} "
+            f"({len(udf):,} rows, {len(udf.columns)} columns)"
         )
         st.divider()
 
         st.header("Dataset Preview")
         total_nulls = udf.isnull().sum().sum()
-        null_pct = total_nulls / (udf.shape[0] * udf.shape[1]) * 100
+        null_pct = total_nulls / (udf.shape[0] * udf.shape[1]) * 100 if udf.shape[0] * udf.shape[1] > 0 else 0
         col1, col2, col3 = st.columns(3)
         with col1:
             st.metric("Rows", f"{len(udf):,}")
@@ -459,206 +539,17 @@ elif page == "Data Upload":
         st.subheader("First 10 Rows")
         st.dataframe(udf.head(10), use_container_width=True)
 
-        st.subheader("Column Summary")
-        summary = pd.DataFrame({
-            "Column": udf.columns,
-            "Type": udf.dtypes.astype(str).values,
-            "Non-Null": udf.notnull().sum().values,
-            "Null Count": udf.isnull().sum().values,
-            "Null %": (udf.isnull().sum() / len(udf) * 100).round(1).values,
-        })
-        st.dataframe(summary, use_container_width=True)
-        st.divider()
+        st.subheader("Descriptive Statistics")
+        num_udf = udf.select_dtypes(include="number")
+        if not num_udf.empty:
+            st.dataframe(num_udf.describe(), use_container_width=True)
 
-        st.header("Descriptive Statistics")
-        numeric_udf = udf.select_dtypes(include="number")
-        if not numeric_udf.empty:
-            st.dataframe(numeric_udf.describe(), use_container_width=True)
-        else:
-            st.info("No numeric columns found in this dataset.")
-
-        st.divider()
-        st.header("Quick Exploration")
-        numeric_cols = udf.select_dtypes(include="number").columns.tolist()
-        if numeric_cols:
-            col_vis, col_filter = st.columns([2, 1])
-            with col_filter:
-                selected_col = st.selectbox("Select column to visualise", numeric_cols)
-                n_bins = st.slider("Number of bins", 5, 50, 20)
-            with col_vis:
-                try:
-                    import plotly.express as px
-                    fig_h = px.histogram(
-                        udf, x=selected_col, nbins=n_bins,
-                        title=f"Distribution of {selected_col}",
-                        template="plotly_white",
-                        color_discrete_sequence=["#3b82f6"],
-                    )
-                    st.plotly_chart(fig_h, use_container_width=True)
-                except ImportError:
-                    st.bar_chart(udf[selected_col].value_counts().head(20))
-        else:
-            st.info("No numeric columns available for visualisation.")
+        if st.button("Use This Dataset Across Dashboard"):
+            st.rerun()
 
     else:
-        st.info("Upload a CSV or JSON file to begin. Your data will be previewed instantly.")
-
-
-# -----------------------------------------------------------------------
-# SEGMENT WORKFLOW PAGE (Assignment 2.54 -- Session State & Workflow Persistence)
-# -----------------------------------------------------------------------
-elif page == "Segment Workflow":
-    st.title("Guided Segment Analysis Workflow")
-    st.caption("Multi-step analytical workflow powered by Streamlit session state")
-
-    # -------------------------------------------------------------------
-    # Task 1 & Task 2 & Task 5: Safe initialisation & descriptive comments
-    # -------------------------------------------------------------------
-    # "selected_segment" - stores the user's segment choice from Step 1
-    # so it survives reruns when the user interacts with Step 2/3 widgets.
-    if "selected_segment" not in st.session_state:
-        st.session_state["selected_segment"] = "All"
-
-    # "workflow_step" - tracks which step of the analysis the user has completed.
-    # Prevents downstream steps from displaying before upstream steps are confirmed.
-    if "workflow_step" not in st.session_state:
-        st.session_state["workflow_step"] = 1
-
-    # "analysis_result" - caches the computed summary metrics from Step 2
-    # so it does not recompute unnecessarily when other widgets trigger a rerun.
-    if "analysis_result" not in st.session_state:
-        st.session_state["analysis_result"] = None
-
-    # Sidebar Reset Button (Task 4)
-    st.sidebar.divider()
-    st.sidebar.subheader("Workflow State")
-    st.sidebar.info(f"Current Step: {st.session_state['workflow_step']} of 3")
-    st.sidebar.write(f"Active Segment: **{st.session_state['selected_segment']}**")
-
-    # Task 4: Reset button clears all persisted keys and reruns
-    if st.sidebar.button("Reset Workflow"):
-        for key in ["selected_segment", "workflow_step", "analysis_result"]:
-            if key in st.session_state:
-                del st.session_state[key]
-        st.rerun()
-
-    # Progress bar showing workflow completion
-    progress_val = min(st.session_state["workflow_step"] / 3.0, 1.0)
-    st.progress(progress_val, text=f"Workflow Progress: Step {st.session_state['workflow_step']} / 3")
-    st.divider()
-
-    # -------------------------------------------------------------------
-    # Task 3: Multi-Step Workflow
-    # -------------------------------------------------------------------
-    # STEP 1: Select Segment
-    st.header("Step 1: Select Target Segment")
-    segment_options = ["All", "Enterprise", "Mid-Market", "SMB"]
-    current_index = segment_options.index(st.session_state["selected_segment"])
-
-    col_s1, col_s2 = st.columns([3, 1])
-    with col_s1:
-        chosen_seg = st.selectbox(
-            "Choose customer segment to analyze",
-            options=segment_options,
-            index=current_index,
-            help="Select a segment and click 'Confirm Segment' to advance."
-        )
-    with col_s2:
-        st.write("") # spacing
-        st.write("")
-        if st.button("Confirm Segment", type="primary"):
-            st.session_state["selected_segment"] = chosen_seg
-            st.session_state["workflow_step"] = max(st.session_state["workflow_step"], 2)
-            st.rerun()
-
-    st.divider()
-
-    # STEP 2: Compute Segment Metrics (only if Step 1 is confirmed)
-    if st.session_state["workflow_step"] >= 2:
-        st.header("Step 2: Segment Metrics Computation")
-        active_seg = st.session_state["selected_segment"]
-        st.success(f"Confirmed Target Segment: **{active_seg}**")
-
-        # Compute metrics based on persisted segment
-        if active_seg == "All":
-            w_df = filtered_df
-        else:
-            w_df = filtered_df[filtered_df["segment"] == active_seg]
-
-        check_empty(w_df)
-
-        # Store analysis results into session state
-        st.session_state["analysis_result"] = {
-            "segment": active_seg,
-            "record_count": len(w_df),
-            "total_revenue": w_df["revenue"].sum(),
-            "avg_aov": w_df["aov"].mean(),
-            "high_risk_pct": (w_df["churn_risk"] == "High").mean() * 100,
-            "avg_response_hrs": w_df["support_response_hours"].mean()
-        }
-
-        res = st.session_state["analysis_result"]
-
-        m_col1, m_col2, m_col3, m_col4 = st.columns(4)
-        with m_col1:
-            st.metric("Segment Revenue", f"${res['total_revenue']:,.0f}")
-        with m_col2:
-            st.metric("Total Records", f"{res['record_count']:,}")
-        with m_col3:
-            st.metric("Avg AOV", f"${res['avg_aov']:.2f}")
-        with m_col4:
-            st.metric("High Churn Risk %", f"{res['high_risk_pct']:.1f}%")
-
-        if st.button("Proceed to Detailed Breakdown"):
-            st.session_state["workflow_step"] = 3
-            st.rerun()
-
-        st.divider()
-
-    # STEP 3: Detailed Breakdown & Export (only if Step 2 is confirmed)
-    if st.session_state["workflow_step"] >= 3:
-        st.header("Step 3: Detailed Breakdown & Export")
-        res = st.session_state["analysis_result"]
-
-        active_seg = st.session_state["selected_segment"]
-        if active_seg == "All":
-            w_df = filtered_df
-        else:
-            w_df = filtered_df[filtered_df["segment"] == active_seg]
-
-        col_w1, col_w2 = st.columns(2)
-        with col_w1:
-            try:
-                import plotly.express as px
-                fig_res = px.histogram(
-                    w_df, x="support_response_hours", color="churn_risk",
-                    title=f"Support Delay Profile for {res['segment']}",
-                    color_discrete_map={"Low": "#22c55e", "Medium": "#f59e0b", "High": "#ef4444"},
-                    template="plotly_white"
-                )
-                st.plotly_chart(fig_res, use_container_width=True)
-            except ImportError:
-                st.write(w_df["support_response_hours"].describe())
-
-        with col_w2:
-            try:
-                import plotly.express as px
-                fig_scat = px.scatter(
-                    w_df, x="orders", y="revenue", color="churn_risk",
-                    title=f"Orders vs Revenue ({res['segment']})",
-                    color_discrete_map={"Low": "#22c55e", "Medium": "#f59e0b", "High": "#ef4444"},
-                    template="plotly_white"
-                )
-                st.plotly_chart(fig_scat, use_container_width=True)
-            except ImportError:
-                st.write(w_df[["orders", "revenue"]].head())
-
-        with st.expander("Export Segment Analysis Data"):
-            csv_data = w_df.to_csv(index=False).encode("utf-8")
-            st.download_button(
-                label=f"Download {res['segment']} Segment CSV",
-                data=csv_data,
-                file_name=f"salespulse_{res['segment'].lower()}_analysis.csv",
-                mime="text/csv"
-            )
-
+        st.info("Upload a CSV or JSON file. The dashboard will automatically adapt to your data.")
+        if "custom_df" in st.session_state:
+            if st.button("Reset to Default Sample Dataset"):
+                st.session_state["custom_df"] = None
+                st.rerun()
