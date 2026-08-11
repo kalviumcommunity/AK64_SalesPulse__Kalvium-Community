@@ -1,0 +1,8 @@
+Optimization Aspect,Original Query Suite (Inefficient),Refactored Query Suite (Optimized)
+Columns Selected,27 columns (SELECT *),7 explicit columns (75.0% reduction)
+Memory Footprint,867.6 KB,87.7 KB (89.9% savings)
+Intermediate Rows Joined,"10,000 full rows joined","9,824 rows (1.0x smaller)"
+WHERE Filter Timing,Applied AFTER joining all tables,Applied BEFORE joining via CTEs
+Nesting Depth & Structure,3 levels of nested subqueries,1 level (Named modular CTEs)
+Readability & Maintainability,"Hard to follow, fragile to schema changes","Self-documenting, modular, testable steps"
+Execution Speed (Overall),140.68 ms,119.51 ms
