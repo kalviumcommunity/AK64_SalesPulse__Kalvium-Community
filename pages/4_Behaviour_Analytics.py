@@ -6,13 +6,16 @@ View 4: KPI row → rep benchmark table → NLP activity telemetry log.
 import streamlit as st
 import plotly.graph_objects as go
 from components.styles import inject_custom_css
+from components.sidebar import render_sidebar
 from components.header import render_top_bar
 from components.ui_components import metric_card, data_table
 from database_manager import fetch_behaviour_data
 from behaviour_analytics import compute_rep_behaviour_metrics
 
-st.set_page_config(page_title="Behaviour Analytics | SalesPulse AI", layout="wide")
+st.set_page_config(page_title="Behaviour Analytics | SalesPulse AI", layout="wide", page_icon="⚡")
+
 inject_custom_css()
+render_sidebar("Behaviour Analytics")
 render_top_bar("Behaviour Analytics", "Rep response time, follow-up cadence, NLP email sentiment & performance scores")
 
 df_rep = compute_rep_behaviour_metrics()

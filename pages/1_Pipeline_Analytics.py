@@ -6,13 +6,15 @@ View 1: KPI row → funnel chart left + active deals table right → AI recommen
 import streamlit as st
 import plotly.graph_objects as go
 from components.styles import inject_custom_css
+from components.sidebar import render_sidebar
 from components.header import render_top_bar
-from components.ui_components import metric_card, status_tag, data_table, insight_feed_row
+from components.ui_components import metric_card, data_table, insight_feed_row
 from database_manager import fetch_pipeline_data
 from deal_predictor import get_all_active_deal_predictions
 
-st.set_page_config(page_title="Pipeline Analytics | SalesPulse AI", layout="wide")
+st.set_page_config(page_title="Pipeline Analytics | SalesPulse AI", layout="wide", page_icon="⚡")
 inject_custom_css()
+render_sidebar("Pipeline Analytics")
 render_top_bar("Pipeline Analytics", "Live funnel tracking with ML-powered closing probability scores")
 
 start_date, end_date = st.session_state.get("date_range", (None, None))

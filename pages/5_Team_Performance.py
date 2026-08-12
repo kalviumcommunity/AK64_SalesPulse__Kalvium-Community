@@ -5,13 +5,16 @@ View 5: KPI row → leaderboard table left + coaching detail panel right.
 
 import streamlit as st
 from components.styles import inject_custom_css
+from components.sidebar import render_sidebar
 from components.header import render_top_bar
 from components.ui_components import metric_card, data_table, coaching_card, attainment_bar, status_tag
 from database_manager import fetch_team_performance
 from ai_coaching import get_coaching_recommendations
 
-st.set_page_config(page_title="Team Performance | SalesPulse AI", layout="wide")
+st.set_page_config(page_title="Team Performance | SalesPulse AI", layout="wide", page_icon="⚡")
+
 inject_custom_css()
+render_sidebar("Team Performance")
 render_top_bar("Team Performance", "Sales rep leaderboard, quota attainment & AI-powered coaching recommendations")
 
 start_date, end_date = st.session_state.get("date_range", (None, None))

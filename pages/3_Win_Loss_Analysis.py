@@ -6,12 +6,15 @@ View 3: KPI row → donut chart left + reason cards right → deal log table bot
 import streamlit as st
 import plotly.graph_objects as go
 from components.styles import inject_custom_css
+from components.sidebar import render_sidebar
 from components.header import render_top_bar
 from components.ui_components import metric_card, data_table, reason_card
 from database_manager import fetch_win_loss_data
 
-st.set_page_config(page_title="Win/Loss Analysis | SalesPulse AI", layout="wide")
+st.set_page_config(page_title="Win/Loss Analysis | SalesPulse AI", layout="wide", page_icon="⚡")
+
 inject_custom_css()
+render_sidebar("Win/Loss Analysis")
 render_top_bar("Win/Loss Analysis", "Deal outcome distribution, competitive win rates & driver ranking")
 
 start_date, end_date = st.session_state.get("date_range", (None, None))

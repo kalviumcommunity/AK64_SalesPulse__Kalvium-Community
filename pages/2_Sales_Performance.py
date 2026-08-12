@@ -6,12 +6,15 @@ View 2: KPI summary left + revenue trend chart right → segment breakdown table
 import streamlit as st
 import plotly.graph_objects as go
 from components.styles import inject_custom_css
+from components.sidebar import render_sidebar
 from components.header import render_top_bar
 from components.ui_components import metric_card, data_table
 from database_manager import fetch_sales_performance
 
-st.set_page_config(page_title="Sales Performance | SalesPulse AI", layout="wide")
+st.set_page_config(page_title="Sales Performance | SalesPulse AI", layout="wide", page_icon="⚡")
+
 inject_custom_css()
+render_sidebar("Sales Performance")
 render_top_bar("Sales Performance", "Monthly revenue trajectory, quota attainment & segment breakdown")
 
 start_date, end_date = st.session_state.get("date_range", (None, None))

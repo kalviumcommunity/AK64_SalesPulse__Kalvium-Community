@@ -1,7 +1,8 @@
 """
 SalesPulse Page Top Bar
 ------------------------
-Renders the page title strip + date/segment filter controls + user action button.
+Renders the page title strip + date/segment filter controls.
+No user/login/session-user logic.
 """
 
 import streamlit as st
@@ -20,7 +21,7 @@ def render_top_bar(page_title: str, subtitle: str = "Real-time AI-powered sales 
         """, unsafe_allow_html=True)
 
     with col_controls:
-        fc1, fc2, fc3 = st.columns([0.38, 0.38, 0.24])
+        fc1, fc2 = st.columns([0.5, 0.5])
 
         with fc1:
             if "date_range" not in st.session_state:
@@ -47,17 +48,5 @@ def render_top_bar(page_title: str, subtitle: str = "Real-time AI-powered sales 
                 label_visibility="collapsed"
             )
             st.session_state["selected_segment"] = sel
-
-        with fc3:
-            u = st.session_state.get("user")
-            if u:
-                short = u.get("name", "User").split()[0]
-                role  = u.get("role", "rep").upper()
-                if st.button(f"👤 {short}", key="header_user_btn",
-                             help=f"Logged in as {u['name']} · {role} — Click to Sign Out",
-                             use_container_width=True):
-                    st.session_state["user"] = None
-                    st.session_state["jwt_token"] = None
-                    st.rerun()
 
     st.markdown('<hr class="sp-hr">', unsafe_allow_html=True)
