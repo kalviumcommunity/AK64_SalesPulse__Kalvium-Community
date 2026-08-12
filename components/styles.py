@@ -15,56 +15,35 @@ def inject_custom_css():
 
     /* ── Reset & Global ── */
     .stApp {
-        background-color: #F1F5F9 !important;
-        color: #0F172A !important;
-        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+        background-color: #F1F5F9;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     }
     .block-container {
-        padding-top: 1.2rem !important;
+        padding-top: 1.5rem !important;
         padding-bottom: 2rem !important;
-        padding-left: 1.8rem !important;
-        padding-right: 1.8rem !important;
         max-width: 100% !important;
     }
-
-    /* ── Hide Streamlit toolbar & footer only ── */
-    div[data-testid="stToolbar"],
-    div[data-testid="stDecoration"] {
-        display: none !important;
-    }
     footer { display: none !important; }
-    header[data-testid="stHeader"] {
-        background-color: transparent !important;
-        z-index: 99999 !important;
-    }
 
     /* ── Dark Navy Sidebar ── */
     section[data-testid="stSidebar"] {
         background-color: #1E293B !important;
-        border-right: 1px solid #334155 !important;
-    }
-    section[data-testid="stSidebar"] div[data-testid="stSidebarNav"] {
-        padding-top: 0.5rem !important;
-    }
-    section[data-testid="stSidebar"] div[data-testid="stSidebarNav"] ul {
-        padding: 0 8px !important;
-    }
-    section[data-testid="stSidebar"] div[data-testid="stSidebarNav"] a {
-        background-color: #334155 !important;
-        border-radius: 8px !important;
-        margin: 4px 0 !important;
-        padding: 10px 14px !important;
-    }
-    section[data-testid="stSidebar"] div[data-testid="stSidebarNav"] a:hover {
-        background-color: #475569 !important;
-    }
-    section[data-testid="stSidebar"] div[data-testid="stSidebarNav"] a[aria-current="page"] {
-        background-color: #2563EB !important;
-    }
-    section[data-testid="stSidebar"] div[data-testid="stSidebarNav"] span {
         color: #FFFFFF !important;
-        font-weight: 600 !important;
-        font-size: 14px !important;
+    }
+    section[data-testid="stSidebar"] * {
+        color: #E2E8F0 !important;
+    }
+    section[data-testid="stSidebar"] button {
+        background-color: #334155 !important;
+        border: 1px solid #475569 !important;
+        color: #FFFFFF !important;
+        margin-bottom: 6px !important;
+        text-align: left !important;
+    }
+    section[data-testid="stSidebar"] button:hover {
+        background-color: #2563EB !important;
+        border-color: #2563EB !important;
+        color: #FFFFFF !important;
     }
 
     /* ── Sidebar Logo Header ── */

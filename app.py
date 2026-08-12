@@ -1,7 +1,7 @@
 """
-SalesPulse AI — Main Entrypoint (No Login Demo Mode)
-------------------------------------------------------
-Auto-redirects to Pipeline Analytics on load.
+SalesPulse AI — Main Entrypoint (No Login Mode)
+-------------------------------------------------
+Skips authentication and goes directly to Pipeline Analytics.
 """
 
 import streamlit as st
