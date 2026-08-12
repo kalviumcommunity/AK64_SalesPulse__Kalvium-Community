@@ -32,58 +32,53 @@ with k4: metric_card("No-Decision Loss Rate",   "16.2%",      "-2.5 pts",  "posi
 col_left, col_right = st.columns([0.44, 0.56], gap="medium")
 
 with col_left:
-    st.markdown('<div class="sp-card">', unsafe_allow_html=True)
-    st.markdown('<div class="sp-card-title">🥧 Deal Outcome Distribution</div>', unsafe_allow_html=True)
+    with st.container(border=True):
+        st.markdown('<div class="sp-card-title">🥧 Deal Outcome Distribution</div>', unsafe_allow_html=True)
 
-    fig = go.Figure(go.Pie(
-        labels=chart_data["Category"],
-        values=chart_data["Count"],
-        hole=0.52,
-        marker=dict(
-            colors=["#10B981", "#EF4444", "#F59E0B", "#94A3B8"],
-            line=dict(color="#FFFFFF", width=2)
-        ),
-        textinfo="label+percent",
-        textfont=dict(size=11, color="#1E293B"),
-        hovertemplate="%{label}: %{value} deals<br>%{percent}<extra></extra>"
-    ))
-    # Center annotation
-    total = chart_data["Count"].sum()
-    fig.update_layout(
-        margin=dict(l=10, r=10, t=20, b=20),
-        height=300,
-        paper_bgcolor="rgba(0,0,0,0)",
-        showlegend=True,
-        legend=dict(orientation="h", yanchor="bottom", y=-0.15, xanchor="center", x=0.5,
-                    font=dict(size=11, color="#64748B")),
-        annotations=[dict(text=f"<b>{total}</b><br><span style='font-size:10px'>Deals</span>",
-                          x=0.5, y=0.5, font=dict(size=14, color="#1E293B"), showarrow=False)]
-    )
-    st.plotly_chart(fig, use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
+        fig = go.Figure(go.Pie(
+            labels=chart_data["Category"],
+            values=chart_data["Count"],
+            hole=0.52,
+            marker=dict(
+                colors=["#10B981", "#EF4444", "#F59E0B", "#94A3B8"],
+                line=dict(color="#FFFFFF", width=2)
+            ),
+            textinfo="label+percent",
+            textfont=dict(size=11, color="#1E293B"),
+            hovertemplate="%{label}: %{value} deals<br>%{percent}<extra></extra>"
+        ))
+        total = chart_data["Count"].sum()
+        fig.update_layout(
+            margin=dict(l=10, r=10, t=20, b=20),
+            height=300,
+            paper_bgcolor="rgba(0,0,0,0)",
+            showlegend=True,
+            legend=dict(orientation="h", yanchor="bottom", y=-0.15, xanchor="center", x=0.5,
+                        font=dict(size=11, color="#64748B")),
+            annotations=[dict(text=f"<b>{total}</b><br><span style='font-size:10px'>Deals</span>",
+                              x=0.5, y=0.5, font=dict(size=14, color="#1E293B"), showarrow=False)]
+        )
+        st.plotly_chart(fig, use_container_width=True)
 
 with col_right:
-    st.markdown('<div class="sp-card">', unsafe_allow_html=True)
-    st.markdown('<div class="sp-card-title">🏆 Key Win & Loss Drivers</div>', unsafe_allow_html=True)
+    with st.container(border=True):
+        st.markdown('<div class="sp-card-title">🏆 Key Win & Loss Drivers</div>', unsafe_allow_html=True)
 
-    for item in win_drivers:
-        ctype = "win" if item.get("tag_type") in ["success", "info"] else (
-                "loss" if item.get("tag_type") == "danger" else "neutral")
-        impact = item.get("impact", "+12%").replace("+", "").replace("-", "").replace("%", "")
-        try:
-            pct = float(impact)
-        except ValueError:
-            pct = 0
-        reason_card(item["rank"], item["driver"], int(pct), ctype)
-
-    st.markdown('</div>', unsafe_allow_html=True)
+        for item in win_drivers:
+            ctype = "win" if item.get("tag_type") in ["success", "info"] else (
+                    "loss" if item.get("tag_type") == "danger" else "neutral")
+            impact = item.get("impact", "+12%").replace("+", "").replace("-", "").replace("%", "")
+            try:
+                pct = float(impact)
+            except ValueError:
+                pct = 0
+            reason_card(item["rank"], item["driver"], int(pct), ctype)
 
 # ── Bottom: Deal Log Table ────────────────────────────────────────────────────
-st.markdown('<div class="sp-card">', unsafe_allow_html=True)
-st.markdown('<div class="sp-card-title">🔍 Deal Win/Loss Retrospective Log</div>', unsafe_allow_html=True)
+with st.container(border=True):
+    st.markdown('<div class="sp-card-title">🔍 Deal Win/Loss Retrospective Log</div>', unsafe_allow_html=True)
 
-data_table(
-    deals_table[["deal", "value", "outcome", "competitor", "primary_reason", "cycle_days", "tag"]],
-    tag_column="tag", tag_type_column="tag_type"
-)
-st.markdown('</div>', unsafe_allow_html=True)
+    data_table(
+        deals_table[["deal", "value", "outcome", "competitor", "primary_reason", "cycle_days", "tag"]],
+        tag_column="tag", tag_type_column="tag_type"
+    )

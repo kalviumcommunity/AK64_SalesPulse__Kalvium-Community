@@ -92,8 +92,12 @@ def compute_rep_behaviour_metrics(salesperson_id=None):
             "total_deals": total_deals,
             "win_rate": f"{win_rate}%",
             "avg_closing_days": f"{avg_closing_days} days",
-            "avg_response_time": f"{response_time_hours} hrs",
-            "followup_frequency": f"{followup_freq_days} days",
+            # Numeric values for charts
+            "avg_response_time": response_time_hours,
+            "followup_frequency": followup_freq_days,
+            # String labels for display tables
+            "avg_response_time_label": f"{response_time_hours} hrs",
+            "followup_frequency_label": f"{followup_freq_days} days",
             "avg_sentiment": avg_sentiment,
             "activity_count": activity_count,
             "performance_score": composite_score

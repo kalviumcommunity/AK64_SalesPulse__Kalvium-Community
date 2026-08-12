@@ -33,53 +33,49 @@ with k4: metric_card("Stage Conversion Rate",   "64.8%",      "+3.2 pts",       
 col_left, col_right = st.columns([0.44, 0.56], gap="medium")
 
 with col_left:
-    st.markdown('<div class="sp-card">', unsafe_allow_html=True)
-    st.markdown('<div class="sp-card-title">📊 Pipeline Stage Breakdown</div>', unsafe_allow_html=True)
+    with st.container(border=True):
+        st.markdown('<div class="sp-card-title">📊 Pipeline Stage Breakdown</div>', unsafe_allow_html=True)
 
-    fig = go.Figure(go.Funnel(
-        y=df_stages["stage"],
-        x=df_stages["value"],
-        textinfo="value+percent initial",
-        textfont=dict(size=12, color="#1E293B"),
-        marker=dict(
-            color=["#1D4ED8", "#2563EB", "#3B82F6", "#60A5FA", "#10B981"],
-            line=dict(width=0)
-        ),
-        connector=dict(line=dict(color="#E2E8F0", width=1))
-    ))
-    fig.update_layout(
-        margin=dict(l=10, r=10, t=10, b=10),
-        height=310,
-        paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor="rgba(0,0,0,0)",
-        font=dict(family="Inter, sans-serif", color="#64748B", size=12),
-        showlegend=False
-    )
-    st.plotly_chart(fig, use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
+        fig = go.Figure(go.Funnel(
+            y=df_stages["stage"],
+            x=df_stages["value"],
+            textinfo="value+percent initial",
+            textfont=dict(size=12, color="#1E293B"),
+            marker=dict(
+                color=["#1D4ED8", "#2563EB", "#3B82F6", "#60A5FA", "#10B981"],
+                line=dict(width=0)
+            ),
+            connector=dict(line=dict(color="#E2E8F0", width=1))
+        ))
+        fig.update_layout(
+            margin=dict(l=10, r=10, t=10, b=10),
+            height=310,
+            paper_bgcolor="rgba(0,0,0,0)",
+            plot_bgcolor="rgba(0,0,0,0)",
+            font=dict(family="Inter, sans-serif", color="#64748B", size=12),
+            showlegend=False
+        )
+        st.plotly_chart(fig, use_container_width=True)
 
 with col_right:
-    st.markdown('<div class="sp-card">', unsafe_allow_html=True)
-    st.markdown('<div class="sp-card-title">🎯 Active Deals & ML Closing Probabilities</div>', unsafe_allow_html=True)
+    with st.container(border=True):
+        st.markdown('<div class="sp-card-title">🎯 Active Deals & ML Closing Probabilities</div>', unsafe_allow_html=True)
 
-    disp = df_preds[["deal_id", "account", "owner", "stage", "value", "closing_probability", "tag"]].copy()
-    data_table(disp, tag_column="tag", tag_type_column="tag_type")
-    st.markdown('</div>', unsafe_allow_html=True)
+        disp = df_preds[["deal_id", "account", "owner", "stage", "value", "closing_probability", "tag"]].copy()
+        data_table(disp, tag_column="tag", tag_type_column="tag_type")
 
 # ── Bottom: AI Recommendations ────────────────────────────────────────────────
-st.markdown('<div class="sp-card">', unsafe_allow_html=True)
-st.markdown('<div class="sp-card-title">💡 AI Pipeline Recommendations & Risk Flags</div>', unsafe_allow_html=True)
+with st.container(border=True):
+    st.markdown('<div class="sp-card-title">💡 AI Pipeline Recommendations & Risk Flags</div>', unsafe_allow_html=True)
 
-for item in insights:
-    dot = "red" if item.get("tag_type") == "danger" else (
-          "amber" if item.get("tag_type") == "warning" else "green")
-    insight_feed_row(
-        title=item["title"],
-        description=item["desc"],
-        category=item.get("category"),
-        tag=item["tag"],
-        tag_type=item["tag_type"],
-        dot_color=dot
-    )
-
-st.markdown('</div>', unsafe_allow_html=True)
+    for item in insights:
+        dot = "red" if item.get("tag_type") == "danger" else (
+              "amber" if item.get("tag_type") == "warning" else "green")
+        insight_feed_row(
+            title=item["title"],
+            description=item["desc"],
+            category=item.get("category"),
+            tag=item["tag"],
+            tag_type=item["tag_type"],
+            dot_color=dot
+        )

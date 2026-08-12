@@ -21,8 +21,8 @@ def generate_coaching_recommendations_for_rep(user_id):
         return []
         
     rep_name = metrics["name"]
-    resp_hrs = float(metrics["avg_response_time"].replace(" hrs", ""))
-    follow_days = float(metrics["followup_frequency"].replace(" days", ""))
+    resp_hrs = float(metrics["avg_response_time"])
+    follow_days = float(metrics["followup_frequency"])
     sentiment = float(metrics["avg_sentiment"])
     score = float(metrics["performance_score"])
     

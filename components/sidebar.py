@@ -1,8 +1,8 @@
 """
 SalesPulse Shared Sidebar
 --------------------------
-Renders the dark navy sidebar with logo and navigation buttons.
-No authentication required.
+Renders the dark navy sidebar with brand logo at top, navigation below,
+and user chip pinned to the bottom. No authentication required.
 """
 
 import streamlit as st
@@ -10,7 +10,7 @@ import streamlit as st
 
 def render_sidebar(active_page: str = ""):
     """
-    Renders the SalesPulse sidebar with brand logo and nav buttons.
+    Renders the SalesPulse sidebar with brand logo, nav buttons, and user chip.
     active_page: name of current page to highlight (e.g. "Pipeline Analytics").
     """
     nav_pages = [
@@ -33,7 +33,8 @@ def render_sidebar(active_page: str = ""):
         </div>
         """, unsafe_allow_html=True)
 
-        st.markdown("---")
+        # ── Nav Label ─────────────────────────────────────────────────────────
+        st.markdown('<div class="sp-nav-label">Navigation</div>', unsafe_allow_html=True)
 
         # ── Navigation Buttons ─────────────────────────────────────────────────
         for icon, label, page_path in nav_pages:
@@ -41,3 +42,17 @@ def render_sidebar(active_page: str = ""):
             if st.button(f"{icon}  {label}", key=f"nav_{page_path}",
                          use_container_width=True, disabled=is_current):
                 st.switch_page(page_path)
+
+        # ── Bottom User Chip ───────────────────────────────────────────────────
+        st.markdown("""
+        <div class="sp-sidebar-bottom">
+            <div class="sp-user-chip">
+                <div class="sp-user-avatar">AK</div>
+                <div>
+                    <div class="sp-user-name">Aditya Kulkarni</div>
+                    <div class="sp-user-role">Sales Rep</div>
+                </div>
+                <div class="sp-status-dot"></div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
