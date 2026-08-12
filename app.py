@@ -20,6 +20,4 @@ st.set_page_config(
 )
 
 inject_custom_css()
-
-# Auto-redirect to Pipeline Analytics home page
 st.switch_page("pages/1_Pipeline_Analytics.py")

@@ -27,29 +27,44 @@ def inject_custom_css():
         max-width: 100% !important;
     }
 
-    /* ── Hide Streamlit built-in nav & toolbar ── */
-    div[data-testid="stSidebarNav"],
-    ul[data-testid="stSidebarNavItems"],
-    div[data-testid="stSidebarNavSeparator"],
+    /* ── Hide Streamlit toolbar & footer only ── */
     div[data-testid="stToolbar"],
     div[data-testid="stDecoration"] {
         display: none !important;
     }
-    header[data-testid="stHeader"] { display: none !important; }
     footer { display: none !important; }
+    header[data-testid="stHeader"] {
+        background-color: transparent !important;
+        z-index: 99999 !important;
+    }
 
     /* ── Dark Navy Sidebar ── */
     section[data-testid="stSidebar"] {
         background-color: #1E293B !important;
-        border-right: none !important;
-        min-width: 240px !important;
-        max-width: 240px !important;
+        border-right: 1px solid #334155 !important;
     }
-    section[data-testid="stSidebar"] .block-container {
-        padding: 0 !important;
+    section[data-testid="stSidebar"] div[data-testid="stSidebarNav"] {
+        padding-top: 0.5rem !important;
     }
-    section[data-testid="stSidebar"] * {
-        color: #CBD5E1 !important;
+    section[data-testid="stSidebar"] div[data-testid="stSidebarNav"] ul {
+        padding: 0 8px !important;
+    }
+    section[data-testid="stSidebar"] div[data-testid="stSidebarNav"] a {
+        background-color: #334155 !important;
+        border-radius: 8px !important;
+        margin: 4px 0 !important;
+        padding: 10px 14px !important;
+    }
+    section[data-testid="stSidebar"] div[data-testid="stSidebarNav"] a:hover {
+        background-color: #475569 !important;
+    }
+    section[data-testid="stSidebar"] div[data-testid="stSidebarNav"] a[aria-current="page"] {
+        background-color: #2563EB !important;
+    }
+    section[data-testid="stSidebar"] div[data-testid="stSidebarNav"] span {
+        color: #FFFFFF !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
     }
 
     /* ── Sidebar Logo Header ── */
